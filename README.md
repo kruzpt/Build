@@ -4,6 +4,10 @@ Projeto de uma placa de balcão para impressão 3D e edição no Autodesk Fusion
 
 ## Ficheiros
 
+- **[A1 + avaliações Google — download atual](downloads/essencial-fusion-a1-avaliacoes.zip?raw=true)**
+- [A1 + avaliações Google — código Fusion](fusion/EssencialA1Reviews/EssencialA1Reviews.py)
+- [A1 + avaliações Google — esquema atualizado](designs/essencial-a1-avaliacoes-esquema.png)
+- [Instruções e endereços para programar NFC](fusion/EssencialA1Reviews/README.md)
 - **[Bambu A1 — download (link Google ainda provisório)](downloads/essencial-fusion-a1.zip?raw=true)**
 - [Bambu A1 — código Fusion](fusion/EssencialA1/EssencialA1.py)
 - [Bambu A1 — esquema com dimensões completas](designs/essencial-a1-esquema.png)
@@ -41,7 +45,14 @@ mesma espessura da placa. Por isso, a imagem não representa exatamente o CAD.
 
 ## Estado do draft
 
-A versão **Bambu A1** reorganiza o topo e reduz apenas o círculo do logótipo:
+A versão atual **EssencialA1Reviews** mantém a peça completa com **208 × 242 mm**
+e os QR de 64 mm. O Google abre o formulário de avaliação com o endereço que
+o utilizador confirmou no navegador e no telemóvel. A matriz Google foi
+regenerada com correção M para manter módulos de 1,422 mm; as cavidades NFC,
+pausa Z=3,8 mm, encaixe e geração otimizada permanecem iguais. Use o mesmo
+endereço de avaliações na etiqueta NFC inferior.
+
+A versão anterior **Bambu A1** reorganiza o topo e reduz apenas o círculo do logótipo:
 a placa completa, incluindo saliências e língua, fica com **208 × 242 mm**.
 Com brim de 5 mm ocupa 218 × 252 mm. Mantém QR de 64 mm, etiquetas, pausa e
 encaixe. **O QR Google ainda usa o link de partilha que abre pesquisa; o
