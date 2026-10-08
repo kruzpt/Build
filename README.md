@@ -4,6 +4,9 @@ Projeto de uma placa de balcão para impressão 3D e edição no Autodesk Fusion
 
 ## Ficheiros
 
+- **[V3 Fast — download da versão otimizada](downloads/essencial-fusion-v3-fast.zip?raw=true)**
+- [V3 Fast — código e indicação de progresso](fusion/EssencialV3Fast/EssencialV3Fast.py)
+- [V3 Fast — instruções](fusion/EssencialV3Fast/README.md)
 - **[V3 — dois QR, símbolos e etiquetas NFC encapsuladas](fusion/EssencialV3/EssencialV3.py)**
 - [Download do pacote Fusion V3](downloads/essencial-fusion-v3.zip?raw=true)
 - [V3 — esquema frontal](designs/essencial-v3-esquema.png)
@@ -29,6 +32,11 @@ posterior: logótipo a prolongar-se para fora do canto superior esquerdo, com a
 mesma espessura da placa. Por isso, a imagem não representa exatamente o CAD.
 
 ## Estado do draft
+
+A **V3 Fast** mantém a geometria da V3, mas gera os QR em duas extrusões
+conjuntas em vez de 628 operações individuais. Inclui cálculo adiado dos
+sketches e janela de progresso/cancelamento entre etapas. A igualdade dos
+retângulos QR foi verificada; o tempo real no Fusion continua por confirmar.
 
 A **V3** reorganiza a frente em duas linhas: Instagram/Google à esquerda,
 respetivo QR no centro e símbolo contactless à direita. Não tem inscrições
