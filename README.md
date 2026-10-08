@@ -4,6 +4,10 @@ Projeto de uma placa de balcão para impressão 3D e edição no Autodesk Fusion
 
 ## Ficheiros
 
+- **[Bambu A1 — download (link Google ainda provisório)](downloads/essencial-fusion-a1.zip?raw=true)**
+- [Bambu A1 — código Fusion](fusion/EssencialA1/EssencialA1.py)
+- [Bambu A1 — esquema com dimensões completas](designs/essencial-a1-esquema.png)
+- [Bambu A1 — instruções e pendência do link de avaliações](fusion/EssencialA1/README.md)
 - **[V4 — download com QR de 64 mm](downloads/essencial-fusion-v4-qr64.zip?raw=true)**
 - [V4 — código Fusion](fusion/EssencialV4/EssencialV4.py)
 - [V4 — esquema atualizado](designs/essencial-v4-qr64-esquema.png)
@@ -36,6 +40,13 @@ posterior: logótipo a prolongar-se para fora do canto superior esquerdo, com a
 mesma espessura da placa. Por isso, a imagem não representa exatamente o CAD.
 
 ## Estado do draft
+
+A versão **Bambu A1** reorganiza o topo e reduz apenas o círculo do logótipo:
+a placa completa, incluindo saliências e língua, fica com **208 × 242 mm**.
+Com brim de 5 mm ocupa 218 × 252 mm. Mantém QR de 64 mm, etiquetas, pausa e
+encaixe. **O QR Google ainda usa o link de partilha que abre pesquisa; o
+endereço direto das avaliações está pendente e não foi substituído por um
+endereço presumido.**
 
 A **V4** aumenta os QR para 64 × 64 mm. A placa fica com 200 × 220 mm para
 dar espaço aos símbolos, às zonas NFC e à coluna. Mantém a construção
