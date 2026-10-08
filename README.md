@@ -4,6 +4,10 @@ Projeto de uma placa de balcão para impressão 3D e edição no Autodesk Fusion
 
 ## Ficheiros
 
+- **[V4 — download com QR de 64 mm](downloads/essencial-fusion-v4-qr64.zip?raw=true)**
+- [V4 — código Fusion](fusion/EssencialV4/EssencialV4.py)
+- [V4 — esquema atualizado](designs/essencial-v4-qr64-esquema.png)
+- [V4 — dimensões e impressão](fusion/EssencialV4/README.md)
 - **[V3 Fast — download da versão otimizada](downloads/essencial-fusion-v3-fast.zip?raw=true)**
 - [V3 Fast — código e indicação de progresso](fusion/EssencialV3Fast/EssencialV3Fast.py)
 - [V3 Fast — instruções](fusion/EssencialV3Fast/README.md)
@@ -32,6 +36,11 @@ posterior: logótipo a prolongar-se para fora do canto superior esquerdo, com a
 mesma espessura da placa. Por isso, a imagem não representa exatamente o CAD.
 
 ## Estado do draft
+
+A **V4** aumenta os QR para 64 × 64 mm. A placa fica com 200 × 220 mm para
+dar espaço aos símbolos, às zonas NFC e à coluna. Mantém a construção
+otimizada dos QR, duas peças, as medidas da base/encaixe e a pausa após
+Z=3,8 mm. Ambos os QR do esquema descodificam para os mesmos destinos.
 
 A **V3 Fast** mantém a geometria da V3, mas gera os QR em duas extrusões
 conjuntas em vez de 628 operações individuais. Inclui cálculo adiado dos
