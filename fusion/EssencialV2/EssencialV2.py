@@ -201,7 +201,9 @@ def run(context):
             arcs = sk.sketchCurves.sketchArcs
             arcs.addByThreePoints(p(0,1),p(4,0.5),p(8,-1))
             arcs.addByThreePoints(p(8,-1),p(9,-2),p(8,-3))
-            arcs.addByThreePoints(p(8,-3),p(4,-2),p(0,-1))
+            # The middle point must be off the chord: (4,-2) was collinear
+            # with the endpoints and Fusion correctly rejected that arc.
+            arcs.addByThreePoints(p(8,-3),p(4,-2.7),p(0,-1))
             sk.sketchCurves.sketchLines.addByTwoPoints(p(0,-1),p(0,1))
             return extrude(c,sk,name,SPINE_RELIEF+0.1)
 

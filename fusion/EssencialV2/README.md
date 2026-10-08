@@ -67,10 +67,19 @@ e a forma de fixação antes de imprimir. A etiqueta eletrónica não é impress
 
 ## Validação
 
+Correção V2.1: o arco inferior das projeções usava três pontos alinhados,
+o que produzia `RuntimeError: 3 : Some input argument is invalid` no Fusion.
+O ponto intermédio foi deslocado para permitir um arco válido. Volte a
+descarregar o ZIP e substitua o script local pela versão corrigida.
+
 A sintaxe Python, a disposição das 24 vértebras e as dimensões de encaixe
 foram verificadas na cloud. O script verifica no Fusion que cada componente
 termina com um corpo sólido. Esta V2 ainda precisa de ser executada no Fusion
 e de ter o encaixe confirmado numa impressão de teste.
+
+Checks de regressão: `python -m unittest discover -s fusion/tests -v`.
+Verificam os arcos não degenerados, as ligações entre arcos, a posição das
+vértebras e as folgas de encaixe, sem substituir a execução no Fusion.
 
 Se a extrusão de texto não for suportada pela versão/fontes do Fusion, o texto
 fica como sketch e surge um aviso; nesse caso não será impresso. Outras falhas
