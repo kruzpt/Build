@@ -4,6 +4,10 @@ Projeto de uma placa de balcão para impressão 3D e edição no Autodesk Fusion
 
 ## Ficheiros
 
+- **[V3 — dois QR, símbolos e etiquetas NFC encapsuladas](fusion/EssencialV3/EssencialV3.py)**
+- [Download do pacote Fusion V3](downloads/essencial-fusion-v3.zip?raw=true)
+- [V3 — esquema frontal](designs/essencial-v3-esquema.png)
+- [V3 — instruções de pausa e montagem](fusion/EssencialV3/README.md)
 - [Placa Fusion com QR Instagram integrado](fusion/EssencialV2Instagram/EssencialV2Instagram.py)
 - [Download: Fusion + STL QR + imagem](downloads/essencial-fusion-instagram.zip?raw=true)
 - [STL: pastilha QR independente](downloads/instagram-qr-51mm.stl?raw=true)
@@ -25,6 +29,15 @@ posterior: logótipo a prolongar-se para fora do canto superior esquerdo, com a
 mesma espessura da placa. Por isso, a imagem não representa exatamente o CAD.
 
 ## Estado do draft
+
+A **V3** reorganiza a frente em duas linhas: Instagram/Google à esquerda,
+respetivo QR no centro e símbolo contactless à direita. Não tem inscrições
+“QR”/“NFC”. Mantém duas peças e inclui duas cavidades internas para etiquetas
+NFC redondas de 25 mm, a inserir numa pausa após Z=3,8 mm. O E e as estrelas
+foram redesenhados com curvas a partir da referência, sem barra central.
+O logótipo é uma aproximação manual, não o vetor original. Consulte as
+instruções antes de imprimir; ponte do teto, execução no Fusion e leitura
+física ainda precisam de validação.
 
 A variante **EssencialV2Instagram** inclui um QR funcional para
 `https://www.instagram.com/clinicaessencial_setubal/`, em relevo e unido à
