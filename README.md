@@ -4,6 +4,10 @@ Projeto de uma placa de balcão para impressão 3D e edição no Autodesk Fusion
 
 ## Ficheiros
 
+- **[Base Premium — download separado, encaixe original](downloads/essencial-base-premium.zip?raw=true)**
+- [Base Premium — código Fusion](fusion/EssencialBasePremium/EssencialBasePremium.py)
+- [Base Premium — medidas e instruções](fusion/EssencialBasePremium/README.md)
+- [Base Premium — esquema das medidas](designs/essencial-base-premium-medidas.png)
 - **[A1 + avaliações Google — download atual](downloads/essencial-fusion-a1-avaliacoes.zip?raw=true)**
 - [A1 + avaliações Google — código Fusion](fusion/EssencialA1Reviews/EssencialA1Reviews.py)
 - [A1 + avaliações Google — esquema atualizado](designs/essencial-a1-avaliacoes-esquema.png)
@@ -44,6 +48,11 @@ posterior: logótipo a prolongar-se para fora do canto superior esquerdo, com a
 mesma espessura da placa. Por isso, a imagem não representa exatamente o CAD.
 
 ## Estado do draft
+
+A **Base Premium** substitui apenas a base: conserva 160 × 70 × 18 mm,
+a ranhura útil 120,6 × 5,5 × 12,8 mm e a entrada alargada original.
+Tem cantos R12, bordos superiores exteriores R2 e chanfro frontal de 8 mm,
+sem alterar a zona de encaixe. O script é independente e cria um novo documento.
 
 A versão atual **EssencialA1Reviews** mantém a peça completa com **208 × 242 mm**
 e os QR de 64 mm. O Google abre o formulário de avaliação com o endereço que
