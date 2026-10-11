@@ -1,0 +1,38 @@
+{
+  "reference": {
+    "sha256": "33f0d92ad81bdcd7c9f02732758516f43c08bd0e83233c145c68921cc454d10f",
+    "extents_mm": [
+      217.5,
+      180.0,
+      12.0
+    ],
+    "overlapping_shells": 582,
+    "union_volume_mm3": 97490.57666632043
+  },
+  "new_extents_mm": [
+    217.3,
+    179.8,
+    30.0
+  ],
+  "plate_volume_mm3": 65912.02860267507,
+  "v2_plate_volume_mm3": 58786.5886049305,
+  "socket_reinforcement_added_mm3": 7125.439997744572,
+  "solid_volume_reduction_percent": 32.39138503788812,
+  "standard_clip_volume_mm3": 260.35199950027464,
+  "complete_2_by_5_solid_volume_mm3": 665889.4380137578,
+  "complete_2_by_5_reduction_percent": 31.697045931640368,
+  "sockets_per_plate": 8,
+  "clips_for_2_by_5": 26,
+  "hole_mm": 8,
+  "assembled_envelope_mm": [
+    434.6,
+    899.0
+  ],
+  "seated_clip_interference_mm3": 0,
+  "idealised_required_finger_deflection_mm": 0.45,
+  "socket_side_clearance_mm": 0.2999999999999998,
+  "hook_retention_overlap_mm": 0.40000000000000036,
+  "release_access_windows": 8,
+  "physical_retention_force_and_fatigue_tested": false,
+  "prototype_only": true
+}

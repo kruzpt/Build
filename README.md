@@ -4,7 +4,14 @@ Projeto de uma placa de balcão para impressão 3D e edição no Autodesk Fusion
 
 ## Ficheiros
 
-- **[Grelha para pintos V2 — aberturas de 8 mm, pacote atual](downloads/grelha-pintos-v2.zip?raw=true)**
+- **[Grelha para pintos V3 — placa universal + presilhas + amostra](downloads/grelha-pintos-v3-encaixes.zip?raw=true)**
+- [Grelha V3 — placa universal STL](downloads/grelha-pintos-v3-placa-universal.stl?raw=true)
+- [Grelha V3 — amostra das duas bordas STL](downloads/grelha-pintos-v3-amostra-duas-bordas.stl?raw=true)
+- [Grelha V3 — presilha padrão STL](downloads/grelha-pintos-v3-presilha-padrao.stl?raw=true)
+- [Grelha V3 — código Fusion](fusion/GrelhaPintosV3/GrelhaPintosV3.py)
+- [Grelha V3 — esquema de montagem](designs/grelha-pintos-v3-encaixes.png)
+- [Grelha V3 — teste da amostra e instruções](fusion/GrelhaPintosV3/README.md)
+- **[Grelha para pintos V2 — versão anterior, sem presilhas](downloads/grelha-pintos-v2.zip?raw=true)**
 - [Grelha para pintos V2 — STL 217,3 × 179,8 × 30 mm](downloads/grelha-pintos-v2-217.3x179.8x30.stl?raw=true)
 - [Grelha para pintos V2 — código Fusion](fusion/GrelhaPintosV2/GrelhaPintosV2.py)
 - [Grelha para pintos V2 — esquema](designs/grelha-pintos-v2-esquema.png)
@@ -58,6 +65,15 @@ posterior: logótipo a prolongar-se para fora do canto superior esquerdo, com a
 mesma espessura da placa. Por isso, a imagem não representa exatamente o CAD.
 
 ## Estado do draft
+
+A **GrelhaPintosV3** mantém as medidas e as aberturas da V2 e acrescenta oito
+encaixes inferiores: dois por lado, sem saliências exteriores. Uma presilha
+separada une cada par de encaixes; as bocas exteriores podem ficar vazias.
+Há uma amostra de duas bordas e três variantes de presilha PETG para escolher
+a retenção antes de imprimir o conjunto. São 26 presilhas para 2 × 5 placas.
+A montagem geométrica foi verificada; força e durabilidade precisam de teste
+físico. O volume sólido do conjunto, incluindo presilhas, fica cerca de 31,7%
+abaixo do original. As versões anteriores ficam preservadas.
 
 O **protótipo GrelhaPintosV2** aumenta as aberturas para **8 × 8 mm**,
 tamanho confirmado pelo utilizador após observar o apoio das patas nos 6 mm
