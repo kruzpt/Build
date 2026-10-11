@@ -1,0 +1,32 @@
+{
+  "reference": {
+    "sha256": "33f0d92ad81bdcd7c9f02732758516f43c08bd0e83233c145c68921cc454d10f",
+    "extents_mm": [
+      217.5,
+      180.0,
+      12.0
+    ],
+    "overlapping_shells": 582,
+    "union_volume_mm3": 97490.57666632043
+  },
+  "new_extents_mm": [
+    217.3,
+    179.8,
+    30.0
+  ],
+  "new_volume_mm3": 65698.58860474254,
+  "solid_volume_reduction_percent": 32.610319016156666,
+  "hole_mm": 6.0,
+  "holes": 644,
+  "clearance_interpretation": "0.2 mm per module in each axis; user confirmed",
+  "layout_modules": [
+    2,
+    5
+  ],
+  "assembled_envelope_mm": [
+    434.6,
+    899.0
+  ],
+  "prototype_only": true,
+  "physical_load_and_hatchling_footing_tested": false
+}

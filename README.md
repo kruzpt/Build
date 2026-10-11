@@ -4,6 +4,11 @@ Projeto de uma placa de balcão para impressão 3D e edição no Autodesk Fusion
 
 ## Ficheiros
 
+- **[Grelha para pintos V1 — pacote STL + Fusion](downloads/grelha-pintos-v1.zip?raw=true)**
+- [Grelha para pintos V1 — STL 217,3 × 179,8 × 30 mm](downloads/grelha-pintos-v1-217.3x179.8x30.stl?raw=true)
+- [Grelha para pintos V1 — código Fusion](fusion/GrelhaPintosV1/GrelhaPintosV1.py)
+- [Grelha para pintos V1 — esquema](designs/grelha-pintos-v1-esquema.png)
+- [Grelha para pintos V1 — instruções e limites do protótipo](fusion/GrelhaPintosV1/README.md)
 - **[Base Premium — download separado, encaixe original](downloads/essencial-base-premium.zip?raw=true)**
 - [Base Premium — código Fusion](fusion/EssencialBasePremium/EssencialBasePremium.py)
 - [Base Premium — medidas e instruções](fusion/EssencialBasePremium/README.md)
@@ -48,6 +53,14 @@ posterior: logótipo a prolongar-se para fora do canto superior esquerdo, com a
 mesma espessura da placa. Por isso, a imagem não representa exatamente o CAD.
 
 ## Estado do draft
+
+O **protótipo GrelhaPintosV1** é um trabalho separado da placa da clínica.
+Usa o STL enviado como referência e aplica a redução confirmada de 0,2 mm por
+módulo nas duas direções. O conjunto 2 × 5 fica com 434,6 × 899 mm. A altura
+proposta é 30 mm, mantendo aberturas de 6 mm. O volume geométrico é cerca de
+32,6% menor que a união das cascas do original. Não foi validado com pintos
+recém-nascidos nem para cargas físicas; consulte as instruções de utilização
+e imprima primeiro um módulo. A placa da clínica e as suas versões ficam preservadas.
 
 A **Base Premium** substitui apenas a base: conserva 160 × 70 × 18 mm,
 a ranhura útil 120,6 × 5,5 × 12,8 mm e a entrada alargada original.
