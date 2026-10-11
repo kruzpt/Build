@@ -4,6 +4,11 @@ Projeto de uma placa de balcão para impressão 3D e edição no Autodesk Fusion
 
 ## Ficheiros
 
+- **[Grelha para pintos V2 — aberturas de 8 mm, pacote atual](downloads/grelha-pintos-v2.zip?raw=true)**
+- [Grelha para pintos V2 — STL 217,3 × 179,8 × 30 mm](downloads/grelha-pintos-v2-217.3x179.8x30.stl?raw=true)
+- [Grelha para pintos V2 — código Fusion](fusion/GrelhaPintosV2/GrelhaPintosV2.py)
+- [Grelha para pintos V2 — esquema](designs/grelha-pintos-v2-esquema.png)
+- [Grelha para pintos V2 — instruções](fusion/GrelhaPintosV2/README.md)
 - **[Grelha para pintos V1 — pacote STL + Fusion](downloads/grelha-pintos-v1.zip?raw=true)**
 - [Grelha para pintos V1 — STL 217,3 × 179,8 × 30 mm](downloads/grelha-pintos-v1-217.3x179.8x30.stl?raw=true)
 - [Grelha para pintos V1 — código Fusion](fusion/GrelhaPintosV1/GrelhaPintosV1.py)
@@ -53,6 +58,12 @@ posterior: logótipo a prolongar-se para fora do canto superior esquerdo, com a
 mesma espessura da placa. Por isso, a imagem não representa exatamente o CAD.
 
 ## Estado do draft
+
+O **protótipo GrelhaPintosV2** aumenta as aberturas para **8 × 8 mm**,
+tamanho confirmado pelo utilizador após observar o apoio das patas nos 6 mm
+do modelo antigo. Conserva o exterior 217,3 × 179,8 mm, altura proposta de
+30 mm e redução de 0,2 mm por placa. O volume sólido é cerca de 39,7% menor
+que o original. A V1 fica preservada e o novo módulo precisa de teste físico.
 
 O **protótipo GrelhaPintosV1** é um trabalho separado da placa da clínica.
 Usa o STL enviado como referência e aplica a redução confirmada de 0,2 mm por
