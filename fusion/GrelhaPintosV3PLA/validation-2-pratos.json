@@ -1,0 +1,38 @@
+{
+  "native_cli_version": "02.08.02.61",
+  "project_sha256": "052ad6b2bae582bb566afcc14a55fcf50fdb9fd3428c536effaca4e53c1dac68",
+  "printer": "Bambu Lab A1 0.4 nozzle",
+  "material": "Generic PLA @BBL A1",
+  "bed": "Textured PEI Plate",
+  "project_plates": 2,
+  "project_objects": 27,
+  "native_export_exit": 0,
+  "native_reopen_exit": 0,
+  "native_slice_exit": 0,
+  "sliced_plates": 2,
+  "slice_warnings": [],
+  "actual_gcode_layer_counts": [
+    150,
+    40
+  ],
+  "delivery_is_editable_unsliced_project": true,
+  "source_geometry": "V3 unchanged, standard clip only",
+  "thumbnails": "overhead diagrams from the native exported geometry",
+  "physical_PLA_clip_retention_tested": false,
+  "plates": [
+    {
+      "id": 1,
+      "name": "01 - Placa universal PLA",
+      "estimated_grams": 76.35270690917969,
+      "estimated_seconds": 19476.306640625,
+      "objects": 1
+    },
+    {
+      "id": 2,
+      "name": "02 - 26 presilhas padrao PLA",
+      "estimated_grams": 8.21169662475586,
+      "estimated_seconds": 5710.57373046875,
+      "objects": 26
+    }
+  ]
+}

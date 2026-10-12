@@ -1,10 +1,11 @@
-"""Build a native Bambu Studio 13-plate A1 project, using the standard V3 clip.
+"""Build a native Bambu Studio A1 project, using the standard V3 clip.
 
 The native CLI exports the geometry/settings. This script adds overhead
 thumbnails from that exported geometry and validates all plates by slicing.
 Requires numpy, Pillow, trimesh, and an installed official Bambu Studio CLI.
 Example:
  python fusion/tools/build_pintos_pla_3mf.py --bambu-bin PATH --profiles PATH
+Add --layout 2-pratos for one grid plate and one plate of 26 standard clips.
 """
 import argparse
 from copy import deepcopy
@@ -42,13 +43,19 @@ def flatten_profile(profiles,kind,name,chain=()):
     return result
 
 
-def assembly_plan():
+def assembly_plan(two_plates=False):
     clip=json.loads((FOLDER/'clip-overrides.json').read_text())
     def item(name,params=None):
         return {'path':str(ROOT/'downloads'/name),'count':1,'filaments':[1],
                 'print_params':deepcopy(params or {})}
     def plate(name,items):
         return {'plate_name':name,'need_arrange':True,'objects':items}
+    if two_plates:
+        return {'plates':[
+            plate('01 - Placa universal PLA',[
+                item('grelha-pintos-v3-placa-universal.stl')]),
+            plate('02 - 26 presilhas padrao PLA',[
+                item('grelha-pintos-v3-presilha-padrao.stl',clip) for _ in range(26)])]}
     result=[plate('01 - Amostra duas bordas PLA',[
                 item('grelha-pintos-v3-amostra-duas-bordas.stl')]),
             plate('02 - Presilha padrao TESTE PLA',[
@@ -157,22 +164,28 @@ def thumbnails(source,target,preview_path):
     blobs['Metadata/model_settings.config']=ET.tostring(config,encoding='utf-8',xml_declaration=True)
     with ZipFile(target,'w',ZIP_DEFLATED) as archive:
         for name,data in blobs.items(): archive.writestr(name,data)
-    overview=Image.new('RGB',(1400,1760),'white')
+    two_plates=len(plates)==2
+    overview=Image.new('RGB',(850,580) if two_plates else (1400,1760),'white')
     d=ImageDraw.Draw(overview)
-    d.text((35,15),'Grelha V3 — projeto A1 / PLA / 13 pratos',
+    d.text((35,15),f'Grelha V3 — projeto A1 / PLA / {len(plates)} pratos',
            font=ImageFont.truetype(FONT,32),fill='#28383c')
-    d.text((35,65),'01–02: testar encaixe · 03–12: dez placas · 13: 26 presilhas padrão',
+    subtitle=('01: uma placa universal · 02: 26 presilhas padrão' if two_plates else
+              '01–02: testar encaixe · 03–12: dez placas · 13: 26 presilhas padrão')
+    d.text((35,65),subtitle,
            font=ImageFont.truetype(FONT,23),fill='#28383c')
     for i,thumb in enumerate(thumbs):
-        overview.paste(thumb.resize((330,363),Image.Resampling.LANCZOS),
-                       (20+(i%4)*345,115+(i//4)*390))
+        if two_plates:
+            overview.paste(thumb,(20+i*410,115))
+        else:
+            overview.paste(thumb.resize((330,363),Image.Resampling.LANCZOS),
+                           (20+(i%4)*345,115+(i//4)*390))
     overview.save(preview_path)
 
 
-def validate_project(path):
+def validate_project(path,two_plates=False):
     blobs,config,plates=read_project(path)
-    assert len(plates)==13
-    assert [len(p['items']) for p in plates]==[1]*12+[26]
+    assert len(plates)==(2 if two_plates else 13)
+    assert [len(p['items']) for p in plates]==([1,26] if two_plates else [1]*12+[26])
     global_settings=json.loads(blobs['Metadata/project_settings.config'])
     assert global_settings['printer_settings_id']=='Bambu Lab A1 0.4 nozzle'
     assert global_settings['filament_type']==['PLA']
@@ -196,11 +209,11 @@ def validate_project(path):
             assert np.all(low>=0) and np.all(high<=256)
             assert high[0]<226 or high[1]<224
             boxes.append(mesh.bounds[:,:2])
-            if 2<=i<=11:
+            if (i==0 if two_plates else 2<=i<=11):
                 np.testing.assert_allclose(sorted(mesh.extents[:2]),[179.8,217.3],atol=0.0001)
                 assert abs(mesh.extents[2]-30)<0.0001
                 assert 'placa-universal' in item['settings']['name']
-            if i==1 or i==12:
+            if (i==1 if two_plates else i==1 or i==12):
                 for key,val in {'layer_height':'0.16','wall_loops':'4',
                                 'sparse_infill_density':'100%',
                                 'sparse_infill_pattern':'alignedrectilinear',
@@ -215,7 +228,7 @@ def validate_project(path):
                 overlap=np.minimum(boxes[a][1],boxes[b][1])-np.maximum(boxes[a][0],boxes[b][0])
                 assert np.any(overlap<=0.001),'Overlapping objects on plate '+str(i+1)
         assert plate['properties']['thumbnail_file'] in blobs
-    assert len(volumes)==38
+    assert len(volumes)==(27 if two_plates else 38)
     # Native root thumbnail references must also have real targets.
     rels=ET.fromstring(blobs['_rels/.rels'])
     for rel in rels:
@@ -236,7 +249,13 @@ def main():
     parser.add_argument('--bambu-bin',type=Path,required=True)
     parser.add_argument('--profiles',type=Path,required=True)
     parser.add_argument('--work-dir',type=Path)
+    parser.add_argument('--layout',choices=['13-pratos','2-pratos'],default='13-pratos')
     args=parser.parse_args()
+    two_plates=args.layout=='2-pratos'
+    target=(ROOT/'downloads/grelha-pintos-v3-A1-PLA-2-pratos.3mf') if two_plates else TARGET
+    preview=ROOT/'designs'/('grelha-pintos-v3-PLA-2-pratos.png' if two_plates else
+                          'grelha-pintos-v3-PLA-pratos.png')
+    expected_layers=[150,40] if two_plates else [74,40]+[150]*10+[40]
     work=args.work_dir or Path(tempfile.mkdtemp(prefix='pintos-pla-3mf-'))
     work.mkdir(parents=True,exist_ok=True)
     for kind,name in [('machine','Bambu Lab A1 0.4 nozzle'),
@@ -246,43 +265,44 @@ def main():
         changes=FOLDER/(kind+'-overrides.json')
         if changes.exists(): preset.update(json.loads(changes.read_text()))
         (work/(kind+'.json')).write_text(json.dumps(preset,indent=2)+'\n')
-    (work/'assembly.json').write_text(json.dumps(assembly_plan(),indent=2)+'\n')
+    (work/'assembly.json').write_text(json.dumps(assembly_plan(two_plates),indent=2)+'\n')
     common=['--datadir',str(work/'bambu-user'),'--debug','2']
     run_cli(args.bambu_bin,common+[
         '--load-settings',str(work/'machine.json')+';'+str(work/'process.json'),
         '--load-filaments',str(work/'filament.json'),
         '--load-assemble-list',str(work/'assembly.json'),'--orient','0','--arrange','1',
         '--outputdir',str(work),'--export-3mf','native-project.3mf'],work/'export.log')
-    thumbnails(work/'native-project.3mf',TARGET,ROOT/'designs/grelha-pintos-v3-PLA-pratos.png')
-    plates=validate_project(TARGET)
-    run_cli(args.bambu_bin,common+['--info','--outputdir',str(work/'reopen'),str(TARGET)],work/'reopen.log')
+    thumbnails(work/'native-project.3mf',target,preview)
+    plates=validate_project(target,two_plates)
+    run_cli(args.bambu_bin,common+['--info','--outputdir',str(work/'reopen'),str(target)],work/'reopen.log')
     run_cli(args.bambu_bin,common+['--slice','0','--orient','0','--arrange','0',
-        '--outputdir',str(work/'slicing'),'--export-3mf','validation-only.3mf',str(TARGET)],work/'slice.log')
+        '--outputdir',str(work/'slicing'),'--export-3mf','validation-only.3mf',str(target)],work/'slice.log')
     report=json.loads((work/'slicing/result.json').read_text())
     assert report['return_code']==0
-    assert len(report['sliced_plates'])==13
+    assert len(report['sliced_plates'])==len(plates)
     assert all(not p.get('warning_message') for p in report['sliced_plates'])
     # Each plate needs actual slicing/G-code evidence, not merely CLI exit 0.
     with ZipFile(work/'slicing/validation-only.3mf') as z:
         codes=[n for n in z.namelist() if n.endswith('.gcode')]
-        assert len(codes)==13
+        assert len(codes)==len(plates)
         assert all(z.getinfo(n).file_size>10000 for n in codes)
         layer_counts=[]
-        for index in range(1,14):
+        for index in range(1,len(plates)+1):
             text=z.read(f'Metadata/plate_{index}.gcode').decode()
             markers=re.findall(r'; layer num/total_layer_count: (\d+)/(\d+)',text)
             assert markers and markers[-1][0]==markers[-1][1]
             layer_counts.append(int(markers[-1][1]))
-        assert layer_counts==[74,40]+[150]*10+[40]
-    with ZipFile(TARGET) as z:
+        assert layer_counts==expected_layers
+    with ZipFile(target) as z:
         native_version=json.loads(z.read('Metadata/project_settings.config'))['version']
     result={
         'native_cli_version':native_version,
-        'project_sha256':hashlib.sha256(TARGET.read_bytes()).hexdigest(),
+        'project_sha256':hashlib.sha256(target.read_bytes()).hexdigest(),
         'printer':'Bambu Lab A1 0.4 nozzle','material':'Generic PLA @BBL A1',
-        'bed':'Textured PEI Plate','project_plates':13,'project_objects':38,
+        'bed':'Textured PEI Plate','project_plates':len(plates),
+        'project_objects':sum(len(p['items']) for p in plates),
         'native_export_exit':0,'native_reopen_exit':0,'native_slice_exit':0,
-        'sliced_plates':13,'slice_warnings':[],
+        'sliced_plates':len(plates),'slice_warnings':[],
         'actual_gcode_layer_counts':layer_counts,
         'delivery_is_editable_unsliced_project':True,
         'source_geometry':'V3 unchanged, standard clip only',
@@ -293,9 +313,10 @@ def main():
                     'estimated_seconds':p['total_predication'],
                     'objects':len(plates[i]['items'])}
                   for i,p in enumerate(report['sliced_plates'])]}
-    (FOLDER/'validation.json').write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
-    print('Native 3MF: 13 plates, 38 objects, ten grids and 26 production clips.')
-    print('PLA: sample first. Export, reopen, bounds and ALL plate slicing passed.')
+    validation_name='validation-2-pratos.json' if two_plates else 'validation.json'
+    (FOLDER/validation_name).write_text(json.dumps(result,ensure_ascii=False,indent=2)+'\n')
+    print(f"Native 3MF: {len(plates)} plates, {result['project_objects']} objects.")
+    print('PLA: export, reopen, bounds and ALL plate slicing passed.')
     print('Editable delivery contains settings/geometry/previews; no cached G-code.')
 
 
