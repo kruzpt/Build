@@ -4,6 +4,9 @@ Projeto de uma placa de balcão para impressão 3D e edição no Autodesk Fusion
 
 ## Ficheiros
 
+- **[Grelha V3 — projeto Bambu Studio A1 / PLA, 13 pratos](downloads/grelha-pintos-v3-A1-PLA-13-pratos.3mf?raw=true)**
+- [Grelha PLA — mapa dos 13 pratos](designs/grelha-pintos-v3-PLA-pratos.png)
+- [Grelha PLA — configurações e ordem de impressão](fusion/GrelhaPintosV3PLA/README.md)
 - **[Grelha para pintos V3 — placa universal + presilhas + amostra](downloads/grelha-pintos-v3-encaixes.zip?raw=true)**
 - [Grelha V3 — placa universal STL](downloads/grelha-pintos-v3-placa-universal.stl?raw=true)
 - [Grelha V3 — amostra das duas bordas STL](downloads/grelha-pintos-v3-amostra-duas-bordas.stl?raw=true)
@@ -65,6 +68,13 @@ posterior: logótipo a prolongar-se para fora do canto superior esquerdo, com a
 mesma espessura da placa. Por isso, a imagem não representa exatamente o CAD.
 
 ## Estado do draft
+
+O **projeto A1 / PLA** reúne a geometria V3 num único 3MF nativo editável:
+dois pratos de teste, dez pratos com uma placa cada e um prato com as 26
+presilhas padrão. Inclui perfis e ajustes para PLA, mantendo a presilha padrão.
+As placas usam 0,20 mm, três paredes e 20% gyroid; as presilhas usam 0,16 mm,
+quatro paredes e 100% de preenchimento. Os 13 pratos foram fatiados na
+validação nativa. O teste físico das duas primeiras peças precede a produção.
 
 A **GrelhaPintosV3** mantém as medidas e as aberturas da V2 e acrescenta oito
 encaixes inferiores: dois por lado, sem saliências exteriores. Uma presilha

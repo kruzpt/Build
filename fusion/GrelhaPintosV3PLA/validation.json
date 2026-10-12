@@ -1,0 +1,126 @@
+{
+  "native_cli_version": "02.08.02.61",
+  "project_sha256": "3fd18f8446cac431b663be520f24c2cdb5f28f2141ca9ce1e5a6406ac6e94c0c",
+  "printer": "Bambu Lab A1 0.4 nozzle",
+  "material": "Generic PLA @BBL A1",
+  "bed": "Textured PEI Plate",
+  "project_plates": 13,
+  "project_objects": 38,
+  "native_export_exit": 0,
+  "native_reopen_exit": 0,
+  "native_slice_exit": 0,
+  "sliced_plates": 13,
+  "slice_warnings": [],
+  "actual_gcode_layer_counts": [
+    74,
+    40,
+    150,
+    150,
+    150,
+    150,
+    150,
+    150,
+    150,
+    150,
+    150,
+    150,
+    40
+  ],
+  "delivery_is_editable_unsliced_project": true,
+  "source_geometry": "V3 unchanged, standard clip only",
+  "thumbnails": "overhead diagrams from the native exported geometry",
+  "physical_PLA_clip_retention_tested": false,
+  "plates": [
+    {
+      "id": 1,
+      "name": "01 - Amostra duas bordas PLA",
+      "estimated_grams": 4.995878219604492,
+      "estimated_seconds": 1736.5035400390625,
+      "objects": 1
+    },
+    {
+      "id": 2,
+      "name": "02 - Presilha padrao TESTE PLA",
+      "estimated_grams": 0.3783663511276245,
+      "estimated_seconds": 752.7802734375,
+      "objects": 1
+    },
+    {
+      "id": 3,
+      "name": "03 - Placa universal 1 de 10",
+      "estimated_grams": 76.35270690917969,
+      "estimated_seconds": 19484.041015625,
+      "objects": 1
+    },
+    {
+      "id": 4,
+      "name": "04 - Placa universal 2 de 10",
+      "estimated_grams": 76.35269927978516,
+      "estimated_seconds": 19504.771484375,
+      "objects": 1
+    },
+    {
+      "id": 5,
+      "name": "05 - Placa universal 3 de 10",
+      "estimated_grams": 76.35269927978516,
+      "estimated_seconds": 19490.0859375,
+      "objects": 1
+    },
+    {
+      "id": 6,
+      "name": "06 - Placa universal 4 de 10",
+      "estimated_grams": 76.35270690917969,
+      "estimated_seconds": 19475.947265625,
+      "objects": 1
+    },
+    {
+      "id": 7,
+      "name": "07 - Placa universal 5 de 10",
+      "estimated_grams": 76.35270690917969,
+      "estimated_seconds": 19497.23046875,
+      "objects": 1
+    },
+    {
+      "id": 8,
+      "name": "08 - Placa universal 6 de 10",
+      "estimated_grams": 76.35269927978516,
+      "estimated_seconds": 19483.455078125,
+      "objects": 1
+    },
+    {
+      "id": 9,
+      "name": "09 - Placa universal 7 de 10",
+      "estimated_grams": 76.35270690917969,
+      "estimated_seconds": 19500.23046875,
+      "objects": 1
+    },
+    {
+      "id": 10,
+      "name": "10 - Placa universal 8 de 10",
+      "estimated_grams": 76.35269927978516,
+      "estimated_seconds": 19499.224609375,
+      "objects": 1
+    },
+    {
+      "id": 11,
+      "name": "11 - Placa universal 9 de 10",
+      "estimated_grams": 76.35269927978516,
+      "estimated_seconds": 19476.03125,
+      "objects": 1
+    },
+    {
+      "id": 12,
+      "name": "12 - Placa universal 10 de 10",
+      "estimated_grams": 76.35269927978516,
+      "estimated_seconds": 19478.8046875,
+      "objects": 1
+    },
+    {
+      "id": 13,
+      "name": "13 - 26 presilhas padrao PLA",
+      "estimated_grams": 8.21169662475586,
+      "estimated_seconds": 5708.32568359375,
+      "objects": 26
+    }
+  ]
+}
