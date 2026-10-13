@@ -1,12 +1,15 @@
 # Marco Cardoso — propostas de oferta Natal 2026
 
-[Ver os dois esboços](marco-cardoso-natal-2026-conceitos-v1.png).
+[Ver os dois esboços — V2](marco-cardoso-natal-2026-conceitos-v2.png).
+
+[Versão V1 preservada](marco-cardoso-natal-2026-conceitos-v1.png).
 
 ## 01 — Tijolo Natal 2026
 
-Evolução da oferta anterior: tijolo furado em azul escuro, símbolo da empresa
-em branco e azul-ciano, árvore/estrela dourada, faixa de presente em relevo
-e inscrição **Natal 2026**. Conserva a associação à construção e torna o
+Evolução da oferta anterior: tijolo furado em laranja terracota, símbolo da empresa
+em branco e azul-ciano, árvore/estrela dourada na frente
+e inscrição **Natal 2026**. A V2 remove a faixa dourada que envolvia o tijolo;
+os lados ficam em terracota. Conserva a associação à construção e torna o
 objeto próprio da ocasião.
 
 O STL enviado tem **26 × 50 × 70 mm**, uma única componente fechada e volume
@@ -28,9 +31,12 @@ com capa, acesso ao ecrã e estabilidade da base. A pequena imagem com telemóve
 
 ## Cores e estado
 
-Paleta de quatro cores: **azul escuro, branco, azul-ciano e dourado**, compatível
-com a capacidade de quatro bobinas do AMS Lite. Os detalhes serão dimensionados
-para bico de 0,4 mm quando se criar o CAD.
+Cada proposta usa quatro cores, compatíveis com quatro bobinas do AMS Lite:
+
+- Tijolo V2: **laranja terracota, branco, azul-ciano e dourado**.
+- Casa do Natal: **azul escuro, branco, azul-ciano e dourado**.
+
+Os detalhes serão dimensionados para bico de 0,4 mm quando se criar o CAD.
 
 O símbolo foi interpretado visualmente a partir da captura do site fornecida.
 Para modelação final, confirmar o logótipo/vetor da empresa. A imagem foi gerada
