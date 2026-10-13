@@ -126,8 +126,13 @@ def trace(reference,width):
 
 
 def models(data):
-    return {p['name']:cross_section(p['groups']).extrude(p['height']).translate((0,0,p['z']))
-            for p in data['parts']}
+    result={}
+    for p in data['parts']:
+        regions=[p]+p.get('additions',[])
+        pieces=[cross_section(r['groups']).extrude(r['height']).translate((0,0,r['z']))
+                for r in regions]
+        result[p['name']]=md.Manifold.batch_boolean(pieces,md.OpType.Add)
+    return result
 
 
 def save_mesh(solid,path):
@@ -167,7 +172,8 @@ def preview(data,path):
             for i,loop in enumerate(group):pen.polygon([point(p) for p in loop],fill=255 if i==0 else 0)
         im.paste(part['color'],mask=layer)
     font=ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf',24)
-    draw.text((40,25),'Joana · 12 anos — modelo CAD em relevo',font=font,fill='#282828')
+    version=data.get('version','v1').upper()
+    draw.text((40,25),f'Joana · 12 anos — modelo CAD {version}',font=font,fill='#282828')
     draw.text((40,64),f'{data["width_mm"]:.0f} × {data["height_mm"]:.0f} mm · 4 cores · bico 0,4 mm',font=font,fill='#282828')
     draw.text((40,1200),'Vista dos contornos reais; volumes e texturas do conceito simplificados.',font=ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf',19),fill='#282828')
     im.save(path)

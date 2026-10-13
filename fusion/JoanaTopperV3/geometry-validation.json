@@ -1,0 +1,56 @@
+{
+  "version": "v3",
+  "extents_mm": [
+    179.9846137687564,
+    200.32708740234375,
+    8.0
+  ],
+  "solid_volume_mm3": 53912.8193632252,
+  "connected_assembled_bodies": 1,
+  "black_backing_holes": 0,
+  "watertight": true,
+  "cake_stop": {
+    "x": 43.0,
+    "y": 44.0,
+    "width_mm": 88.0,
+    "height_mm": 6.0,
+    "depth_mm": 8.0
+  },
+  "stems": {
+    "centers_x_mm": [
+      51.33,
+      122.44
+    ],
+    "width_mm": 8.5,
+    "insertion_depth_mm": 44.0,
+    "tip_flat_mm": 1.1
+  },
+  "fusion_runtime_tested": false,
+  "physical_print_tested": false,
+  "parts": [
+    {
+      "name": "preto",
+      "groups": 1,
+      "vertices": 444,
+      "solid_volume_mm3": 49611.14817737077
+    },
+    {
+      "name": "dourado",
+      "groups": 46,
+      "vertices": 961,
+      "solid_volume_mm3": 3473.5451247475294
+    },
+    {
+      "name": "castanho",
+      "groups": 3,
+      "vertices": 203,
+      "solid_volume_mm3": 222.48188686181555
+    },
+    {
+      "name": "bordo",
+      "groups": 12,
+      "vertices": 293,
+      "solid_volume_mm3": 605.6441743222845
+    }
+  ]
+}

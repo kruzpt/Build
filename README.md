@@ -4,11 +4,13 @@ Projeto de uma placa de balcão para impressão 3D e edição no Autodesk Fusion
 
 ## Ficheiros
 
-- **[Topper Joana 12 V2 — Bambu A1 / AMS, quatro cores](downloads/joana-topper-v2-A1-AMS-4-cores.3mf?raw=true)**
-- [Topper Joana V2 — pacote Fusion, 3MF, STL e SVG](downloads/joana-topper-v2-pacote.zip?raw=true)
-- [Topper Joana V2 — imagem do CAD real](designs/joana-topper-v2-CAD.png)
-- [Topper Joana V2 — instruções e medidas](fusion/JoanaTopperV2/README.md)
-- [Topper Joana V2 — script Fusion](fusion/JoanaTopperV2/JoanaTopperV2.py)
+- **[Topper Joana 12 V3 — Bambu A1 / AMS, quatro cores](downloads/joana-topper-v3-A1-AMS-4-cores.3mf?raw=true)**
+- [Topper Joana V3 — pacote Fusion, 3MF, STL e SVG](downloads/joana-topper-v3-pacote.zip?raw=true)
+- [Topper Joana V3 — imagem do CAD real](designs/joana-topper-v3-CAD.png)
+- [Topper Joana V3 — apoio e hastes em vista frontal/lateral](designs/joana-topper-v3-apoio.png)
+- [Topper Joana V3 — instruções e medidas](fusion/JoanaTopperV3/README.md)
+- [Topper Joana V3 — script Fusion](fusion/JoanaTopperV3/JoanaTopperV3.py)
+- [Topper Joana — V2 anterior preservada](downloads/joana-topper-v2-pacote.zip?raw=true)
 - [Topper Joana — V1 anterior preservada](downloads/joana-topper-v1-pacote.zip?raw=true)
 - **[Grelha V3 — projeto Bambu Studio A1 / PLA, dois pratos](downloads/grelha-pintos-v3-A1-PLA-2-pratos.3mf?raw=true)**
 - [Grelha PLA — mapa dos dois pratos](designs/grelha-pintos-v3-PLA-2-pratos.png)
@@ -76,11 +78,12 @@ mesma espessura da placa. Por isso, a imagem não representa exatamente o CAD.
 
 ## Estado do draft
 
-O **topper Joana 12 V2** redesenha a vassoura com cabo contínuo, três sulcos
-na escova e duas faixas douradas. Fecha também as quatro aberturas interiores
-da base preta. Traduz o esboço mágico aprovado num relevo de quatro
+O **topper Joana 12 V3** acrescenta dourado à escova e à ponta do cabo,
+regulariza os topos das letras e usa duas hastes iguais com uma travessa de
+apoio no bolo de 88 × 6 × 8 mm. Mantém a base preta contínua. Traduz o
+esboço mágico aprovado num relevo de quatro
 cores: preto, dourado, castanho e bordô. Mede 180 × 200,3 mm, com base de
-2,4 mm e espessura máxima de 3,2 mm. Inclui script Fusion com sketches e
+2,4 mm e decoração até 3,2 mm; apenas o apoio chega aos 8 mm. Inclui script Fusion com sketches e
 extrusões, SVG, STL e um 3MF nativo A1/AMS com as cores atribuídas. O 3MF foi
 exportado, reaberto e fatiado com o motor oficial, sem avisos. O script Fusion
 e a impressão física ainda não foram executados; consulte as instruções.

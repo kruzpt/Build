@@ -23,7 +23,7 @@ FUSION_DIRECTORY='JoanaTopper'
 def configure(version):
     global FOLDER,TARGET,STEM,FUSION_DIRECTORY
     STEM='joana-topper-'+version
-    FUSION_DIRECTORY='JoanaTopper' if version=='v1' else 'JoanaTopperV2'
+    FUSION_DIRECTORY='JoanaTopper' if version=='v1' else 'JoanaTopper'+version.upper()
     FOLDER=ROOT/'fusion'/FUSION_DIRECTORY
     TARGET=ROOT/'downloads'/f'{STEM}-A1-AMS-4-cores.3mf'
 
@@ -37,6 +37,8 @@ def package():
         z.write(TARGET,TARGET.name)
         for name in ['joana-topper-conceito-v1.png',STEM+'-CAD.png',STEM+'-prato.png']:
             z.write(ROOT/'designs'/name,'imagens/'+name)
+        support=ROOT/'designs'/f'{STEM}-apoio.png'
+        if support.exists():z.write(support,'imagens/'+support.name)
 
 
 def native_parts(blobs):
@@ -85,7 +87,7 @@ def finish_project(source):
         by_id[int(part.get('id'))]=definition['color']
     obj=settings.find('object')
     name=obj.find("metadata[@key='name']")
-    if name is not None:name.set('value','Joana 12 - topper magico')
+    if name is not None:name.set('value','Joana 12 - topper '+STEM.rsplit('-',1)[-1].upper())
     # Render the actual native parts at their exported bed coordinates.
     im=Image.new('RGB',(450,510),'white');draw=ImageDraw.Draw(im)
     scale=400/256
@@ -96,7 +98,7 @@ def finish_project(source):
         for triangle in mesh.triangles:
             draw.polygon([(25+x*scale,455-y*scale) for x,y,z in triangle],fill=by_id[key])
     font=ImageFont.truetype('/usr/share/fonts/truetype/dejavu/DejaVuSans.ttf',20)
-    draw.text((20,14),'Joana 12 · A1 · AMS · quatro cores',font=font,fill='#282828')
+    draw.text((20,14),f'Joana 12 {STEM.rsplit("-",1)[-1].upper()} · A1 · AMS · 4 cores',font=font,fill='#282828')
     draw.text((20,475),'Contornos reais do projeto nativo',font=font,fill='#282828')
     for path,size in [('Metadata/plate_1.png',im.size),('Metadata/plate_1_small.png',(128,145))]:
         stream=io.BytesIO();im.resize(size,Image.Resampling.LANCZOS).save(stream,format='PNG')
@@ -116,7 +118,7 @@ def main():
     parser.add_argument('--bambu-bin',type=Path,required=True)
     parser.add_argument('--profiles',type=Path,required=True)
     parser.add_argument('--work-dir',type=Path)
-    parser.add_argument('--version',choices=['v1','v2'],default='v1')
+    parser.add_argument('--version',choices=['v1','v2','v3'],default='v1')
     args=parser.parse_args();configure(args.version)
     work=args.work_dir or Path('/tmp/'+STEM+'-bambu');work.mkdir(exist_ok=True)
     data=json.loads((FOLDER/'contours.json').read_text())
@@ -138,7 +140,7 @@ def main():
         path=work/f'filament-{index+1}.json';path.write_text(json.dumps(preset));filament_files.append(str(path))
         objects.append({'path':str(ROOT/f'downloads/{STEM}-{part["name"]}.stl'),
                         'count':1,'filaments':[index+1],'assemble_index':[1]})
-    assembly={'plates':[{'plate_name':'Joana 12 - 4 cores AMS','need_arrange':True,'objects':objects}]}
+    assembly={'plates':[{'plate_name':f'Joana 12 {args.version.upper()} - 4 cores AMS','need_arrange':True,'objects':objects}]}
     (work/'assembly.json').write_text(json.dumps(assembly))
     common=['--datadir',str(work/'bambu-user'),'--debug','2']
     run_cli(args.bambu_bin,common+[
@@ -164,7 +166,8 @@ def main():
     actual_distances=np.linalg.norm(actual_centers[:,None,:]-actual_centers[None,:,:],axis=2)
     source_distances=np.linalg.norm(source_centers[:,None,:]-source_centers[None,:,:],axis=2)
     np.testing.assert_allclose(actual_distances,source_distances,atol=0.001)
-    assert abs(mesh.extents[2]-3.2)<0.001
+    max_z=data.get('max_z_mm',3.2)
+    assert abs(mesh.extents[2]-max_z)<0.001
     assert cfg['printer_settings_id']=='Bambu Lab A1 0.4 nozzle'
     assert cfg['filament_type']==['PLA']*4
     run_cli(args.bambu_bin,common+['--info','--outputdir',str(work/'reopen'),str(TARGET)],work/'reopen.log')
@@ -178,11 +181,12 @@ def main():
     with ZipFile(work/'slicing/validation-only.3mf') as z:
         code=z.read('Metadata/plate_1.gcode').decode()
         markers=re.findall(r'; layer num/total_layer_count: (\d+)/(\d+)',code)
-        assert markers[-1]==('16','16'),markers[-1]
+        layers=round(max_z/.2)
+        assert markers[-1]==(str(layers),str(layers)),markers[-1]
         assert all(f'T{i}\n' in code or f'T{i} ' in code for i in range(4))
     stats={'native_cli_version':cfg['version'],'project_sha256':hashlib.sha256(TARGET.read_bytes()).hexdigest(),
            'printer':'Bambu Lab A1 0.4 nozzle','filament_slots':cfg['filament_colour'],
-           'plates':1,'assembled_objects':1,'color_parts':4,'layers':16,
+           'version':args.version,'plates':1,'assembled_objects':1,'color_parts':4,'layers':layers,
            'native_export_exit':0,'native_reopen_exit':0,'native_slice_exit':0,
            'warnings':[],'extents_mm':mesh.extents.tolist(),'estimated_seconds':p['total_predication'],
            'estimated_filament_changes':p['filament_change_times'],

@@ -1,0 +1,9 @@
+{
+  "autodeskProduct": "Fusion360",
+  "type": "script",
+  "author": "Nuno Cruz",
+  "description": {"": "Joana 12 V3, apoio no bolo e hastes alinhadas."},
+  "version": "3.0.0",
+  "runOnStartup": false,
+  "supportedOS": "windows|mac"
+}
