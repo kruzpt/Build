@@ -1,0 +1,43 @@
+{
+  "version": "v2",
+  "extents_mm": [
+    179.99786376953125,
+    200.32708740234375,
+    3.200000047683716
+  ],
+  "solid_volume_mm3": 50079.76085706968,
+  "connected_assembled_bodies": 1,
+  "black_backing_holes": 0,
+  "watertight": true,
+  "fusion_runtime_tested": false,
+  "physical_print_tested": false,
+  "broom_handle_width_mm": 2.2,
+  "bristle_groove_width_mm": 1.0,
+  "gold_collar_width_mm": 1.5,
+  "parts": [
+    {
+      "name": "preto",
+      "groups": 1,
+      "vertices": 526,
+      "solid_volume_mm3": 45816.21064871942
+    },
+    {
+      "name": "dourado",
+      "groups": 42,
+      "vertices": 850,
+      "solid_volume_mm3": 3429.822377179797
+    },
+    {
+      "name": "castanho",
+      "groups": 3,
+      "vertices": 224,
+      "solid_volume_mm3": 228.07882517781388
+    },
+    {
+      "name": "bordo",
+      "groups": 12,
+      "vertices": 295,
+      "solid_volume_mm3": 605.6490079519697
+    }
+  ]
+}

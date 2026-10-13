@@ -16,16 +16,26 @@ from build_pintos_pla_3mf import flatten_profile,read_project,run_cli,matrix,NS,
 from generate_joana_topper import FOLDER,ROOT
 
 TARGET=ROOT/'downloads/joana-topper-v1-A1-AMS-4-cores.3mf'
+STEM='joana-topper-v1'
+FUSION_DIRECTORY='JoanaTopper'
+
+
+def configure(version):
+    global FOLDER,TARGET,STEM,FUSION_DIRECTORY
+    STEM='joana-topper-'+version
+    FUSION_DIRECTORY='JoanaTopper' if version=='v1' else 'JoanaTopperV2'
+    FOLDER=ROOT/'fusion'/FUSION_DIRECTORY
+    TARGET=ROOT/'downloads'/f'{STEM}-A1-AMS-4-cores.3mf'
 
 
 def package():
-    with ZipFile(ROOT/'downloads/joana-topper-v1-pacote.zip','w',ZIP_DEFLATED) as z:
+    with ZipFile(ROOT/f'downloads/{STEM}-pacote.zip','w',ZIP_DEFLATED) as z:
         for path in sorted(FOLDER.iterdir()):
-            if path.is_file():z.write(path,'JoanaTopper/'+path.name)
-        for path in sorted((ROOT/'downloads').glob('joana-topper-v1-*.stl')):
+            if path.is_file():z.write(path,FUSION_DIRECTORY+'/'+path.name)
+        for path in sorted((ROOT/'downloads').glob(STEM+'-*.stl')):
             z.write(path,path.name)
         z.write(TARGET,TARGET.name)
-        for name in ['joana-topper-conceito-v1.png','joana-topper-v1-CAD.png','joana-topper-v1-prato.png']:
+        for name in ['joana-topper-conceito-v1.png',STEM+'-CAD.png',STEM+'-prato.png']:
             z.write(ROOT/'designs'/name,'imagens/'+name)
 
 
@@ -98,15 +108,17 @@ def finish_project(source):
     blobs['Metadata/model_settings.config']=ET.tostring(settings,encoding='utf-8',xml_declaration=True)
     with ZipFile(TARGET,'w',ZIP_DEFLATED) as z:
         for name,value in blobs.items():z.writestr(name,value)
-    im.save(ROOT/'designs/joana-topper-v1-prato.png')
+    im.save(ROOT/'designs'/f'{STEM}-prato.png')
 
 
 def main():
     parser=argparse.ArgumentParser()
     parser.add_argument('--bambu-bin',type=Path,required=True)
     parser.add_argument('--profiles',type=Path,required=True)
-    parser.add_argument('--work-dir',type=Path,default=Path('/tmp/joana-topper-bambu'))
-    args=parser.parse_args();work=args.work_dir;work.mkdir(exist_ok=True)
+    parser.add_argument('--work-dir',type=Path)
+    parser.add_argument('--version',choices=['v1','v2'],default='v1')
+    args=parser.parse_args();configure(args.version)
+    work=args.work_dir or Path('/tmp/'+STEM+'-bambu');work.mkdir(exist_ok=True)
     data=json.loads((FOLDER/'contours.json').read_text())
     for kind,name in [('machine','Bambu Lab A1 0.4 nozzle'),('process','0.20mm Standard @BBL A1')]:
         profile=flatten_profile(args.profiles,kind,name)
@@ -124,7 +136,7 @@ def main():
         preset.update({'name':'Joana PLA '+part['name'],'from':'User',
                        'filament_colour':[part['color'].upper()]})
         path=work/f'filament-{index+1}.json';path.write_text(json.dumps(preset));filament_files.append(str(path))
-        objects.append({'path':str(ROOT/f'downloads/joana-topper-v1-{part["name"]}.stl'),
+        objects.append({'path':str(ROOT/f'downloads/{STEM}-{part["name"]}.stl'),
                         'count':1,'filaments':[index+1],'assemble_index':[1]})
     assembly={'plates':[{'plate_name':'Joana 12 - 4 cores AMS','need_arrange':True,'objects':objects}]}
     (work/'assembly.json').write_text(json.dumps(assembly))
@@ -142,7 +154,7 @@ def main():
     # Arrangement can rotate in XY. Compare volumes and relative mass centers
     # instead of comparing axis-aligned bounds after rotation.
     placed=native_parts(blobs)
-    reference=[trimesh.load(ROOT/f'downloads/joana-topper-v1-{part["name"]}.stl',force='mesh')
+    reference=[trimesh.load(ROOT/f'downloads/{STEM}-{part["name"]}.stl',force='mesh')
                for part in data['parts']]
     for (_,actual),expected in zip(placed,reference):
         assert actual.is_watertight and actual.is_winding_consistent

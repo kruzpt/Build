@@ -1,0 +1,55 @@
+{
+  "native_cli_version": "02.08.02.61",
+  "project_sha256": "a43dfc66ed37996963f4ee212a919807d969610685dd30dd1759abe494e9a56c",
+  "printer": "Bambu Lab A1 0.4 nozzle",
+  "filament_slots": [
+    "#202124",
+    "#E8B449",
+    "#70452E",
+    "#782C42"
+  ],
+  "plates": 1,
+  "assembled_objects": 1,
+  "color_parts": 4,
+  "layers": 16,
+  "native_export_exit": 0,
+  "native_reopen_exit": 0,
+  "native_slice_exit": 0,
+  "warnings": [],
+  "extents_mm": [
+    198.1411487395588,
+    173.26044722273397,
+    3.199999927
+  ],
+  "estimated_seconds": 8446.162109375,
+  "estimated_filament_changes": 7,
+  "filaments": [
+    {
+      "filament_id": "GFL99",
+      "id": 1,
+      "main_used_g": 49.26251220703125,
+      "total_used_g": 50.61588668823242
+    },
+    {
+      "filament_id": "GFL99",
+      "id": 2,
+      "main_used_g": 4.14717960357666,
+      "total_used_g": 5.304182529449463
+    },
+    {
+      "filament_id": "GFL99",
+      "id": 3,
+      "main_used_g": 0.27188795804977417,
+      "total_used_g": 0.8965975642204285
+    },
+    {
+      "filament_id": "GFL99",
+      "id": 4,
+      "main_used_g": 0.731975257396698,
+      "total_used_g": 1.383771538734436
+    }
+  ],
+  "editable_unsliced_delivery": true,
+  "fusion_runtime_tested": false,
+  "physical_print_tested": false
+}

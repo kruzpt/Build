@@ -1,0 +1,11 @@
+{
+  "autodeskProduct": "Fusion360",
+  "type": "script",
+  "author": "Nuno Cruz",
+  "description": {
+    "": "Topper Joana 12, quatro componentes de cor em relevo."
+  },
+  "version": "2.0.0",
+  "runOnStartup": false,
+  "supportedOS": "windows|mac"
+}
