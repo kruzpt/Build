@@ -1,0 +1,38 @@
+{
+  "extents_mm": [
+    179.99786376953125,
+    200.32708740234375,
+    3.200000047683716
+  ],
+  "solid_volume_mm3": 49700.2898597964,
+  "connected_assembled_bodies": 1,
+  "watertight": true,
+  "fusion_runtime_tested": false,
+  "source": "approved generated concept, traced and filtered for flat relief",
+  "parts": [
+    {
+      "name": "preto",
+      "groups": 1,
+      "vertices": 569,
+      "solid_volume_mm3": 45397.88181218894
+    },
+    {
+      "name": "dourado",
+      "groups": 43,
+      "vertices": 905,
+      "solid_volume_mm3": 3467.6098648066845
+    },
+    {
+      "name": "castanho",
+      "groups": 4,
+      "vertices": 88,
+      "solid_volume_mm3": 229.14917710156442
+    },
+    {
+      "name": "bordo",
+      "groups": 12,
+      "vertices": 295,
+      "solid_volume_mm3": 605.6490079519697
+    }
+  ]
+}

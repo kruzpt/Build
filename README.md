@@ -4,6 +4,11 @@ Projeto de uma placa de balcão para impressão 3D e edição no Autodesk Fusion
 
 ## Ficheiros
 
+- **[Topper Joana 12 — Bambu A1 / AMS, quatro cores](downloads/joana-topper-v1-A1-AMS-4-cores.3mf?raw=true)**
+- [Topper Joana — pacote Fusion, 3MF, STL e SVG](downloads/joana-topper-v1-pacote.zip?raw=true)
+- [Topper Joana — imagem do CAD real](designs/joana-topper-v1-CAD.png)
+- [Topper Joana — instruções e medidas](fusion/JoanaTopper/README.md)
+- [Topper Joana — script Fusion](fusion/JoanaTopper/JoanaTopper.py)
 - **[Grelha V3 — projeto Bambu Studio A1 / PLA, dois pratos](downloads/grelha-pintos-v3-A1-PLA-2-pratos.3mf?raw=true)**
 - [Grelha PLA — mapa dos dois pratos](designs/grelha-pintos-v3-PLA-2-pratos.png)
 - [Grelha PLA — configurações e utilização](fusion/GrelhaPintosV3PLA/README-2-pratos.md)
@@ -69,6 +74,13 @@ posterior: logótipo a prolongar-se para fora do canto superior esquerdo, com a
 mesma espessura da placa. Por isso, a imagem não representa exatamente o CAD.
 
 ## Estado do draft
+
+O **topper Joana 12** traduz o esboço mágico aprovado num relevo de quatro
+cores: preto, dourado, castanho e bordô. Mede 180 × 200,3 mm, com base de
+2,4 mm e espessura máxima de 3,2 mm. Inclui script Fusion com sketches e
+extrusões, SVG, STL e um 3MF nativo A1/AMS com as cores atribuídas. O 3MF foi
+exportado, reaberto e fatiado com o motor oficial, sem avisos. O script Fusion
+e a impressão física ainda não foram executados; consulte as instruções.
 
 O **projeto A1 / PLA** reúne a geometria V3 num único 3MF nativo editável:
 um prato com uma placa universal e outro com as 26 presilhas padrão.
