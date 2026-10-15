@@ -4,6 +4,8 @@ Projeto de uma placa de balcão para impressão 3D e edição no Autodesk Fusion
 
 ## Ficheiros
 
+- **[Universo do Saber — esboço V3, branco e azul](designs/suporte-universo-saber-conceito-v3-branco-azul.png)**
+- [Suporte Universo do Saber V3 — duas cores e livros em contorno](designs/README-suporte-universo-saber-v3.md)
 - **[Universo do Saber — suporte desmontável, esboço V2](designs/suporte-universo-saber-conceito-v2.png)**
 - [Suporte Universo do Saber — plano de montagem, relevos e cores](designs/README-suporte-universo-saber-v2.md)
 - **[Suporte de telemóvel desmontável — esboço V1](designs/suporte-telemovel-encaixe-conceito-v1.png)**
