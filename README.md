@@ -4,6 +4,11 @@ Projeto de uma placa de balcão para impressão 3D e edição no Autodesk Fusion
 
 ## Ficheiros
 
+- **[Universo do Saber — projeto A1/AMS, dois pratos](downloads/universo-saber-suporte-v1-A1-AMS-2-pratos.3mf?raw=true)**
+- [Universo do Saber — pacote completo](downloads/universo-saber-suporte-v1-pacote.zip?raw=true)
+- [Universo do Saber — imagem do CAD real](designs/universo-saber-suporte-v1-CAD.png)
+- [Universo do Saber — montagem e ângulos](designs/universo-saber-suporte-v1-montagem.png)
+- [Universo do Saber — medidas, impressão e teste do encaixe](fusion/UniversoSaberStand/README.md)
 - **[Universo do Saber — esboço V3, branco e azul](designs/suporte-universo-saber-conceito-v3-branco-azul.png)**
 - [Suporte Universo do Saber V3 — duas cores e livros em contorno](designs/README-suporte-universo-saber-v3.md)
 - **[Universo do Saber — suporte desmontável, esboço V2](designs/suporte-universo-saber-conceito-v2.png)**
@@ -85,6 +90,18 @@ posterior: logótipo a prolongar-se para fora do canto superior esquerdo, com a
 mesma espessura da placa. Por isso, a imagem não representa exatamente o CAD.
 
 ## Estado do draft
+
+O **suporte Universo do Saber V1** transforma o conceito aprovado num modelo
+CAD real de duas peças: costas brancas de 200 × 80 × 6 mm com logótipo,
+texto e livros em relevo azul, e base azul de 110 × 80 × 6 mm. O telemóvel
+fica a 70° da mesa e dispõe de 171,6 mm úteis acima do apoio. O 3MF nativo
+para Bambu A1/AMS tem dois pratos e foi exportado, reaberto e fatiado pelo
+Bambu Studio oficial sem avisos: uma troca de filamento nas costas e nenhuma
+na base. A folga nominal do encaixe é 0,30 mm; devem ser impressas primeiro
+as amostras de 0,20/0,30/0,40 mm. Colisões, percurso de montagem, apoio na
+mesa e equilíbrio estático ideal foram verificados por geometria. O script
+Fusion e a resistência/estabilidade reais continuam dependentes de um teste
+físico.
 
 O **topper Joana 12 V3** acrescenta dourado à escova e à ponta do cabo,
 regulariza os topos das letras e usa duas hastes iguais com uma travessa de
