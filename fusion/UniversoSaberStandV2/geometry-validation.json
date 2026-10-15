@@ -1,0 +1,240 @@
+{
+  "backrest_degrees": 70.0,
+  "shelf_front_degrees": 20,
+  "inter_piece_angle_degrees": 90,
+  "nominal_gap_total_mm": 0.3,
+  "slot_width_mm": 6.3,
+  "crossing_back_local_mm": 22.389678272763792,
+  "usable_backrest_above_shelf_mm": 171.6103217272362,
+  "feet_plane_z_mm": [
+    -1.6431300764452317e-14,
+    -1.3322676295501878e-14
+  ],
+  "foot_contact_polygon_xy": [
+    [
+      40.0,
+      79.8133316040039
+    ],
+    [
+      39.85316848754883,
+      80.79988098144531
+    ],
+    [
+      39.42705154418945,
+      81.68985748291016
+    ],
+    [
+      38.76335525512695,
+      82.39614868164062
+    ],
+    [
+      37.92705154418945,
+      82.849609375
+    ],
+    [
+      37.0,
+      83.00586700439453
+    ],
+    [
+      -37.0,
+      83.00586700439453
+    ],
+    [
+      -37.92705154418945,
+      82.849609375
+    ],
+    [
+      -38.76335525512695,
+      82.39614868164062
+    ],
+    [
+      -39.42705154418945,
+      81.68985748291016
+    ],
+    [
+      -39.85316848754883,
+      80.79988098144531
+    ],
+    [
+      -40.0,
+      79.8133316040039
+    ],
+    [
+      -40.0,
+      65.46304321289062
+    ],
+    [
+      -39.870731353759766,
+      6.385066509246826
+    ],
+    [
+      -39.85316848754883,
+      6.060897350311279
+    ],
+    [
+      -39.42705154418945,
+      3.615705966949463
+    ],
+    [
+      -38.76335525512695,
+      1.6751909255981445
+    ],
+    [
+      -37.92705154418945,
+      0.42930349707603455
+    ],
+    [
+      -37.0,
+      4.3520742565306136e-14
+    ],
+    [
+      9.0,
+      1.7763568394002505e-15
+    ],
+    [
+      37.0,
+      8.881784197001252e-16
+    ],
+    [
+      37.92705154418945,
+      0.42930349707603455
+    ],
+    [
+      38.76335525512695,
+      1.6751909255981445
+    ],
+    [
+      39.42705154418945,
+      3.615705966949463
+    ],
+    [
+      39.85316848754883,
+      6.060897350311279
+    ],
+    [
+      39.870731353759766,
+      6.385066509246826
+    ],
+    [
+      40.0,
+      65.46304321289062
+    ]
+  ],
+  "static_load_cases": [
+    {
+      "phone_mm": [
+        145,
+        65,
+        8
+      ],
+      "phone_g": 180,
+      "stand_mass_factor": 0.5,
+      "static_margin_mm": 31.587,
+      "ideal_horizontal_tip_force_N": 0.498
+    },
+    {
+      "phone_mm": [
+        145,
+        65,
+        8
+      ],
+      "phone_g": 180,
+      "stand_mass_factor": 1.0,
+      "static_margin_mm": 32.446,
+      "ideal_horizontal_tip_force_N": 0.677
+    },
+    {
+      "phone_mm": [
+        165,
+        80,
+        14
+      ],
+      "phone_g": 250,
+      "stand_mass_factor": 0.5,
+      "static_margin_mm": 31.683,
+      "ideal_horizontal_tip_force_N": 0.56
+    },
+    {
+      "phone_mm": [
+        165,
+        80,
+        14
+      ],
+      "phone_g": 250,
+      "stand_mass_factor": 1.0,
+      "static_margin_mm": 32.381,
+      "ideal_horizontal_tip_force_N": 0.719
+    },
+    {
+      "phone_mm": [
+        180,
+        90,
+        17
+      ],
+      "phone_g": 320,
+      "stand_mass_factor": 0.5,
+      "static_margin_mm": 32.39,
+      "ideal_horizontal_tip_force_N": 0.64
+    },
+    {
+      "phone_mm": [
+        180,
+        90,
+        17
+      ],
+      "phone_g": 320,
+      "stand_mass_factor": 1.0,
+      "static_margin_mm": 32.864,
+      "ideal_horizontal_tip_force_N": 0.787
+    }
+  ],
+  "worst_static_margin_mm": 31.587360382080114,
+  "collision_volume_mm3": 0.0,
+  "side_insertion_checks": 42,
+  "phone_clearance_from_relief_mm": 0.1,
+  "nominal_phone_case_thickness_limit_mm": 18.1,
+  "physical_fit_tested": false,
+  "physical_stability_tested": false,
+  "structural_FEA_performed": false,
+  "fusion_runtime_tested": false,
+  "logo_alignment": {
+    "total_vertices": 3018,
+    "us_baseline_delta_mm": 0.0,
+    "u_vertical_slope_x_per_y": -1.5688367398054845e-16,
+    "u_vertical_deviation_degrees": 8.988772393591794e-15,
+    "us_curve_mean_chord_mm": 0.12317525702186106,
+    "us_curve_p95_chord_mm": 0.25315946296886255
+  },
+  "parts": [
+    {
+      "name": "costas-branco",
+      "bbox_mm": [
+        80.0,
+        200.0,
+        6.0
+      ],
+      "volume_mm3": 92635.57225053199,
+      "watertight": true
+    },
+    {
+      "name": "relevos-azul",
+      "bbox_mm": [
+        73.0,
+        172.5,
+        0.8000001907348633
+      ],
+      "volume_mm3": 1883.5424308431388,
+      "watertight": true
+    },
+    {
+      "name": "base-azul",
+      "bbox_mm": [
+        80.0,
+        110.0,
+        10.0
+      ],
+      "volume_mm3": 45121.82498832874,
+      "watertight": true
+    }
+  ]
+}

@@ -4,6 +4,10 @@ Projeto de uma placa de balcão para impressão 3D e edição no Autodesk Fusion
 
 ## Ficheiros
 
+- **[Universo do Saber V2 — logótipo suave e alinhado, projeto A1/AMS](downloads/universo-saber-suporte-v2-A1-AMS-2-pratos.3mf?raw=true)**
+- [Universo do Saber V2 — logótipo com linhas de alinhamento](designs/universo-saber-suporte-v2-logo-alinhado.png)
+- [Universo do Saber V2 — pacote completo](downloads/universo-saber-suporte-v2-pacote.zip?raw=true)
+- [Universo do Saber V2 — instruções](fusion/UniversoSaberStandV2/README.md)
 - **[Universo do Saber — projeto A1/AMS, dois pratos](downloads/universo-saber-suporte-v1-A1-AMS-2-pratos.3mf?raw=true)**
 - [Universo do Saber — pacote completo](downloads/universo-saber-suporte-v1-pacote.zip?raw=true)
 - [Universo do Saber — imagem do CAD real](designs/universo-saber-suporte-v1-CAD.png)
@@ -90,6 +94,13 @@ posterior: logótipo a prolongar-se para fora do canto superior esquerdo, com a
 mesma espessura da placa. Por isso, a imagem não representa exatamente o CAD.
 
 ## Estado do draft
+
+O **suporte Universo do Saber V2** mantém as peças e o encaixe da V1, mas
+substitui o símbolo perspetivado e facetado por um contorno vetorial suavizado.
+A base de `U` e `S` fica horizontal, a lateral longa de `U` fica vertical e a
+cabeça passa a ser uma circunferência de alta resolução. O contorno tem 3018
+vértices e as curvas do `US` têm passo médio próximo de 0,12 mm. A V1 fica
+preservada.
 
 O **suporte Universo do Saber V1** transforma o conceito aprovado num modelo
 CAD real de duas peças: costas brancas de 200 × 80 × 6 mm com logótipo,

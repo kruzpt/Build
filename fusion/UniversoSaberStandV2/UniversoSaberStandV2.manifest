@@ -1,0 +1,7 @@
+{
+  "autodeskProduct": "Fusion360",
+  "type": "script",
+  "author": "Nuno Cruz / Codex",
+  "description": {"": "Universo do Saber V2 - logotipo suave e alinhado, branco e azul"},
+  "supportedOS": "windows|mac"
+}
