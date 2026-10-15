@@ -4,6 +4,12 @@ Projeto de uma placa de balcão para impressão 3D e edição no Autodesk Fusion
 
 ## Ficheiros
 
+- **[Universo do Saber V4 — livros em perspetiva e curva do U aprovada, A1/AMS](downloads/universo-saber-suporte-v4-A1-AMS-2-pratos.3mf?raw=true)**
+- [Universo do Saber V4 — pacote completo, Fusion + STL + 3MF](downloads/universo-saber-suporte-v4-pacote.zip?raw=true)
+- [Universo do Saber V4 — imagem do CAD final](designs/universo-saber-suporte-v4-CAD.png)
+- [Universo do Saber V4 — detalhe dos livros](designs/universo-saber-suporte-v4-livros.png)
+- [Universo do Saber V4 — logótipo alinhado](designs/universo-saber-suporte-v4-logo-alinhado.png)
+- [Universo do Saber V4 — instruções, medidas e perfil](fusion/UniversoSaberStandV4/README.md)
 - **[Universo do Saber V3 — curva corrigida e dois livros, projeto A1/AMS](downloads/universo-saber-suporte-v3-A1-AMS-2-pratos.3mf?raw=true)**
 - [Universo do Saber V3 — detalhe dos dois livros](designs/universo-saber-suporte-v3-livros.png)
 - [Universo do Saber V3 — logótipo corrigido](designs/universo-saber-suporte-v3-logo-alinhado.png)
@@ -99,6 +105,15 @@ posterior: logótipo a prolongar-se para fora do canto superior esquerdo, com a
 mesma espessura da placa. Por isso, a imagem não representa exatamente o CAD.
 
 ## Estado do draft
+
+O **suporte Universo do Saber V4** integra a segunda proposta aprovada: dois
+livros em perspetiva com capas em paralelogramo e lombadas arredondadas, e uma
+correção local tangente na curva inferior esquerda do `U`. Mantém as medidas,
+as peças do encaixe e os perfis da V3. O 3MF A1/AMS tem dois pratos: uma troca
+de cor nas costas e nenhuma na base. Foi exportado, reaberto e fatiado pelo
+Bambu Studio oficial sem avisos de fatiamento, com estimativa total de 82,87 g
+e cerca de 3 h 42 min. O script ainda não foi executado no Fusion e o encaixe
+precisa de teste físico. As versões anteriores ficam preservadas.
 
 O **suporte Universo do Saber V3** remove a pequena quebra que ainda existia
 na lateral esquerda do `U`, usando transições tangentes no topo e na curva
