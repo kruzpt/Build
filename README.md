@@ -4,6 +4,8 @@ Projeto de uma placa de balcão para impressão 3D e edição no Autodesk Fusion
 
 ## Ficheiros
 
+- **[Suporte de telemóvel desmontável — esboço V1](designs/suporte-telemovel-encaixe-conceito-v1.png)**
+- [Suporte desmontável — plano e medidas propostas](designs/README-suporte-telemovel-encaixe.md)
 - **[Marco Cardoso — esboços Natal 2026 V2, tijolo terracota](designs/marco-cardoso-natal-2026-conceitos-v2.png)**
 - [Marco Cardoso — propostas, referência do tijolo e estado conceptual](designs/README-marco-cardoso-natal-2026.md)
 - **[Topper Joana 12 V3 — Bambu A1 / AMS, quatro cores](downloads/joana-topper-v3-A1-AMS-4-cores.3mf?raw=true)**
