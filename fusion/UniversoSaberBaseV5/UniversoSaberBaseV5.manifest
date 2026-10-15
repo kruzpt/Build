@@ -1,0 +1,9 @@
+{
+  "autodeskProduct": "Fusion360",
+  "type": "script",
+  "author": "Nuno Cruz / Codex",
+  "description": {
+    "": "Base reforcada V5 para suporte Universo do Saber V4 - janela de carregamento"
+  },
+  "supportedOS": "windows|mac"
+}

@@ -4,6 +4,11 @@ Projeto de uma placa de balcão para impressão 3D e edição no Autodesk Fusion
 
 ## Ficheiros
 
+- **[Universo do Saber — base reforçada V5, um prato A1/PLA, para usar com as costas V4](downloads/universo-saber-base-v5-reforcada-A1-PLA.3mf?raw=true)**
+- [Base V5 — comparação do reforço e janela para carregamento](designs/universo-saber-base-v5-reforcada-comparacao.png)
+- [Base V5 — pacote Fusion, STL, 3MF e instruções](downloads/universo-saber-base-v5-reforcada-pacote.zip?raw=true)
+- [Base V5 — STL separado](downloads/universo-saber-base-v5-reforcada.stl?raw=true)
+- [Base V5 — utilização do cabo, medidas e validação](fusion/UniversoSaberBaseV5/README.md)
 - **[Universo do Saber V4 — livros em perspetiva e curva do U aprovada, A1/AMS](downloads/universo-saber-suporte-v4-A1-AMS-2-pratos.3mf?raw=true)**
 - [Universo do Saber V4 — pacote completo, Fusion + STL + 3MF](downloads/universo-saber-suporte-v4-pacote.zip?raw=true)
 - [Universo do Saber V4 — imagem do CAD final](designs/universo-saber-suporte-v4-CAD.png)
@@ -105,6 +110,16 @@ posterior: logótipo a prolongar-se para fora do canto superior esquerdo, com a
 mesma espessura da placa. Por isso, a imagem não representa exatamente o CAD.
 
 ## Estado do draft
+
+A **base reforçada Universo do Saber V5** é a atualização recomendada para
+o prato 2 da V4. Usa as mesmas costas já impressas e mantém o encaixe de
+6,30 mm e a folga total de 0,30 mm. Uma travessa frontal de 10 × 6 mm une os
+braços e transforma o recorte em U numa janela de carregamento de 18 × 20 mm.
+A ficha passa pela janela antes de ser ligada ao telemóvel. O novo 3MF tem
+apenas a base, com quatro paredes e 25% gyroid, e foi exportado, reaberto e
+fatiado sem avisos: 32,93 g e cerca de 1 h 35 min. A montagem e vários tamanhos
+de ficha foram verificados geometricamente; a resistência e o cabo real
+ainda precisam de teste físico. As costas V4 não precisam de nova impressão.
 
 O **suporte Universo do Saber V4** integra a segunda proposta aprovada: dois
 livros em perspetiva com capas em paralelogramo e lombadas arredondadas, e uma

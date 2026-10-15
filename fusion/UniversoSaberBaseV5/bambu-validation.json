@@ -1,0 +1,29 @@
+{
+  "printer": "Bambu Lab A1 0.4 nozzle",
+  "native_cli_version": "02.08.02.61",
+  "sha256": "887136c94fa91ae8d787434259dab69307b42643a020b3383e01b5717e510297",
+  "editable_unsliced_project": true,
+  "plate_count": 1,
+  "filament_colour": "#17385B",
+  "filament_changes": 0,
+  "layers_mm": 0.2,
+  "layers": 50,
+  "wall_loops": 4,
+  "sparse_infill": "25% gyroid",
+  "native_export_exit": 0,
+  "native_reopen_exit": 0,
+  "native_slice_exit": 0,
+  "warnings": [],
+  "estimated_seconds": 5700.8447265625,
+  "estimated_grams": 32.933902740478516,
+  "physical_strength_tested": false,
+  "physical_cable_fit_tested": false,
+  "filaments": [
+    {
+      "filament_id": "GFL99",
+      "id": 1,
+      "main_used_g": 32.933902740478516,
+      "total_used_g": 32.933902740478516
+    }
+  ]
+}
