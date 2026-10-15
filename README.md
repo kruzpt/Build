@@ -4,6 +4,8 @@ Projeto de uma placa de balcão para impressão 3D e edição no Autodesk Fusion
 
 ## Ficheiros
 
+- **[Universo do Saber — suporte desmontável, esboço V2](designs/suporte-universo-saber-conceito-v2.png)**
+- [Suporte Universo do Saber — plano de montagem, relevos e cores](designs/README-suporte-universo-saber-v2.md)
 - **[Suporte de telemóvel desmontável — esboço V1](designs/suporte-telemovel-encaixe-conceito-v1.png)**
 - [Suporte desmontável — plano e medidas propostas](designs/README-suporte-telemovel-encaixe.md)
 - **[Marco Cardoso — esboços Natal 2026 V2, tijolo terracota](designs/marco-cardoso-natal-2026-conceitos-v2.png)**
