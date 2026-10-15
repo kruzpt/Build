@@ -4,6 +4,11 @@ Projeto de uma placa de balcão para impressão 3D e edição no Autodesk Fusion
 
 ## Ficheiros
 
+- **[Universo do Saber V3 — curva corrigida e dois livros, projeto A1/AMS](downloads/universo-saber-suporte-v3-A1-AMS-2-pratos.3mf?raw=true)**
+- [Universo do Saber V3 — detalhe dos dois livros](designs/universo-saber-suporte-v3-livros.png)
+- [Universo do Saber V3 — logótipo corrigido](designs/universo-saber-suporte-v3-logo-alinhado.png)
+- [Universo do Saber V3 — pacote completo](downloads/universo-saber-suporte-v3-pacote.zip?raw=true)
+- [Universo do Saber V3 — instruções](fusion/UniversoSaberStandV3/README.md)
 - **[Universo do Saber V2 — logótipo suave e alinhado, projeto A1/AMS](downloads/universo-saber-suporte-v2-A1-AMS-2-pratos.3mf?raw=true)**
 - [Universo do Saber V2 — logótipo com linhas de alinhamento](designs/universo-saber-suporte-v2-logo-alinhado.png)
 - [Universo do Saber V2 — pacote completo](downloads/universo-saber-suporte-v2-pacote.zip?raw=true)
@@ -94,6 +99,12 @@ posterior: logótipo a prolongar-se para fora do canto superior esquerdo, com a
 mesma espessura da placa. Por isso, a imagem não representa exatamente o CAD.
 
 ## Estado do draft
+
+O **suporte Universo do Saber V3** remove a pequena quebra que ainda existia
+na lateral esquerda do `U`, usando transições tangentes no topo e na curva
+inferior. Substitui também os antigos retângulos por dois livros empilhados
+em perspetiva, desenhados com contorno de 0,9 mm para o bico de 0,4 mm. O 3MF
+nativo foi reaberto e fatiado sem avisos. As versões V1 e V2 ficam preservadas.
 
 O **suporte Universo do Saber V2** mantém as peças e o encaixe da V1, mas
 substitui o símbolo perspetivado e facetado por um contorno vetorial suavizado.

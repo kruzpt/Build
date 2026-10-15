@@ -1,0 +1,7 @@
+{
+  "autodeskProduct": "Fusion360",
+  "type": "script",
+  "author": "Nuno Cruz / Codex",
+  "description": {"": "Universo do Saber V3 - logotipo corrigido e livros em perspetiva"},
+  "supportedOS": "windows|mac"
+}

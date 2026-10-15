@@ -1,0 +1,53 @@
+{
+  "printer": "Bambu Lab A1 0.4 nozzle",
+  "native_cli_version": "02.08.02.61",
+  "sha256": "02872e99b6782a979fb57eba2ad47dc4a892852b612417982fbc5dfbe2b123f1",
+  "layers_mm": 0.2,
+  "editable_unsliced_project": true,
+  "native_export_exit": 0,
+  "native_reopen_exit": 0,
+  "native_slice_exit": 0,
+  "physical_fit_tested": false,
+  "fusion_runtime_tested": false,
+  "supports": "Only blue base: normal snug, build plate only, for the rear foot bevel",
+  "plates": [
+    {
+      "id": 1,
+      "filament_changes": 1,
+      "layers": 34,
+      "estimated_seconds": 8352.2333984375,
+      "estimated_grams": 54.48112177848816,
+      "filaments": [
+        {
+          "filament_id": "GFL99",
+          "id": 1,
+          "main_used_g": 50.911128997802734,
+          "total_used_g": 52.112850189208984
+        },
+        {
+          "filament_id": "GFL99",
+          "id": 2,
+          "main_used_g": 2.226539373397827,
+          "total_used_g": 2.368271589279175
+        }
+      ],
+      "warnings": []
+    },
+    {
+      "id": 2,
+      "filament_changes": 0,
+      "layers": 50,
+      "estimated_seconds": 4922.29248046875,
+      "estimated_grams": 28.389802932739258,
+      "filaments": [
+        {
+          "filament_id": "GFL99",
+          "id": 2,
+          "main_used_g": 28.389802932739258,
+          "total_used_g": 28.389802932739258
+        }
+      ],
+      "warnings": []
+    }
+  ]
+}
