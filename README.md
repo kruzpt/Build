@@ -4,6 +4,11 @@ Projeto de uma placa de balcão para impressão 3D e edição no Autodesk Fusion
 
 ## Ficheiros
 
+- **[Universo do Saber V6 — conjunto completo A1/AMS, placa 7 mm e dois pratos sem suportes](downloads/universo-saber-suporte-v6-A1-AMS-2-pratos.3mf?raw=true)**
+- [Universo do Saber V6 — pacote Fusion, STL, 3MF e amostras de encaixe](downloads/universo-saber-suporte-v6-pacote.zip?raw=true)
+- [Universo do Saber V6 — imagem do CAD final](designs/universo-saber-suporte-v6-CAD.png)
+- [Universo do Saber V6 — montagem e contacto com a mesa](designs/universo-saber-suporte-v6-montagem.png)
+- [Universo do Saber V6 — instruções, medidas e perfis](fusion/UniversoSaberStandV6/README.md)
 - **[Universo do Saber — base reforçada V5, um prato A1/PLA, para usar com as costas V4](downloads/universo-saber-base-v5-reforcada-A1-PLA.3mf?raw=true)**
 - [Base V5 — comparação do reforço e janela para carregamento](designs/universo-saber-base-v5-reforcada-comparacao.png)
 - [Base V5 — pacote Fusion, STL, 3MF e instruções](downloads/universo-saber-base-v5-reforcada-pacote.zip?raw=true)
@@ -110,6 +115,16 @@ posterior: logótipo a prolongar-se para fora do canto superior esquerdo, com a
 mesma espessura da placa. Por isso, a imagem não representa exatamente o CAD.
 
 ## Estado do draft
+
+O **suporte Universo do Saber V6** é o novo conjunto completo aprovado:
+placa branca de 7 mm com bisel mantido, base azul de 6 mm sem bisel inferior
+e encaixes de 7,30/6,30 mm. Mantém a janela de carregamento e a travessa de
+reforço. Os dois apoios chegam à mesa a 70°. O 3MF A1/AMS foi exportado,
+reaberto e fatiado sem avisos: nenhum dos pratos gera suportes, com uma
+troca de cor no primeiro e nenhuma no segundo. A estimativa total é 91,51 g
+e cerca de 3 h 58 min. É necessário imprimir as duas peças V6; as antigas
+V4/V5 não pertencem a este novo encaixe. O script Fusion e a impressão
+física da nova versão continuam por testar.
 
 A **base reforçada Universo do Saber V5** é a atualização recomendada para
 o prato 2 da V4. Usa as mesmas costas já impressas e mantém o encaixe de

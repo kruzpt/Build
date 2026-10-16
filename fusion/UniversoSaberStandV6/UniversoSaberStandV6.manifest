@@ -1,0 +1,9 @@
+{
+  "autodeskProduct": "Fusion360",
+  "type": "script",
+  "author": "Nuno Cruz / Codex",
+  "description": {
+    "": "Universo do Saber V6 - placa branca 7mm com bisel, base azul sem bisel"
+  },
+  "supportedOS": "windows|mac"
+}

@@ -1,0 +1,204 @@
+{
+  "preview_only": false,
+  "angle_deg": 70.0,
+  "backrest_core_mm": 7.0,
+  "relief_mm": 0.8,
+  "blue_core_mm": 6.0,
+  "blue_slot_for_backrest_mm": 7.3,
+  "white_slot_for_base_mm": 6.3,
+  "contact_minima_z_mm": [
+    -8.43769498715119e-15,
+    -3.1086244689504383e-15
+  ],
+  "white_bevel_retained": true,
+  "blue_bevel_removed": true,
+  "side_insertion_positions_checked": 42,
+  "phone_thicknesses_checked_mm": [
+    8,
+    14,
+    17
+  ],
+  "plug_insertions_checked": 116,
+  "cable_window_mm": [
+    18,
+    20
+  ],
+  "front_bar_mm": 10,
+  "blue_base_length_mm": 111.0,
+  "usable_backrest_mm": 165.24635149297,
+  "crossing_back_local_mm": 28.753648507029993,
+  "full_project_generated": true,
+  "slicing_performed": true,
+  "compatibility": "Both pieces are revised; not compatible with old 6 mm backrest set",
+  "static_load_cases": [
+    {
+      "phone_mm": [
+        145,
+        65,
+        8
+      ],
+      "phone_g": 180,
+      "stand_mass_factor": 0.5,
+      "static_margin_mm": 33.91373443603515
+    },
+    {
+      "phone_mm": [
+        145,
+        65,
+        8
+      ],
+      "phone_g": 180,
+      "stand_mass_factor": 1.0,
+      "static_margin_mm": 34.78662490844726
+    },
+    {
+      "phone_mm": [
+        165,
+        80,
+        14
+      ],
+      "phone_g": 250,
+      "stand_mass_factor": 0.5,
+      "static_margin_mm": 33.97618103027344
+    },
+    {
+      "phone_mm": [
+        165,
+        80,
+        14
+      ],
+      "phone_g": 250,
+      "stand_mass_factor": 1.0,
+      "static_margin_mm": 34.69900512695312
+    },
+    {
+      "phone_mm": [
+        180,
+        90,
+        17
+      ],
+      "phone_g": 320,
+      "stand_mass_factor": 0.5,
+      "static_margin_mm": 34.64175796508788
+    },
+    {
+      "phone_mm": [
+        180,
+        90,
+        17
+      ],
+      "phone_g": 320,
+      "stand_mass_factor": 1.0,
+      "static_margin_mm": 35.139602661132805
+    }
+  ],
+  "worst_static_margin_mm": 33.91373443603515,
+  "foot_contact_polygon_xy": [
+    [
+      39.92837905883789,
+      7.449244499206543
+    ],
+    [
+      37.0,
+      84.0700454711914
+    ],
+    [
+      -37.0,
+      84.0700454711914
+    ],
+    [
+      -39.92837905883789,
+      7.449244499206543
+    ],
+    [
+      -39.85316848754883,
+      6.060897350311279
+    ],
+    [
+      -39.42705154418945,
+      3.615705966949463
+    ],
+    [
+      -38.76335525512695,
+      1.6751909255981445
+    ],
+    [
+      -37.92705154418945,
+      0.42930349707603455
+    ],
+    [
+      -37.0,
+      3.552713678800501e-15
+    ],
+    [
+      37.0,
+      2.1316282072803006e-14
+    ],
+    [
+      37.92705154418945,
+      0.42930349707603455
+    ],
+    [
+      38.76335525512695,
+      1.6751909255981445
+    ],
+    [
+      39.42705154418945,
+      3.615705966949463
+    ],
+    [
+      39.85316848754883,
+      6.060897350311279
+    ]
+  ],
+  "threading_housing_mm": [
+    16,
+    10,
+    14
+  ],
+  "threading_positions_checked": 23,
+  "physical_fit_tested": false,
+  "physical_cable_fit_tested": false,
+  "physical_strength_tested": false,
+  "structural_FEA_performed": false,
+  "fusion_runtime_tested": false,
+  "approved_preview": "universo-saber-suporte-v6-proposta-bisel-branco.png",
+  "white_bevel_slope_to_print_bed_deg": 70.0,
+  "print_orientation": "Flat with decorations and phone stops facing upwards",
+  "cable_port_assumptions": "Centered port; phone lies 0.9 mm ahead of white core",
+  "blue_phone_stop_start_mm": 98.0,
+  "parts": [
+    {
+      "name": "costas-branco",
+      "bbox_mm": [
+        80.0,
+        200.0,
+        7.0
+      ],
+      "volume_mm3": 107997.07564310708,
+      "watertight": true
+    },
+    {
+      "name": "relevos-azul",
+      "bbox_mm": [
+        73.0,
+        174.75,
+        0.8000001907348633
+      ],
+      "volume_mm3": 1843.5362057926166,
+      "watertight": true
+    },
+    {
+      "name": "base-azul",
+      "bbox_mm": [
+        80.0,
+        111.0,
+        10.0
+      ],
+      "volume_mm3": 50211.16386530911,
+      "watertight": true
+    }
+  ],
+  "bambu_validation_file": "bambu-validation.json",
+  "support_toolpaths_verified_absent": true
+}
