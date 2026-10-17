@@ -1,5 +1,9 @@
 # M7 — tijolo e casinha, novos esboços
 
+Os esboços abaixo deram origem aos **[protótipos para imprimir V1](../fusion/M7PrototiposV1/README.md)**,
+aprovados para um exemplar de cada. Consulte o guia e as imagens CAD para
+as medidas finais e os ficheiros; as imagens desta página são conceptuais.
+
 ## Casinha para todo o ano
 
 [Ver a casinha](m7-casa-institucional-conceito-v1.png).
@@ -71,8 +75,9 @@ apenas à casinha, mantendo o tijolo como na fotografia enviada.
 ## Estado
 
 Estas são imagens conceptuais geradas, para decidir a aparência, e não
-renderizações de geometria CAD já construída. Não há novos STL, Fusion ou
-3MF nesta proposta. As versões anteriores foram preservadas.
+renderizações de geometria CAD. Os ficheiros STL, Fusion e 3MF desenvolvidos
+posteriormente estão no guia dos protótipos indicado no início desta página.
+As versões anteriores foram preservadas.
 
 Para modelar o tijolo, conservar as medidas de referência do STL original
 (26 × 50 × 70 mm) e a disposição real dos furos; os furos da ilustração

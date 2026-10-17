@@ -4,6 +4,12 @@ Projeto de uma placa de balcão para impressão 3D e edição no Autodesk Fusion
 
 ## Ficheiros
 
+- **[M7 — casinha, um protótipo completo A1/AMS, três pratos](downloads/m7-casa-v1-A1-AMS-3-pratos.3mf?raw=true)**
+- **[M7 — tijolo Natal 2026, um protótipo completo A1/AMS, quatro pratos](downloads/m7-tijolo-v1-A1-AMS-4-pratos.3mf?raw=true)**
+- [M7 — pacote dos dois protótipos: 3MF, STL, Fusion e instruções](downloads/m7-prototipos-v1-pacote.zip?raw=true)
+- [M7 — imagem real dos modelos finais](designs/m7-prototipos-v1-CAD.png)
+- [M7 — detalhes da frase, logótipos e decoração](designs/m7-prototipos-v1-detalhes.png)
+- [M7 — montagem, medidas, consumo e perfis dos protótipos](fusion/M7PrototiposV1/README.md)
 - **[M7 — casinha com medidas propostas, vistas de lado e de trás](designs/m7-casa-institucional-v3-medidas.png)**
 - **[M7 — casinha, vistas lateral, traseira e peças separadas](designs/m7-casa-institucional-v2-lado-tras-montagem.png)**
 - **[M7 — casinha para todo o ano, com frase manuscrita](designs/m7-casa-institucional-conceito-v1.png)**
@@ -120,6 +126,14 @@ posterior: logótipo a prolongar-se para fora do canto superior esquerdo, com a
 mesma espessura da placa. Por isso, a imagem não representa exatamente o CAD.
 
 ## Estado do draft
+
+Os **protótipos M7 V1** incluem uma casinha sem Natal, com a frase manuscrita,
+e um tijolo Natal 2026 com decoração para colar. Os dois projetos A1/AMS foram
+exportados, reabertos e fatiados sem avisos ou suportes: três pratos e 70,69 g
+para a casinha; quatro pratos e 39,44 g para o tijolo. Há uma troca de cor na
+fachada e nenhuma nos restantes pratos. A geometria e a montagem foram
+verificadas; a impressão física, a colagem e a execução do script Fusion
+continuam por testar. O pacote inclui os STL, os perfis e as instruções.
 
 O **suporte Universo do Saber V6** é o novo conjunto completo aprovado:
 placa branca de 7 mm com bisel mantido, base azul de 6 mm sem bisel inferior

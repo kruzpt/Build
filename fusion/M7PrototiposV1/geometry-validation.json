@@ -1,0 +1,262 @@
+{
+  "house": {
+    "facade_width_mm": 75,
+    "facade_length_mm": 97.51265190319502,
+    "facade_thickness_mm": 4,
+    "assembled_height_mm": 95,
+    "base_width_depth_mm": [
+      85,
+      85
+    ],
+    "backing_thickness_mm": 2,
+    "slot_normal_width_mm": 6.3,
+    "slot_clearance_total_mm": 0.3,
+    "angle_to_table_deg": 70,
+    "insertion_positions_checked": 86,
+    "max_insertion_collision_mm3": 0.0,
+    "static_load_cases": [
+      {
+        "phone_mm": [
+          145,
+          65,
+          8
+        ],
+        "phone_g": 180,
+        "static_margin_mm": 32.02714920043945
+      },
+      {
+        "phone_mm": [
+          165,
+          80,
+          14
+        ],
+        "phone_g": 250,
+        "static_margin_mm": 31.000835418701172
+      },
+      {
+        "phone_mm": [
+          180,
+          90,
+          17
+        ],
+        "phone_g": 320,
+        "static_margin_mm": 29.66503143310547
+      }
+    ],
+    "window_panes": 4,
+    "text": "O que fazemos / mostra quem somos",
+    "script_font": "Z003 Medium Italic (URW Base35)",
+    "physical_fit_tested": false,
+    "cable_charging_tested": false,
+    "structural_FEA_performed": false
+  },
+  "brick": {
+    "original_file": "Tijolos.stl",
+    "original_sha256": "4a5d77f35a610145fa402e4415317c720848ea9f3881801689a051b9923549aa",
+    "body_width_depth_height_mm": [
+      50,
+      26,
+      70
+    ],
+    "original_volume_mm3": 32420.28026549213,
+    "profile_reconstruction_symmetric_difference_mm3": 0.05446722771650194,
+    "through_holes": 8,
+    "pocket_depth_mm": 0.2,
+    "pocket_lateral_clearance_per_side_mm": 0.15,
+    "ornament_thickness_mm": 1.2,
+    "nominal_glue_gap_mm": 0.05,
+    "star_width_mm": 24,
+    "tree_stroke_mm": 2.2,
+    "star_border_approx_mm": 1.35,
+    "inscription_width_mm": 34,
+    "physical_glue_fit_tested": false
+  },
+  "parts": [
+    {
+      "key": "fachada-branca",
+      "name": "Fachada branca",
+      "file": "m7-casa-v1-fachada-branca.stl",
+      "color": "#FFFDF7",
+      "product": "casa",
+      "bbox_mm": [
+        75.0,
+        97.51264953613281,
+        4.0
+      ],
+      "volume_mm3": 20906.68098093023,
+      "watertight": true
+    },
+    {
+      "key": "frase-azul",
+      "name": "Frase manuscrita azul",
+      "file": "m7-casa-v1-frase-azul.stl",
+      "color": "#17385B",
+      "product": "casa",
+      "bbox_mm": [
+        60.0,
+        24.746049880981445,
+        0.5999999046325684
+      ],
+      "volume_mm3": 165.95576709779903,
+      "watertight": true
+    },
+    {
+      "key": "fundo-azul",
+      "name": "Fundo azul da janela",
+      "file": "m7-casa-v1-fundo-azul.stl",
+      "color": "#17385B",
+      "product": "casa",
+      "bbox_mm": [
+        73.4000015258789,
+        95.88154143095016,
+        2.0
+      ],
+      "volume_mm3": 10850.931432511485,
+      "watertight": true
+    },
+    {
+      "key": "base-azul",
+      "name": "Base azul e dois apoios",
+      "file": "m7-casa-v1-base-azul.stl",
+      "color": "#17385B",
+      "product": "casa",
+      "bbox_mm": [
+        85.0,
+        85.0,
+        55.76683044433594
+      ],
+      "volume_mm3": 57402.079746351534,
+      "watertight": true
+    },
+    {
+      "key": "m-branco",
+      "name": "m-branco",
+      "file": "m7-casa-v1-m-branco.stl",
+      "color": "#FFFDF7",
+      "product": "casa",
+      "bbox_mm": [
+        12.0,
+        8.570517539978027,
+        1.2000000476837158
+      ],
+      "volume_mm3": 61.46864697459626,
+      "watertight": true
+    },
+    {
+      "key": "7-ciano",
+      "name": "7-ciano",
+      "file": "m7-casa-v1-7-ciano.stl",
+      "color": "#009FCA",
+      "product": "casa",
+      "bbox_mm": [
+        7.190476179122925,
+        8.476190567016602,
+        1.2000000476837158
+      ],
+      "volume_mm3": 32.51428571298821,
+      "watertight": true
+    },
+    {
+      "key": "tijolo-terracota",
+      "name": "Tijolo original com rebaixos",
+      "file": "m7-tijolo-v1-tijolo-terracota.stl",
+      "color": "#C85D2E",
+      "product": "tijolo",
+      "bbox_mm": [
+        50.0,
+        26.0,
+        70.0
+      ],
+      "volume_mm3": 32304.90297388929,
+      "watertight": true
+    },
+    {
+      "key": "estrela-dourada",
+      "name": "estrela-dourada",
+      "file": "m7-tijolo-v1-estrela-dourada.stl",
+      "color": "#DDB34E",
+      "product": "tijolo",
+      "bbox_mm": [
+        24.0,
+        22.825355529785156,
+        1.2000000476837158
+      ],
+      "volume_mm3": 121.35708459060639,
+      "watertight": true
+    },
+    {
+      "key": "arvore-dourada",
+      "name": "arvore-dourada",
+      "file": "m7-tijolo-v1-arvore-dourada.stl",
+      "color": "#DDB34E",
+      "product": "tijolo",
+      "bbox_mm": [
+        30.199999809265137,
+        31.599998474121094,
+        1.2000000476837158
+      ],
+      "volume_mm3": 352.3906547305666,
+      "watertight": true
+    },
+    {
+      "key": "natal-branco",
+      "name": "natal-branco",
+      "file": "m7-tijolo-v1-natal-branco.stl",
+      "color": "#FFFDF7",
+      "product": "tijolo",
+      "bbox_mm": [
+        33.998046875,
+        4.4442243576049805,
+        1.2000000476837158
+      ],
+      "volume_mm3": 88.43517841361478,
+      "watertight": true
+    },
+    {
+      "key": "m-branco",
+      "name": "m-branco",
+      "file": "m7-tijolo-v1-m-branco.stl",
+      "color": "#FFFDF7",
+      "product": "tijolo",
+      "bbox_mm": [
+        6.000000238418579,
+        4.281139373779297,
+        1.2000000476837158
+      ],
+      "volume_mm3": 15.367161743649067,
+      "watertight": true
+    },
+    {
+      "key": "7-ciano",
+      "name": "7-ciano",
+      "file": "m7-tijolo-v1-7-ciano.stl",
+      "color": "#009FCA",
+      "product": "tijolo",
+      "bbox_mm": [
+        3.595237970352173,
+        4.238094329833984,
+        1.2000000476837158
+      ],
+      "volume_mm3": 8.128571428247042,
+      "watertight": true
+    }
+  ],
+  "fusion_runtime_tested": false,
+  "physical_prototypes_printed": false,
+  "bambu_slicing_verified": true,
+  "supports_generated": false,
+  "stl_sha256": {
+    "m7-casa-v1-7-ciano.stl": "ccf950ddab6455e78e5f1709fb4572a8b6bed59dc2f12c19b0a2385b6317b650",
+    "m7-casa-v1-base-azul.stl": "d2141e36bb89dc0b439fab8f38e0323684a1ff648842c5fc24bb495345d31a0d",
+    "m7-casa-v1-fachada-branca.stl": "fc46392940a85e1653df0bc926a17140ef3133983fb0fc2c782f17d211825d11",
+    "m7-casa-v1-frase-azul.stl": "d1509865bb0e057dd87989b05cb0415081846698e45a192175604c3d5114cfdb",
+    "m7-casa-v1-fundo-azul.stl": "8893061eab806643807765391bcab1786c8a24255cb04c82731ce77916f324e6",
+    "m7-casa-v1-m-branco.stl": "5c43be0200799ba7b74046152890d0cf015a15f9b9ffaf793ce8e7208ab2f939",
+    "m7-tijolo-v1-7-ciano.stl": "68e107fd2e698313005a58ff93e077786261e48e554b180ed4d9a74b71028894",
+    "m7-tijolo-v1-arvore-dourada.stl": "5e44fd20203579f8e7d42141f9850da2aa985984cef5c4d6b9dd6cc343f4b261",
+    "m7-tijolo-v1-estrela-dourada.stl": "77f1457ca3704eaa93fe6ed65c491c19357572df127c5aecd4f7316985f535e0",
+    "m7-tijolo-v1-m-branco.stl": "a182165ef4ecf4a44313566bd256aaa0b25c4b681c572b9b8907888c05b92c0c",
+    "m7-tijolo-v1-natal-branco.stl": "739e49f221938ecbb3aa7becdee6e8265406d17494a2cb2f1b36b08905f0d129",
+    "m7-tijolo-v1-tijolo-terracota.stl": "1044da36840c0a36446c9ef5b9bedc0b21a57e9070e84c29266090094cccf173"
+  }
+}

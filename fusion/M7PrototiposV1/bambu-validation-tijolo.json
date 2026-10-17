@@ -1,0 +1,89 @@
+{
+  "product": "tijolo",
+  "printer": "Bambu Lab A1 0.4 nozzle",
+  "version": "02.08.02.61",
+  "sha256": "1bf99678b6f9715289cc36f336206d08ee5209be3c2b577262053dd18b0fbca7",
+  "layer_height_mm": 0.2,
+  "project": "m7-tijolo-v1-A1-AMS-4-pratos.3mf",
+  "editable_unsliced_project": true,
+  "native_export_exit": 0,
+  "native_reopen_exit": 0,
+  "native_slice_exit": 0,
+  "physical_print_tested": false,
+  "plates": [
+    {
+      "id": 1,
+      "name": "01 Tijolo - corpo terracota",
+      "filament_changes": 0,
+      "layers": 350,
+      "estimated_seconds": 11314.857421875,
+      "estimated_grams": 38.55653381347656,
+      "filaments": [
+        {
+          "filament_id": "GFL99",
+          "id": 1,
+          "main_used_g": 38.55653381347656,
+          "total_used_g": 38.55653381347656
+        }
+      ],
+      "warnings": "",
+      "support_toolpaths": false
+    },
+    {
+      "id": 2,
+      "name": "02 Tijolo - arvore e estrela",
+      "filament_changes": 0,
+      "layers": 6,
+      "estimated_seconds": 628.0551147460938,
+      "estimated_grams": 0.6227356195449829,
+      "filaments": [
+        {
+          "filament_id": "GFL96",
+          "id": 2,
+          "main_used_g": 0.6227356195449829,
+          "total_used_g": 0.6227356195449829
+        }
+      ],
+      "warnings": "",
+      "support_toolpaths": false
+    },
+    {
+      "id": 3,
+      "name": "03 Tijolo - m e Natal 2026",
+      "filament_changes": 0,
+      "layers": 6,
+      "estimated_seconds": 470.86993408203125,
+      "estimated_grams": 0.1855965256690979,
+      "filaments": [
+        {
+          "filament_id": "GFL99",
+          "id": 3,
+          "main_used_g": 0.1855965256690979,
+          "total_used_g": 0.1855965256690979
+        }
+      ],
+      "warnings": "",
+      "support_toolpaths": false
+    },
+    {
+      "id": 4,
+      "name": "04 Tijolo - 7 ciano",
+      "filament_changes": 0,
+      "layers": 6,
+      "estimated_seconds": 428.8825378417969,
+      "estimated_grams": 0.07406440377235413,
+      "filaments": [
+        {
+          "filament_id": "GFL99",
+          "id": 4,
+          "main_used_g": 0.07406440377235413,
+          "total_used_g": 0.07406440377235413
+        }
+      ],
+      "warnings": "",
+      "support_toolpaths": false
+    }
+  ],
+  "total_grams": 39.438930362463,
+  "total_seconds": 12842.665008544922
+}

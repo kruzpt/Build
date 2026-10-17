@@ -1,0 +1,77 @@
+{
+  "product": "casa",
+  "printer": "Bambu Lab A1 0.4 nozzle",
+  "version": "02.08.02.61",
+  "sha256": "398ed168d204757f0404337cb91f04ca153762151e8728f6d525d5abcc60fae3",
+  "layer_height_mm": 0.2,
+  "project": "m7-casa-v1-A1-AMS-3-pratos.3mf",
+  "editable_unsliced_project": true,
+  "native_export_exit": 0,
+  "native_reopen_exit": 0,
+  "native_slice_exit": 0,
+  "physical_print_tested": false,
+  "plates": [
+    {
+      "id": 1,
+      "name": "01 Casa - fachada e m branco",
+      "filament_changes": 1,
+      "layers": 23,
+      "estimated_seconds": 3235.756103515625,
+      "estimated_grams": 16.81454661488533,
+      "filaments": [
+        {
+          "filament_id": "GFL99",
+          "id": 1,
+          "main_used_g": 15.51099681854248,
+          "total_used_g": 16.460124969482422
+        },
+        {
+          "filament_id": "GFL99",
+          "id": 2,
+          "main_used_g": 0.20524945855140686,
+          "total_used_g": 0.3544216454029083
+        }
+      ],
+      "warnings": "",
+      "support_toolpaths": false
+    },
+    {
+      "id": 2,
+      "name": "02 Casa - base e fundo azul",
+      "filament_changes": 0,
+      "layers": 279,
+      "estimated_seconds": 9638.326171875,
+      "estimated_grams": 53.77106857299805,
+      "filaments": [
+        {
+          "filament_id": "GFL99",
+          "id": 2,
+          "main_used_g": 53.77106857299805,
+          "total_used_g": 53.77106857299805
+        }
+      ],
+      "warnings": "",
+      "support_toolpaths": false
+    },
+    {
+      "id": 3,
+      "name": "03 Casa - 7 ciano para colar",
+      "filament_changes": 0,
+      "layers": 6,
+      "estimated_seconds": 442.7992858886719,
+      "estimated_grams": 0.10289157927036285,
+      "filaments": [
+        {
+          "filament_id": "GFL99",
+          "id": 3,
+          "main_used_g": 0.10289157927036285,
+          "total_used_g": 0.10289157927036285
+        }
+      ],
+      "warnings": "",
+      "support_toolpaths": false
+    }
+  ],
+  "total_grams": 70.68850676715374,
+  "total_seconds": 13316.881561279297
+}
