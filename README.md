@@ -4,6 +4,11 @@ Projeto de uma placa de balcão para impressão 3D e edição no Autodesk Fusion
 
 ## Ficheiros
 
+- **[M7 — tijolo V2 com 7 pincelado e estrela maior, A1/AMS, quatro pratos](downloads/m7-tijolo-v2-A1-AMS-4-pratos.3mf?raw=true)**
+- [Tijolo M7 V2 — pormenor real do novo símbolo](designs/m7-tijolo-v2-logo.png)
+- [Tijolo M7 V2 — imagem do CAD completo](designs/m7-tijolo-v2-CAD.png)
+- [Tijolo M7 V2 — pacote completo, STL e Fusion](downloads/m7-tijolo-v2-pacote.zip?raw=true)
+- [Tijolo M7 V2 — medidas, perfil e compatibilidade](fusion/M7TijoloV2/README.md)
 - **[SR-71 Blackbird — conceito à escala 1:144 para a Bambu A1](designs/sr71-blackbird-1-144-conceito-v1.png)**
 - [SR-71 — dimensões, escala e estado do esboço](designs/README-sr71-blackbird-1-144.md)
 - **[M7 — casinha, um protótipo completo A1/AMS, três pratos](downloads/m7-casa-v1-A1-AMS-3-pratos.3mf?raw=true)**
@@ -128,6 +133,12 @@ posterior: logótipo a prolongar-se para fora do canto superior esquerdo, com a
 mesma espessura da placa. Por isso, a imagem não representa exatamente o CAD.
 
 ## Estado do draft
+
+O **tijolo M7 V2** atualiza o 7 para um contorno pincelado e aumenta a estrela
+para 30 mm e o conjunto m7 para 14 mm. Os rebaixos acompanham o novo símbolo;
+o corpo, a estrela e as letras desse símbolo devem ser V2. A árvore e a
+inscrição são reutilizáveis da V1. O projeto A1/AMS conserva quatro pratos,
+sem trocas de cor, avisos ou suportes. A casinha permanece V1.
 
 Os **protótipos M7 V1** incluem uma casinha sem Natal, com a frase manuscrita,
 e um tijolo Natal 2026 com decoração para colar. Os dois projetos A1/AMS foram

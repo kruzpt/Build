@@ -83,9 +83,10 @@ def annotate(source,target,colours,prefix):
     return native
 
 
-def build(product,args):
+def build(product,args,version='v1',folder=None):
+    folder=folder or FOLDER
     w=args.work_dir/product;w.mkdir(parents=True,exist_ok=True)
-    prefix=f'm7-{product}-v1';cols=[WHITE,BLUE,CYAN] if product=='casa' else [ORANGE,GOLD,WHITE,CYAN]
+    prefix=f'm7-{product}-{version}';cols=[WHITE,BLUE,CYAN] if product=='casa' else [ORANGE,GOLD,WHITE,CYAN]
     machine=flatten_profile(args.profiles,'machine','Bambu Lab A1 0.4 nozzle')
     process=flatten_profile(args.profiles,'process','0.20mm Standard @BBL A1')
     process.update({'name':'M7 prototipo A1 PLA 0.20','from':'User','layer_height':'0.2',
@@ -143,7 +144,7 @@ def build(product,args):
     assert cfg['printer_settings_id']=='Bambu Lab A1 0.4 nozzle'
     assert len(plates)==len(plan['plates'])
     # Match every exported native component to a source STL by actual volume/extents.
-    source_entries=[p for p in json.loads((FOLDER/'geometry.json').read_text())['parts'] if p['product']==product]
+    source_entries=[p for p in json.loads((folder/'geometry.json').read_text())['parts'] if p['product']==product]
     refs=[trimesh.load(ROOT/'downloads'/p['file'],force='mesh') for p in source_entries]
     actual=[m for plate in native for key,c,m in plate]
     assert len(actual)==len(refs)
@@ -183,7 +184,7 @@ def build(product,args):
                 'filaments':p['filaments'],'warnings':p.get('warning_message',[]),'support_toolpaths':False})
     report['total_grams']=sum(p['estimated_grams'] for p in report['plates'])
     report['total_seconds']=sum(p['estimated_seconds'] for p in report['plates'])
-    (FOLDER/f'bambu-validation-{product}.json').write_text(json.dumps(report,indent=2)+'\n')
+    (folder/f'bambu-validation-{product}.json').write_text(json.dumps(report,indent=2)+'\n')
     print(json.dumps(report,indent=2),flush=True)
     return report
 
