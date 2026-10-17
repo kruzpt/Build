@@ -4,6 +4,9 @@ Projeto de uma placa de balcão para impressão 3D e edição no Autodesk Fusion
 
 ## Ficheiros
 
+- **[M7 — casinha para todo o ano, com frase manuscrita](designs/m7-casa-institucional-conceito-v1.png)**
+- [M7 — tijolo Natal 2026, conforme a nova referência](designs/m7-tijolo-natal-2026-conceito-v3.png)
+- [M7 — descrição dos dois novos esboços](designs/README-m7-ofertas-conceitos-v3.md)
 - **[Universo do Saber V6 — conjunto completo A1/AMS, placa 7 mm e dois pratos sem suportes](downloads/universo-saber-suporte-v6-A1-AMS-2-pratos.3mf?raw=true)**
 - [Universo do Saber V6 — pacote Fusion, STL, 3MF e amostras de encaixe](downloads/universo-saber-suporte-v6-pacote.zip?raw=true)
 - [Universo do Saber V6 — imagem do CAD final](designs/universo-saber-suporte-v6-CAD.png)
