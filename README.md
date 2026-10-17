@@ -4,6 +4,12 @@ Projeto de uma placa de balcão para impressão 3D e edição no Autodesk Fusion
 
 ## Ficheiros
 
+- **[M7 — tijolo V4, 7 extraído do STL original, A1/AMS, quatro pratos](downloads/m7-tijolo-v4-A1-AMS-4-pratos.3mf?raw=true)**
+- [Tijolo M7 V4 — comparação do 7 original com a V3](designs/m7-tijolo-v4-comparacao.png)
+- [Tijolo M7 V4 — modelo montado e detalhe do logótipo](designs/m7-tijolo-v4-CAD.png)
+- [Tijolo M7 V4 — comparação com os percursos do Bambu Studio](designs/m7-tijolo-v4-fatiador.png)
+- [Tijolo M7 V4 — pacote completo, seis STL, Fusion e instruções](downloads/m7-tijolo-v4-pacote.zip?raw=true)
+- [Tijolo M7 V4 — extração, medidas e peças reutilizáveis](fusion/M7TijoloV4/README.md)
 - **[M7 — tijolo V3, 7 mais largo e curvo, A1/AMS, quatro pratos](downloads/m7-tijolo-v3-A1-AMS-4-pratos.3mf?raw=true)**
 - [Tijolo M7 V3 — comparação dos contornos V2/V3](designs/m7-tijolo-v3-comparacao.png)
 - [Tijolo M7 V3 — comparação real com os percursos do fatiador](designs/m7-tijolo-v3-fatiador.png)
@@ -139,6 +145,14 @@ posterior: logótipo a prolongar-se para fora do canto superior esquerdo, com a
 mesma espessura da placa. Por isso, a imagem não representa exatamente o CAD.
 
 ## Estado do draft
+
+O **tijolo M7 V4** usa o próprio 7 extraído de `Tijolos cr.stl`, reduzido
+uniformemente para 5,31 × 7,25 mm e com espessura de 1,20 mm. Preserva o
+contorno e os dois recortes interiores do STL, com os limites de detalhe do
+bico de 0,4 mm mostrados na comparação dos percursos. Só o corpo e o 7
+mudam; os outros quatro enfeites da V2/V3 são reutilizáveis. Os quatro pratos
+foram exportados, reabertos e fatiados sem avisos, suportes ou trocas de cor.
+A impressão física e a colagem ainda precisam de teste.
 
 O **tijolo M7 V3** corrige os recortes fundos do 7: traço largo e contínuo,
 curva direita suave e saliências pequenas à esquerda. Só o corpo e o 7

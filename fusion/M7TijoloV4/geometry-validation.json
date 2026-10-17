@@ -1,0 +1,193 @@
+{
+  "version": 4,
+  "change": "Actual seven extracted from the supplied STL, uniformly scaled; seven and matching body pocket only",
+  "source_file": "Tijolos cr.stl",
+  "source_sha256": "d1fcd5015577521c37e4d7b150c7c23fc82732917e4e4e64fdad0fd8a570b745",
+  "source_extraction": {
+    "source_file": "Tijolos cr.stl",
+    "source_sha256": "d1fcd5015577521c37e4d7b150c7c23fc82732917e4e4e64fdad0fd8a570b745",
+    "source_mesh_closed": true,
+    "source_to_upright_axes": [
+      [
+        0,
+        0,
+        1,
+        0
+      ],
+      [
+        0,
+        1,
+        0,
+        0
+      ],
+      [
+        -1,
+        0,
+        0,
+        0
+      ]
+    ],
+    "extraction_plane_original_x_mm": -0.5,
+    "checked_original_x_planes_mm": [
+      -0.1,
+      -0.25,
+      -0.5,
+      -0.75,
+      -0.9
+    ],
+    "through_thickness_max_symmetric_difference_mm2": 2.6259812990758746e-08,
+    "raw_bounds_xy_mm": [
+      [
+        54.97062683105469,
+        2.603886127471924
+      ],
+      [
+        68.2286605834961,
+        20.708227157592773
+      ]
+    ],
+    "raw_size_xy_mm": [
+      13.258033752441406,
+      18.10434103012085
+    ],
+    "raw_area_mm2": 91.2195699362672,
+    "holes": 2,
+    "cache_rounding_symmetric_difference_mm2": 0.0001583052627804893
+  },
+  "uniform_scale_xy": 0.40050286285117115,
+  "no_anisotropic_scaling": true,
+  "outline_redrawn_or_smoothed": false,
+  "source_origin_xy_mm": [
+    54.97062999755144,
+    2.6038900017738342
+  ],
+  "target_origin_xy_mm": [
+    1.8725100010633469,
+    50.51325999945402
+  ],
+  "exported_outline_symmetric_difference_mm2": 1.2968842534460956e-05,
+  "exported_outline_recovered_to_source_symmetric_difference_mm2": 8.08556426597773e-05,
+  "body_width_depth_height_mm": [
+    50,
+    26,
+    70
+  ],
+  "star_width_mm": 30,
+  "seven_bbox_mm": [
+    5.309878826141357,
+    7.2508392333984375,
+    1.2000000476837158
+  ],
+  "source_holes_preserved_in_stl": 2,
+  "pocket_depth_mm": 0.2,
+  "pocket_clearance_per_side_mm": 0.15,
+  "glue_gap_mm": 0.05,
+  "ornament_thickness_mm": 1.2,
+  "all_parts_watertight": true,
+  "insertion_positions_checked": 105,
+  "reusable_v2_v3_parts": [
+    "estrela-dourada",
+    "arvore-dourada",
+    "natal-branco",
+    "m-branco"
+  ],
+  "requires_new_body_and_seven": true,
+  "physical_fit_tested": false,
+  "fusion_runtime_tested": false,
+  "parts": [
+    {
+      "key": "tijolo-terracota",
+      "name": "tijolo-terracota",
+      "file": "m7-tijolo-v4-tijolo-terracota.stl",
+      "color": "#C85D2E",
+      "product": "tijolo",
+      "bbox_mm": [
+        50.0,
+        26.0,
+        70.0
+      ],
+      "volume_mm3": 32294.316556242364,
+      "watertight": true
+    },
+    {
+      "key": "estrela-dourada",
+      "name": "estrela-dourada",
+      "file": "m7-tijolo-v4-estrela-dourada.stl",
+      "color": "#DDB34E",
+      "product": "tijolo",
+      "bbox_mm": [
+        30.0,
+        28.531692504882812,
+        1.2000000476837158
+      ],
+      "volume_mm3": 149.7654874065675,
+      "watertight": true
+    },
+    {
+      "key": "arvore-dourada",
+      "name": "arvore-dourada",
+      "file": "m7-tijolo-v4-arvore-dourada.stl",
+      "color": "#DDB34E",
+      "product": "tijolo",
+      "bbox_mm": [
+        30.199999809265137,
+        31.599998474121094,
+        1.2000000476837158
+      ],
+      "volume_mm3": 352.06434064915,
+      "watertight": true
+    },
+    {
+      "key": "natal-branco",
+      "name": "natal-branco",
+      "file": "m7-tijolo-v4-natal-branco.stl",
+      "color": "#FFFDF7",
+      "product": "tijolo",
+      "bbox_mm": [
+        33.998046875,
+        4.4442243576049805,
+        1.2000000476837158
+      ],
+      "volume_mm3": 88.43517824547251,
+      "watertight": true
+    },
+    {
+      "key": "m-branco",
+      "name": "m-branco",
+      "file": "m7-tijolo-v4-m-branco.stl",
+      "color": "#FFFDF7",
+      "product": "tijolo",
+      "bbox_mm": [
+        8.427121996879578,
+        6.018733978271484,
+        1.2000000476837158
+      ],
+      "volume_mm3": 30.317720651946576,
+      "watertight": true
+    },
+    {
+      "key": "7-ciano",
+      "name": "7 ciano original extraído do STL",
+      "file": "m7-tijolo-v4-7-ciano.stl",
+      "color": "#009FCA",
+      "product": "tijolo",
+      "bbox_mm": [
+        5.309878826141357,
+        7.2508392333984375,
+        1.2000000476837158
+      ],
+      "volume_mm3": 17.55822200226402,
+      "watertight": true
+    }
+  ],
+  "slicer_comparison": {
+    "last_layer": 6,
+    "extrusion_segments": 492,
+    "native_to_source_alignment_max_error_mm": 1.242884988201379e-07,
+    "view": "Source silhouette vs final-layer G1/G2/G3 sweeps at G-code widths",
+    "extruding_arc_moves_included": 13,
+    "arc_sampling_max_length_mm": 0.025,
+    "same_orientation_and_scale": true,
+    "physical_result_not_tested": true
+  }
+}
