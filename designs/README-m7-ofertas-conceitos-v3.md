@@ -18,6 +18,26 @@ de 0,4 mm; 0,8–1 mm é um objetivo inicial para os traços, ainda por verifica
 à escala final. A imagem com telemóvel ilustra a utilização, sem validar
 encaixe, estabilidade ou acesso ao carregamento.
 
+### Construção proposta — V2
+
+[Ver lado, traseira e peças separadas](m7-casa-institucional-v2-lado-tras-montagem.png).
+
+Três componentes principais:
+
+1. Fachada branca, com os quatro vãos da janela e a frase azul.
+2. Placa fina azul opaca, com forma de casa, encostada e paralela à traseira
+   da fachada. Esta placa dá o fundo azul a todos os vãos da janela.
+3. Base azul com retenção frontal para o telemóvel e dois apoios laterais
+   triangulares na traseira. O espaço central entre os apoios fica aberto.
+
+A fachada e o seu fundo mantêm a mesma inclinação, proposta em cerca de
+70° relativamente à mesa. O fundo da janela e os apoios estruturais têm
+funções separadas: a cor da janela não depende da posição dos apoios.
+
+A ilustração mostra o princípio de montagem. Espessuras, folgas, fixação
+entre fachada e fundo, dimensões da base e possibilidade de impressão sem
+suportes serão verificadas na modelação; ainda não existe CAD desta V2.
+
 ## Tijolo conforme a fotografia
 
 [Ver o tijolo](m7-tijolo-natal-2026-conceito-v3.png).
@@ -26,9 +46,8 @@ Tijolo terracota com nervuras laterais da mesma cor, estrela dourada em
 contorno à volta do m7 branco/ciano, árvore dourada e inscrição branca
 “Natal 2026”. Usa quatro cores: terracota, dourado, branco e azul-ciano.
 
-Foi assumido que a remoção das referências ao Natal se aplica apenas à
-casinha, mantendo o tijolo como na fotografia enviada. Esta interpretação
-fica sujeita à resposta à pergunta de clarificação.
+O utilizador confirmou que a remoção das referências ao Natal se aplica
+apenas à casinha, mantendo o tijolo como na fotografia enviada.
 
 ## Estado
 
