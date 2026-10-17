@@ -4,6 +4,8 @@ Projeto de uma placa de balcão para impressão 3D e edição no Autodesk Fusion
 
 ## Ficheiros
 
+- **[SR-71 Blackbird — conceito à escala 1:144 para a Bambu A1](designs/sr71-blackbird-1-144-conceito-v1.png)**
+- [SR-71 — dimensões, escala e estado do esboço](designs/README-sr71-blackbird-1-144.md)
 - **[M7 — casinha, um protótipo completo A1/AMS, três pratos](downloads/m7-casa-v1-A1-AMS-3-pratos.3mf?raw=true)**
 - **[M7 — tijolo Natal 2026, um protótipo completo A1/AMS, quatro pratos](downloads/m7-tijolo-v1-A1-AMS-4-pratos.3mf?raw=true)**
 - [M7 — pacote dos dois protótipos: 3MF, STL, Fusion e instruções](downloads/m7-prototipos-v1-pacote.zip?raw=true)
