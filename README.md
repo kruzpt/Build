@@ -4,6 +4,12 @@ Projeto de uma placa de balcão para impressão 3D e edição no Autodesk Fusion
 
 ## Ficheiros
 
+- **[M7 — tijolo V3, 7 mais largo e curvo, A1/AMS, quatro pratos](downloads/m7-tijolo-v3-A1-AMS-4-pratos.3mf?raw=true)**
+- [Tijolo M7 V3 — comparação dos contornos V2/V3](designs/m7-tijolo-v3-comparacao.png)
+- [Tijolo M7 V3 — comparação real com os percursos do fatiador](designs/m7-tijolo-v3-fatiador.png)
+- [Tijolo M7 V3 — CAD completo](designs/m7-tijolo-v3-CAD.png)
+- [Tijolo M7 V3 — pacote completo](downloads/m7-tijolo-v3-pacote.zip?raw=true)
+- [Tijolo M7 V3 — montagem e peças reutilizáveis da V2](fusion/M7TijoloV3/README.md)
 - **[M7 — tijolo V2 com 7 pincelado e estrela maior, A1/AMS, quatro pratos](downloads/m7-tijolo-v2-A1-AMS-4-pratos.3mf?raw=true)**
 - [Tijolo M7 V2 — pormenor real do novo símbolo](designs/m7-tijolo-v2-logo.png)
 - [Tijolo M7 V2 — imagem do CAD completo](designs/m7-tijolo-v2-CAD.png)
@@ -133,6 +139,12 @@ posterior: logótipo a prolongar-se para fora do canto superior esquerdo, com a
 mesma espessura da placa. Por isso, a imagem não representa exatamente o CAD.
 
 ## Estado do draft
+
+O **tijolo M7 V3** corrige os recortes fundos do 7: traço largo e contínuo,
+curva direita suave e saliências pequenas à esquerda. Só o corpo e o 7
+precisam de ser V3; estrela, m, árvore e inscrição da V2 são reutilizáveis.
+O contorno e os percursos gerados foram comparados na mesma orientação e
+escala. O projeto mantém quatro pratos, sem suportes, avisos ou trocas de cor.
 
 O **tijolo M7 V2** atualiza o 7 para um contorno pincelado e aumenta a estrela
 para 30 mm e o conjunto m7 para 14 mm. Os rebaixos acompanham o novo símbolo;

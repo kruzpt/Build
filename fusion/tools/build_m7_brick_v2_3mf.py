@@ -10,20 +10,20 @@ from build_m7_prototypes_v1_3mf import build
 from generate_m7_brick_v2 import ROOT,FOLDER,PREFIX
 
 
-def package():
-    report=json.loads((FOLDER/'bambu-validation-tijolo.json').read_text())
+def package(folder=FOLDER,prefix=PREFIX,image_names=None):
+    report=json.loads((folder/'bambu-validation-tijolo.json').read_text())
     project=ROOT/'downloads'/report['project']
     assert hashlib.sha256(project.read_bytes()).hexdigest()==report['sha256']
     assert all(not p['warnings'] and not p['support_toolpaths'] for p in report['plates'])
-    entries={project.name:project,'LEIA-ME.md':FOLDER/'README.md'}
-    for p in sorted((ROOT/'downloads').glob(PREFIX+'-*.stl')):entries[p.name]=p
+    entries={project.name:project,'LEIA-ME.md':folder/'README.md'}
+    for p in sorted((ROOT/'downloads').glob(prefix+'-*.stl')):entries[p.name]=p
     assert sum(n.endswith('.stl') for n in entries)==6
-    for p in sorted(FOLDER.iterdir()):
-        if p.is_file():entries['M7TijoloV2/'+p.name]=p
-    for name in [PREFIX+'-CAD.png',PREFIX+'-logo.png',PREFIX+'-pratos.png',PREFIX+'-7-percurso.png']:
+    for p in sorted(folder.iterdir()):
+        if p.is_file():entries[folder.name+'/'+p.name]=p
+    for name in (image_names or [PREFIX+'-CAD.png',PREFIX+'-logo.png',PREFIX+'-pratos.png',PREFIX+'-7-percurso.png']):
         entries['imagens/'+name]=ROOT/'designs'/name
     manifest={n:hashlib.sha256(p.read_bytes()).hexdigest() for n,p in entries.items()}
-    target=ROOT/'downloads'/f'{PREFIX}-pacote.zip'
+    target=ROOT/'downloads'/f'{prefix}-pacote.zip'
     with ZipFile(target,'w',ZIP_DEFLATED) as z:
         for n,p in entries.items():z.write(p,n)
         z.writestr('manifesto-sha256.json',json.dumps(manifest,indent=2)+'\n')

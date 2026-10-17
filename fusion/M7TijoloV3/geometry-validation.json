@@ -1,0 +1,127 @@
+{
+  "version": 3,
+  "change": "Seven and its pocket only; broader continuous stroke with cubic right edge and shallow left brush tips",
+  "body_width_depth_height_mm": [
+    50,
+    26,
+    70
+  ],
+  "star_width_mm": 30,
+  "logo_width_mm": 14,
+  "seven_bbox_mm": [
+    5.326619997620583,
+    7.250840000808239
+  ],
+  "seven_style": "Curved broad brush stroke, three shallow outward left accents, smooth right edge, rounded foot",
+  "broad_stem_nominal_width_mm": 2.0,
+  "left_accent_nominal_projection_mm": 0.3,
+  "pocket_depth_mm": 0.2,
+  "pocket_clearance_per_side_mm": 0.15,
+  "ornament_thickness_mm": 1.2,
+  "glue_gap_mm": 0.05,
+  "all_parts_watertight": true,
+  "insertion_positions_checked": 105,
+  "reusable_v2_parts": [
+    "estrela-dourada",
+    "arvore-dourada",
+    "natal-branco",
+    "m-branco"
+  ],
+  "requires_new_body_and_seven": true,
+  "physical_fit_tested": false,
+  "fusion_runtime_tested": false,
+  "parts": [
+    {
+      "key": "tijolo-terracota",
+      "name": "tijolo-terracota",
+      "file": "m7-tijolo-v3-tijolo-terracota.stl",
+      "color": "#C85D2E",
+      "product": "tijolo",
+      "bbox_mm": [
+        50.0,
+        26.0,
+        70.0
+      ],
+      "volume_mm3": 32293.576946154684,
+      "watertight": true
+    },
+    {
+      "key": "estrela-dourada",
+      "name": "estrela-dourada",
+      "file": "m7-tijolo-v3-estrela-dourada.stl",
+      "color": "#DDB34E",
+      "product": "tijolo",
+      "bbox_mm": [
+        30.0,
+        28.531692504882812,
+        1.2000000476837158
+      ],
+      "volume_mm3": 149.7654874065675,
+      "watertight": true
+    },
+    {
+      "key": "arvore-dourada",
+      "name": "arvore-dourada",
+      "file": "m7-tijolo-v3-arvore-dourada.stl",
+      "color": "#DDB34E",
+      "product": "tijolo",
+      "bbox_mm": [
+        30.199999809265137,
+        31.599998474121094,
+        1.2000000476837158
+      ],
+      "volume_mm3": 352.06434064915,
+      "watertight": true
+    },
+    {
+      "key": "natal-branco",
+      "name": "natal-branco",
+      "file": "m7-tijolo-v3-natal-branco.stl",
+      "color": "#FFFDF7",
+      "product": "tijolo",
+      "bbox_mm": [
+        33.998046875,
+        4.4442243576049805,
+        1.2000000476837158
+      ],
+      "volume_mm3": 88.43517824547251,
+      "watertight": true
+    },
+    {
+      "key": "m-branco",
+      "name": "m-branco",
+      "file": "m7-tijolo-v3-m-branco.stl",
+      "color": "#FFFDF7",
+      "product": "tijolo",
+      "bbox_mm": [
+        8.427121996879578,
+        6.018733978271484,
+        1.2000000476837158
+      ],
+      "volume_mm3": 30.317720651946576,
+      "watertight": true
+    },
+    {
+      "key": "7-ciano",
+      "name": "7-ciano",
+      "file": "m7-tijolo-v3-7-ciano.stl",
+      "color": "#009FCA",
+      "product": "tijolo",
+      "bbox_mm": [
+        5.326620101928711,
+        7.2508392333984375,
+        1.2000000476837158
+      ],
+      "volume_mm3": 22.303022985033298,
+      "watertight": true
+    }
+  ],
+  "slicer_comparison": {
+    "last_layer": 6,
+    "extrusion_segments": 58,
+    "native_to_source_alignment_max_error_mm": 4.936994977449926e-05,
+    "view": "Source silhouette vs final-layer G1 sweeps at G-code widths",
+    "same_orientation_and_scale": true,
+    "physical_result_not_tested": true
+  }
+}
