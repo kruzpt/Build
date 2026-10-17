@@ -38,6 +38,25 @@ A ilustração mostra o princípio de montagem. Espessuras, folgas, fixação
 entre fachada e fundo, dimensões da base e possibilidade de impressão sem
 suportes serão verificadas na modelação; ainda não existe CAD desta V2.
 
+### Medidas propostas — V3
+
+[Ver a imagem com medidas](m7-casa-institucional-v3-medidas.png).
+
+| Medida | Proposta |
+| --- | --- |
+| Altura total montada, vertical, desde a mesa até ao topo do telhado | Aproximadamente 95 mm |
+| Largura da base | 85 mm |
+| Profundidade da base | 85 mm |
+| Largura máxima da fachada, incluindo o beiral | 75 mm |
+| Espessura principal da fachada branca | 4 mm |
+| Espessura do fundo azul da janela | 2 mm |
+| Inclinação da fachada em relação à mesa | Aproximadamente 70° |
+
+Estas medidas são uma proposta para o futuro CAD. A altura total não é o
+comprimento da fachada inclinada. A imagem é ilustrativa, sem escala;
+as folgas, as dimensões do canal do telemóvel e os encaixes ainda não foram
+dimensionados nem testados. Não houve criação de CAD, STL ou 3MF nesta V3.
+
 ## Tijolo conforme a fotografia
 
 [Ver o tijolo](m7-tijolo-natal-2026-conceito-v3.png).

@@ -4,6 +4,7 @@ Projeto de uma placa de balcão para impressão 3D e edição no Autodesk Fusion
 
 ## Ficheiros
 
+- **[M7 — casinha com medidas propostas, vistas de lado e de trás](designs/m7-casa-institucional-v3-medidas.png)**
 - **[M7 — casinha, vistas lateral, traseira e peças separadas](designs/m7-casa-institucional-v2-lado-tras-montagem.png)**
 - **[M7 — casinha para todo o ano, com frase manuscrita](designs/m7-casa-institucional-conceito-v1.png)**
 - [M7 — tijolo Natal 2026, conforme a nova referência](designs/m7-tijolo-natal-2026-conceito-v3.png)
