@@ -1,0 +1,49 @@
+{
+  "project": "sr71-1-144-draft-v1-A1-PLA-2-pratos.3mf",
+  "sha256": "a6f0ee5cd19c7f473f0efd20412dd79504cf10bd806d5015ed052f15eff9bec7",
+  "printer": "Bambu Lab A1 0.4 nozzle",
+  "bambu_version": "02.08.02.61",
+  "layer_height_mm": 0.12,
+  "first_layer_height_mm": 0.16,
+  "material": "Generic PLA black",
+  "native_export_exit": 0,
+  "native_reopen_exit": 0,
+  "native_slice_exit": 0,
+  "physical_print_tested": false,
+  "plates": [
+    {
+      "id": 1,
+      "objects": 1,
+      "layers": 76,
+      "estimated_seconds": 8284.59375,
+      "estimated_grams": 23.80904197692871,
+      "filament_changes": 0,
+      "supports_generated": false,
+      "warnings": [],
+      "gcode_layer_heights_mm": [
+        0.12,
+        0.16
+      ],
+      "nominal_total_layers_from_gcode": 77,
+      "model_layer_height_check": "First layer 0.16 mm; all subsequent model layers 0.12 mm, verified at CHANGE_LAYER markers"
+    },
+    {
+      "id": 2,
+      "objects": 10,
+      "layers": 216,
+      "estimated_seconds": 7695.28076171875,
+      "estimated_grams": 19.158077239990234,
+      "filament_changes": 0,
+      "supports_generated": false,
+      "warnings": [],
+      "gcode_layer_heights_mm": [
+        0.12,
+        0.16
+      ],
+      "nominal_total_layers_from_gcode": 216,
+      "model_layer_height_check": "First layer 0.16 mm; all subsequent model layers 0.12 mm, verified at CHANGE_LAYER markers"
+    }
+  ],
+  "total_seconds": 15979.87451171875,
+  "total_grams": 42.967119216918945
+}

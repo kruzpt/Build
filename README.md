@@ -4,6 +4,12 @@ Projeto de uma placa de balcão para impressão 3D e edição no Autodesk Fusion
 
 ## Ficheiros
 
+- **[SR-71A — primeiro draft A1 / PLA, 0,12 mm, dois pratos](downloads/sr71-1-144-draft-v1-A1-PLA-2-pratos.3mf?raw=true)**
+- [SR-71A V1 — imagem do CAD e detalhe dos motores](designs/sr71-1-144-draft-v1-CAD.png)
+- [SR-71A V1 — vistas superior, lateral e traseira](designs/sr71-1-144-draft-v1-vistas.png)
+- [SR-71A V1 — divisão e montagem das peças](designs/sr71-1-144-draft-v1-montagem.png)
+- [SR-71A V1 — pacote completo, STL, amostra de encaixes e fontes](downloads/sr71-1-144-draft-v1-pacote.zip?raw=true)
+- [SR-71A V1 — instruções, perfil, referência FlightGear e licença GPL](fusion/SR71DraftV1/README.md)
 - **[M7 — tijolo V4, 7 extraído do STL original, A1/AMS, quatro pratos](downloads/m7-tijolo-v4-A1-AMS-4-pratos.3mf?raw=true)**
 - [Tijolo M7 V4 — comparação do 7 original com a V3](designs/m7-tijolo-v4-comparacao.png)
 - [Tijolo M7 V4 — modelo montado e detalhe do logótipo](designs/m7-tijolo-v4-CAD.png)
@@ -145,6 +151,15 @@ posterior: logótipo a prolongar-se para fora do canto superior esquerdo, com a
 mesma espessura da placa. Por isso, a imagem não representa exatamente o CAD.
 
 ## Estado do draft
+
+O **SR-71A V1** é o primeiro draft imprimível da miniatura de exposição:
+cerca de 227 × 118 mm, oito peças principais e três cavilhas. Inclui painéis,
+cabine e motores com detalhes simplificados para FDM e duas derivas inclinadas
+15° para dentro. O projeto A1 / PLA usa 0,12 mm, primeira camada de 0,16 mm
+e dois pratos, exportados, reabertos e fatiados sem avisos de impressão,
+suportes ou trocas de cor. Estimativa: 43 g e 4 h 26 min. A impressão e a
+montagem física ainda não foram testadas. É um derivado da referência aberta
+FlightGear, disponibilizado com as fontes e a licença GPL versão 2.
 
 O **tijolo M7 V4** usa o próprio 7 extraído de `Tijolos cr.stl`, reduzido
 uniformemente para 5,31 × 7,25 mm e com espessura de 1,20 mm. Preserva o

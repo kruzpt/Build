@@ -230,6 +230,7 @@ def render_meshes(items,size=(1300,1100),direction=(0.45,-0.8,0.55),margin=65):
     pix=np.full((size[1],size[0],3),(244,246,248),np.uint8)
     zb=np.full((size[1],size[0]),-np.inf)
     for mesh,colour in meshes:
+        normals=mesh.face_normals
         uv=mesh.vertices@np.array([u,v]).T
         pp=(uv-lo)*scale+origin;pp[:,1]=size[1]-pp[:,1]
         depths=mesh.vertices@n
@@ -247,7 +248,7 @@ def render_meshes(items,size=(1300,1100),direction=(0.45,-0.8,0.55),margin=65):
             target=zb[y0:y1+1,x0:x1+1]
             visible=(a>=-1e-6)&(b>=-1e-6)&(c>=-1e-6)&(d>target)
             light=np.array((-.4,-.5,.8));light/=np.linalg.norm(light)
-            shade=max(.50,min(1,.75+.25*np.dot(mesh.face_normals[k],light)))
+            shade=max(.50,min(1,.75+.25*np.dot(normals[k],light)))
             target[visible]=d[visible]
             pix[y0:y1+1,x0:x1+1][visible]=(rgb*shade).astype(np.uint8)
     return Image.fromarray(pix)

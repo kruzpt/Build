@@ -1,0 +1,65 @@
+{
+  "packaged_source_regeneration_tested": true,
+  "pieces": 11,
+  "results": [
+    {
+      "part": "superior",
+      "max_bounds_error_mm": 0.0,
+      "volume_error_mm3": 0.0
+    },
+    {
+      "part": "inferior",
+      "max_bounds_error_mm": 0.0,
+      "volume_error_mm3": 0.0
+    },
+    {
+      "part": "deriva-esquerda",
+      "max_bounds_error_mm": 0.0,
+      "volume_error_mm3": 0.0
+    },
+    {
+      "part": "deriva-direita",
+      "max_bounds_error_mm": 0.0,
+      "volume_error_mm3": 0.0
+    },
+    {
+      "part": "cone-esquerdo",
+      "max_bounds_error_mm": 0.0,
+      "volume_error_mm3": 0.0
+    },
+    {
+      "part": "cone-direito",
+      "max_bounds_error_mm": 0.0,
+      "volume_error_mm3": 0.0
+    },
+    {
+      "part": "tubeira-esquerda",
+      "max_bounds_error_mm": 0.0,
+      "volume_error_mm3": 0.0
+    },
+    {
+      "part": "tubeira-direita",
+      "max_bounds_error_mm": 0.0,
+      "volume_error_mm3": 0.0
+    },
+    {
+      "part": "cavilha-1",
+      "max_bounds_error_mm": 0.0,
+      "volume_error_mm3": 0.0
+    },
+    {
+      "part": "cavilha-2",
+      "max_bounds_error_mm": 0.0,
+      "volume_error_mm3": 0.0
+    },
+    {
+      "part": "cavilha-3",
+      "max_bounds_error_mm": 0.0,
+      "volume_error_mm3": 0.0
+    }
+  ],
+  "full_geometry_generation_completed": true,
+  "images_generated": true,
+  "fresh_dependency_installation_tested": false,
+  "physical_print_tested": false
+}
