@@ -1,0 +1,46 @@
+{
+  "version": 5,
+  "body_width_depth_height_mm": [
+    50,
+    26,
+    70
+  ],
+  "through_holes": 8,
+  "pocket_width_height_depth_mm": [
+    47,
+    67,
+    0.7
+  ],
+  "carrier_width_height_thickness_mm": [
+    46.6,
+    66.6,
+    0.6
+  ],
+  "lateral_clearance_per_side_mm": 0.2,
+  "nominal_glue_gap_mm": 0.1,
+  "frame_width_mm": 1.5,
+  "front_surface_flush_nominally": true,
+  "front_wall_behind_pocket_mm": 3.0,
+  "rear_wall_mm": 3.5,
+  "relief_height_mm": 1.0,
+  "finished_plaque_thickness_mm": 1.6,
+  "logo_width_mm": 13,
+  "star_width_mm": 30,
+  "uniform_logo_scale": 0.4524112738699091,
+  "original_m_and_7_relationship_preserved": true,
+  "logo_recovered_source_errors_mm2": {
+    "m": 6.846579406083464e-05,
+    "7": 7.663858368131549e-05
+  },
+  "m_source_sha256": "d1fcd5015577521c37e4d7b150c7c23fc82732917e4e4e64fdad0fd8a570b745",
+  "seven_source_sha256": "d1fcd5015577521c37e4d7b150c7c23fc82732917e4e4e64fdad0fd8a570b745",
+  "script": "Z003 Medium Italic",
+  "inscription": "Natal 2026",
+  "plaque_connected_as_assembled": true,
+  "mesh_watertight": true,
+  "insertion_positions_checked_per_component": 25,
+  "physical_fit_tested": false,
+  "physical_print_tested": false,
+  "fusion_runtime_tested": false,
+  "rib_marks_eliminated_confirmed": false
+}

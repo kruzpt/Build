@@ -1,0 +1,82 @@
+{
+  "project": "m7-tijolo-v5-A1-AMS-2-pratos.3mf",
+  "sha256": "3706ea0104d60a16c7c5c1b54d09f0ba2a52b832bacbd0ad36404179cafbe801",
+  "printer": "Bambu Lab A1 0.4 nozzle",
+  "bambu_version": "02.08.02.61",
+  "native_export_exit": 0,
+  "native_reopen_exit": 0,
+  "native_slice_exit": 0,
+  "layer_height_mm": 0.2,
+  "body_settings": {
+    "wall_generator": "classic",
+    "wall_sequence": "outer wall/inner wall",
+    "outer_wall_speed": "50",
+    "inner_wall_speed": "100",
+    "outer_wall_acceleration": "2000"
+  },
+  "plates": [
+    {
+      "plate": 1,
+      "name": "01 Corpo reforcado com moldura",
+      "estimated_seconds": 10983.5703125,
+      "estimated_grams_including_flush_and_tower": 46.233642578125,
+      "filament_changes": 0,
+      "filaments": [
+        {
+          "filament_id": "GFL99",
+          "id": 1,
+          "main_used_g": 46.233642578125,
+          "total_used_g": 46.233642578125
+        }
+      ],
+      "warnings": "",
+      "supports": false,
+      "layers": 350,
+      "gcode_sha256": "5911ccbe68c378b1884bd8278c4776d096c975d90928c0050ed798b5bc8d84af"
+    },
+    {
+      "plate": 2,
+      "name": "02 Placa unica - fundo laranja e relevos AMS",
+      "estimated_seconds": 3244.64306640625,
+      "estimated_grams_including_flush_and_tower": 8.84401249885559,
+      "filament_changes": 11,
+      "filaments": [
+        {
+          "filament_id": "GFL99",
+          "id": 1,
+          "main_used_g": 2.4790050983428955,
+          "total_used_g": 3.256685256958008
+        },
+        {
+          "filament_id": "GFL96",
+          "id": 2,
+          "main_used_g": 0.40630042552948,
+          "total_used_g": 2.5897107124328613
+        },
+        {
+          "filament_id": "GFL99",
+          "id": 3,
+          "main_used_g": 0.1594773828983307,
+          "total_used_g": 1.894812822341919
+        },
+        {
+          "filament_id": "GFL99",
+          "id": 4,
+          "main_used_g": 0.022188499569892883,
+          "total_used_g": 1.1028037071228027
+        }
+      ],
+      "warnings": "",
+      "supports": false,
+      "layers": 8,
+      "gcode_sha256": "1583515bd43b024d84eb694cb8c94d245c3bce78ed7ff181112cebe25e3359f4"
+    }
+  ],
+  "plaque_base_completed_before_relief_color_changes": true,
+  "plaque_orange_only_base_layers": 3,
+  "total_estimated_seconds": 14228.21337890625,
+  "total_estimated_grams": 55.07765507698059,
+  "physical_print_tested": false,
+  "physical_fit_tested": false,
+  "rib_marks_eliminated_confirmed": false
+}
