@@ -1,0 +1,396 @@
+{
+  "study_date": "2026-10-18",
+  "source_project": "m7-tijolo-v4-A1-AMS-4-pratos.3mf",
+  "source_project_sha256": "d4a23110333dde6e21bb70f19350033b8c202d4fd3971bd99857a872bdea8ddc",
+  "bambu_studio_version": "02.08.02.61",
+  "nozzle_diameter_mm": 0.4,
+  "layer_height_mm": 0.2,
+  "wall_loops": 3,
+  "outer_wall_mm_s": 60,
+  "top_surface_mm_s": 35,
+  "print_sequence": "by layer",
+  "tested_plate": "Body only; decorations retain original V4 settings",
+  "physical_print_tested": false,
+  "all_source_3mf_mesh_data_byte_identical": true,
+  "cases": [
+    {
+      "case": "baseline",
+      "body_count": 1,
+      "changed_settings": {},
+      "seconds": 11291.6796875,
+      "main_seconds": 10877.375,
+      "grams": 38.54225158691406,
+      "warnings": "",
+      "filament_changes": 0,
+      "actual_layers": 350,
+      "actual_layer_heights_mm": [
+        0.2
+      ],
+      "gcode_sha256": "6f233128cd1194607095009341a95906e4988af6822e3217769f5cb0334a058e",
+      "objects": [
+        {
+          "bbox": {
+            "depth": 26,
+            "height": 70,
+            "width": 49.999996185302734,
+            "x": 102.99999237060547,
+            "y": 115,
+            "z": 0
+          },
+          "id": 5,
+          "name": "m7-tijolo-v4-tijolo-terracota_1",
+          "triangle_count": 6936
+        }
+      ],
+      "seconds_per_body": 11291.6796875,
+      "saving_percent_per_body": 0,
+      "visible_surface_moves_and_speed_distribution_unchanged_per_body": true,
+      "visible_surface_paths_and_feeds_identical": true
+    },
+    {
+      "case": "internal_speed",
+      "body_count": 1,
+      "changed_settings": {
+        "inner_wall_speed": [
+          "200"
+        ]
+      },
+      "seconds": 11291.6796875,
+      "main_seconds": 10877.375,
+      "grams": 38.54225158691406,
+      "warnings": "",
+      "filament_changes": 0,
+      "actual_layers": 350,
+      "actual_layer_heights_mm": [
+        0.2
+      ],
+      "gcode_sha256": "13a110fb2686dd54b5109b319463b087a6c7639e7c5bb0874e1cfdd3556287fa",
+      "objects": [
+        {
+          "bbox": {
+            "depth": 26,
+            "height": 70,
+            "width": 49.999996185302734,
+            "x": 102.99999237060547,
+            "y": 115,
+            "z": 0
+          },
+          "id": 5,
+          "name": "m7-tijolo-v4-tijolo-terracota_1",
+          "triangle_count": 6936
+        }
+      ],
+      "seconds_per_body": 11291.6796875,
+      "saving_percent_per_body": 0,
+      "visible_surface_moves_and_speed_distribution_unchanged_per_body": true,
+      "visible_surface_paths_and_feeds_identical": true
+    },
+    {
+      "case": "infill_10",
+      "body_count": 1,
+      "changed_settings": {
+        "sparse_infill_density": "10%"
+      },
+      "seconds": 11291.6796875,
+      "main_seconds": 10877.375,
+      "grams": 38.54225158691406,
+      "warnings": "",
+      "filament_changes": 0,
+      "actual_layers": 350,
+      "actual_layer_heights_mm": [
+        0.2
+      ],
+      "gcode_sha256": "798577ae549eb995f207e3479a6575ed0d7c873a2d6c7610f70f93fc215e29ae",
+      "objects": [
+        {
+          "bbox": {
+            "depth": 26,
+            "height": 70,
+            "width": 49.999996185302734,
+            "x": 102.99999237060547,
+            "y": 115,
+            "z": 0
+          },
+          "id": 5,
+          "name": "m7-tijolo-v4-tijolo-terracota_1",
+          "triangle_count": 6936
+        }
+      ],
+      "seconds_per_body": 11291.6796875,
+      "saving_percent_per_body": 0,
+      "visible_surface_moves_and_speed_distribution_unchanged_per_body": true,
+      "visible_surface_paths_and_feeds_identical": true
+    },
+    {
+      "case": "combine_infill",
+      "body_count": 1,
+      "changed_settings": {
+        "infill_combination": "1"
+      },
+      "seconds": 11291.6796875,
+      "main_seconds": 10877.375,
+      "grams": 38.54225158691406,
+      "warnings": "",
+      "filament_changes": 0,
+      "actual_layers": 350,
+      "actual_layer_heights_mm": [
+        0.2
+      ],
+      "gcode_sha256": "d3b441e7593201eccde7ecf7b79f0f60a732ae6edfd7a441e6bb365336646e82",
+      "objects": [
+        {
+          "bbox": {
+            "depth": 26,
+            "height": 70,
+            "width": 49.999996185302734,
+            "x": 102.99999237060547,
+            "y": 115,
+            "z": 0
+          },
+          "id": 5,
+          "name": "m7-tijolo-v4-tijolo-terracota_1",
+          "triangle_count": 6936
+        }
+      ],
+      "seconds_per_body": 11291.6796875,
+      "saving_percent_per_body": 0,
+      "visible_surface_moves_and_speed_distribution_unchanged_per_body": true,
+      "visible_surface_paths_and_feeds_identical": true
+    },
+    {
+      "case": "flow_10",
+      "body_count": 1,
+      "changed_settings": {
+        "filament_max_volumetric_speed": [
+          "10",
+          "5",
+          "8",
+          "8"
+        ]
+      },
+      "seconds": 11036.212890625,
+      "main_seconds": 10621.908203125,
+      "grams": 38.54219055175781,
+      "warnings": "",
+      "filament_changes": 0,
+      "actual_layers": 350,
+      "actual_layer_heights_mm": [
+        0.2
+      ],
+      "gcode_sha256": "0e176af1a2d2879d1f5435b52ce68d17143be087b817ab153205b6752e44973f",
+      "objects": [
+        {
+          "bbox": {
+            "depth": 26,
+            "height": 70,
+            "width": 49.999996185302734,
+            "x": 102.99999237060547,
+            "y": 115,
+            "z": 0
+          },
+          "id": 5,
+          "name": "m7-tijolo-v4-tijolo-terracota_1",
+          "triangle_count": 6936
+        }
+      ],
+      "seconds_per_body": 11036.212890625,
+      "saving_percent_per_body": 2.262433968595512,
+      "visible_surface_moves_and_speed_distribution_unchanged_per_body": true,
+      "visible_surface_paths_and_feeds_identical": true
+    },
+    {
+      "case": "flow_12",
+      "body_count": 1,
+      "changed_settings": {
+        "filament_max_volumetric_speed": [
+          "12",
+          "5",
+          "8",
+          "8"
+        ]
+      },
+      "seconds": 10985.2578125,
+      "main_seconds": 10570.953125,
+      "grams": 38.54219055175781,
+      "warnings": "",
+      "filament_changes": 0,
+      "actual_layers": 350,
+      "actual_layer_heights_mm": [
+        0.2
+      ],
+      "gcode_sha256": "cf1908d3ce4d0061b37d2d03f2dda6421c01b0b0775ac60a684d519670ba3ba9",
+      "objects": [
+        {
+          "bbox": {
+            "depth": 26,
+            "height": 70,
+            "width": 49.999996185302734,
+            "x": 102.99999237060547,
+            "y": 115,
+            "z": 0
+          },
+          "id": 5,
+          "name": "m7-tijolo-v4-tijolo-terracota_1",
+          "triangle_count": 6936
+        }
+      ],
+      "seconds_per_body": 10985.2578125,
+      "saving_percent_per_body": 2.71369613273047,
+      "visible_surface_moves_and_speed_distribution_unchanged_per_body": true,
+      "visible_surface_paths_and_feeds_identical": true
+    },
+    {
+      "case": "batch_4",
+      "body_count": 4,
+      "changed_settings": {},
+      "seconds": 41842.4140625,
+      "main_seconds": 41428.18359375,
+      "grams": 153.97445678710938,
+      "warnings": "",
+      "filament_changes": 0,
+      "actual_layers": 350,
+      "actual_layer_heights_mm": [
+        0.2
+      ],
+      "gcode_sha256": "ffdbbd20ce27f9d61eed67d27f7b081bd9db8d258a4f02a72d92dfa45e9e5a6f",
+      "objects": [
+        {
+          "bbox": {
+            "depth": 26,
+            "height": 70,
+            "width": 50,
+            "x": 66,
+            "y": 80,
+            "z": 0
+          },
+          "id": 5,
+          "name": "M7 corpo 1",
+          "triangle_count": 6936
+        },
+        {
+          "bbox": {
+            "depth": 26,
+            "height": 70,
+            "width": 50,
+            "x": 140,
+            "y": 80,
+            "z": 0
+          },
+          "id": 29,
+          "name": "M7 corpo 2",
+          "triangle_count": 6936
+        },
+        {
+          "bbox": {
+            "depth": 26,
+            "height": 70,
+            "width": 50,
+            "x": 66,
+            "y": 150,
+            "z": 0
+          },
+          "id": 33,
+          "name": "M7 corpo 3",
+          "triangle_count": 6936
+        },
+        {
+          "bbox": {
+            "depth": 26,
+            "height": 70,
+            "width": 50,
+            "x": 140,
+            "y": 150,
+            "z": 0
+          },
+          "id": 37,
+          "name": "M7 corpo 4",
+          "triangle_count": 6936
+        }
+      ],
+      "seconds_per_body": 10460.603515625,
+      "saving_percent_per_body": 7.360075691794632,
+      "visible_surface_moves_and_speed_distribution_unchanged_per_body": true,
+      "visible_surface_paths_and_feeds_identical": null
+    },
+    {
+      "case": "batch_4_flow_10",
+      "body_count": 4,
+      "changed_settings": {
+        "filament_max_volumetric_speed": [
+          "10",
+          "5",
+          "8",
+          "8"
+        ]
+      },
+      "seconds": 40822.68359375,
+      "main_seconds": 40408.453125,
+      "grams": 153.97422790527344,
+      "warnings": "",
+      "filament_changes": 0,
+      "actual_layers": 350,
+      "actual_layer_heights_mm": [
+        0.2
+      ],
+      "gcode_sha256": "02dee62303b8fce08463d97ed0db81e9f19de3cebc582931c4ff5c28605b2437",
+      "objects": [
+        {
+          "bbox": {
+            "depth": 26,
+            "height": 70,
+            "width": 50,
+            "x": 66,
+            "y": 80,
+            "z": 0
+          },
+          "id": 5,
+          "name": "M7 corpo 1",
+          "triangle_count": 6936
+        },
+        {
+          "bbox": {
+            "depth": 26,
+            "height": 70,
+            "width": 50,
+            "x": 140,
+            "y": 80,
+            "z": 0
+          },
+          "id": 29,
+          "name": "M7 corpo 2",
+          "triangle_count": 6936
+        },
+        {
+          "bbox": {
+            "depth": 26,
+            "height": 70,
+            "width": 50,
+            "x": 66,
+            "y": 150,
+            "z": 0
+          },
+          "id": 33,
+          "name": "M7 corpo 3",
+          "triangle_count": 6936
+        },
+        {
+          "bbox": {
+            "depth": 26,
+            "height": 70,
+            "width": 50,
+            "x": 140,
+            "y": 150,
+            "z": 0
+          },
+          "id": 37,
+          "name": "M7 corpo 4",
+          "triangle_count": 6936
+        }
+      ],
+      "seconds_per_body": 10205.6708984375,
+      "saving_percent_per_body": 9.617778923225407,
+      "visible_surface_moves_and_speed_distribution_unchanged_per_body": true,
+      "visible_surface_paths_and_feeds_identical": null
+    }
+  ]
+}
