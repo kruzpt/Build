@@ -1,0 +1,100 @@
+{
+  "project": "essencial-arcos-220-v1-A1-AMS-3-pratos.3mf",
+  "sha256": "65670627613bc5df4eb870ace52bd7f0dcbf074a127c928cfb437adb91084b04",
+  "printer": "Bambu Lab A1 0.4 nozzle",
+  "bambu_version": "02.08.02.61",
+  "native_export_exit": 0,
+  "native_reopen_exit": 0,
+  "native_slice_exit": 0,
+  "layer_height_mm": 0.2,
+  "base_settings": {
+    "wall_loops": "4",
+    "sparse_infill_density": "25%",
+    "wall_generator": "classic"
+  },
+  "plates": [
+    {
+      "plate": 1,
+      "name": "01 Frente branca - dourado e QR pretos",
+      "estimated_seconds": 21203.6640625,
+      "estimated_grams_including_flush_and_tower": 116.4149215221405,
+      "filament_changes": 8,
+      "filaments": [
+        {
+          "filament_id": "GFL99",
+          "id": 1,
+          "main_used_g": 107.85307312011719,
+          "total_used_g": 110.4358139038086
+        },
+        {
+          "filament_id": "GFL96",
+          "id": 3,
+          "main_used_g": 1.6379071474075317,
+          "total_used_g": 2.909050226211548
+        },
+        {
+          "filament_id": "GFL99",
+          "id": 4,
+          "main_used_g": 2.436274528503418,
+          "total_used_g": 3.0700573921203613
+        }
+      ],
+      "warnings": "",
+      "supports": false,
+      "layers": 24,
+      "gcode_sha256": "1573b58e6fce9052072d128963e0a5ff75e4e35baeed336a488642c9e3a8666c"
+    },
+    {
+      "plate": 2,
+      "name": "02 Fundo verde nervurado",
+      "estimated_seconds": 22824.708984375,
+      "estimated_grams_including_flush_and_tower": 126.5628662109375,
+      "filament_changes": 0,
+      "filaments": [
+        {
+          "filament_id": "GFL99",
+          "id": 2,
+          "main_used_g": 126.5628662109375,
+          "total_used_g": 126.5628662109375
+        }
+      ],
+      "warnings": "",
+      "supports": false,
+      "layers": 21,
+      "gcode_sha256": "f9a28471257a90e897c8451c998167e7448075672a2a372d1fd202a4752feb5d"
+    },
+    {
+      "plate": 3,
+      "name": "03 Base verde e friso dourado",
+      "estimated_seconds": 20885.041015625,
+      "estimated_grams_including_flush_and_tower": 120.88623237609863,
+      "filament_changes": 1,
+      "filaments": [
+        {
+          "filament_id": "GFL99",
+          "id": 2,
+          "main_used_g": 95.67449951171875,
+          "total_used_g": 95.83335876464844
+        },
+        {
+          "filament_id": "GFL96",
+          "id": 3,
+          "main_used_g": 24.463340759277344,
+          "total_used_g": 25.052873611450195
+        }
+      ],
+      "warnings": "",
+      "supports": false,
+      "layers": 60,
+      "gcode_sha256": "4e209bdcfc54b53fb45a60fa7040c70b525c8e752331d024dfd6b5f962bbd09e"
+    }
+  ],
+  "front_white_core_finished_before_color_changes": true,
+  "front_white_only_initial_layers": 16,
+  "total_estimated_seconds": 64913.4140625,
+  "total_estimated_grams": 363.86402010917664,
+  "physical_print_tested": false,
+  "physical_fit_tested": false,
+  "physical_qr_scan_tested": false,
+  "material_cost_eur_at_assumed_spool_prices": 5.602364575386048
+}

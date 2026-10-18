@@ -1,0 +1,24 @@
+{
+  "top_layer_mm": 4.8,
+  "filament_slot": 4,
+  "line_width_source": "G-code LINE_WIDTH comments",
+  "gcode_sha256": "1573b58e6fce9052072d128963e0a5ff75e4e35baeed336a488642c9e3a8666c",
+  "decoded": {
+    "Instagram": {
+      "url": "https://www.instagram.com/clinicaessencial_setubal/",
+      "segments": 3184,
+      "module_mismatches": 0,
+      "raw_line_raster_decoded": false,
+      "known_grid_module_sampling_decoded": true
+    },
+    "Google": {
+      "url": "https://search.google.com/local/writereview?placeid=ChIJvVHxDlBCGQ0Rcw8jp4G4TNg",
+      "segments": 3445,
+      "module_mismatches": 0,
+      "raw_line_raster_decoded": false,
+      "known_grid_module_sampling_decoded": true
+    }
+  },
+  "interpretation": "Known-grid module coverage sampled from rasterised G-code; round caps and chord approximations; not an optical or physical scan",
+  "physical_scan_tested": false
+}
