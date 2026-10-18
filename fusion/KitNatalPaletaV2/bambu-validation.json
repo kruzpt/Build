@@ -1,0 +1,18 @@
+{
+  "project": "kit-natal-paleta-v2-A1-PLA.3mf",
+  "bambu_version": "02.08.02.61",
+  "printer": "Bambu Lab A1 0.4 nozzle",
+  "layer_height_mm": 0.2,
+  "infill_percent": 100,
+  "support_toolpaths": false,
+  "filament_changes": 0,
+  "warnings": "",
+  "native_export_exit": 0,
+  "native_reopen_exit": 0,
+  "native_slice_exit": 0,
+  "estimated_seconds": 12682.7412109375,
+  "estimated_grams": 83.88859558105469,
+  "material_cost_eur_at_16_per_kg": 1.342217529296875,
+  "physical_print_tested": false,
+  "sha256": "bcb35ef08795d5750416d489fee4c6258bc4e0f27106786f8474f3ff933fc524"
+}
