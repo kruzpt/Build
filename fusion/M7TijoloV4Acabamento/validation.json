@@ -1,0 +1,26 @@
+{
+  "source": "m7-tijolo-v4-A1-AMS-4-pratos.3mf",
+  "source_sha256": "d4a23110333dde6e21bb70f19350033b8c202d4fd3971bd99857a872bdea8ddc",
+  "project": "m7-tijolo-v4-acabamento-A1-AMS-4-pratos.3mf",
+  "sha256": "ec6bbac04674e1a4c94eee73c25430609352062d12786da07d306884c51ee897",
+  "changed_body_settings": {
+    "wall_generator": "classic",
+    "wall_sequence": "outer wall/inner wall",
+    "outer_wall_speed": "50",
+    "inner_wall_speed": "100",
+    "outer_wall_acceleration": "2000"
+  },
+  "all_geometry_and_global_filament_settings_unchanged": true,
+  "decoration_object_settings_unchanged": true,
+  "native_reopen_exit": 0,
+  "native_slice_exit": 0,
+  "validated_plate": 1,
+  "layer_height_mm": 0.2,
+  "supports": false,
+  "filament_changes": 0,
+  "warnings": "",
+  "estimated_seconds": 9464.287109375,
+  "estimated_grams": 39.70708465576172,
+  "physical_print_tested": false,
+  "rib_marks_eliminated_confirmed": false
+}
