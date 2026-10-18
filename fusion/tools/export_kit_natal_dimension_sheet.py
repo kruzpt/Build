@@ -25,6 +25,9 @@ def main(version='v1'):
         ROOT / 'designs/kit-natal-paleta-v2-CAD-dimensoes.png'])
     target = (TARGET if version == 'v1' else
               ROOT / 'downloads/kit-natal-pintar-v2-dimensoes-cavidades.pdf')
+    if version == 'v3':
+        sources = [ROOT / 'designs/kit-natal-paleta-v3-CAD-dimensoes.png']
+        target = ROOT / 'downloads/kit-natal-paleta-v3-dimensoes.pdf'
     page_width, page_height = landscape(A4)
     margin = 8 * mm
     document = canvas.Canvas(str(target), pagesize=(page_width, page_height))
@@ -49,6 +52,6 @@ def main(version='v1'):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser()
-    parser.add_argument('--version', choices=['v1', 'v2'], default='v1')
+    parser.add_argument('--version', choices=['v1', 'v2', 'v3'], default='v1')
     args = parser.parse_args()
     main(args.version)

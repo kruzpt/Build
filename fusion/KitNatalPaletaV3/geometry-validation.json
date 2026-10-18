@@ -1,0 +1,67 @@
+{
+  "version": 3,
+  "outer_dimensions_mm": [
+    140,
+    200,
+    9
+  ],
+  "base_thickness_mm": 3.0,
+  "reservoir_count": 8,
+  "reservoir_centers_xy_mm": [
+    [
+      27.834521790532754,
+      50.08039175995629
+    ],
+    [
+      17.72684207639401,
+      85.61950685657575
+    ],
+    [
+      18.962049341163343,
+      122.58706971674755
+    ],
+    [
+      31.8334174247884,
+      157.1898452980385
+    ],
+    [
+      59.156314840257636,
+      181.25612123573904
+    ],
+    [
+      93.85090756569211,
+      173.8882000160981
+    ],
+    [
+      114.9072708492648,
+      143.78052421484784
+    ],
+    [
+      122.86523248437427,
+      107.68251885606219
+    ]
+  ],
+  "well_mouth_diameter_mm": 24,
+  "well_depth_mm": 6.0,
+  "minimum_wall_mm": 2.4,
+  "bottom_fillet_radius_mm": 1.5,
+  "well_capacity_to_rim_ml": 2.678225038949802,
+  "well_capacity_at_5mm_fill_ml": 2.225951961405331,
+  "nominal_working_volume_ml": 2,
+  "well_bottom_flat_diameter_mm": 21,
+  "thumb_hole_dimensions_mm": [
+    28,
+    44
+  ],
+  "source": "Original geometric design",
+  "intended_use": "Integrated direct-paint wells; not a guaranteed universal commercial-pot socket",
+  "commercial_pot_fit_tested": false,
+  "physical_print_tested": false,
+  "liquid_tightness_tested": false,
+  "mesh_watertight": true,
+  "components": 1,
+  "volume_mm3": 71262.85844274923,
+  "estimated_fully_solid_pla_grams_at_1_24_g_cm3": 88.36594446900905,
+  "file": "kit-natal-paleta-v3-8-cavidades.stl",
+  "sha256": "169c264cab28d7cd354981db9df7f8dcb003feb56b620f4db02ad2a215ba7c29"
+}
