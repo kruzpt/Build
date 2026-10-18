@@ -1,0 +1,165 @@
+{
+  "date": "2026-10-18",
+  "source_project": "m7-tijolo-v4-A1-AMS-4-pratos.3mf",
+  "source_project_sha256": "d4a23110333dde6e21bb70f19350033b8c202d4fd3971bd99857a872bdea8ddc",
+  "bambu_version": "02.08.02.61",
+  "printer": "Bambu Lab A1 0.4 nozzle",
+  "layer_height_mm": 0.2,
+  "wall_loops": 3,
+  "outer_wall_speed_mm_s": 60,
+  "maximum_volumetric_speed_mm3_s": 8,
+  "generic_flow_ratio": 0.98,
+  "user_reported_filament": "SUNLU PLA+; exact formulation and spool temperature range not supplied",
+  "user_reported_defect": "Vertical grooves/ridges aligned with the inner partitions; tangible with a fingernail",
+  "front_wall_mm": 2.25,
+  "front_wall_under_recess_mm": 2.05,
+  "source_mesh_data_unchanged": true,
+  "physical_quality_of_variants_tested": false,
+  "cases": [
+    {
+      "case": "baseline",
+      "changed_settings": {},
+      "seconds": 11291.6796875,
+      "grams": 38.54225158691406,
+      "actual_layers": 350,
+      "actual_layer_heights_mm": [
+        0.2
+      ],
+      "warnings": "",
+      "filament_changes": 0,
+      "gcode_sha256": "6f233128cd1194607095009341a95906e4988af6822e3217769f5cb0334a058e",
+      "feature_move_count": {
+        "Custom": 12,
+        "Brim": 1202,
+        "Inner wall": 258531,
+        "Outer wall": 105986,
+        "Top surface": 458,
+        "Gap infill": 94
+      },
+      "saving_percent": 0
+    },
+    {
+      "case": "outer_first",
+      "changed_settings": {
+        "wall_sequence": "outer wall/inner wall"
+      },
+      "seconds": 10747.984375,
+      "grams": 38.54225158691406,
+      "actual_layers": 350,
+      "actual_layer_heights_mm": [
+        0.2
+      ],
+      "warnings": "",
+      "filament_changes": 0,
+      "gcode_sha256": "6e58d5958f77b9459e5009c193b43f23f42c6cb64c0cc53e0fc1b958ec9d9a03",
+      "feature_move_count": {
+        "Custom": 12,
+        "Brim": 1202,
+        "Outer wall": 105986,
+        "Inner wall": 258531,
+        "Top surface": 458,
+        "Gap infill": 94
+      },
+      "saving_percent": 4.8150082852764235
+    },
+    {
+      "case": "sandwich",
+      "changed_settings": {
+        "wall_sequence": "inner-outer-inner wall"
+      },
+      "seconds": 10985.099609375,
+      "grams": 38.54225158691406,
+      "actual_layers": 350,
+      "actual_layer_heights_mm": [
+        0.2
+      ],
+      "warnings": "",
+      "filament_changes": 0,
+      "gcode_sha256": "c2d349496d684008c1cc91c070fe4dc643cb5ef60254123514e64b90b2609171",
+      "feature_move_count": {
+        "Custom": 12,
+        "Brim": 1202,
+        "Inner wall": 258531,
+        "Outer wall": 105986,
+        "Top surface": 458,
+        "Gap infill": 94
+      },
+      "saving_percent": 2.7150971920004707
+    },
+    {
+      "case": "classic",
+      "changed_settings": {
+        "wall_generator": "classic"
+      },
+      "seconds": 8963.458984375,
+      "grams": 39.70708465576172,
+      "actual_layers": 350,
+      "actual_layer_heights_mm": [
+        0.2
+      ],
+      "warnings": "",
+      "filament_changes": 0,
+      "gcode_sha256": "4be4e66821780b465d8aa4009badc8421999e049f96c12053a162cbb65c33f98",
+      "feature_move_count": {
+        "Custom": 12,
+        "Brim": 1202,
+        "Outer wall": 38296,
+        "Inner wall": 39673,
+        "Gap infill": 59243,
+        "Top surface": 466
+      },
+      "saving_percent": 20.618904959749816
+    },
+    {
+      "case": "outer_first_classic",
+      "changed_settings": {
+        "wall_sequence": "outer wall/inner wall",
+        "wall_generator": "classic"
+      },
+      "seconds": 8911.771484375,
+      "grams": 39.70708465576172,
+      "actual_layers": 350,
+      "actual_layer_heights_mm": [
+        0.2
+      ],
+      "warnings": "",
+      "filament_changes": 0,
+      "gcode_sha256": "1213d89d63e3b9c8452b846cb3a0b345bd22ee29ce025913890e06632859a65f",
+      "feature_move_count": {
+        "Custom": 12,
+        "Brim": 1202,
+        "Outer wall": 38296,
+        "Inner wall": 39673,
+        "Gap infill": 59243,
+        "Top surface": 466
+      },
+      "saving_percent": 21.076653509394017
+    },
+    {
+      "case": "outer_accel_2000",
+      "changed_settings": {
+        "outer_wall_acceleration": [
+          "2000"
+        ]
+      },
+      "seconds": 11649.4326171875,
+      "grams": 38.54225158691406,
+      "actual_layers": 350,
+      "actual_layer_heights_mm": [
+        0.2
+      ],
+      "warnings": "",
+      "filament_changes": 0,
+      "gcode_sha256": "6a993af106b2f1e1b7f31a4134b2ca9c2e247036a9e1917f0d37c42577dc05d6",
+      "feature_move_count": {
+        "Custom": 12,
+        "Brim": 1202,
+        "Inner wall": 258531,
+        "Outer wall": 105986,
+        "Top surface": 458,
+        "Gap infill": 94
+      },
+      "saving_percent": -3.1682879747601866
+    }
+  ]
+}
