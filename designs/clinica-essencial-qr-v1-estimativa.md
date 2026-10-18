@@ -3,7 +3,8 @@
 Proposta visual de 18/10/2026. Mantém formato, cores, nome e identidade visual
 da referência enviada. Apenas dois cartões QR: Instagram e Google/opiniões.
 Sem WhatsApp nem NFC. Os QR da imagem são ilustrativos e não estão destinados
-a leitura; é necessário receber os dois links para gerar os códigos reais.
+a leitura. Os dois QR reais e os seus destinos foram entretanto recuperados
+dos ficheiros anteriores e descodificados com sucesso; ver a nota V2 de encaixes.
 
 ## Dimensões propostas e impressão
 
@@ -43,8 +44,8 @@ não inclui embalagem, portes, impostos ou remuneração da conceção/modelaç�
 
 ## Antes do projeto para imprimir
 
-Obter o endereço Instagram e o link direto de opiniões Google, idealmente o
-logótipo original vetorial. Gerar QR reais com margem branca de quatro módulos,
+Reutilizar o endereço Instagram e o link direto de opiniões Google recuperados,
+e preferir o logótipo original vetorial. Usar QR reais com margem branca de quatro módulos,
 dimensionar módulos para o bico e validar leitura num protótipo impresso. Só
 depois do CAD/fatiamento se confirma peso, tempo e custo. Esta entrega contém
 apenas imagem conceptual e estimativa, não um 3MF/STL final.
