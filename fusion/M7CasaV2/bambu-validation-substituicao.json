@@ -1,0 +1,35 @@
+{
+  "project": "m7-casa-v2-substituicao-A1-AMS-3-pratos.3mf",
+  "sha256": "a310d826c996e1b98e15b5bab2dd98830fac10ae561979946427911d6be8647a",
+  "native_reopen_exit": 0,
+  "native_slice_exit": 0,
+  "physical_fit_tested": false,
+  "plates": [
+    {
+      "name": "01 Substituir - m branco original",
+      "warnings": "",
+      "support_toolpaths": false,
+      "filament_changes": 0,
+      "estimated_seconds": 491.4395751953125,
+      "estimated_grams": 0.20541629195213318
+    },
+    {
+      "name": "02 Substituir - base azul com rebaixos",
+      "warnings": "",
+      "support_toolpaths": false,
+      "filament_changes": 0,
+      "estimated_seconds": 7707.6103515625,
+      "estimated_grams": 40.9675407409668
+    },
+    {
+      "name": "03 Substituir - 7 ciano original",
+      "warnings": "",
+      "support_toolpaths": false,
+      "filament_changes": 0,
+      "estimated_seconds": 478.2041931152344,
+      "estimated_grams": 0.14206218719482422
+    }
+  ],
+  "total_estimated_seconds": 8677.254119873047,
+  "total_estimated_grams": 41.315019220113754
+}

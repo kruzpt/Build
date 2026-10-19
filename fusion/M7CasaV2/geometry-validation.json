@@ -1,0 +1,45 @@
+{
+  "version": 2,
+  "change": "Exact source m and 7; deeper locating pockets with inner glue wells",
+  "assembled_height_mm": 95,
+  "base_width_depth_mm": [
+    85,
+    85
+  ],
+  "logo_width_mm": 18,
+  "original_logo_relative_positions_preserved": true,
+  "uniform_scale_xy": 0.6264156099737203,
+  "source_sha256": "d1fcd5015577521c37e4d7b150c7c23fc82732917e4e4e64fdad0fd8a570b745",
+  "recovered_source_errors_mm2": {
+    "m-branco": 1.8612801066159035e-05,
+    "7-ciano": 1.6248943911806313e-05
+  },
+  "pocket_depth_mm": 0.8,
+  "pocket_lateral_clearance_per_side_mm": 0.2,
+  "letter_thickness_mm": 1.8,
+  "letter_insertion_mm": 0.65,
+  "visible_relief_mm": 1.15,
+  "nominal_glue_floor_gap_mm": 0.15,
+  "extra_glue_well_depth_mm": 0.3,
+  "glue_well_total_depth_mm": 1.1,
+  "glue_well_inset_from_letter_edge_mm": 0.35,
+  "inner_wells_capacity_mm3": {
+    "m-branco": 13.027194249918518,
+    "7-ciano": 5.984852294083631
+  },
+  "reusable_v1_parts": [
+    "fachada-branca",
+    "frase-azul",
+    "fundo-azul"
+  ],
+  "new_required_parts": [
+    "base-azul",
+    "m-branco",
+    "7-ciano"
+  ],
+  "insertion_positions_checked": 82,
+  "watertight": true,
+  "physical_fit_tested": false,
+  "glue_squeeze_out_prevented_guaranteed": false,
+  "fusion_runtime_tested": false
+}
