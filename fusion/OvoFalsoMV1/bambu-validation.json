@@ -1,0 +1,25 @@
+{
+  "project": "ovo-falso-M-v1-A1-PLA-1-prato.3mf",
+  "sha256": "cf43c0c7cfa44a2076bf76a9a6924e72cf12094ae499d42db98c6a2b0166e227",
+  "printer": "Bambu Lab A1 0.4 nozzle",
+  "bambu_version": "02.08.02.61",
+  "native_export_exit": 0,
+  "native_reopen_exit": 0,
+  "native_slice_exit": 0,
+  "physical_print_tested": false,
+  "warnings": "",
+  "filament_changes": 0,
+  "support_max_height_mm": 2.08,
+  "support_only_near_base": true,
+  "sparse_infill_generated": false,
+  "estimated_seconds": 5469.70556640625,
+  "estimated_total_grams": 15.829020500183105,
+  "estimated_main_part_grams": 15.829020500183105,
+  "estimated_material_eur_at_13_per_kg": 0.206,
+  "dimensions_mm": [
+    43,
+    43,
+    57
+  ],
+  "nominal_wall_mm": 2
+}

@@ -1,0 +1,17 @@
+{
+  "dimensions_mm": [
+    43,
+    43,
+    57
+  ],
+  "nominal_wall_mm": 2,
+  "single_closed_piece": true,
+  "genuinely_hollow_mesh": true,
+  "hollow_cavity_cm3": 41.58540871750246,
+  "outer_enclosed_cm3": 54.54983445263783,
+  "shell_cm3": 12.964425671646953,
+  "small_flat_base_diameter_mm": 7.605317324399948,
+  "watertight": true,
+  "physical_print_tested": false,
+  "mesh_sha256": "6a6cb6aa843bf046d47eb386e045e39b0525ee7e31b0a519bbcaab30b18e121d"
+}
