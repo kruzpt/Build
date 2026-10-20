@@ -1,0 +1,59 @@
+{
+  "project": "m7-casa-v3-fachada-A1-AMS-1-prato.3mf",
+  "sha256": "488c6d9857162fd9e6901ab0cb4a0738afa8197e80b4e4fe9f73562590200375",
+  "geometry_identical_to_v2": true,
+  "physical_print_tested": false,
+  "white_part_overrides": {
+    "top_surface_pattern": "monotonic",
+    "top_surface_speed": "25",
+    "top_one_wall_type": "not apply"
+  },
+  "ironing": false,
+  "baseline": {
+    "native_reopen_exit": 0,
+    "native_slice_exit": 0,
+    "estimated_seconds": 3215.009033203125,
+    "estimated_grams": 16.74380114674568,
+    "filament_changes": 1,
+    "supports": false,
+    "warnings": "",
+    "last_white_object_z_mm": 4.0,
+    "first_blue_object_z_mm": 4.2,
+    "all_white_before_any_blue": true,
+    "white_final_layer_features": [
+      "Gap infill",
+      "Inner wall",
+      "Outer wall",
+      "Top surface"
+    ],
+    "white_final_layer_has_internal_or_sparse_infill": false,
+    "white_final_top_speed_mm_s": [
+      35.0
+    ],
+    "white_final_layer_retractions": 319,
+    "white_final_layer_extrusion_moves": 1385
+  },
+  "trial": {
+    "native_reopen_exit": 0,
+    "native_slice_exit": 0,
+    "estimated_seconds": 3336.13720703125,
+    "estimated_grams": 16.760608702898026,
+    "filament_changes": 1,
+    "supports": false,
+    "warnings": "",
+    "last_white_object_z_mm": 4.0,
+    "first_blue_object_z_mm": 4.2,
+    "all_white_before_any_blue": true,
+    "white_final_layer_features": [
+      "Inner wall",
+      "Outer wall",
+      "Top surface"
+    ],
+    "white_final_layer_has_internal_or_sparse_infill": false,
+    "white_final_top_speed_mm_s": [
+      25.0
+    ],
+    "white_final_layer_retractions": 168,
+    "white_final_layer_extrusion_moves": 1575
+  }
+}
