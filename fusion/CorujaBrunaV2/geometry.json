@@ -1,0 +1,262 @@
+{
+  "title": "Coruja BRUNA V2 - relevo curvo para bico 0.2",
+  "model_type": "bas-relief with smooth domes and engraved feather shafts",
+  "front_dimensions_mm": [
+    35.49382400512695,
+    49.99954116073786,
+    9.189396439585835
+  ],
+  "front_height_limit_mm": 50,
+  "base_thickness_mm": 3.5,
+  "scarf_glue_gap_mm": 0.2,
+  "scarf_lateral_clearance_mm": 0.2,
+  "ring_clear_opening_mm": [
+    25,
+    18
+  ],
+  "ring_height_mm": 20,
+  "ring_glue_pad_mm": [
+    12.8,
+    20
+  ],
+  "minimum_engraving_width_mm": 0.22,
+  "body_connected": true,
+  "assembled_color_intersections": [],
+  "physical_print_tested": false,
+  "parts": [
+    {
+      "key": "castanho",
+      "file": "anilha-coruja-bruna-v2-castanho.stl",
+      "color": "#67402B",
+      "assembly": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions_mm": [
+        35.493892669677734,
+        49.999713144192356,
+        8.148276606574655
+      ],
+      "volume_mm3": 5713.125631431986,
+      "sha256": "90d897b58d03395c9131caaf68751d963a01dcdd04b6585e16294d944b03a6ae",
+      "watertight": true
+    },
+    {
+      "key": "creme",
+      "file": "anilha-coruja-bruna-v2-creme.stl",
+      "color": "#F5E5BB",
+      "assembly": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions_mm": [
+        31.999680519104004,
+        42.81232726573944,
+        6.389424085617065
+      ],
+      "volume_mm3": 1201.6124011295117,
+      "sha256": "73a88ca12188b02bd05c82f9fa124a0a689f7857317b108ddded52899c250ce8",
+      "watertight": true
+    },
+    {
+      "key": "dourado",
+      "file": "anilha-coruja-bruna-v2-dourado.stl",
+      "color": "#DCA23E",
+      "assembly": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions_mm": [
+        29.82848834991455,
+        38.99971580505371,
+        5.338071346282959
+      ],
+      "volume_mm3": 353.67120992288966,
+      "sha256": "79d7fbc2a7267e953b538987a6e4fc22d9a0972fdbbaed6194265422d27dc4d3",
+      "watertight": true
+    },
+    {
+      "key": "preto",
+      "file": "anilha-coruja-bruna-v2-preto.stl",
+      "color": "#191716",
+      "assembly": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions_mm": [
+        15.899743556976318,
+        7.569416046142578,
+        1.8954710960388184
+      ],
+      "volume_mm3": 28.680606223548594,
+      "sha256": "ec5271d3b9ada2025dbe0741973f4c7ec4b3101638d20a7ad9a590479b8257e4",
+      "watertight": true
+    },
+    {
+      "key": "lenco-verde",
+      "file": "anilha-coruja-bruna-v2-lenco-verde.stl",
+      "color": "#285D39",
+      "assembly": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          4.6
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions_mm": [
+        19.8899564743042,
+        9.945379257202148,
+        1.999556765149464
+      ],
+      "volume_mm3": 58.1117179976632,
+      "sha256": "b0d7954ffa78bcdd27ee14b60db3e224d702d898bcef5ae444788f7470baf3d8",
+      "watertight": true
+    },
+    {
+      "key": "anilha-castanha",
+      "file": "anilha-coruja-bruna-v2-anilha-castanha.stl",
+      "color": "#67402B",
+      "assembly": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          12.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -13.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions_mm": [
+        30.0,
+        24.5,
+        20.0
+      ],
+      "volume_mm3": 4306.408349041549,
+      "sha256": "f77811b64d839b24edbf3d4322f2a5b160aa2f83e1d215f6163dd56037126213",
+      "watertight": true
+    }
+  ]
+}

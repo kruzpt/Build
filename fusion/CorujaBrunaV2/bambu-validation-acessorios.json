@@ -1,0 +1,36 @@
+{
+  "project": "anilha-coruja-bruna-v2-ACESSORIOS-A1-bico-0.4-2-pratos.3mf",
+  "sha256": "0b2e5703374fb7bb2be3b8eadb75c71e82975f1acd652eb3e77697b15aa097ba",
+  "bambu_version": "02.08.02.61",
+  "native_export_exit": 0,
+  "native_reopen_exit": 0,
+  "native_slice_exit": 0,
+  "physical_print_tested": false,
+  "nozzle_mm": 0.4,
+  "layer_height_mm": 0.16,
+  "first_layer_height_mm": 0.16,
+  "plates": [
+    {
+      "id": 1,
+      "colors": 1,
+      "filament_changes": 0,
+      "supports_generated": false,
+      "warnings": "",
+      "estimated_seconds": 2111.77294921875,
+      "estimated_grams": 5.243616104125977,
+      "estimated_main_grams": 5.243616104125977
+    },
+    {
+      "id": 2,
+      "colors": 1,
+      "filament_changes": 0,
+      "supports_generated": false,
+      "warnings": "",
+      "estimated_seconds": 516.6966552734375,
+      "estimated_grams": 0.1552826315164566,
+      "estimated_main_grams": 0.1552826315164566
+    }
+  ],
+  "estimated_total_seconds": 2628.4696044921875,
+  "estimated_total_grams": 5.398898735642433
+}
