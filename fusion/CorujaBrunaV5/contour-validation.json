@@ -1,0 +1,21 @@
+{
+  "black_pedestal_support_and_outer_rim": {
+    "#67402B": {
+      "cap_height_mm": 0.4,
+      "unsupported_area_mm2": 5.265944069687833e-10,
+      "area_outside_black_rim_mm2": 0.0
+    },
+    "#F5E5BB": {
+      "cap_height_mm": 0.4,
+      "unsupported_area_mm2": 0.0,
+      "area_outside_black_rim_mm2": 0.0
+    },
+    "#DCA23E": {
+      "cap_height_mm": 0.4,
+      "unsupported_area_mm2": 0.0,
+      "area_outside_black_rim_mm2": 0.0
+    }
+  },
+  "V4_accessories_identical_meshes": true,
+  "physical_print_tested": false
+}
