@@ -1,0 +1,33 @@
+{
+  "project": "anilha-coruja-bruna-v1-acessorios-A1-2-pratos.3mf",
+  "sha256": "adc132eaabb71ffcb8b23563a4c4b6ad0d5ec7b0b1e6857fc94a77528e518b0d",
+  "bambu_version": "02.08.02.61",
+  "native_export_exit": 0,
+  "native_reopen_exit": 0,
+  "native_slice_exit": 0,
+  "physical_print_tested": false,
+  "layer_height_mm": 0.16,
+  "first_layer_height_mm": 0.16,
+  "plates": [
+    {
+      "id": 1,
+      "colors": 1,
+      "filament_changes": 0,
+      "supports_generated": false,
+      "warnings": "",
+      "estimated_seconds": 2111.77294921875,
+      "estimated_grams": 5.243616104125977
+    },
+    {
+      "id": 2,
+      "colors": 1,
+      "filament_changes": 0,
+      "supports_generated": false,
+      "warnings": "",
+      "estimated_seconds": 507.8056335449219,
+      "estimated_grams": 0.15790614485740662
+    }
+  ],
+  "estimated_total_seconds": 2619.578582763672,
+  "estimated_total_grams": 5.401522248983383
+}

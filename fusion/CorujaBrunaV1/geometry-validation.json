@@ -1,0 +1,11 @@
+{
+  "stl_checksums_match_geometry": true,
+  "source_meshes_watertight": true,
+  "front_is_one_connected_assembly": true,
+  "scarf_is_one_piece": true,
+  "ring_is_one_piece": true,
+  "assembled_color_intersections": 0,
+  "front_height_mm": 50,
+  "last_eye_glints_present_at_z_mm": 4.48,
+  "physical_print_tested": false
+}
