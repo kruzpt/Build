@@ -1,0 +1,44 @@
+{
+  "title": "Len\u00e7o V7 verde com n\u00f3 castanho no topo",
+  "dimensions_mm": [
+    15.970029830932617,
+    10.370660781860352,
+    1.399999976158142
+  ],
+  "green_height_mm": 1.2,
+  "brown_z_range_mm": [
+    1.2,
+    1.4
+  ],
+  "knot_groove_depth_mm": 0.1,
+  "same_insert_outline_as_V6": true,
+  "assembly_bottom_z_on_owl_mm": 2.15,
+  "compatible_owl": "anilha-coruja-bruna-v6",
+  "physical_print_tested": false,
+  "parts": [
+    {
+      "key": "verde",
+      "file": "anilha-coruja-bruna-lenco-v7-verde.stl",
+      "color": "#285D39",
+      "volume_mm3": 53.391997467764156,
+      "dimensions_mm": [
+        15.970029830932617,
+        10.370660781860352,
+        1.2000000476837158
+      ],
+      "sha256": "67f2eba18a04f4620280838a13898bf7d8b286b79a023019c5d3076eb5ccae0c"
+    },
+    {
+      "key": "no-castanho",
+      "file": "anilha-coruja-bruna-lenco-v7-no-castanho.stl",
+      "color": "#67402B",
+      "volume_mm3": 1.2580693219774108,
+      "dimensions_mm": [
+        3.1940099000930786,
+        2.7208194732666016,
+        0.19999992847442627
+      ],
+      "sha256": "bc7e2f05a00d412efdf9fc607f7f2da59f01a7afd3ca9cf0397e44feda6d2e64"
+    }
+  ]
+}
