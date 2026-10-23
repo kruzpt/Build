@@ -1,0 +1,46 @@
+{
+  "title": "Len\u00e7o V8 com dobras em relevo e n\u00f3 castanho",
+  "dimensions_mm": [
+    15.970029830932617,
+    10.370660781860352,
+    1.600000023841858
+  ],
+  "green_height_mm": 1.2,
+  "brown_z_range_mm": [
+    1.2,
+    1.6
+  ],
+  "knot_groove_depth_mm": 0.2,
+  "green_recess_depth_mm": 0.3,
+  "minimum_green_floor_mm": 0.9,
+  "same_insert_outline_as_V6": true,
+  "assembly_bottom_z_on_owl_mm": 2.15,
+  "compatible_owl": "anilha-coruja-bruna-v6",
+  "physical_print_tested": false,
+  "parts": [
+    {
+      "key": "verde",
+      "file": "anilha-coruja-bruna-lenco-v8-verde.stl",
+      "color": "#285D39",
+      "volume_mm3": 48.101739688022484,
+      "dimensions_mm": [
+        15.970029830932617,
+        10.370660781860352,
+        1.2000000476837158
+      ],
+      "sha256": "e9158e5c99415e8adcfb845d32e27976e2bcaef7a2fa483cb7e6e13cddae2d1e"
+    },
+    {
+      "key": "no-castanho",
+      "file": "anilha-coruja-bruna-lenco-v8-no-castanho.stl",
+      "color": "#67402B",
+      "volume_mm3": 2.3215484410212883,
+      "dimensions_mm": [
+        3.1940099000930786,
+        2.7208194732666016,
+        0.3999999761581421
+      ],
+      "sha256": "df252f738be288e3719cbb8b9d1d19139b6fa7ea4fb6f7b5d7dbaf3645eb189c"
+    }
+  ]
+}

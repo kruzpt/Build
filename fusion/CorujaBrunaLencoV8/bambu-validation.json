@@ -1,0 +1,16 @@
+{
+  "project": "anilha-coruja-bruna-lenco-v8-A1-bico-0.2-2-cores.3mf",
+  "sha256": "b045311b3fef87792341fc82a317433c2208def9aed407eccb31a707fb445d53",
+  "bambu_version": "02.08.02.61",
+  "native_export_reopen_slice_ok": true,
+  "nozzle_mm": 0.2,
+  "layer_height_mm": 0.1,
+  "filament_changes": 1,
+  "colors": 2,
+  "supports_generated": false,
+  "warnings": "",
+  "estimated_seconds": 1579.651123046875,
+  "estimated_main_grams": 0.13667303789407015,
+  "estimated_total_grams": 0.9387980997562408,
+  "physical_print_tested": false
+}
