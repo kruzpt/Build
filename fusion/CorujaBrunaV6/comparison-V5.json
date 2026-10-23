@@ -1,0 +1,14 @@
+{
+  "hands_reassigned_area_mm2": 45.44806474366217,
+  "hands_supported_in_black": true,
+  "hands_use_existing_white_layer_heights": true,
+  "accessory_meshes_identical_to_V5": true,
+  "V5_seconds": 11024.24609375,
+  "V6_seconds": 11069.716796875,
+  "difference_seconds": 45.470703125,
+  "V5_filament_changes": 12,
+  "V6_filament_changes": 12,
+  "V5_grams": 9.779539465904236,
+  "V6_grams": 9.896910786628723,
+  "physical_print_tested": false
+}

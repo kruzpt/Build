@@ -1,0 +1,26 @@
+{
+  "project": "anilha-coruja-bruna-v6-CORUJA-A1-bico-0.2-4-cores.3mf",
+  "sha256": "f07f3a0fa257658b875ad37d1bc2edf264699c781479d257788d02905766b256",
+  "bambu_version": "02.08.02.61",
+  "native_export_exit": 0,
+  "native_reopen_exit": 0,
+  "native_slice_exit": 0,
+  "physical_print_tested": false,
+  "nozzle_mm": 0.2,
+  "layer_height_mm": 0.1,
+  "first_layer_height_mm": 0.1,
+  "plates": [
+    {
+      "id": 1,
+      "colors": 4,
+      "filament_changes": 12,
+      "supports_generated": false,
+      "warnings": "",
+      "estimated_seconds": 11069.716796875,
+      "estimated_main_grams": 4.094873361289501,
+      "estimated_grams": 9.896910786628723
+    }
+  ],
+  "estimated_total_seconds": 11069.716796875,
+  "estimated_total_grams": 9.896910786628723
+}
