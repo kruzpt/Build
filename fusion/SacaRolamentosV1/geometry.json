@@ -1,0 +1,218 @@
+{
+  "parameters": {
+    "wheel_nominal_diameter": 63,
+    "bearing_bore": 7,
+    "bearing_outer": 22,
+    "bearing_width": 7,
+    "cup_outer": 54,
+    "cup_inner": 34,
+    "hub_contact_outer_PROVISIONAL": 34,
+    "hub_contact_inner_PROVISIONAL": 24,
+    "cup_height": 53,
+    "thread_major": 30,
+    "thread_root": 27,
+    "thread_pitch": 6,
+    "thread_length": 80,
+    "female_radial_clearance_PROVISIONAL": 0.35,
+    "female_axial_clearance_PROVISIONAL": 0.15,
+    "thread_engagement": 26,
+    "stroke_limit_MANUAL": 12,
+    "clevis_pin": 8,
+    "hook_thickness": 3,
+    "hook_envelopes_PROVISIONAL": [
+      5.4,
+      5.8,
+      6.2
+    ],
+    "material": "PETG",
+    "physical_tested": false
+  },
+  "parts": [
+    {
+      "key": "copo",
+      "file": "saca-rolamentos-v1-copo.stl",
+      "dimensions_mm": [
+        54.0,
+        54.0,
+        53.0
+      ],
+      "volume_mm3": 63852.69800836444,
+      "watertight": true,
+      "sha256": "dc7ac69c457758dd0230f41371337ad14bc2dc874a14b750691cfec2cf897baf"
+    },
+    {
+      "key": "veio",
+      "file": "saca-rolamentos-v1-veio.stl",
+      "dimensions_mm": [
+        27.5,
+        30.0,
+        102.0
+      ],
+      "volume_mm3": 57000.02213587416,
+      "watertight": true,
+      "sha256": "c68b98a948339f5cc4b16a4ad124a3091ba9bac660030deda3dffd49ea3432b2"
+    },
+    {
+      "key": "manipulo-porca",
+      "file": "saca-rolamentos-v1-manipulo-porca.stl",
+      "dimensions_mm": [
+        63.728363037109375,
+        63.728363037109375,
+        26.0
+      ],
+      "volume_mm3": 63456.06257859103,
+      "watertight": true,
+      "sha256": "ece24b33d7c80211beb3c47f31d5d6a26ab1a6182ce2e5fb2b50a09dd090be15"
+    },
+    {
+      "key": "eixo",
+      "file": "saca-rolamentos-v1-eixo.stl",
+      "dimensions_mm": [
+        12.0,
+        37.0,
+        12.0
+      ],
+      "volume_mm3": 2017.9806236095994,
+      "watertight": true,
+      "sha256": "f9f02c78ea75723cdb9ac7a539ad475714bee4277f6f245df60c0fe4ef6768dc"
+    },
+    {
+      "key": "clip",
+      "file": "saca-rolamentos-v1-clip.stl",
+      "dimensions_mm": [
+        12.0,
+        11.807892799377441,
+        1.600000023841858
+      ],
+      "volume_mm3": 110.04264391858932,
+      "watertight": true,
+      "sha256": "23231a3da874073f76b5c338645c2b1e48c2f1e579243fca074140202c081474"
+    },
+    {
+      "key": "anilha-deslizamento",
+      "file": "saca-rolamentos-v1-anilha-deslizamento.stl",
+      "dimensions_mm": [
+        54.0,
+        54.0,
+        1.0
+      ],
+      "volume_mm3": 1524.5941214708837,
+      "watertight": true,
+      "sha256": "4d267885a6170626819a29769464db3a6b7c985f6982c6f2efcc769c22de77a9"
+    },
+    {
+      "key": "teste-rosca-macho",
+      "file": "saca-rolamentos-v1-teste-rosca-macho.stl",
+      "dimensions_mm": [
+        38.0,
+        38.0,
+        17.0
+      ],
+      "volume_mm3": 12109.40088894678,
+      "watertight": true,
+      "sha256": "889f9555dc0642dd281f01fc15cbea31102407464c4448954185fb5333144d0d"
+    },
+    {
+      "key": "teste-rosca-porca",
+      "file": "saca-rolamentos-v1-teste-rosca-porca.stl",
+      "dimensions_mm": [
+        44.0,
+        44.0,
+        12.0
+      ],
+      "volume_mm3": 10089.529548916777,
+      "watertight": true,
+      "sha256": "ca4119ac9b9468fe110b2550e7dbabed8f9b252e14c92d6072a831afea5cd172"
+    },
+    {
+      "key": "gancho-5p4",
+      "file": "saca-rolamentos-v1-gancho-5p4.stl",
+      "dimensions_mm": [
+        18.198902130126953,
+        44.0,
+        8.0
+      ],
+      "volume_mm3": 1963.7874495678388,
+      "watertight": true,
+      "sha256": "32b7c655a7e7a6f5af6083e788fd4664c77c861fc68b0987665d5e5a25fb0449"
+    },
+    {
+      "key": "gancho-5p8",
+      "file": "saca-rolamentos-v1-gancho-5p8.stl",
+      "dimensions_mm": [
+        18.198902130126953,
+        44.0,
+        8.0
+      ],
+      "volume_mm3": 1968.5874469255268,
+      "watertight": true,
+      "sha256": "af801fd5b27e162e68e20a771b19d68ae2f57826c4b70ea9bd1d2547d05f37fc"
+    },
+    {
+      "key": "gancho-6p2",
+      "file": "saca-rolamentos-v1-gancho-6p2.stl",
+      "dimensions_mm": [
+        18.198902130126953,
+        44.0,
+        8.0
+      ],
+      "volume_mm3": 1973.3874491102633,
+      "watertight": true,
+      "sha256": "17539c49dfbba9abcc3d011b32ac6b216eb84f5db6affc0dd480323c01b0b897"
+    }
+  ],
+  "thread_collision_volumes_mm3": [
+    0.0,
+    0.0,
+    0.0,
+    0.0
+  ],
+  "assembled_collisions": [],
+  "motion_clearance_checks": [
+    {
+      "travel_mm": 0,
+      "collision_volumes_mm3": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "travel_mm": 3,
+      "collision_volumes_mm3": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "travel_mm": 6,
+      "collision_volumes_mm3": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    {
+      "travel_mm": 12,
+      "collision_volumes_mm3": [
+        0.0,
+        0.0,
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  ],
+  "fit_status": "provisional: wheel hub, spacer access and hook engagement unmeasured",
+  "assembly": "cup z0; washer z53; nut z54; male thread bottom z36; pin center z24; hook pivot z24",
+  "max_stroke_mm": 12,
+  "physical_print_tested": false,
+  "certified_load": null
+}

@@ -1,0 +1,35 @@
+{
+  "project": "saca-rolamentos-v1-A1-PETG-bico-0.4-3-pratos.3mf",
+  "sha256": "8197fa381f7c1bb15375ab353d3f7d9f8740ff23363df7c7f8c2237b2cd4a2e9",
+  "bambu_version": "02.08.02.61",
+  "native_export_reopen_slice_ok": true,
+  "nozzle_mm": 0.4,
+  "layer_height_mm": 0.16,
+  "wall_loops": 8,
+  "infill_percent": 100,
+  "material": "Generic PETG",
+  "physical_print_tested": false,
+  "plates": [
+    {
+      "id": 1,
+      "estimated_seconds": 8960.6142578125,
+      "estimated_total_grams": 27.115571975708008,
+      "filament_changes": 0,
+      "warnings": ""
+    },
+    {
+      "id": 2,
+      "estimated_seconds": 4820.529296875,
+      "estimated_total_grams": 10.754571914672852,
+      "filament_changes": 0,
+      "warnings": ""
+    },
+    {
+      "id": 3,
+      "estimated_seconds": 64872.91796875,
+      "estimated_total_grams": 231.06683349609375,
+      "filament_changes": 0,
+      "warnings": ""
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "wheel_nominal_diameter": 63,
+  "bearing_bore": 7,
+  "bearing_outer": 22,
+  "bearing_width": 7,
+  "cup_outer": 54,
+  "cup_inner": 34,
+  "hub_contact_outer_PROVISIONAL": 34,
+  "hub_contact_inner_PROVISIONAL": 24,
+  "cup_height": 53,
+  "thread_major": 30,
+  "thread_root": 27,
+  "thread_pitch": 6,
+  "thread_length": 80,
+  "female_radial_clearance_PROVISIONAL": 0.35,
+  "female_axial_clearance_PROVISIONAL": 0.15,
+  "thread_engagement": 26,
+  "stroke_limit_MANUAL": 12,
+  "clevis_pin": 8,
+  "hook_thickness": 3,
+  "hook_envelopes_PROVISIONAL": [
+    5.4,
+    5.8,
+    6.2
+  ],
+  "material": "PETG",
+  "physical_tested": false
+}
