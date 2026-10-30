@@ -1,0 +1,137 @@
+{
+  "project": "essencial-compacto-v5-azeitona-A1-AMS-4-pratos.3mf",
+  "sha256": "d475d3783c6faeba38874656a826d198656989db61c45d0dac86ef0209363bdc",
+  "printer": "Bambu Lab A1 0.4 nozzle",
+  "bambu_version": "02.08.02.61",
+  "native_export_exit": 0,
+  "native_reopen_exit": 0,
+  "native_slice_exit": 0,
+  "layer_height_mm": 0.16,
+  "base_settings": {
+    "wall_loops": "3",
+    "sparse_infill_density": "15%",
+    "wall_generator": "classic",
+    "seam_position": "front",
+    "outer_wall_speed": "35",
+    "outer_wall_acceleration": "1000",
+    "top_surface_speed": "20",
+    "top_shell_layers": "5",
+    "top_shell_thickness": "0.8",
+    "bottom_shell_layers": "5",
+    "bottom_shell_thickness": "0.8",
+    "bridge_speed": "20",
+    "brim_type": "no_brim"
+  },
+  "base_print_orientation": "inverted; visible green face against plate",
+  "gold_last_six_layers": true,
+  "plates": [
+    {
+      "plate": 1,
+      "name": "01 Frente branca - dourado e QR pretos",
+      "estimated_seconds": 17374.89453125,
+      "estimated_grams_including_flush_and_tower": 93.41850173473358,
+      "filament_changes": 3,
+      "filaments": [
+        {
+          "filament_id": "GFL99",
+          "id": 1,
+          "main_used_g": 89.07669067382812,
+          "total_used_g": 90.44112396240234
+        },
+        {
+          "filament_id": "GFL96",
+          "id": 3,
+          "main_used_g": 0.7453286051750183,
+          "total_used_g": 1.467605710029602
+        },
+        {
+          "filament_id": "GFL99",
+          "id": 4,
+          "main_used_g": 1.1306575536727905,
+          "total_used_g": 1.5097720623016357
+        }
+      ],
+      "warnings": "",
+      "supports": false,
+      "layers": 25,
+      "gcode_sha256": "c62f605e9ea01dd5ba3493e014d75ef97a86fb94a8a20a4ffe481a2015f9812d"
+    },
+    {
+      "plate": 2,
+      "name": "02 Fundo verde nervurado",
+      "estimated_seconds": 18908.333984375,
+      "estimated_grams_including_flush_and_tower": 105.09136962890625,
+      "filament_changes": 0,
+      "filaments": [
+        {
+          "filament_id": "GFL99",
+          "id": 2,
+          "main_used_g": 105.09136962890625,
+          "total_used_g": 105.09136962890625
+        }
+      ],
+      "warnings": "",
+      "supports": false,
+      "layers": 26,
+      "gcode_sha256": "4e2d901e68a4c96994dc561e8f4f025868768d50ab5e3a9246a4b8cfa977973f"
+    },
+    {
+      "plate": 3,
+      "name": "03 Base INVERTIDA - verde depois dourado",
+      "estimated_seconds": 15965.2890625,
+      "estimated_grams_including_flush_and_tower": 71.13723945617676,
+      "filament_changes": 1,
+      "filaments": [
+        {
+          "filament_id": "GFL99",
+          "id": 2,
+          "main_used_g": 53.352027893066406,
+          "total_used_g": 54.98612594604492
+        },
+        {
+          "filament_id": "GFL96",
+          "id": 3,
+          "main_used_g": 15.783534049987793,
+          "total_used_g": 16.151113510131836
+        }
+      ],
+      "warnings": "",
+      "supports": false,
+      "layers": 60,
+      "gcode_sha256": "908cffc73107bc9917acf75b5503bb45555913388559fcad1fa12300abea6cca"
+    },
+    {
+      "plate": 4,
+      "name": "04 AMOSTRA primeiro - canto ranhuras e linguetas",
+      "estimated_seconds": 5763.66259765625,
+      "estimated_grams_including_flush_and_tower": 23.171135425567627,
+      "filament_changes": 1,
+      "filaments": [
+        {
+          "filament_id": "GFL99",
+          "id": 2,
+          "main_used_g": 17.121318817138672,
+          "total_used_g": 18.755414962768555
+        },
+        {
+          "filament_id": "GFL96",
+          "id": 3,
+          "main_used_g": 4.0481414794921875,
+          "total_used_g": 4.415720462799072
+        }
+      ],
+      "warnings": "",
+      "supports": false,
+      "layers": 60,
+      "gcode_sha256": "9a68ec797da71ad09f025968e24f764e1d74841a324a447cedca0e0c5910de07"
+    }
+  ],
+  "front_white_core_finished_before_color_changes": true,
+  "front_white_only_initial_layers": 23,
+  "total_estimated_seconds": 58012.18017578125,
+  "total_estimated_grams": 292.8182462453842,
+  "physical_print_tested": false,
+  "physical_fit_tested": false,
+  "physical_qr_scan_tested": false,
+  "material_cost_eur_at_assumed_spool_prices": 4.501906326770782
+}

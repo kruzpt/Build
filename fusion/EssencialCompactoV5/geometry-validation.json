@@ -1,0 +1,66 @@
+{
+  "overall_width_depth_height_mm": [
+    200,
+    70,
+    200
+  ],
+  "base_height_range_mm": [
+    9.6,
+    9.6
+  ],
+  "wave_height_amplitude_mm": 0,
+  "wave_shoulder_clearance_mm": 0,
+  "wave_profile": "none: flat top, rounded rectangle with centred front recess",
+  "slot_width_mm": 3.6,
+  "tongue_thickness_mm": 3.2,
+  "clearance_per_side_mm": 0.2,
+  "slot_depth_range_mm": [
+    6.4,
+    6.4
+  ],
+  "tongue_tip_floor_z_mm": 3.4,
+  "slot_floor_mm": 3.2,
+  "bottom_clearance_mm": 0.2,
+  "front_thickness_mm": 3.2,
+  "rear_core_thickness_mm": 3.2,
+  "rib_relief_mm": 1,
+  "rib_pitch_mm": 3.2,
+  "rib_width_mm": 1.25,
+  "rib_free_insertion_tongue": true,
+  "qr_field_mm": 58.58461538461539,
+  "plate_xy_scale": 0.9153846153846155,
+  "requires_new_front_and_rear": false,
+  "front_and_rear_compatible_with": "V4",
+  "base_print_inverted": true,
+  "gold_trim_mm": 0.96,
+  "front_recess_depth_mm": 8,
+  "corner_radius_mm": 8,
+  "qr_modules_with_quiet_zone": 45,
+  "qr_pitch_mm": 1.301880341880342,
+  "qr_relief_mm": 0.32,
+  "card_relief_mm": 0.48,
+  "all_front_color_start_mm": 3.68,
+  "all_front_color_top_mm": 4.0,
+  "removed_serif_area_mm2": 26.97831479205892,
+  "qr_stl_decoded": {
+    "Instagram": "https://www.instagram.com/clinicaessencial_setubal/",
+    "Google": "https://search.google.com/local/writereview?placeid=ChIJvVHxDlBCGQ0Rcw8jp4G4TNg"
+  },
+  "insertion_checks": 124,
+  "max_collision_mm3": 2.7674910973995992e-14,
+  "static_cg_mm": [
+    1.9348833610352134,
+    35.20594155622732,
+    73.73602706190118
+  ],
+  "static_margin_mm": 27.221115599767693,
+  "logo_original_vector_available": false,
+  "fox_traced_from_reference": true,
+  "typeface": "Nimbus Roman; interpretation of reference, not an exact original vector",
+  "nfc": false,
+  "whatsapp": false,
+  "physical_fit_tested": false,
+  "physical_qr_scan_tested": false,
+  "structural_load_or_push_tested": false,
+  "fusion_runtime_tested": false
+}

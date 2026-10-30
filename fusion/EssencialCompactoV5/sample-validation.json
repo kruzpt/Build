@@ -1,0 +1,54 @@
+{
+  "parts": [
+    {
+      "key": "amostra-verde",
+      "file": "essencial-compacto-v5-azeitona-amostra-verde.stl",
+      "color": "#737648",
+      "bbox_mm": [
+        70.0,
+        50.0,
+        8.640000343322756
+      ],
+      "sha256": "457f306f7b02e783837ebb120ade4ae53462e8fbaddb7f145ae784419c35dff0",
+      "watertight": true
+    },
+    {
+      "key": "amostra-dourado",
+      "file": "essencial-compacto-v5-azeitona-amostra-dourado.stl",
+      "color": "#DDB34E",
+      "bbox_mm": [
+        70.0,
+        50.0,
+        0.9600000381469727
+      ],
+      "sha256": "196be6b6ea141bcb2df3ca621fe06bb5d9ea3def7d27cdd919b58febbcc8e220",
+      "watertight": true
+    },
+    {
+      "key": "amostra-linguetas",
+      "file": "essencial-compacto-v5-azeitona-amostra-linguetas.stl",
+      "color": "#737648",
+      "bbox_mm": [
+        56.0,
+        19.799999237060547,
+        3.200000047683716
+      ],
+      "sha256": "43c41cb31f3ce46cda415c9cad63ff4cf05f72653e1606bfa000f0ce83752a4f",
+      "watertight": true
+    }
+  ],
+  "crop_mm": [
+    70,
+    50,
+    9.6
+  ],
+  "same_corner_and_slot_geometry_as_full_base": true,
+  "same_inverted_print_orientation": true,
+  "tongue_thickness_mm": 3.2,
+  "tongue_width_mm": 20,
+  "tongue_length_mm": 6.2,
+  "slot_width_mm": 3.6,
+  "slot_depth_mm": 6.4,
+  "bridge_span_mm": 3.6,
+  "physical_tested": false
+}
