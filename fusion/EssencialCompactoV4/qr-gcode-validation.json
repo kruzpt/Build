@@ -1,0 +1,114 @@
+{
+  "projected_relief_layers_mm": [
+    3.84,
+    4.0
+  ],
+  "filament_slot": 4,
+  "line_width_source": "G-code LINE_WIDTH comments",
+  "gcode_sha256": "2cc8b4d475bdd1260a9055fde1e3c9f59b035f2e4ad58b26c0fd40ebc62e3edd",
+  "decoded": {
+    "Instagram": {
+      "url": "https://www.instagram.com/clinicaessencial_setubal/",
+      "segments": 13679,
+      "module_mismatches": 0,
+      "raw_line_raster_decoded": false,
+      "known_grid_module_sampling_decoded": true
+    },
+    "Google": {
+      "url": "https://search.google.com/local/writereview?placeid=ChIJvVHxDlBCGQ0Rcw8jp4G4TNg",
+      "segments": 15303,
+      "module_mismatches": 0,
+      "raw_line_raster_decoded": true,
+      "known_grid_module_sampling_decoded": true
+    }
+  },
+  "interpretation": "Known-grid module coverage from projected black relief paths, including preceding relief layers, tessellated arcs/full circles and round caps; not an optical or physical scan",
+  "physical_scan_tested": false,
+  "front_color_sequence": {
+    "white_only_layers": 23,
+    "white_finished_z_mm": 3.68,
+    "top_color_layers_mm": [
+      3.84,
+      4.0
+    ],
+    "material_slots_by_layer": {
+      "0.16": [
+        1
+      ],
+      "0.32": [
+        1
+      ],
+      "0.48": [
+        1
+      ],
+      "0.64": [
+        1
+      ],
+      "0.8": [
+        1
+      ],
+      "0.96": [
+        1
+      ],
+      "1.12": [
+        1
+      ],
+      "1.28": [
+        1
+      ],
+      "1.44": [
+        1
+      ],
+      "1.6": [
+        1
+      ],
+      "1.76": [
+        1
+      ],
+      "1.92": [
+        1
+      ],
+      "2.08": [
+        1
+      ],
+      "2.24": [
+        1
+      ],
+      "2.4": [
+        1
+      ],
+      "2.56": [
+        1
+      ],
+      "2.72": [
+        1
+      ],
+      "2.88": [
+        1
+      ],
+      "3.04": [
+        1
+      ],
+      "3.2": [
+        1
+      ],
+      "3.36": [
+        1
+      ],
+      "3.52": [
+        1
+      ],
+      "3.68": [
+        1
+      ],
+      "3.84": [
+        3,
+        4
+      ],
+      "4.0": [
+        3,
+        4
+      ]
+    }
+  }
+}

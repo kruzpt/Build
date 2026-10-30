@@ -1,0 +1,11 @@
+{
+  "base_native_rotation_deg": 0,
+  "seam_setting": "back: rear of assembled display",
+  "green_horizontal_top_z_mm": [
+    3.2,
+    9.6
+  ],
+  "max_main_top_surface_speed_mm_s": 20.0,
+  "no_curved_upper_surface": true,
+  "physical_surface_tested": false
+}

@@ -1,0 +1,13 @@
+{
+  "previous": "V3",
+  "new": "V4",
+  "base_grams_before": 166.68246459960938,
+  "base_grams_after": 65.25062084197998,
+  "base_hours_before": 9.110536024305556,
+  "base_hours_after": 3.752641330295139,
+  "whole_grams_before": 401.2781866788864,
+  "whole_grams_after": 263.76049268245697,
+  "whole_hours_before": 21.083019205729165,
+  "whole_hours_after": 13.831346842447916,
+  "requires_new_front_and_rear": true
+}
