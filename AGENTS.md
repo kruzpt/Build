@@ -21,3 +21,8 @@ O utilizador pediu que os ficheiros sejam acessíveis no GitHub. Links locais
 - Se o envio falhar, explique o bloqueio e não afirme que foi publicado.
 
 Este fluxo de entrega não autoriza alterações sem relação com o pedido atual.
+
+# Preferências de impressão
+
+- Por indicação do utilizador, não ativar brim por defeito nos novos projetos.
+  Reservá-lo para casos concretos que precisem de mais adesão e explicar a razão.

@@ -1,0 +1,202 @@
+{
+  "project": "m7-casa-v5-alinhada-A1-AMS-4-pratos.3mf",
+  "sha256": "4fe7cee9048f1f7b14723d75ce647db4c5da686b3322c23a4d1de68d1adb2efc",
+  "bambu_version": "02.08.02.61",
+  "printer": "Bambu Lab A1 0.4 nozzle",
+  "brim_enabled": false,
+  "layer_height_mm": 0.2,
+  "blue_part_overrides": {
+    "top_shell_layers": "0",
+    "top_shell_thickness": "0",
+    "bottom_shell_layers": "4",
+    "bottom_shell_thickness": "0.8",
+    "internal_solid_infill_speed": "35"
+  },
+  "white_part_overrides": {
+    "top_surface_pattern": "monotonic",
+    "top_surface_speed": "25",
+    "top_one_wall_type": "not apply",
+    "outer_wall_speed": "50",
+    "outer_wall_acceleration": "1000",
+    "top_surface_acceleration": "1000"
+  },
+  "native_reopen_exit": 0,
+  "native_slice_exit": 0,
+  "plates": [
+    {
+      "plate": 1,
+      "name": "01 Casa UNIDA - azul branco frase azul",
+      "estimated_seconds": 5256.24560546875,
+      "estimated_grams": 24.863569736480713,
+      "filament_changes": 2,
+      "warnings": "",
+      "supports": false,
+      "brim": false,
+      "gcode_sha256": "9a3541a177a88f13173cd9bdba676cafd4cefd99dd7b11f0d78936c5910a20b2"
+    },
+    {
+      "plate": 2,
+      "name": "02 Base azul - encaixes V2",
+      "estimated_seconds": 7579.8974609375,
+      "estimated_grams": 40.752716064453125,
+      "filament_changes": 0,
+      "warnings": "",
+      "supports": false,
+      "brim": false,
+      "gcode_sha256": "40625ec323737a64ce59bf8fab3334d42385c537d162cf518c4d395e940b07fa"
+    },
+    {
+      "plate": 3,
+      "name": "03 m branco original para colar",
+      "estimated_seconds": 490.3600158691406,
+      "estimated_grams": 0.2068338543176651,
+      "filament_changes": 0,
+      "warnings": "",
+      "supports": false,
+      "brim": false,
+      "gcode_sha256": "4913d4ec5c7a08548dff015e7c680e8ca36dd482c4968b3933144779be6a648b"
+    },
+    {
+      "plate": 4,
+      "name": "04 7 ciano original para colar",
+      "estimated_seconds": 477.0545349121094,
+      "estimated_grams": 0.14249888062477112,
+      "filament_changes": 0,
+      "warnings": "",
+      "supports": false,
+      "brim": false,
+      "gcode_sha256": "cb2a1d3030513ee9d5a2992cbd8db5f3e866a9344e560786a1ba788924d12635"
+    }
+  ],
+  "house_sequence": {
+    "material_slots_by_layer": {
+      "0.2": [
+        2
+      ],
+      "0.4": [
+        2
+      ],
+      "0.6": [
+        2
+      ],
+      "0.8": [
+        2
+      ],
+      "1.0": [
+        1
+      ],
+      "1.2": [
+        1
+      ],
+      "1.4": [
+        1
+      ],
+      "1.6": [
+        1
+      ],
+      "1.8": [
+        1
+      ],
+      "2.0": [
+        1
+      ],
+      "2.2": [
+        1
+      ],
+      "2.4": [
+        1
+      ],
+      "2.6": [
+        1
+      ],
+      "2.8": [
+        1
+      ],
+      "3.0": [
+        1
+      ],
+      "3.2": [
+        1
+      ],
+      "3.4": [
+        1
+      ],
+      "3.6": [
+        1
+      ],
+      "3.8": [
+        1
+      ],
+      "4.0": [
+        1
+      ],
+      "4.2": [
+        1
+      ],
+      "4.4": [
+        1
+      ],
+      "4.6": [
+        1
+      ],
+      "4.8": [
+        1
+      ],
+      "5.0": [
+        1
+      ],
+      "5.2": [
+        1
+      ],
+      "5.4": [
+        1
+      ],
+      "5.6": [
+        1
+      ],
+      "5.8": [
+        1
+      ],
+      "6.0": [
+        1
+      ],
+      "6.2": [
+        2
+      ],
+      "6.4": [
+        2
+      ],
+      "6.6": [
+        2
+      ]
+    },
+    "blue_first_layers": 4,
+    "blue_last_z_mm": 0.8,
+    "blue_transition_features": [
+      "Inner wall",
+      "Internal solid infill",
+      "Outer wall",
+      "Top surface"
+    ],
+    "blue_window_surfaces_finished": true,
+    "covered_blue_has_no_top_finishing": true,
+    "white_first_z_mm": 1.0,
+    "white_last_z_mm": 6.0,
+    "white_final_layer_features": [
+      "Inner wall",
+      "Outer wall",
+      "Top surface"
+    ],
+    "white_final_layer_has_internal_or_sparse_infill": false,
+    "white_final_top_speed_mm_s": [
+      25.0
+    ],
+    "phrase_first_z_mm": 6.2,
+    "phrase_top_mm": 6.6,
+    "white_fully_finished_before_phrase": true
+  },
+  "total_estimated_seconds": 13803.5576171875,
+  "total_estimated_grams": 65.96561853587627,
+  "physical_print_tested": false,
+  "physical_fit_tested": false
+}
