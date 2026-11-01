@@ -1,0 +1,206 @@
+{
+  "project": "m7-casa-v7-branco-continuo-A1-AMS-4-pratos.3mf",
+  "sha256": "40530dc101bdeddc1e7d01b93237f89c269f3f52984ab641d7ff96cc11cca6ae",
+  "source_project": "m7-casa-v6-azul-2mm-A1-AMS-4-pratos.3mf",
+  "source_sha256": "39ac61f3a99b486135a85e96d5252ebe47f446f5b52b5e339f57103185e4aca9",
+  "geometry_and_assembly_models_byte_identical_to_v6": true,
+  "global_settings_byte_identical_to_v6": true,
+  "other_objects_settings_unchanged": true,
+  "house_object_override": {
+    "top_one_wall_type": "not apply"
+  },
+  "white_letter_area_bounds_mm": [
+    [
+      -30.0,
+      16.00728988647461
+    ],
+    [
+      30.0,
+      40.75334167480469
+    ]
+  ],
+  "baseline_v6_final_white_letter_area_features": {
+    "Inner wall": 393,
+    "Top surface": 288
+  },
+  "v7_final_white_letter_area_features": {
+    "Top surface": 127
+  },
+  "last_white_layer_has_no_letter_perimeters": true,
+  "house_sequence": {
+    "material_slots_by_layer": {
+      "0.2": [
+        2
+      ],
+      "0.4": [
+        2
+      ],
+      "0.6": [
+        2
+      ],
+      "0.8": [
+        2
+      ],
+      "1.0": [
+        2
+      ],
+      "1.2": [
+        2
+      ],
+      "1.4": [
+        2
+      ],
+      "1.6": [
+        2
+      ],
+      "1.8": [
+        2
+      ],
+      "2.0": [
+        2
+      ],
+      "2.2": [
+        1
+      ],
+      "2.4": [
+        1
+      ],
+      "2.6": [
+        1
+      ],
+      "2.8": [
+        1
+      ],
+      "3.0": [
+        1
+      ],
+      "3.2": [
+        1
+      ],
+      "3.4": [
+        1
+      ],
+      "3.6": [
+        1
+      ],
+      "3.8": [
+        1
+      ],
+      "4.0": [
+        1
+      ],
+      "4.2": [
+        1
+      ],
+      "4.4": [
+        1
+      ],
+      "4.6": [
+        1
+      ],
+      "4.8": [
+        1
+      ],
+      "5.0": [
+        1
+      ],
+      "5.2": [
+        1
+      ],
+      "5.4": [
+        1
+      ],
+      "5.6": [
+        1
+      ],
+      "5.8": [
+        1
+      ],
+      "6.0": [
+        1
+      ],
+      "6.2": [
+        2
+      ],
+      "6.4": [
+        2
+      ],
+      "6.6": [
+        2
+      ]
+    },
+    "blue_first_layers": 10,
+    "blue_last_z_mm": 2.0,
+    "blue_transition_features": [
+      "Inner wall",
+      "Internal solid infill",
+      "Outer wall",
+      "Top surface"
+    ],
+    "blue_window_surfaces_finished": true,
+    "covered_blue_has_no_top_finishing": true,
+    "white_first_z_mm": 2.2,
+    "white_last_z_mm": 6.0,
+    "white_final_layer_features": [
+      "Inner wall",
+      "Outer wall",
+      "Top surface"
+    ],
+    "white_final_layer_has_internal_or_sparse_infill": false,
+    "white_final_top_speed_mm_s": [
+      25.0
+    ],
+    "phrase_first_z_mm": 6.2,
+    "phrase_top_mm": 6.6,
+    "white_fully_finished_before_phrase": true
+  },
+  "bambu_version": "02.08.02.61",
+  "native_reopen_exit": 0,
+  "native_slice_exit": 0,
+  "plates": [
+    {
+      "plate": 1,
+      "estimated_seconds": 7399.90966796875,
+      "estimated_grams": 31.206270217895508,
+      "filament_changes": 2,
+      "warnings": "",
+      "supports": false,
+      "brim": false,
+      "gcode_sha256": "50e4ad40c3edbad867267e36f9a7b6f0f327eac3c73693fcf73a260009d62917"
+    },
+    {
+      "plate": 2,
+      "estimated_seconds": 7581.01611328125,
+      "estimated_grams": 40.75271987915039,
+      "filament_changes": 0,
+      "warnings": "",
+      "supports": false,
+      "brim": false,
+      "gcode_sha256": "69b821f3f8f97e910f577dc14781d34f8e3e13f7c8602fe63658ce03a13df378"
+    },
+    {
+      "plate": 3,
+      "estimated_seconds": 490.3600158691406,
+      "estimated_grams": 0.2068338543176651,
+      "filament_changes": 0,
+      "warnings": "",
+      "supports": false,
+      "brim": false,
+      "gcode_sha256": "a5b599f1bc54777c23485a5a7956d070ed9f5b4c671ba74dc8fb4e127f165c14"
+    },
+    {
+      "plate": 4,
+      "estimated_seconds": 477.0545349121094,
+      "estimated_grams": 0.14249888062477112,
+      "filament_changes": 0,
+      "warnings": "",
+      "supports": false,
+      "brim": false,
+      "gcode_sha256": "29baaf9480ffd2b8f73087eb0fb7e6c112d8b025e6343161a046797a446154dd"
+    }
+  ],
+  "total_estimated_seconds": 15948.34033203125,
+  "total_estimated_grams": 72.30832283198833,
+  "physical_print_tested": false,
+  "physical_fit_tested": false
+}
