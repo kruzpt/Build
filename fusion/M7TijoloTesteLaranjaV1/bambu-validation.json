@@ -1,0 +1,52 @@
+{
+  "project": "m7-tijolo-teste-laranja-v1-A1-PLA-1-prato.3mf",
+  "sha256": "2a8ae6c2b6ee019af5f031e8408c5d15a0f30288b8db9b125117665606e61cac",
+  "source_project": "m7-tijolo-v7-acabamento-A1-AMS-2-pratos.3mf",
+  "test_purpose": "Check the orange carrier before any coloured relief printing",
+  "printable_objects": 1,
+  "printable_parts": 1,
+  "dimensions_mm": [
+    46.400001599999996,
+    66.3999977,
+    0.600000024
+  ],
+  "carrier_mesh_and_part_settings_unchanged": true,
+  "orientation_and_printer_xy_preserved": true,
+  "tower_disabled": true,
+  "supports": false,
+  "brim": false,
+  "filament_changes": 0,
+  "layers": 3,
+  "material_slots_by_layer": {
+    "0.2": [
+      1
+    ],
+    "0.4": [
+      1
+    ],
+    "0.6": [
+      1
+    ]
+  },
+  "last_layer_features": [
+    "Inner wall",
+    "Outer wall",
+    "Top surface"
+  ],
+  "estimated_seconds": 1061.06884765625,
+  "estimated_grams": 2.307591676712036,
+  "filaments": [
+    {
+      "filament_id": "GFL99",
+      "id": 1,
+      "main_used_g": 2.307591676712036,
+      "total_used_g": 2.307591676712036
+    }
+  ],
+  "warnings": "",
+  "native_reopen_exit": 0,
+  "native_slice_exit": 0,
+  "bambu_version": "02.08.02.61",
+  "gcode_sha256": "c37179f1ddeaafb010e81c7a556848c17f052849188ef59afbc8ffd2be671aa7",
+  "physical_print_tested": false
+}
