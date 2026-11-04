@@ -1,0 +1,155 @@
+{
+  "project": "m7-tijolo-v7-acabamento-A1-AMS-2-pratos.3mf",
+  "sha256": "4f7ac016433d53544714c19d80c3a12380ae06b5e4da23634d87f6797f7ead08",
+  "source_project": "m7-tijolo-v6-folga-A1-AMS-2-pratos.3mf",
+  "geometry_and_assembly_models_byte_identical_to_v6": true,
+  "global_profile_changes": {
+    "outer_wall_acceleration": [
+      "1000"
+    ]
+  },
+  "body_geometry_unchanged": true,
+  "body_outer_wall_acceleration_mm_s2": 1000,
+  "body_acceleration_verified_in_gcode": true,
+  "plaque_object_overrides": {
+    "top_one_wall_type": "not apply",
+    "outer_wall_acceleration": "1000"
+  },
+  "plaque_mm": [
+    46.4,
+    66.4,
+    0.6
+  ],
+  "plaque_part_overrides": {
+    "outer_wall_acceleration": "1000"
+  },
+  "side_clearance_mm": 0.3,
+  "baseline": {
+    "material_slots_by_layer": {
+      "0.2": [
+        1
+      ],
+      "0.4": [
+        1
+      ],
+      "0.6": [
+        1
+      ],
+      "0.8": [
+        2,
+        3,
+        4
+      ],
+      "1.0": [
+        2,
+        3,
+        4
+      ],
+      "1.2": [
+        2,
+        3,
+        4
+      ],
+      "1.4": [
+        2,
+        3,
+        4
+      ],
+      "1.6": [
+        2,
+        3,
+        4
+      ]
+    },
+    "last_orange_z_mm": 0.6,
+    "first_relief_z_mm": 0.8,
+    "interior_last_orange_features": {
+      "Inner wall": 369,
+      "Top surface": 605,
+      "Gap infill": 206
+    },
+    "outer_wall_acceleration_after_first_layer_mm_s2": [
+      2000.0
+    ],
+    "orange_top_speed_mm_s": [
+      25.0
+    ]
+  },
+  "corrected": {
+    "material_slots_by_layer": {
+      "0.2": [
+        1
+      ],
+      "0.4": [
+        1
+      ],
+      "0.6": [
+        1
+      ],
+      "0.8": [
+        2,
+        3,
+        4
+      ],
+      "1.0": [
+        2,
+        3,
+        4
+      ],
+      "1.2": [
+        2,
+        3,
+        4
+      ],
+      "1.4": [
+        2,
+        3,
+        4
+      ],
+      "1.6": [
+        2,
+        3,
+        4
+      ]
+    },
+    "last_orange_z_mm": 0.6,
+    "first_relief_z_mm": 0.8,
+    "interior_last_orange_features": {
+      "Top surface": 192
+    },
+    "outer_wall_acceleration_after_first_layer_mm_s2": [
+      1000.0
+    ],
+    "orange_top_speed_mm_s": [
+      25.0
+    ]
+  },
+  "bambu_version": "02.08.02.61",
+  "native_reopen_exit": 0,
+  "native_slice_exit": 0,
+  "plates": [
+    {
+      "plate": 1,
+      "estimated_seconds": 11427.6171875,
+      "estimated_grams": 46.12346649169922,
+      "filament_changes": 0,
+      "warnings": "",
+      "brim": false,
+      "supports": false,
+      "gcode_sha256": "8d6e2b464671e44ba3526504b9a6b2fd9305143fecd90971208164039aaf4f68"
+    },
+    {
+      "plate": 2,
+      "estimated_seconds": 3105.4287109375,
+      "estimated_grams": 8.674803018569946,
+      "filament_changes": 11,
+      "warnings": "",
+      "brim": false,
+      "supports": false,
+      "gcode_sha256": "80307b03f90736c1253c4cba8e03f85b246e19df570d4300b42ac28bbb794298"
+    }
+  ],
+  "physical_print_tested": false,
+  "corner_tip_eliminated_confirmed": false,
+  "physical_fit_tested": false
+}
