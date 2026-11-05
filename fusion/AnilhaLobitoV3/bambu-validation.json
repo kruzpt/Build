@@ -1,0 +1,75 @@
+{
+  "project": "anilha-lobito-v3-costas-lisas-A1-AMS-2-pratos.3mf",
+  "sha256": "56cd8fb531dce8747c6ef7fdcdf7f2aa330d078f0a169914aeb51408e07e2d17",
+  "native_slice_exit": 0,
+  "printer": "Bambu Lab A1 0.4 nozzle",
+  "bambu_version": "02.09.01.70",
+  "source_STL_volumes_and_inertia_matched_native": true,
+  "layer_height_mm": 0.16,
+  "brim": false,
+  "support_body": false,
+  "support_face": false,
+  "plates": [
+    {
+      "plate": 1,
+      "estimated_seconds": 4799.5859375,
+      "estimated_grams_including_flush_and_tower": 12.561249732971191,
+      "filament_changes": 0,
+      "warnings": "",
+      "dimensions_mm": [
+        42.0,
+        32.84999839999999,
+        30.0
+      ],
+      "filaments": [
+        {
+          "filament_id": "GFL99",
+          "id": 1,
+          "main_used_g": 12.561249732971191,
+          "total_used_g": 12.561249732971191
+        }
+      ],
+      "gcode_sha256": "0a37f7602a05f14cbbde4c9c9b4e71be3e48abf5522d3ef21c1d790bd6dd6265"
+    },
+    {
+      "plate": 2,
+      "estimated_seconds": 17981.388671875,
+      "estimated_grams_including_flush_and_tower": 51.199708461761475,
+      "filament_changes": 113,
+      "warnings": "",
+      "dimensions_mm": [
+        37.7999992,
+        37.65000160000001,
+        14.0999999
+      ],
+      "filaments": [
+        {
+          "filament_id": "GFL99",
+          "id": 1,
+          "main_used_g": 4.06275749206543,
+          "total_used_g": 17.521345138549805
+        },
+        {
+          "filament_id": "GFL99",
+          "id": 2,
+          "main_used_g": 1.9979182481765747,
+          "total_used_g": 27.976625442504883
+        },
+        {
+          "filament_id": "GFL99",
+          "id": 3,
+          "main_used_g": 0.4441841244697571,
+          "total_used_g": 5.701737880706787
+        }
+      ],
+      "gcode_sha256": "8637daa408ccf8a5e8ea437f7e53501d277a3062ac0acac64ae94a0f5db6cedf"
+    }
+  ],
+  "generic_PLA_profiles_require_matching_actual_filament": true,
+  "opening_reused_from_owl_mm": [
+    25,
+    18
+  ],
+  "physical_print_tested": false,
+  "physical_fit_tested": false
+}

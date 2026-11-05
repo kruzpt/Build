@@ -1,7 +1,8 @@
 # Anilha do lobito — conceito V2 para aprovação visual
 
-**Estado: prévia de forma e disposição dos detalhes.** A preparação final dos
-ficheiros de impressão fica dependente da aprovação deste conceito.
+**Estado: conceito arredondado aprovado pelo utilizador.** O pedido posterior
+de costas lisas e frente com volume foi aplicado ao
+[projeto V3 para imprimir](../downloads/anilha-lobito-v3-costas-lisas-A1-AMS-2-pratos.3mf).
 
 ![Prévia do conceito](anilha-lobito-v2-conceito.png)
 
@@ -20,6 +21,6 @@ branco nas bochechas, focinho arredondado, olhos expressivos, sorriso e orelhas
 suaves. A união ficará escondida atrás do rosto; o aspeto exterior acompanha
 a forma arredondada do corpo.
 
-Depois da aprovação visual serão concluídos os pormenores do encaixe, a
-orientação, os suportes, a preparação Bambu e a validação para impressão.
-Esta prévia não constitui aprovação de ajuste físico nem teste de impressão.
+Os pormenores do encaixe e da impressão estão documentados no projeto V3.
+A aprovação visual desta prévia não equivale a teste de ajuste físico ou
+de impressão.
