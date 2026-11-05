@@ -1,0 +1,278 @@
+{
+  "project": "m7-tijolo-teste-laranja-v5-uma-parede-A1-PLA-1-prato.3mf",
+  "sha256": "d54cdb5720f3d0288f177bf1fd79a3e7858c5c28a36935d384994ffbf93bce26",
+  "source_file": "0wall_m7-tijolo-teste-laranja-v1-A1-PLA-1-prato.3mf",
+  "source_sha256": "576f28649a00b7754abb615a85051c00ed5cccc99187760a81913d9e874ede43",
+  "bambu_version": "02.09.01.70",
+  "native_slice_exit": 0,
+  "only_input_change": {
+    "object.wall_loops": {
+      "before": 0,
+      "after": 1
+    }
+  },
+  "global_wall_loops_preserved": "3",
+  "configuration_geometry_seam_paint_and_other_archive_entries_byte_identical": true,
+  "object_settings_identical_except_wall_override": true,
+  "dimensions_mm": [
+    46.40000534057617,
+    66.39999389648438,
+    0.6000000238418579
+  ],
+  "orange_flow_ratio": 0.931,
+  "top_pattern": "monotonicline",
+  "infill_angle_degrees": 45,
+  "layer_wall_checks": [
+    {
+      "layer_mm": 0.2,
+      "contiguous_outer_loop_count": 1,
+      "inner_wall_count": 0,
+      "outer_segments": 17,
+      "seam_start_xy_mm": [
+        127.04,
+        94.632
+      ],
+      "seam_end_xy_mm": [
+        126.98,
+        94.632
+      ],
+      "seam_gap_mm": 0.060000000000002274,
+      "seam_on_straight_edge": true,
+      "speed_mm_s": 20,
+      "acceleration_mm_s2": 500
+    },
+    {
+      "layer_mm": 0.4,
+      "contiguous_outer_loop_count": 1,
+      "inner_wall_count": 0,
+      "outer_segments": 17,
+      "seam_start_xy_mm": [
+        127.032,
+        94.492
+      ],
+      "seam_end_xy_mm": [
+        126.972,
+        94.492
+      ],
+      "seam_gap_mm": 0.060000000000002274,
+      "seam_on_straight_edge": true,
+      "speed_mm_s": 50,
+      "acceleration_mm_s2": 1000
+    },
+    {
+      "layer_mm": 0.6,
+      "contiguous_outer_loop_count": 1,
+      "inner_wall_count": 0,
+      "outer_segments": 17,
+      "seam_start_xy_mm": [
+        127.032,
+        94.494
+      ],
+      "seam_end_xy_mm": [
+        126.972,
+        94.494
+      ],
+      "seam_gap_mm": 0.060000000000002274,
+      "seam_on_straight_edge": true,
+      "speed_mm_s": 50,
+      "acceleration_mm_s2": 1000
+    }
+  ],
+  "brim": false,
+  "supports": false,
+  "prime_tower": false,
+  "reference": {
+    "estimated_seconds": 1063.6890869140625,
+    "estimated_grams": 2.1850435733795166,
+    "warnings": "",
+    "top_line_count": 208,
+    "top_line_length_range_mm": [
+      1.5902833080932433,
+      65.50566510615704
+    ],
+    "top_speeds_mm_s": [
+      25.0
+    ],
+    "top_first_line": {
+      "layer": 0.6,
+      "feature": "Top surface",
+      "a": [
+        149.457,
+        95.45
+      ],
+      "b": [
+        148.333,
+        94.325
+      ],
+      "length": 1.5902833080932433,
+      "tool": 1,
+      "speed_mm_s": 25.0,
+      "acceleration_mm_s2": 1000.0
+    },
+    "top_last_line": {
+      "layer": 0.6,
+      "feature": "Top surface",
+      "a": [
+        103.138,
+        159.515
+      ],
+      "b": [
+        104.265,
+        160.642
+      ],
+      "length": 1.5938186847944815,
+      "tool": 1,
+      "speed_mm_s": 25.0,
+      "acceleration_mm_s2": 1000.0
+    },
+    "edge_gap_paths": [
+      {
+        "layer": 0.6,
+        "feature": "Gap infill",
+        "a": [
+          148.733,
+          94.306
+        ],
+        "b": [
+          149.476,
+          95.05
+        ],
+        "length": 1.0514680213872376,
+        "tool": 1,
+        "speed_mm_s": 120.93861666666666,
+        "acceleration_mm_s2": 6000.0
+      },
+      {
+        "layer": 0.6,
+        "feature": "Gap infill",
+        "a": [
+          149.061,
+          160.584
+        ],
+        "b": [
+          149.15,
+          160.517
+        ],
+        "length": 0.11140017953307227,
+        "tool": 1,
+        "speed_mm_s": 250.0,
+        "acceleration_mm_s2": 6000.0
+      },
+      {
+        "layer": 0.6,
+        "feature": "Gap infill",
+        "a": [
+          149.15,
+          160.517
+        ],
+        "b": [
+          149.199,
+          160.525
+        ],
+        "length": 0.04964876634923372,
+        "tool": 1,
+        "speed_mm_s": 250.0,
+        "acceleration_mm_s2": 6000.0
+      },
+      {
+        "layer": 0.6,
+        "feature": "Gap infill",
+        "a": [
+          103.866,
+          160.661
+        ],
+        "b": [
+          103.438,
+          160.329
+        ],
+        "length": 0.5416714871580315,
+        "tool": 1,
+        "speed_mm_s": 121.32981666666666,
+        "acceleration_mm_s2": 6000.0
+      },
+      {
+        "layer": 0.6,
+        "feature": "Gap infill",
+        "a": [
+          103.438,
+          160.329
+        ],
+        "b": [
+          103.119,
+          159.937
+        ],
+        "length": 0.5053958844312035,
+        "tool": 1,
+        "speed_mm_s": 121.32981666666666,
+        "acceleration_mm_s2": 6000.0
+      }
+    ]
+  },
+  "candidate": {
+    "estimated_seconds": 1067.193603515625,
+    "estimated_grams": 2.193122625350952,
+    "warnings": "",
+    "top_line_count": 206,
+    "top_line_length_range_mm": [
+      1.278449060385293,
+      64.4393480801909
+    ],
+    "top_speeds_mm_s": [
+      25.0
+    ],
+    "top_first_line": {
+      "layer": 0.6,
+      "feature": "Top surface",
+      "a": [
+        148.176,
+        94.702
+      ],
+      "b": [
+        149.08,
+        95.606
+      ],
+      "length": 1.278449060385293,
+      "tool": 1,
+      "speed_mm_s": 25.0,
+      "acceleration_mm_s2": 1000.0
+    },
+    "top_last_line": {
+      "layer": 0.6,
+      "feature": "Top surface",
+      "a": [
+        104.421,
+        160.265
+      ],
+      "b": [
+        103.515,
+        159.359
+      ],
+      "length": 1.2812774875100124,
+      "tool": 1,
+      "speed_mm_s": 25.0,
+      "acceleration_mm_s2": 1000.0
+    },
+    "edge_gap_paths": [
+      {
+        "layer": 0.6,
+        "feature": "Gap infill",
+        "a": [
+          103.496,
+          159.799
+        ],
+        "b": [
+          103.976,
+          160.284
+        ],
+        "length": 0.6823672031978013,
+        "tool": 1,
+        "speed_mm_s": 119.03923333333334,
+        "acceleration_mm_s2": 6000.0
+      }
+    ]
+  },
+  "physical_print_tested": false,
+  "physical_fit_tested": false,
+  "purpose": "Assess whether a dedicated outer contour improves the edge and dry fit without two inner walls.",
+  "limitation": "A native slice cannot guarantee removal of the protrusion or a defect-free seam."
+}
