@@ -1,0 +1,62 @@
+{
+  "project": "anilha-lobito-v1-A1-AMS-2-pratos.3mf",
+  "sha256": "8d510c74a673b41ea44414301371cae5c256461dbff890d98ebfb813b96d3929",
+  "native_slice_exit": 0,
+  "printer": "Bambu Lab A1 0.4 nozzle",
+  "bambu_version": "02.09.01.70",
+  "layer_height_mm": 0.16,
+  "brim": false,
+  "supports": "Only face back overhangs on plate2",
+  "plates": [
+    {
+      "plate": 1,
+      "estimated_seconds": 5054.484375,
+      "estimated_grams_including_flush_and_tower": 13.534602165222168,
+      "filament_changes": 0,
+      "warnings": "",
+      "filaments": [
+        {
+          "filament_id": "GFL99",
+          "id": 1,
+          "main_used_g": 13.534602165222168,
+          "total_used_g": 13.534602165222168
+        }
+      ]
+    },
+    {
+      "plate": 2,
+      "estimated_seconds": 3868.533935546875,
+      "estimated_grams_including_flush_and_tower": 9.997315883636475,
+      "filament_changes": 8,
+      "warnings": "",
+      "filaments": [
+        {
+          "filament_id": "GFL99",
+          "id": 1,
+          "main_used_g": 4.2589945793151855,
+          "total_used_g": 5.635760307312012
+        },
+        {
+          "filament_id": "GFL99",
+          "id": 2,
+          "main_used_g": 0.3499041795730591,
+          "total_used_g": 3.297090768814087
+        },
+        {
+          "filament_id": "GFL99",
+          "id": 3,
+          "main_used_g": 0.15334412455558777,
+          "total_used_g": 1.064464807510376
+        }
+      ]
+    }
+  ],
+  "generic_PLA_profiles_require_matching_actual_filament": true,
+  "opening_reused_from_owl_mm": [
+    25,
+    18
+  ],
+  "body_height_proposed_mm": 30,
+  "physical_print_tested": false,
+  "physical_fit_tested": false
+}

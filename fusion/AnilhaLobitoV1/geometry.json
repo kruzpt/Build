@@ -1,0 +1,104 @@
+{
+  "parameters": {
+    "bore_opening_mm": [
+      25,
+      18
+    ],
+    "body_height_mm": 30,
+    "pocket_width_height_depth_mm": [
+      20,
+      23,
+      1.35
+    ],
+    "tongue_width_height_depth_mm": [
+      19.6,
+      22.6,
+      1.2
+    ],
+    "clearance_each_side_mm": 0.2,
+    "glue_floor_gap_mm": 0.15,
+    "face_back_thickness_mm": 2.4
+  },
+  "opening_source": "Coruja BRUNA V1-V6: ellipse radii12.5,9; 100 segments",
+  "bore_symmetric_difference_from_cached_owl_mm2": 0.0001202695274302723,
+  "proposed_body_height": true,
+  "parts": [
+    {
+      "key": "corpo",
+      "file": "anilha-lobito-v1-corpo.stl",
+      "color": "#72767C",
+      "dimensions_mm": [
+        42.0,
+        36.0,
+        30.0
+      ],
+      "volume_mm3": 22997.419710807415
+    },
+    {
+      "key": "rosto-cinzento",
+      "file": "anilha-lobito-v1-rosto-cinzento.stl",
+      "color": "#72767C",
+      "dimensions_mm": [
+        41.2991886138916,
+        38.64677429199219,
+        3.5999999046325684
+      ],
+      "volume_mm3": 3789.131227912935
+    },
+    {
+      "key": "rosto-branco",
+      "file": "anilha-lobito-v1-rosto-branco.stl",
+      "color": "#F5F3ED",
+      "dimensions_mm": [
+        36.99882125854492,
+        34.34816664457321,
+        1.3000001907348633
+      ],
+      "volume_mm3": 274.45104698188936
+    },
+    {
+      "key": "rosto-preto",
+      "file": "anilha-lobito-v1-rosto-preto.stl",
+      "color": "#18191C",
+      "dimensions_mm": [
+        24.149999618530273,
+        26.173455953598022,
+        1.0999999046325684
+      ],
+      "volume_mm3": 127.55917349361887
+    }
+  ],
+  "face_mount_matrix": [
+    [
+      1.0,
+      0.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      -1.0,
+      -13.8
+    ],
+    [
+      0.0,
+      1.0,
+      0.0,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "closed_meshes": true,
+  "face_connected": true,
+  "assembly_interference_mm3": -1.3423290257108533e-14,
+  "bore_open": true,
+  "physical_fit_tested": false,
+  "physical_print_tested": false,
+  "print_note": "Body upright. Face relief up on locating tongue; supports under back overhangs only."
+}
