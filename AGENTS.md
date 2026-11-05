@@ -26,3 +26,14 @@ Este fluxo de entrega não autoriza alterações sem relação com o pedido atua
 
 - Por indicação do utilizador, não ativar brim por defeito nos novos projetos.
   Reservá-lo para casos concretos que precisem de mais adesão e explicar a razão.
+
+# Fluxo de aprovação de novas peças
+
+- Por indicação explícita do utilizador, apresentar primeiro uma imagem de
+  conceito ou um plano da peça, com medidas propostas e pontos por confirmar.
+- Aguardar a aprovação desse aspeto/plano antes de preparar e entregar o
+  projeto final de modelação ou os ficheiros de impressão STL/3MF.
+- Uma geometria auxiliar usada para gerar a prévia é um rascunho de conceito;
+  não a apresentar nem publicar como projeto final aprovado.
+- Depois da aprovação visual, avançar com a modelação final, configurações,
+  verificação e entrega. A aprovação do conceito não equivale a teste físico.
