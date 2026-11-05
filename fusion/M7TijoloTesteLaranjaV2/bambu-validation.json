@@ -1,0 +1,168 @@
+{
+  "project": "m7-tijolo-teste-laranja-v2-cantos-A1-PLA-1-prato.3mf",
+  "source_sha256": "c8ebe43dd1a9dd0b1e38cc9c526b96d73a04b5d400bc5fcce853627027dc82b9",
+  "sha256": "440b6f90c8696378763015f11e927606837270cda099bc1d141c55e22698ee77",
+  "bambu_version": "02.09.01.70",
+  "native_slice_exit": 0,
+  "physical_print_tested": false,
+  "diagnostic_not_guaranteed_fix": true,
+  "dimensions_mm": [
+    46.40000534057617,
+    66.39999389648438,
+    0.6000000238418579
+  ],
+  "layers_mm": [
+    0.2,
+    0.4,
+    0.6
+  ],
+  "wall_loops": 3,
+  "geometry_and_seam_paint_preserved_byte_for_byte": true,
+  "only_settings_changes": {
+    "infill_direction": {
+      "before": "45",
+      "after": "0"
+    },
+    "gap_infill_speed": {
+      "before": [
+        "250"
+      ],
+      "after": [
+        "25"
+      ]
+    }
+  },
+  "orange_flow_ratio": 0.931,
+  "gold_flow_ratio": 0.9702,
+  "overlap_percent": 10,
+  "brim": false,
+  "supports": false,
+  "prime_tower": false,
+  "user_confirmed_flow_dynamics_calibration_enabled": true,
+  "reference": {
+    "estimated_seconds": 1060.4381103515625,
+    "estimated_grams": 2.1932876110076904,
+    "warnings": "",
+    "top_line_count": 202,
+    "top_line_length_range_mm": [
+      0.4843686612488282,
+      62.13630128998668
+    ],
+    "top_speeds_mm_s": [
+      25.0
+    ],
+    "top_first_line": {
+      "layer": 0.6,
+      "feature": "Top surface",
+      "a": [
+        147.924,
+        95.516
+      ],
+      "b": [
+        148.266,
+        95.859
+      ],
+      "length": 0.4843686612488282,
+      "tool": 1,
+      "speed_mm_s": 25.0,
+      "acceleration_mm_s2": 1000.0
+    },
+    "top_last_line": {
+      "layer": 0.6,
+      "feature": "Top surface",
+      "a": [
+        104.674,
+        159.451
+      ],
+      "b": [
+        104.329,
+        159.106
+      ],
+      "length": 0.4879036790187262,
+      "tool": 1,
+      "speed_mm_s": 25.0,
+      "acceleration_mm_s2": 1000.0
+    },
+    "edge_gap_paths": []
+  },
+  "candidate": {
+    "estimated_seconds": 1056.822265625,
+    "estimated_grams": 2.1938161849975586,
+    "warnings": "",
+    "top_line_count": 168,
+    "top_line_length_range_mm": [
+      43.937,
+      43.937
+    ],
+    "top_speeds_mm_s": [
+      25.0
+    ],
+    "top_first_line": {
+      "layer": 0.6,
+      "feature": "Top surface",
+      "a": [
+        148.266,
+        95.997
+      ],
+      "b": [
+        104.329,
+        95.997
+      ],
+      "length": 43.937,
+      "tool": 1,
+      "speed_mm_s": 25.0,
+      "acceleration_mm_s2": 1000.0
+    },
+    "top_last_line": {
+      "layer": 0.6,
+      "feature": "Top surface",
+      "a": [
+        104.329,
+        158.968
+      ],
+      "b": [
+        148.266,
+        158.968
+      ],
+      "length": 43.937,
+      "tool": 1,
+      "speed_mm_s": 25.0,
+      "acceleration_mm_s2": 1000.0
+    },
+    "edge_gap_paths": [
+      {
+        "layer": 0.6,
+        "feature": "Gap infill",
+        "a": [
+          148.285,
+          95.653
+        ],
+        "b": [
+          104.31,
+          95.652
+        ],
+        "length": 43.97500001137009,
+        "tool": 1,
+        "speed_mm_s": 25.0,
+        "acceleration_mm_s2": 6000.0
+      },
+      {
+        "layer": 0.6,
+        "feature": "Gap infill",
+        "a": [
+          104.31,
+          159.313
+        ],
+        "b": [
+          148.285,
+          159.313
+        ],
+        "length": 43.974999999999994,
+        "tool": 1,
+        "speed_mm_s": 25.0,
+        "acceleration_mm_s2": 6000.0
+      }
+    ]
+  },
+  "caveat": "The infill direction also rotates the fill of the preceding layers. Longer strokes remove the short corner fan but do not establish the physical cause."
+}
