@@ -1,0 +1,69 @@
+{
+  "source_file": "0wall_m7-tijolo-teste-laranja-v1-A1-PLA-1-prato.3mf",
+  "source_sha256": "576f28649a00b7754abb615a85051c00ed5cccc99187760a81913d9e874ede43",
+  "bambu_version": "02.09.01.70",
+  "user_observations": {
+    "zero_wall_original_good_center": true,
+    "zero_wall_original_one_corner_interference": true,
+    "v4_more_serrated_edges": true,
+    "v4_binds_in_pocket": true,
+    "plate_flat_outside_pocket": true,
+    "underside_corner_detail": "unknown",
+    "photo_to_machine_orientation": "unknown",
+    "rotate_180_dryfit_result": "pending"
+  },
+  "cad_dimensions_mm": {
+    "pocket": [
+      47,
+      67,
+      0.7
+    ],
+    "plaque": [
+      46.4,
+      66.4,
+      0.6
+    ],
+    "nominal_side_clearance": 0.3,
+    "nominal_glue_depth_gap": 0.1
+  },
+  "calibrated_orange_flow": 0.931,
+  "source_infill_direction_degrees": 45,
+  "source_gap_infill_configured_speed_mm_s": 250,
+  "source_top_speed_mm_s": 25,
+  "main_findings": {
+    "no_wall_top_path_center_inset_mm": 0.04,
+    "nominal_line_width_mm": 0.42,
+    "estimated_bead_envelope_overrun_mm": [
+      0.11,
+      0.17
+    ],
+    "envelope_is_model_not_physical_measurement": true,
+    "layer2_restart_at_corner_Xplus_Yplus": true,
+    "layer2_requested_speed_mm_s": 105.85,
+    "layer2_acceleration_mm_s2": 6000,
+    "tiny_top_gap_in_same_corner_mm": [
+      0.1114,
+      0.04965
+    ],
+    "no_proven_single_physical_cause": true,
+    "retract_total_mm": 0.8,
+    "unretract_mm": 0.8,
+    "restart_extra_mm": 0
+  },
+  "single_wall_simulation": {
+    "only_input_change": "object wall_loops: 0 to 1",
+    "no_inner_wall_paths": true,
+    "outer_wall_speed_mm_s": 50,
+    "outer_wall_acceleration_mm_s2": 1000,
+    "outer_wall_start_on_straight_edge": true,
+    "reference_seconds": 1063.6890869140625,
+    "one_wall_seconds": 1067.193603515625,
+    "reference_grams": 2.1850435733795166,
+    "one_wall_grams": 2.193122625350952,
+    "warnings": "",
+    "physical_print_tested": false,
+    "ideal_outer_bbox_matches_CAD_within_mm": 0.001,
+    "bbox_metric_limitation": "Only extrema in X/Y, not a Hausdorff check of the whole curved contour."
+  },
+  "next_step": "Rotate existing blank180 degrees gently in same pocket before choosing a print experiment."
+}
