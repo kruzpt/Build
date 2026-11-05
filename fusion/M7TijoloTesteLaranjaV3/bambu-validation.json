@@ -1,0 +1,200 @@
+{
+  "project": "m7-tijolo-teste-laranja-v3-costura-A1-PLA-1-prato.3mf",
+  "sha256": "9d1ac9f50766aa0b53857b09d7a45c6dce7c1d75df11053046c1e2e329dbf001",
+  "source": "m7-tijolo-teste-laranja-v2-cantos-A1-PLA-1-prato.3mf",
+  "source_sha256": "440b6f90c8696378763015f11e927606837270cda099bc1d141c55e22698ee77",
+  "bambu_version": "02.09.01.70",
+  "native_slice_exit": 0,
+  "only_setting_changed": {
+    "seam_gap": {
+      "before": "15%",
+      "after": "20%"
+    }
+  },
+  "scarf_none_preserved": true,
+  "scarf_slope_gap_unchanged": true,
+  "geometry_and_seam_paint_preserved_byte_for_byte": true,
+  "top_paths_unchanged": true,
+  "reference_outer_seam": {
+    "start": [
+      127.032,
+      94.494
+    ],
+    "end": [
+      126.972,
+      94.494
+    ],
+    "actual_xy_gap_mm": 0.060000000000002274
+  },
+  "candidate_outer_seam": {
+    "start": [
+      127.032,
+      94.494
+    ],
+    "end": [
+      126.952,
+      94.494
+    ],
+    "actual_xy_gap_mm": 0.0799999999999983
+  },
+  "reference": {
+    "estimated_seconds": 1056.822265625,
+    "estimated_grams": 2.1938161849975586,
+    "warnings": "",
+    "top_line_count": 168,
+    "top_line_length_range_mm": [
+      43.937,
+      43.937
+    ],
+    "top_speeds_mm_s": [
+      25.0
+    ],
+    "top_first_line": {
+      "layer": 0.6,
+      "feature": "Top surface",
+      "a": [
+        148.266,
+        95.997
+      ],
+      "b": [
+        104.329,
+        95.997
+      ],
+      "length": 43.937,
+      "tool": 1,
+      "speed_mm_s": 25.0,
+      "acceleration_mm_s2": 1000.0
+    },
+    "top_last_line": {
+      "layer": 0.6,
+      "feature": "Top surface",
+      "a": [
+        104.329,
+        158.968
+      ],
+      "b": [
+        148.266,
+        158.968
+      ],
+      "length": 43.937,
+      "tool": 1,
+      "speed_mm_s": 25.0,
+      "acceleration_mm_s2": 1000.0
+    },
+    "edge_gap_paths": [
+      {
+        "layer": 0.6,
+        "feature": "Gap infill",
+        "a": [
+          148.285,
+          95.653
+        ],
+        "b": [
+          104.31,
+          95.652
+        ],
+        "length": 43.97500001137009,
+        "tool": 1,
+        "speed_mm_s": 25.0,
+        "acceleration_mm_s2": 6000.0
+      },
+      {
+        "layer": 0.6,
+        "feature": "Gap infill",
+        "a": [
+          104.31,
+          159.313
+        ],
+        "b": [
+          148.285,
+          159.313
+        ],
+        "length": 43.974999999999994,
+        "tool": 1,
+        "speed_mm_s": 25.0,
+        "acceleration_mm_s2": 6000.0
+      }
+    ]
+  },
+  "candidate": {
+    "estimated_seconds": 1056.81689453125,
+    "estimated_grams": 2.1937990188598633,
+    "warnings": "",
+    "top_line_count": 168,
+    "top_line_length_range_mm": [
+      43.937,
+      43.937
+    ],
+    "top_speeds_mm_s": [
+      25.0
+    ],
+    "top_first_line": {
+      "layer": 0.6,
+      "feature": "Top surface",
+      "a": [
+        148.266,
+        95.997
+      ],
+      "b": [
+        104.329,
+        95.997
+      ],
+      "length": 43.937,
+      "tool": 1,
+      "speed_mm_s": 25.0,
+      "acceleration_mm_s2": 1000.0
+    },
+    "top_last_line": {
+      "layer": 0.6,
+      "feature": "Top surface",
+      "a": [
+        104.329,
+        158.968
+      ],
+      "b": [
+        148.266,
+        158.968
+      ],
+      "length": 43.937,
+      "tool": 1,
+      "speed_mm_s": 25.0,
+      "acceleration_mm_s2": 1000.0
+    },
+    "edge_gap_paths": [
+      {
+        "layer": 0.6,
+        "feature": "Gap infill",
+        "a": [
+          148.285,
+          95.653
+        ],
+        "b": [
+          104.31,
+          95.652
+        ],
+        "length": 43.97500001137009,
+        "tool": 1,
+        "speed_mm_s": 25.0,
+        "acceleration_mm_s2": 6000.0
+      },
+      {
+        "layer": 0.6,
+        "feature": "Gap infill",
+        "a": [
+          104.31,
+          159.313
+        ],
+        "b": [
+          148.285,
+          159.313
+        ],
+        "length": 43.974999999999994,
+        "tool": 1,
+        "speed_mm_s": 25.0,
+        "acceleration_mm_s2": 6000.0
+      }
+    ]
+  },
+  "physical_print_tested": false,
+  "limitation": "A larger gap may reduce the seam protrusion or create a small opening; physical result unverified."
+}
