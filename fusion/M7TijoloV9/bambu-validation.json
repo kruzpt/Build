@@ -1,0 +1,320 @@
+{
+  "project": "m7-tijolo-v9-relevos-em-linhas-A1-AMS-2-pratos.3mf",
+  "sha256": "3aa9b391aa626a5d90c11e4266e011996d48edbf48e018ce0846d9693bad32d8",
+  "source": "m7-tijolo-v8-uma-parede-A1-AMS-2-pratos.3mf",
+  "strategy_source": "m7-dourado-linhas-v6-A1-AMS-1-prato.3mf",
+  "strategy_user_reported_good_physical_result": true,
+  "slicer_version_actually_executed": "02.08.02.61",
+  "project_profile_version": "02.08.02.61",
+  "printer": "Bambu Lab A1 0.4 nozzle",
+  "geometry_and_seam_paint_bytes_identical": true,
+  "transformed_meshes_identical": true,
+  "star_thickened": false,
+  "star_width_mm": 30.0,
+  "body_model_extrusion_segment_multisets_identical_to_V8_on_same_slicer": true,
+  "body_ordered_extrusion_paths_identical": false,
+  "body_original_process_restored_by_object_overrides": {
+    "internal_solid_infill_pattern": "zig-zag",
+    "detect_narrow_internal_solid_infill": "1"
+  },
+  "changed_global_settings": {
+    "internal_solid_infill_pattern": "monotonic",
+    "detect_narrow_internal_solid_infill": "0"
+  },
+  "relief_part_overrides": {
+    "wall_loops": "1",
+    "top_surface_pattern": "monotonicline",
+    "bottom_surface_pattern": "monotonicline",
+    "top_shell_layers": "5",
+    "top_shell_thickness": "1",
+    "bottom_shell_layers": "0",
+    "bottom_shell_thickness": "0",
+    "outer_wall_speed": "25",
+    "inner_wall_speed": "25",
+    "internal_solid_infill_speed": "25",
+    "gap_infill_speed": "25",
+    "top_surface_speed": "25",
+    "overhang_1_4_speed": "25",
+    "overhang_2_4_speed": "25",
+    "overhang_3_4_speed": "25"
+  },
+  "relief_material_slots": [
+    2,
+    3,
+    4
+  ],
+  "relief_no_inner_wall_extrusion_verified": true,
+  "relief_extrusion_speed_limit_verified_mm_s": 25,
+  "actual_relief_speeds_by_material_mm_s": {
+    "2": [
+      25.0
+    ],
+    "3": [
+      25.0
+    ],
+    "4": [
+      25.0
+    ]
+  },
+  "relief_features_by_material": {
+    "2": [
+      "Gap infill",
+      "Internal solid infill",
+      "Outer wall",
+      "Top surface"
+    ],
+    "3": [
+      "Gap infill",
+      "Internal solid infill",
+      "Outer wall",
+      "Top surface"
+    ],
+    "4": [
+      "Gap infill",
+      "Internal solid infill",
+      "Outer wall",
+      "Top surface"
+    ]
+  },
+  "flow": [
+    "0.931",
+    "0.9702",
+    "0.98",
+    "0.98"
+  ],
+  "nozzle_temperatures_c": [
+    "220",
+    "215",
+    "220",
+    "220"
+  ],
+  "material_profiles_identical_to_successful_V6": true,
+  "layer_height_mm": 0.2,
+  "carrier_mm": [
+    46.400001599999996,
+    66.3999977,
+    0.600000024
+  ],
+  "material_slots_by_plaque_layer": {
+    "0.2": [
+      1
+    ],
+    "0.4": [
+      1
+    ],
+    "0.6": [
+      1
+    ],
+    "0.8": [
+      2,
+      3,
+      4
+    ],
+    "1.0": [
+      2,
+      3,
+      4
+    ],
+    "1.2": [
+      2,
+      3,
+      4
+    ],
+    "1.4": [
+      2,
+      3,
+      4
+    ],
+    "1.6": [
+      2,
+      3,
+      4
+    ]
+  },
+  "gold_components": [
+    {
+      "name": "tree",
+      "bounds_mm": [
+        [
+          115.09809160000003,
+          104.50001,
+          0.60000002
+        ],
+        [
+          140.90188840000002,
+          131.50001003,
+          1.60000002
+        ]
+      ],
+      "dimensions_mm": [
+        25.803796799999986,
+        27.000000029999995,
+        1.0
+      ],
+      "volume_mm3": 214.38611282831212,
+      "layers": [
+        {
+          "z_mm": 0.8,
+          "features": [
+            "Internal solid infill",
+            "Outer wall"
+          ],
+          "long_internal_fill_fraction_along_diagonals": 1.0
+        },
+        {
+          "z_mm": 1.0,
+          "features": [
+            "Internal solid infill",
+            "Outer wall"
+          ],
+          "long_internal_fill_fraction_along_diagonals": 0.8588248098848513
+        },
+        {
+          "z_mm": 1.2,
+          "features": [
+            "Internal solid infill",
+            "Outer wall"
+          ],
+          "long_internal_fill_fraction_along_diagonals": 1.0
+        },
+        {
+          "z_mm": 1.4,
+          "features": [
+            "Internal solid infill",
+            "Outer wall"
+          ],
+          "long_internal_fill_fraction_along_diagonals": 0.858807722655644
+        },
+        {
+          "z_mm": 1.6,
+          "features": [
+            "Gap infill",
+            "Outer wall",
+            "Top surface"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "star",
+      "bounds_mm": [
+        [
+          112.99999000000003,
+          132.000010033,
+          0.60000002
+        ],
+        [
+          142.99999000000003,
+          160.5317102,
+          1.60000002
+        ]
+      ],
+      "dimensions_mm": [
+        30.0,
+        28.531700166999997,
+        1.0
+      ],
+      "volume_mm3": 124.80457640982809,
+      "layers": [
+        {
+          "z_mm": 0.8,
+          "features": [
+            "Internal solid infill",
+            "Outer wall"
+          ],
+          "long_internal_fill_fraction_along_diagonals": 0.46652289543853936
+        },
+        {
+          "z_mm": 1.0,
+          "features": [
+            "Internal solid infill",
+            "Outer wall"
+          ],
+          "long_internal_fill_fraction_along_diagonals": 0.49864800225910716
+        },
+        {
+          "z_mm": 1.2,
+          "features": [
+            "Internal solid infill",
+            "Outer wall"
+          ],
+          "long_internal_fill_fraction_along_diagonals": 0.4665086982004599
+        },
+        {
+          "z_mm": 1.4,
+          "features": [
+            "Internal solid infill",
+            "Outer wall"
+          ],
+          "long_internal_fill_fraction_along_diagonals": 0.49864800225910716
+        },
+        {
+          "z_mm": 1.6,
+          "features": [
+            "Gap infill",
+            "Outer wall",
+            "Top surface"
+          ]
+        }
+      ]
+    }
+  ],
+  "plates": [
+    {
+      "plate": 1,
+      "estimated_seconds": 11448.9013671875,
+      "estimated_grams_including_flush_and_tower": 43.8206672668457,
+      "filament_changes": 0,
+      "warnings": "",
+      "filaments": [
+        {
+          "filament_id": "GFL99",
+          "id": 1,
+          "main_used_g": 43.8206672668457,
+          "total_used_g": 43.8206672668457
+        }
+      ]
+    },
+    {
+      "plate": 2,
+      "estimated_seconds": 3245.26416015625,
+      "estimated_grams_including_flush_and_tower": 8.564700365066528,
+      "filament_changes": 11,
+      "warnings": "",
+      "filaments": [
+        {
+          "filament_id": "GFL99",
+          "id": 1,
+          "main_used_g": 2.1931231021881104,
+          "total_used_g": 2.9708034992218018
+        },
+        {
+          "filament_id": "GFL96",
+          "id": 2,
+          "main_used_g": 0.41024890542030334,
+          "total_used_g": 2.593658924102783
+        },
+        {
+          "filament_id": "GFL99",
+          "id": 3,
+          "main_used_g": 0.16189220547676086,
+          "total_used_g": 1.8972275257110596
+        },
+        {
+          "filament_id": "GFL99",
+          "id": 4,
+          "main_used_g": 0.022395189851522446,
+          "total_used_g": 1.1030104160308838
+        }
+      ]
+    }
+  ],
+  "native_slice_exit": 0,
+  "supports": false,
+  "brim": false,
+  "small_gap_fills_still_present": true,
+  "physical_V9_print_tested": false,
+  "physical_star_print_tested": false,
+  "physical_fit_tested": false,
+  "physical_print_started": false
+}

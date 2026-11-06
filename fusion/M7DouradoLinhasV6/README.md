@@ -82,6 +82,16 @@ torre. O tempo final depende das opções de envio e da preparação da máquina
 [Relatório da validação](bambu-validation.json).
 [Script de construção](../tools/build_m7_gold_lines_v6.py).
 
-O acabamento físico do V6 ainda não foi testado. Não foi iniciada qualquer
-impressão pelo agente. O objetivo é verificar se o preenchimento em linhas
-reduz as acumulações repetidas nos alargamentos.
+## Resultado físico comunicado posteriormente
+
+O utilizador forneceu uma fotografia da amostra dourada e escreveu
+“Estou contente”. As acumulações salientes nas junções deixaram de se
+destacar e a superfície ficou substancialmente mais uniforme. Permanecem
+alguns fios finos visíveis junto da base. Não foram fornecidas medições ou
+um resultado da estrela nessa amostra.
+
+Ver [registo do feedback](physical-feedback.json). O campo de teste físico
+no relatório inicial descreve a fase anterior a esta impressão do
+utilizador; não foi efetuada uma impressão pelo agente. O resultado apoia
+a aplicação da estratégia à [placa V9](../M7TijoloV9/README.md), sem ainda
+confirmar o acabamento dos outros componentes.
