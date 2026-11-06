@@ -1,0 +1,46 @@
+{
+  "method": "For model internal solid infill on each gold layer: total XY chord length of segments >=0.7 mm, fraction within 0.2 degrees of 45/135 degrees. Excludes outer walls, short connections and purge tower. This checks line direction, not physical quality.",
+  "narrow_detection_disabled_V6": {
+    "0.8": {
+      "long_segment_total_mm": 279.46487705184074,
+      "fraction_length_along_diagonals": 1.0
+    },
+    "1.0": {
+      "long_segment_total_mm": 330.1815106557501,
+      "fraction_length_along_diagonals": 0.8588081017292865
+    },
+    "1.2": {
+      "long_segment_total_mm": 279.47124244816143,
+      "fraction_length_along_diagonals": 1.0
+    },
+    "1.4": {
+      "long_segment_total_mm": 330.1779962009646,
+      "fraction_length_along_diagonals": 0.8588065325774497
+    }
+  },
+  "narrow_detection_enabled_control": {
+    "0.8": {
+      "long_segment_total_mm": 307.49778696408316,
+      "fraction_length_along_diagonals": 0.0
+    },
+    "1.0": {
+      "long_segment_total_mm": 307.433315700539,
+      "fraction_length_along_diagonals": 0.0
+    },
+    "1.2": {
+      "long_segment_total_mm": 307.4242710068697,
+      "fraction_length_along_diagonals": 0.0
+    },
+    "1.4": {
+      "long_segment_total_mm": 307.58952670645067,
+      "fraction_length_along_diagonals": 0.0
+    }
+  },
+  "control_only_changed_setting": {
+    "detect_narrow_internal_solid_infill": [
+      "0",
+      "1"
+    ]
+  },
+  "physical_cause_established": false
+}

@@ -1,0 +1,143 @@
+{
+  "project": "m7-dourado-linhas-v6-A1-AMS-1-prato.3mf",
+  "sha256": "76cf1b3cf308531e07f3a8176e01dea63d8882e41d697728f33d91453f193af4",
+  "source": "m7-dourado-paredes-v5-A1-AMS-1-prato.3mf",
+  "approved_coupon_geometry_reused": "V5 sample D: one notch, identical base and tree",
+  "original_tree_and_base_geometry_verified": true,
+  "printer": "Bambu Lab A1 0.4 nozzle",
+  "bambu_version": "02.08.02.61",
+  "nozzle_mm": 0.4,
+  "layer_height_mm": 0.2,
+  "base_mm": [
+    32,
+    34,
+    0.6
+  ],
+  "tree_mm": [
+    25.803796799999986,
+    27.0,
+    1.0
+  ],
+  "material_slots": {
+    "1": "orange, source V5 profile",
+    "2": "Amazon Basics Silk PLA gold, source V5 profile"
+  },
+  "flow": [
+    "0.931",
+    "0.9702"
+  ],
+  "nozzle_temperature_c": [
+    "220",
+    "215"
+  ],
+  "requested_tree_settings": {
+    "wall_loops": "1",
+    "top_surface_pattern": "monotonicline",
+    "bottom_surface_pattern": "monotonicline",
+    "top_shell_layers": "5",
+    "top_shell_thickness": "1",
+    "bottom_shell_layers": "0",
+    "bottom_shell_thickness": "0"
+  },
+  "requested_global_settings": {
+    "internal_solid_infill_pattern": "monotonic",
+    "detect_narrow_internal_solid_infill": "0"
+  },
+  "differences_from_V5_D": {
+    "top_surface_pattern": {
+      "old_effective": "concentric",
+      "new": "monotonicline"
+    },
+    "bottom_surface_pattern": {
+      "old_effective": "monotonic",
+      "new": "monotonicline"
+    },
+    "bottom_shell_layers": {
+      "old_effective": "4",
+      "new": "0"
+    },
+    "internal_solid_infill_pattern": {
+      "old_effective": "zig-zag",
+      "new": "monotonic"
+    },
+    "detect_narrow_internal_solid_infill": {
+      "old_effective": "1",
+      "new": "0"
+    }
+  },
+  "tree_nominal_width_mm": {
+    "outer_wall_line_width": "0.42",
+    "top_surface_line_width": "0.42",
+    "internal_solid_infill_line_width": "0.42"
+  },
+  "arachne_can_vary_actual_wall_width": true,
+  "all_tree_extrusion_speeds_verified_mm_s": 25,
+  "no_inner_wall_extrusion_verified": true,
+  "layers": [
+    {
+      "z_mm": 0.8,
+      "features": [
+        "Internal solid infill",
+        "Outer wall"
+      ],
+      "long_internal_segment_length_fraction_along_45_or_135_degrees": 1.0
+    },
+    {
+      "z_mm": 1.0,
+      "features": [
+        "Internal solid infill",
+        "Outer wall"
+      ],
+      "long_internal_segment_length_fraction_along_45_or_135_degrees": 0.8588081017292865
+    },
+    {
+      "z_mm": 1.2,
+      "features": [
+        "Internal solid infill",
+        "Outer wall"
+      ],
+      "long_internal_segment_length_fraction_along_45_or_135_degrees": 1.0
+    },
+    {
+      "z_mm": 1.4,
+      "features": [
+        "Internal solid infill",
+        "Outer wall"
+      ],
+      "long_internal_segment_length_fraction_along_45_or_135_degrees": 0.8588065325774497
+    },
+    {
+      "z_mm": 1.6,
+      "features": [
+        "Gap infill",
+        "Outer wall",
+        "Top surface"
+      ]
+    }
+  ],
+  "gap_fill_still_present": true,
+  "identical_layer_paths_claimed": false,
+  "native_slice_exit": 0,
+  "warnings": "",
+  "brim": false,
+  "supports": false,
+  "filament_changes": 1,
+  "estimated_seconds": 1051.2135009765625,
+  "estimated_grams_including_flush_and_tower": 1.8624820113182068,
+  "filaments": [
+    {
+      "filament_id": "GFL99",
+      "id": 1,
+      "main_used_g": 0.8134196996688843,
+      "total_used_g": 1.3007515668869019
+    },
+    {
+      "filament_id": "GFL96",
+      "id": 2,
+      "main_used_g": 0.2587977349758148,
+      "total_used_g": 0.5617304444313049
+    }
+  ],
+  "physical_print_tested": false,
+  "physical_print_started": false
+}
