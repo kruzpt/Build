@@ -1,0 +1,172 @@
+{
+  "project": "m7-dourado-calibracao-velocidade-v3-A1-AMS-1-prato.3mf",
+  "sha256": "90621780d6a8a20b6649bb4f99743660ce2758d721fbbf60ad33b3fbda3ebcc2",
+  "source_project": "m7-tijolo-teste-dourado-v1-5-paredes-A1-AMS-2-pratos.3mf",
+  "bambu_version": "02.08.02.61",
+  "printer": "Bambu Lab A1 0.4 nozzle",
+  "plan_approved": true,
+  "base_mm": [
+    32,
+    34,
+    0.6
+  ],
+  "relief_height_mm": 1,
+  "tree_original_scale_preserved": true,
+  "only_gold_setting_difference": {
+    "A": {
+      "outer_wall_speed": 50,
+      "inner_wall_speed_configured": 100
+    },
+    "B": {
+      "outer_wall_speed": 35,
+      "inner_wall_speed_configured": 35
+    },
+    "C": {
+      "outer_wall_speed": 25,
+      "inner_wall_speed_configured": 25
+    },
+    "D": {
+      "outer_wall_speed": 15,
+      "inner_wall_speed_configured": 15
+    }
+  },
+  "flow": [
+    "0.931",
+    "0.9702"
+  ],
+  "temperature_c": [
+    "220",
+    "215"
+  ],
+  "gold_retraction_mm": "0.5",
+  "layer_height_mm": 0.2,
+  "brim": false,
+  "supports": false,
+  "native_slice_exit": 0,
+  "filament_changes": 1,
+  "estimated_seconds": 2065.374267578125,
+  "estimated_grams_including_flush_and_tower": 4.86921763420105,
+  "filaments": [
+    {
+      "filament_id": "GFL99",
+      "id": 1,
+      "main_used_g": 3.0553925037384033,
+      "total_used_g": 3.542724132537842
+    },
+    {
+      "filament_id": "GFL96",
+      "id": 2,
+      "main_used_g": 1.0235607624053955,
+      "total_used_g": 1.326493501663208
+    }
+  ],
+  "warnings": "",
+  "samples": [
+    {
+      "sample": "A",
+      "notches": 1,
+      "native_gold_bounds_mm": [
+        [
+          51.1000011,
+          113.5,
+          0.60000002
+        ],
+        [
+          76.90379779999999,
+          140.5,
+          1.60000002
+        ]
+      ],
+      "actual_requested_speeds_mm_s": {
+        "Outer wall": {
+          "min": 50.0,
+          "max": 50.0
+        },
+        "Inner wall": {
+          "min": 42.336999999999996,
+          "max": 62.62055
+        }
+      }
+    },
+    {
+      "sample": "C",
+      "notches": 3,
+      "native_gold_bounds_mm": [
+        [
+          135.10000110000001,
+          113.5,
+          0.60000002
+        ],
+        [
+          160.9037978,
+          140.5,
+          1.60000002
+        ]
+      ],
+      "actual_requested_speeds_mm_s": {
+        "Outer wall": {
+          "min": 25.0,
+          "max": 25.0
+        },
+        "Inner wall": {
+          "min": 25.0,
+          "max": 25.0
+        }
+      }
+    },
+    {
+      "sample": "D",
+      "notches": 4,
+      "native_gold_bounds_mm": [
+        [
+          177.10000110000001,
+          113.5,
+          0.60000002
+        ],
+        [
+          202.9037978,
+          140.5,
+          1.60000002
+        ]
+      ],
+      "actual_requested_speeds_mm_s": {
+        "Outer wall": {
+          "min": 15.0,
+          "max": 15.0
+        },
+        "Inner wall": {
+          "min": 15.0,
+          "max": 15.0
+        }
+      }
+    },
+    {
+      "sample": "B",
+      "notches": 2,
+      "native_gold_bounds_mm": [
+        [
+          93.1000011,
+          113.5,
+          0.60000002
+        ],
+        [
+          118.90379779999999,
+          140.5,
+          1.60000002
+        ]
+      ],
+      "actual_requested_speeds_mm_s": {
+        "Outer wall": {
+          "min": 35.0,
+          "max": 35.0
+        },
+        "Inner wall": {
+          "min": 35.0,
+          "max": 35.0
+        }
+      }
+    }
+  ],
+  "physical_print_tested": false,
+  "physical_cause_established": false
+}
