@@ -1,0 +1,94 @@
+[
+  {
+    "tag": "reference",
+    "height": "0.12",
+    "pattern": "monotonicline",
+    "seconds": 7953.232421875,
+    "grams": 21.950862169265747,
+    "changes": 35,
+    "warnings": "",
+    "filaments": [
+      {
+        "filament_id": "GFL99",
+        "id": 2,
+        "main_used_g": 3.113093852996826,
+        "total_used_g": 18.07117462158203
+      },
+      {
+        "filament_id": "GFL99",
+        "id": 3,
+        "main_used_g": 0.09621094167232513,
+        "total_used_g": 3.879687547683716
+      }
+    ]
+  },
+  {
+    "tag": "concentric012",
+    "height": "0.12",
+    "pattern": "concentric",
+    "seconds": 7952.72900390625,
+    "grams": 21.95112156867981,
+    "changes": 35,
+    "warnings": "",
+    "filaments": [
+      {
+        "filament_id": "GFL99",
+        "id": 2,
+        "main_used_g": 3.113352060317993,
+        "total_used_g": 18.071434020996094
+      },
+      {
+        "filament_id": "GFL99",
+        "id": 3,
+        "main_used_g": 0.09621094167232513,
+        "total_used_g": 3.879687547683716
+      }
+    ]
+  },
+  {
+    "tag": "fine008",
+    "height": "0.08",
+    "pattern": "monotonicline",
+    "seconds": 12799.37109375,
+    "grams": 33.37286138534546,
+    "changes": 53,
+    "warnings": "",
+    "filaments": [
+      {
+        "filament_id": "GFL99",
+        "id": 2,
+        "main_used_g": 3.1190571784973145,
+        "total_used_g": 27.125301361083984
+      },
+      {
+        "filament_id": "GFL99",
+        "id": 3,
+        "main_used_g": 0.09609358012676239,
+        "total_used_g": 6.247560024261475
+      }
+    ]
+  },
+  {
+    "tag": "fine008concentric",
+    "height": "0.08",
+    "pattern": "concentric",
+    "seconds": 12799.974609375,
+    "grams": 33.37293577194214,
+    "changes": 53,
+    "warnings": "",
+    "filaments": [
+      {
+        "filament_id": "GFL99",
+        "id": 2,
+        "main_used_g": 3.1191320419311523,
+        "total_used_g": 27.125375747680664
+      },
+      {
+        "filament_id": "GFL99",
+        "id": 3,
+        "main_used_g": 0.09609358012676239,
+        "total_used_g": 6.247560024261475
+      }
+    ]
+  }
+]

@@ -1,0 +1,167 @@
+{
+  "project": "anilha-lobito-v6-rosto-alta-qualidade-A1-AMS-3-pratos.3mf",
+  "sha256": "97fc911110f47c7395a9ec3f3f27ab0215749d81c824aada4bdedab1c04b54c8",
+  "source": "anilha-lobito-v5-bochechas-continuas-A1-AMS-3-pratos.3mf",
+  "bambu_version": "02.08.02.61",
+  "printer": "Bambu Lab A1 0.4 nozzle",
+  "native_reopen_exit": 0,
+  "native_slice_exit": 0,
+  "all_geometry_and_assembly_bytes_identical": true,
+  "flat_backs_and_fit_geometry_preserved": true,
+  "body_settings_preserved": true,
+  "body_surface_extrusion_paths_identical": true,
+  "body_total_extrusion_delta_vs_source_mm": 0.0037300000003597233,
+  "detail_object_overrides": {
+    "layer_height": "0.08",
+    "top_surface_pattern": "concentric",
+    "top_surface_line_width": "0.36",
+    "top_shell_thickness": "1.0",
+    "top_shell_layers": "13",
+    "outer_wall_speed": "20",
+    "inner_wall_speed": "30",
+    "internal_solid_infill_speed": "30",
+    "top_surface_speed": "15",
+    "gap_infill_speed": "15",
+    "overhang_1_4_speed": "20",
+    "overhang_2_4_speed": "20",
+    "overhang_3_4_speed": "15",
+    "overhang_4_4_speed": "10",
+    "overhang_totally_speed": "10",
+    "bridge_speed": "20",
+    "outer_wall_acceleration": "500",
+    "top_surface_acceleration": "500",
+    "default_acceleration": "800"
+  },
+  "purge_tower_plate_2_y_mm": {
+    "before": "208.626",
+    "after": 170
+  },
+  "first_layer_height_mm": 0.2,
+  "global_body_layer_height_mm": 0.12,
+  "detail_layer_height_mm": 0.08,
+  "brim": false,
+  "ironing": false,
+  "plates": [
+    {
+      "plate": 1,
+      "name": "01 Corpo cinzento - 0.12 mm",
+      "layer_height_mm": 0.12,
+      "first_extrusion_height_mm": 0.2,
+      "actual_maximum_layer_step_mm": 0.12000000000000455,
+      "outer_wall_max_speed_mm_s": 30.0,
+      "top_surface_max_speed_mm_s": 20.0,
+      "gap_infill_max_speed_mm_s": 350.0,
+      "layers": 313,
+      "estimated_seconds": 9067.24609375,
+      "estimated_grams_including_flush_and_tower": 15.899958610534668,
+      "filament_changes": 0,
+      "filaments": [
+        {
+          "filament_id": "GFL99",
+          "id": 1,
+          "main_used_g": 15.899958610534668,
+          "total_used_g": 15.899958610534668
+        }
+      ],
+      "warnings": "",
+      "supports": true,
+      "gcode_sha256": "70f400d59990a8323385f0cd5a982bb4d8a595726eeceb8077f299a6ee034af8"
+    },
+    {
+      "plate": 2,
+      "name": "02 Rosto e orelhas HQ - 0.08 mm",
+      "layer_height_mm": 0.08,
+      "first_extrusion_height_mm": 0.2,
+      "actual_maximum_layer_step_mm": 0.08000000000000007,
+      "outer_wall_max_speed_mm_s": 20.0,
+      "top_surface_max_speed_mm_s": 15.0,
+      "gap_infill_max_speed_mm_s": null,
+      "layers": 160,
+      "estimated_seconds": 13654.525390625,
+      "estimated_grams_including_flush_and_tower": 33.49809408187866,
+      "filament_changes": 53,
+      "filaments": [
+        {
+          "filament_id": "GFL99",
+          "id": 2,
+          "main_used_g": 3.244288921356201,
+          "total_used_g": 27.250534057617188
+        },
+        {
+          "filament_id": "GFL99",
+          "id": 3,
+          "main_used_g": 0.09609358012676239,
+          "total_used_g": 6.247560024261475
+        }
+      ],
+      "warnings": "",
+      "supports": false,
+      "gcode_sha256": "19825b99947d0d6d99b52a21506fc63feee4d00b8eca707718179ff79d4fa23d"
+    },
+    {
+      "plate": 3,
+      "name": "03 Nariz e sobrancelhas HQ - 0.08",
+      "layer_height_mm": 0.08,
+      "first_extrusion_height_mm": 0.2,
+      "actual_maximum_layer_step_mm": 0.08000000000000007,
+      "outer_wall_max_speed_mm_s": 20.0,
+      "top_surface_max_speed_mm_s": 15.0,
+      "gap_infill_max_speed_mm_s": null,
+      "layers": 68,
+      "estimated_seconds": 850.4961547851562,
+      "estimated_grams_including_flush_and_tower": 0.220477893948555,
+      "filament_changes": 0,
+      "filaments": [
+        {
+          "filament_id": "GFL99",
+          "id": 3,
+          "main_used_g": 0.220477893948555,
+          "total_used_g": 0.220477893948555
+        }
+      ],
+      "warnings": "",
+      "supports": false,
+      "gcode_sha256": "f32c96d9485a988411d13d818d9c4a0fefc3f5fd48ee6bfa6fbd8304afb31d41"
+    }
+  ],
+  "total_estimated_seconds": 23572.267639160156,
+  "total_estimated_grams": 49.618530586361885,
+  "face_reference": {
+    "seconds": 7966.82568359375,
+    "grams": 21.950879335403442,
+    "filament_changes": 35
+  },
+  "physical_print_tested": false,
+  "physical_finish_verified": false,
+  "top_width_review": [
+    {
+      "plate": 2,
+      "actual_top_nominal_widths_mm": [
+        0.359998,
+        0.360247,
+        0.360669,
+        0.384318,
+        0.384768,
+        0.392248,
+        0.416837,
+        0.423678,
+        0.432958,
+        0.434308,
+        0.454729,
+        0.466131,
+        0.481598,
+        0.483848,
+        0.492622,
+        0.512262,
+        0.514803
+      ]
+    },
+    {
+      "plate": 3,
+      "actual_top_nominal_widths_mm": [
+        0.359998,
+        0.368478
+      ]
+    }
+  ]
+}
