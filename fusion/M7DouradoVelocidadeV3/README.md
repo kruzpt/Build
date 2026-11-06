@@ -1,5 +1,9 @@
 # Dourado M7 — calibração de velocidade V3
 
+**Ensaio físico recebido em 06/11/2026:** as quatro amostras mantêm
+acumulações nos alargamentos. Reduzir a velocidade até 15 mm/s não resolveu
+o acabamento. Não foi escolhida uma vencedora; ver `physical-feedback.json`.
+
 Prato de quatro amostras aprovado pelo utilizador, para comparar as acumulações
 nos alargamentos da árvore mantendo fluxo, temperatura e retração.
 
@@ -73,7 +77,8 @@ Se todas saírem mal, investigar outro parâmetro com a velocidade fixa.
 
 As quatro amostras não contêm estrela, branco/ciano nem as pausas/deslocações
 da impressão multicolor completa. O ensaio compara velocidades nas condições
-deste prato. Ainda não foi impresso; nenhuma impressão foi enviada à máquina.
+deste prato. As fotografias do ensaio físico mostram a persistência do defeito. A preparação
+do projeto não enviou nenhuma impressão à máquina.
 
 ## Reproduzir
 

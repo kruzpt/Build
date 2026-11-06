@@ -1,0 +1,17 @@
+{
+  "date": "2026-11-06",
+  "source": "four user-supplied photos of the printed V3 speed coupons",
+  "photo_order_inferred_from_notches": [
+    "C - 3 notches - 25 mm/s",
+    "A - 1 notch - reference",
+    "B - 2 notches - 35 mm/s",
+    "D - 4 notches - 15 mm/s"
+  ],
+  "observations": "All four show raised accumulations at widened tree junctions and some strings; longer straight strokes are comparatively regular. No clear acceptable winner from these photos. Views and magnifications differ, so quantitative ranking is not established.",
+  "conclusion": "Changing requested wall speed alone did not remove the defect. This does not exclude effects of acceleration, pressure transients or motion at very short features.",
+  "user_observed_formation": "User did not watch whether the defect appeared during deposition or on a later pass.",
+  "filament_identity": "User states brand Amazon; exact model, PLA versus PLA Silk and labelled temperature range remain unconfirmed. Current project uses a PLA Silk profile, 215 C, flow .9702.",
+  "independent_slicer_probe": "At 25 mm/s, changing only sample C object wall_generator from arachne to classic reintroduces Gap infill on every gold layer. This is not evidence of a physical fix.",
+  "physical_cause_established": false,
+  "next_information_needed": "Photo or exact text of the spool label showing product type and nozzle temperature range before choosing a temperature/material-profile test."
+}
