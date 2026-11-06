@@ -90,7 +90,25 @@ Ver [registo e limites da análise](physical-feedback.json). O relatório
 mais tarde está no registo de feedback e não constitui um ensaio realizado
 pelo agente.
 
-Antes de outro ajuste do número de paredes, uma opção de diagnóstico é a
-mesma árvore em PLA normal para avaliar a influência conjunta do material
-e do respetivo perfil. Uma comparação do dourado a 205 °C continua uma opção
-separada. Nenhum destes resultados foi ainda observado neste registo.
+## Controlo com azul e perfil próprio
+
+O utilizador imprimiu a árvore em azul e confirmou que selecionou o perfil
+do azul. A fotografia mostra marcas semelhantes nas mesmas zonas alargadas.
+Os dois recortes visíveis correspondem à amostra C, de duas paredes. O 3MF
+alterado pelo utilizador não foi recebido nem inspecionado nesta atualização.
+
+Este resultado enfraquece a hipótese de um defeito exclusivo do dourado Silk.
+A geometria, as opções comuns de processo, os movimentos e a impressora
+continuam candidatos; não é uma prova de erro exclusivo da malha ou do
+fatiador. A malha original C é fechada, com orientação consistente, um só
+componente ligado e sem faces duplicadas. As únicas alturas dos vértices são
+0,6 e 1,6 mm: o relevo original é uma extrusão plana de 1 mm.
+
+![Percursos locais nas junções do V5 original](../../designs/m7-dourado-paredes-v5-juncoes-percursos.png)
+
+A imagem usa o G-code original do V5, não um G-code do azul. Mostra a posição
+dos pequenos percursos nos alargamentos. A correspondência visual com as
+marcas indica onde investigar, sem estabelecer como cada marca se forma.
+Antes de voltar a ajustar o material dourado isoladamente, a prioridade passa
+aos percursos e ao momento em que a acumulação começa. Não foi criado outro
+projeto de impressão nesta atualização.
