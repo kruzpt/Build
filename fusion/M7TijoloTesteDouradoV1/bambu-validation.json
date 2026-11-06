@@ -1,0 +1,61 @@
+{
+  "project": "m7-tijolo-teste-dourado-v1-5-paredes-A1-AMS-2-pratos.3mf",
+  "sha256": "8e3d1b5f0bfacabb36c8736bd945d960c5d10b043746524d0e4fff6d851fa8f8",
+  "source": "m7-tijolo-v8-uma-parede-A1-AMS-2-pratos.3mf",
+  "bambu_version": "02.08.02.61",
+  "geometry_byte_identical": true,
+  "process_and_filament_config_identical": true,
+  "non_gold_extrusion_paths_identical": true,
+  "only_print_setting_change": {
+    "gold_part.wall_loops": {
+      "before": 3,
+      "after": 5
+    }
+  },
+  "flow": [
+    "0.931",
+    "0.9702",
+    "0.98",
+    "0.98"
+  ],
+  "temperature": [
+    "220",
+    "215",
+    "220",
+    "220"
+  ],
+  "all_gold_layers_walls_only": true,
+  "filament_changes": 11,
+  "brim": false,
+  "supports": false,
+  "comparison": [
+    {
+      "name": "V8 reference",
+      "seconds": 3110.221923828125,
+      "grams_including_flush_and_tower": 8.556012511253357,
+      "gold_main_grams": 0.40417373180389404,
+      "top_gold_features": {
+        "Gap infill": 19,
+        "Inner wall": 328,
+        "Outer wall": 152,
+        "Top surface": 26
+      },
+      "warnings": "",
+      "gcode_sha256": "797c2b6edf0c8ab5301de101be33980a4b2ddb0375bc9a19db94ce993b84b691"
+    },
+    {
+      "name": "V1 test",
+      "seconds": 3106.2158203125,
+      "grams_including_flush_and_tower": 8.556211829185486,
+      "gold_main_grams": 0.404373437166214,
+      "top_gold_features": {
+        "Inner wall": 351,
+        "Outer wall": 152
+      },
+      "warnings": "",
+      "gcode_sha256": "f663ddf4e32d529d07838eaf5dbc060d78e8e041bf448c34f0a4b7c66063ce3a"
+    }
+  ],
+  "physical_print_tested": false,
+  "physical_finish_verified": false
+}

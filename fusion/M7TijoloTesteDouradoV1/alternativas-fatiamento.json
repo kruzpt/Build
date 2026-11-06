@@ -1,0 +1,139 @@
+[
+  {
+    "name": "reference",
+    "params": {},
+    "seconds": 3110.593994140625,
+    "grams": 8.556011438369751,
+    "gold_main_grams": 0.40417373180389404,
+    "warning": "",
+    "top_features": {
+      "Gap infill": {
+        "segments": 19,
+        "length_mm": 2.8595028960582782,
+        "minimum_segment_mm": 0.02912043955711667,
+        "maximum_segment_mm": 0.41322633023562577
+      },
+      "Inner wall": {
+        "segments": 328,
+        "length_mm": 375.17230403536297,
+        "minimum_segment_mm": 0.03373425558686826,
+        "maximum_segment_mm": 7.8317711917547825
+      },
+      "Outer wall": {
+        "segments": 152,
+        "length_mm": 381.33050503276536,
+        "minimum_segment_mm": 0.053712196007985616,
+        "maximum_segment_mm": 24.000583847065066
+      },
+      "Top surface": {
+        "segments": 26,
+        "length_mm": 20.107291238341713,
+        "minimum_segment_mm": 0.44194230392665507,
+        "maximum_segment_mm": 1.162483548270688
+      }
+    }
+  },
+  {
+    "name": "concentric",
+    "params": {
+      "top_surface_pattern": "concentric"
+    },
+    "seconds": 3109.86279296875,
+    "grams": 8.556770920753479,
+    "gold_main_grams": 0.40493279695510864,
+    "warning": "",
+    "top_features": {
+      "Inner wall": {
+        "segments": 328,
+        "length_mm": 375.17230403536297,
+        "minimum_segment_mm": 0.03373425558686826,
+        "maximum_segment_mm": 7.8317711917547825
+      },
+      "Outer wall": {
+        "segments": 152,
+        "length_mm": 381.33050503276536,
+        "minimum_segment_mm": 0.053712196007985616,
+        "maximum_segment_mm": 24.000583847065066
+      },
+      "Top surface": {
+        "segments": 26,
+        "length_mm": 23.70280741528076,
+        "minimum_segment_mm": 0.03765634076751846,
+        "maximum_segment_mm": 2.321148207245709
+      }
+    }
+  },
+  {
+    "name": "walls5",
+    "params": {
+      "wall_loops": "5"
+    },
+    "seconds": 3106.513916015625,
+    "grams": 8.556211352348328,
+    "gold_main_grams": 0.404373437166214,
+    "warning": "",
+    "top_features": {
+      "Inner wall": {
+        "segments": 351,
+        "length_mm": 395.0898594038016,
+        "minimum_segment_mm": 0.01746424919656686,
+        "maximum_segment_mm": 7.8317711917547825
+      },
+      "Outer wall": {
+        "segments": 152,
+        "length_mm": 381.33050503276536,
+        "minimum_segment_mm": 0.053712196007985616,
+        "maximum_segment_mm": 24.000583847065066
+      }
+    }
+  },
+  {
+    "name": "walls5-concentric",
+    "params": {
+      "wall_loops": "5",
+      "top_surface_pattern": "concentric"
+    },
+    "seconds": 3106.513916015625,
+    "grams": 8.556211352348328,
+    "gold_main_grams": 0.404373437166214,
+    "warning": "",
+    "top_features": {
+      "Inner wall": {
+        "segments": 351,
+        "length_mm": 395.0898594038016,
+        "minimum_segment_mm": 0.01746424919656686,
+        "maximum_segment_mm": 7.8317711917547825
+      },
+      "Outer wall": {
+        "segments": 152,
+        "length_mm": 381.33050503276536,
+        "minimum_segment_mm": 0.053712196007985616,
+        "maximum_segment_mm": 24.000583847065066
+      }
+    }
+  },
+  {
+    "name": "walls7",
+    "params": {
+      "wall_loops": "7"
+    },
+    "seconds": 3106.513916015625,
+    "grams": 8.556211352348328,
+    "gold_main_grams": 0.404373437166214,
+    "warning": "",
+    "top_features": {
+      "Inner wall": {
+        "segments": 351,
+        "length_mm": 395.0898594038016,
+        "minimum_segment_mm": 0.01746424919656686,
+        "maximum_segment_mm": 7.8317711917547825
+      },
+      "Outer wall": {
+        "segments": 152,
+        "length_mm": 381.33050503276536,
+        "minimum_segment_mm": 0.053712196007985616,
+        "maximum_segment_mm": 24.000583847065066
+      }
+    }
+  }
+]
