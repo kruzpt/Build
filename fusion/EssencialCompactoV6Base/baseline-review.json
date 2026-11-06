@@ -1,0 +1,25 @@
+{
+  "source": "essencial-compacto-v5-azeitona-A1-AMS-4-pratos.3mf",
+  "sha256": "d475d3783c6faeba38874656a826d198656989db61c45d0dac86ef0209363bdc",
+  "slicer_version": "02.08.02.61",
+  "plate": 3,
+  "gcode_sha256": "c4f2a54eff8054b9401aa9fb2bfa01a0ef500b28a74d8c97b244b38316cfbbd0",
+  "gold_speeds_by_feature_mm_s": {
+    "Bottom surface": [
+      80.90405000000001
+    ],
+    "Inner wall": [
+      75.18096666666666
+    ],
+    "Internal solid infill": [
+      80.90405000000001
+    ],
+    "Outer wall": [
+      35.0
+    ],
+    "Top surface": [
+      20.0
+    ]
+  },
+  "interpretation": "The existing large gold top already uses a line fill at 20 mm/s. Interior/bottom gold fill runs at approximately 81 mm/s and inner walls at approximately 75 mm/s. This differs from the small-tree concentric-island failure and is not proof of the photographed surface mechanism."
+}
