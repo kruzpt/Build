@@ -1,0 +1,178 @@
+{
+  "date": "2026-11-06",
+  "source": "m7-tijolo-teste-dourado-v1-5-paredes-A1-AMS-2-pratos.3mf",
+  "physical_feedback": "Five-wall test still has raised accumulations and strings at widened tree junctions; replacing short top/gap fills was insufficient.",
+  "filament_user_description": "marca é amazon",
+  "exact_product_and_silk_classification_unconfirmed": true,
+  "confirmed_profile_flow": 0.9702,
+  "profile_temperature_c": 215,
+  "profile_retraction_mm": 0.5,
+  "tree_top_layer": {
+    "z_mm": 1.6,
+    "main_contiguous_paths": 2,
+    "local_contiguous_paths": 15,
+    "local_path_length_mm": [
+      14.9258,
+      4.8276,
+      13.0909,
+      4.1149,
+      10.5336,
+      3.1228,
+      7.378,
+      0.0739,
+      6.401,
+      0.0631,
+      3.371,
+      11.342,
+      3.4385,
+      13.5055,
+      4.2767
+    ],
+    "line_width_range_mm": [
+      0.41999,
+      0.63342
+    ],
+    "local_path_starts_xy_mm": [
+      [
+        135.579,
+        111.234
+      ],
+      [
+        136.101,
+        110.772
+      ],
+      [
+        132.131,
+        116.605
+      ],
+      [
+        132.538,
+        116.699
+      ],
+      [
+        133.528,
+        121.862
+      ],
+      [
+        132.292,
+        121.885
+      ],
+      [
+        126.774,
+        122.814
+      ],
+      [
+        125.833,
+        123.319
+      ],
+      [
+        131.622,
+        127.106
+      ],
+      [
+        130.193,
+        126.809
+      ],
+      [
+        127.317,
+        127.906
+      ],
+      [
+        126.114,
+        117.604
+      ],
+      [
+        125.258,
+        118.053
+      ],
+      [
+        124.387,
+        113.414
+      ],
+      [
+        123.551,
+        112.737
+      ]
+    ],
+    "local_path_ends_xy_mm": [
+      [
+        135.639,
+        111.232
+      ],
+      [
+        136.042,
+        110.758
+      ],
+      [
+        132.106,
+        116.66
+      ],
+      [
+        132.514,
+        116.754
+      ],
+      [
+        133.471,
+        121.844
+      ],
+      [
+        132.235,
+        121.866
+      ],
+      [
+        126.714,
+        122.819
+      ],
+      [
+        125.87,
+        123.383
+      ],
+      [
+        131.569,
+        127.078
+      ],
+      [
+        130.224,
+        126.864
+      ],
+      [
+        127.258,
+        127.914
+      ],
+      [
+        126.054,
+        117.607
+      ],
+      [
+        125.198,
+        118.056
+      ],
+      [
+        124.34,
+        113.376
+      ],
+      [
+        123.546,
+        112.677
+      ]
+    ]
+  },
+  "interpretation": "Local paths remain after infill removal. Their start/end zones and width changes are hypotheses, not proof of the physical cause.",
+  "proposed_test": {
+    "status": "plan only, pending approval",
+    "base_mm": [
+      32,
+      34,
+      0.6
+    ],
+    "gold_relief_mm": 1,
+    "tree_geometry": "original, unscaled",
+    "A": "current speeds and five walls",
+    "B": "same, only gold inner/outer wall speeds set to 25 mm/s",
+    "common_conditions": "same calibrated flow .9702, 215 C, retraction and cooling; orange+gold only",
+    "diagnostic_limit": "If sample A does not reproduce the full plaque defect, the A/B pair does not establish that speed fixed it; consider multicolor timing/travel and compare the full plaque."
+  },
+  "source_project_sha256": "8e3d1b5f0bfacabb36c8736bd945d960c5d10b043746524d0e4fff6d851fa8f8",
+  "source_gcode_sha256": "f663ddf4e32d529d07838eaf5dbc060d78e8e041bf448c34f0a4b7c66063ce3a",
+  "bambu_version": "02.08.02.61"
+}

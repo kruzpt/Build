@@ -1,5 +1,10 @@
 # M7 — teste do dourado V1: cinco paredes
 
+**Resultado físico recebido em 06/11/2026:** o teste foi impresso e as
+acumulações na árvore continuam. A remoção dos pequenos preenchimentos
+não foi suficiente para resolver o acabamento. Ver a
+[revisão e o próximo plano de teste](../M7DouradoRevisaoV2/README.md).
+
 O utilizador confirmou que a placa fotografada foi impressa com a V8 e rácio
 de fluxo dourado **0,9702**. Assinalou na prévia os pequenos traços de
 preenchimento nos alargamentos da árvore e nos cantos inferiores da estrela.
@@ -60,8 +65,8 @@ Comparar os mesmos pontos da árvore e da estrela com a placa V8, além dos
 fios entre ramos. Se as acumulações melhorarem mas os fios persistirem,
 tratar separadamente o escorrimento nas deslocações, a retração e o estado
 do filamento, mantendo o fluxo como referência até haver evidência para o
-alterar. Não foi iniciada nenhuma impressão. O acabamento físico deste
-ficheiro de teste ainda não foi verificado.
+alterar. O exemplar fotografado pelo utilizador confirmou a persistência
+das acumulações; o teste não foi aprovado como solução de acabamento.
 
 O script `fusion/tools/build_m7_gold_test_v1.py` verifica que a única definição
 de impressão alterada é o número de paredes do dourado, compara as extrusões
