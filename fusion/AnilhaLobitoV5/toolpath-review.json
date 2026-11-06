@@ -1,0 +1,104 @@
+{
+  "multicolor_assembly_relative_poses_verified": true,
+  "maximum_native_transform_residual_mm": 1.0584247264143234e-06,
+  "arc_moves_sampled_at_maximum_step_mm": 0.12,
+  "body_native_transform": [
+    [
+      0.9999999999759529,
+      3.652269773735281e-13,
+      1.7194482953417588e-12,
+      127.99998999995502
+    ],
+    [
+      1.889038782692019e-12,
+      1.0000000000273817,
+      -2.5260612556348716e-11,
+      127.9989000007343
+    ],
+    [
+      1.764856769336825e-11,
+      2.459694685011964e-10,
+      1.0000000020121929,
+      -1.702244397266962e-08
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "support_enters_nominal_oval_opening": false,
+  "minimum_support_ellipse_equation": 1.6862320940368671,
+  "plates": [
+    {
+      "plate": 1,
+      "extruding_tools": [
+        1
+      ],
+      "first_extrusion_height_mm": 0.2,
+      "maximum_layer_step_mm": 0.12000000000000455,
+      "outer_wall_speed_max_mm_s": 30.0,
+      "top_surface_speed_max_mm_s": 20.0,
+      "support_extrusion_length_mm": 410.9272,
+      "extrusion_by_feature_mm": {
+        "Support": 406.0088900000142,
+        "Inner wall": 2125.98546000005,
+        "Outer wall": 1023.2749800000242,
+        "Bottom surface": 33.15222000000004,
+        "Internal solid infill": 218.4538199999991,
+        "Top surface": 36.564599999999984,
+        "Gap infill": 0.26664,
+        "Sparse infill": 1281.5969500000183,
+        "Floating vertical shell": 105.49566999999996,
+        "Support interface": 4.918309999999993,
+        "Overhang wall": 5.284490000000002,
+        "Bridge": 68.24752
+      }
+    },
+    {
+      "plate": 2,
+      "extruding_tools": [
+        2,
+        3
+      ],
+      "first_extrusion_height_mm": 0.2,
+      "maximum_layer_step_mm": 0.120000000000001,
+      "outer_wall_speed_max_mm_s": 30.0,
+      "top_surface_speed_max_mm_s": 20.0,
+      "support_extrusion_length_mm": 0,
+      "extrusion_by_feature_mm": {
+        "Prime tower": 1429.6668000000464,
+        "Inner wall": 435.1119400000064,
+        "Outer wall": 240.81770000000068,
+        "Bottom surface": 27.525160000000007,
+        "Internal solid infill": 80.7203100000001,
+        "Sparse infill": 205.5139399999996,
+        "Floating vertical shell": 52.12734000000014,
+        "Bridge": 10.851530000000002,
+        "Top surface": 1.5824799999999999,
+        "Gap infill": 0.03955
+      }
+    },
+    {
+      "plate": 3,
+      "extruding_tools": [
+        3
+      ],
+      "first_extrusion_height_mm": 0.2,
+      "maximum_layer_step_mm": 0.1200000000000001,
+      "outer_wall_speed_max_mm_s": 20.0,
+      "top_surface_speed_max_mm_s": 20.0,
+      "support_extrusion_length_mm": 0,
+      "extrusion_by_feature_mm": {
+        "Inner wall": 18.98606000000001,
+        "Outer wall": 28.31731999999982,
+        "Bottom surface": 0.26574,
+        "Internal solid infill": 4.099849999999997,
+        "Top surface": 0.16161,
+        "Gap infill": 0.00707
+      }
+    }
+  ],
+  "physical_quality_verified": false
+}

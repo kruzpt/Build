@@ -1,0 +1,94 @@
+{
+  "project": "anilha-lobito-v5-bochechas-continuas-A1-AMS-3-pratos.3mf",
+  "sha256": "114fd4c24aca325c5e6d87dff3ed3d79b467d3a761e60c51245622a8b355a77c",
+  "printer": "Bambu Lab A1 0.4 nozzle",
+  "bambu_version": "02.08.02.61",
+  "native_export_exit": 0,
+  "native_reopen_exit": 0,
+  "native_slice_exit": 0,
+  "native_components_match_source_STL": true,
+  "plate_object_counts": [
+    1,
+    5,
+    3
+  ],
+  "layer_height_mm": 0.12,
+  "first_layer_height_mm": 0.2,
+  "brim": false,
+  "ironing": false,
+  "body_supports_enabled": true,
+  "detail_supports_enabled": false,
+  "plates": [
+    {
+      "plate": 1,
+      "name": "01 Corpo cinzento - 0.12 mm",
+      "objects": 1,
+      "estimated_seconds": 9067.4755859375,
+      "estimated_grams_including_flush_and_tower": 15.899947166442871,
+      "filament_changes": 0,
+      "warnings": "",
+      "support_toolpaths": true,
+      "filaments": [
+        {
+          "filament_id": "GFL99",
+          "id": 1,
+          "main_used_g": 15.899947166442871,
+          "total_used_g": 15.899947166442871
+        }
+      ],
+      "layers": 313,
+      "gcode_sha256": "2b309a4730fb4516db98ffe3b414420eb7a34efc8995c91f958f2f2a05c8d11b"
+    },
+    {
+      "plate": 2,
+      "name": "02 Olhos focinho e orelhas - 0.12",
+      "objects": 5,
+      "estimated_seconds": 7967.11279296875,
+      "estimated_grams_including_flush_and_tower": 21.95087742805481,
+      "filament_changes": 35,
+      "warnings": "",
+      "support_toolpaths": false,
+      "filaments": [
+        {
+          "filament_id": "GFL99",
+          "id": 2,
+          "main_used_g": 3.113107919692993,
+          "total_used_g": 18.071189880371094
+        },
+        {
+          "filament_id": "GFL99",
+          "id": 3,
+          "main_used_g": 0.09621094167232513,
+          "total_used_g": 3.879687547683716
+        }
+      ],
+      "layers": 107,
+      "gcode_sha256": "4b5be1e39dca768e0da4076f327c952d4228ff528c334667aa2d6e57e7e21fe8"
+    },
+    {
+      "plate": 3,
+      "name": "03 Nariz e sobrancelhas - 0.12",
+      "objects": 3,
+      "estimated_seconds": 719.2344970703125,
+      "estimated_grams_including_flush_and_tower": 0.21945497393608093,
+      "filament_changes": 0,
+      "warnings": "",
+      "support_toolpaths": false,
+      "filaments": [
+        {
+          "filament_id": "GFL99",
+          "id": 3,
+          "main_used_g": 0.21945497393608093,
+          "total_used_g": 0.21945497393608093
+        }
+      ],
+      "layers": 46,
+      "gcode_sha256": "aa79310b36735d1fd72899f379cf0dedfcc5bb12237a2a9f0f1a609d066e8daf"
+    }
+  ],
+  "total_seconds": 17753.822875976562,
+  "total_grams": 38.07027956843376,
+  "generic_PLA_profiles_require_matching_actual_filament": true,
+  "physical_print_tested": false,
+  "physical_fit_tested": false
+}

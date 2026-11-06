@@ -1,0 +1,516 @@
+{
+  "parameters": {
+    "bore_opening_mm": [
+      25,
+      18
+    ],
+    "body_height_mm": 30.0,
+    "max_body_width_mm": 42,
+    "overall_height_mm": 37.65,
+    "lateral_clearance_each_side_mm": 0.18,
+    "bottom_glue_gap_mm": 0.15,
+    "sphere_segments": 128,
+    "barrel_segments": 256,
+    "outline_tolerance_mm": 0.002,
+    "mesh_simplification_mm": 0.001,
+    "sculpt_refinement_mm": 0.25
+  },
+  "parts": [
+    {
+      "key": "corpo",
+      "file": "anilha-lobito-v5-bochechas-continuas-corpo.stl",
+      "volume_mm3": 25539.65344992258,
+      "dimensions_mm": [
+        41.99964141845703,
+        41.997432708740234,
+        37.650001525878906
+      ],
+      "triangles": 69956,
+      "watertight": true,
+      "color": "#777B82",
+      "slot": 1,
+      "module": "corpo"
+    },
+    {
+      "key": "orelha-esquerda-branco",
+      "file": "anilha-lobito-v5-bochechas-continuas-orelha-esquerda-branco.stl",
+      "volume_mm3": 46.910692822812734,
+      "dimensions_mm": [
+        5.700000762939453,
+        6.549999237060547,
+        2.549999952316279
+      ],
+      "triangles": 4490,
+      "watertight": true,
+      "color": "#F5F3ED",
+      "slot": 2,
+      "module": "orelha-esquerda"
+    },
+    {
+      "key": "orelha-direita-branco",
+      "file": "anilha-lobito-v5-bochechas-continuas-orelha-direita-branco.stl",
+      "volume_mm3": 46.91112348359486,
+      "dimensions_mm": [
+        5.700000762939453,
+        6.549999237060547,
+        2.549999952316279
+      ],
+      "triangles": 4494,
+      "watertight": true,
+      "color": "#F5F3ED",
+      "slot": 2,
+      "module": "orelha-direita"
+    },
+    {
+      "key": "focinho-bochechas-branco",
+      "file": "anilha-lobito-v5-bochechas-continuas-focinho-bochechas-branco.stl",
+      "volume_mm3": 3870.874239006702,
+      "dimensions_mm": [
+        37.756324768066406,
+        14.941913425922394,
+        12.850000381469727
+      ],
+      "triangles": 21774,
+      "watertight": true,
+      "color": "#F5F3ED",
+      "slot": 2,
+      "module": "focinho-bochechas"
+    },
+    {
+      "key": "focinho-bochechas-preto",
+      "file": "anilha-lobito-v5-bochechas-continuas-focinho-bochechas-preto.stl",
+      "volume_mm3": 29.648440570273085,
+      "dimensions_mm": [
+        12.800000190734863,
+        6.849999904632568,
+        2.255046844482422
+      ],
+      "triangles": 2094,
+      "watertight": true,
+      "color": "#191A1E",
+      "slot": 3,
+      "module": "focinho-bochechas"
+    },
+    {
+      "key": "nariz-preto",
+      "file": "anilha-lobito-v5-bochechas-continuas-nariz-preto.stl",
+      "volume_mm3": 60.64740783073336,
+      "dimensions_mm": [
+        7.5,
+        4.300000190734863,
+        2.8499999046325684
+      ],
+      "triangles": 4760,
+      "watertight": true,
+      "color": "#191A1E",
+      "slot": 3,
+      "module": "nariz"
+    },
+    {
+      "key": "olho-esquerdo-branco",
+      "file": "anilha-lobito-v5-bochechas-continuas-olho-esquerdo-branco.stl",
+      "volume_mm3": 345.13450035065176,
+      "dimensions_mm": [
+        9.59999966621399,
+        10.399999618530273,
+        6.619999885559082
+      ],
+      "triangles": 22596,
+      "watertight": true,
+      "color": "#F5F3ED",
+      "slot": 2,
+      "module": "olho-esquerdo"
+    },
+    {
+      "key": "olho-esquerdo-preto",
+      "file": "anilha-lobito-v5-bochechas-continuas-olho-esquerdo-preto.stl",
+      "volume_mm3": 25.932888453964228,
+      "dimensions_mm": [
+        4.0,
+        5.5,
+        2.0999999046325684
+      ],
+      "triangles": 11776,
+      "watertight": true,
+      "color": "#191A1E",
+      "slot": 3,
+      "module": "olho-esquerdo"
+    },
+    {
+      "key": "sobrancelha-esquerdo-preto",
+      "file": "anilha-lobito-v5-bochechas-continuas-sobrancelha-esquerdo-preto.stl",
+      "volume_mm3": 36.612291136968814,
+      "dimensions_mm": [
+        7.339252948760986,
+        2.3899993896484375,
+        5.561816692352295
+      ],
+      "triangles": 1414,
+      "watertight": true,
+      "color": "#191A1E",
+      "slot": 3,
+      "module": "sobrancelha-esquerdo"
+    },
+    {
+      "key": "olho-direito-branco",
+      "file": "anilha-lobito-v5-bochechas-continuas-olho-direito-branco.stl",
+      "volume_mm3": 345.13504844125055,
+      "dimensions_mm": [
+        9.59999966621399,
+        10.399999618530273,
+        6.619999885559082
+      ],
+      "triangles": 22702,
+      "watertight": true,
+      "color": "#F5F3ED",
+      "slot": 2,
+      "module": "olho-direito"
+    },
+    {
+      "key": "olho-direito-preto",
+      "file": "anilha-lobito-v5-bochechas-continuas-olho-direito-preto.stl",
+      "volume_mm3": 25.93288934465437,
+      "dimensions_mm": [
+        4.0,
+        5.5,
+        2.0999999046325684
+      ],
+      "triangles": 11776,
+      "watertight": true,
+      "color": "#191A1E",
+      "slot": 3,
+      "module": "olho-direito"
+    },
+    {
+      "key": "sobrancelha-direito-preto",
+      "file": "anilha-lobito-v5-bochechas-continuas-sobrancelha-direito-preto.stl",
+      "volume_mm3": 36.613732547626356,
+      "dimensions_mm": [
+        7.3392534255981445,
+        2.3899993896484375,
+        5.564899921417236
+      ],
+      "triangles": 1418,
+      "watertight": true,
+      "color": "#191A1E",
+      "slot": 3,
+      "module": "sobrancelha-direito"
+    }
+  ],
+  "modules": [
+    {
+      "key": "orelha-esquerda",
+      "parts": [
+        "orelha-esquerda-branco"
+      ],
+      "back_plane_y_mm": -14.9,
+      "print_to_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0,
+          -0.0,
+          -1.0,
+          -14.9
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "receiver": "corpo",
+      "flat_back": true,
+      "contact_area_z_0_05_mm2": 22.076256801056815,
+      "one_connected_assembled_module": true
+    },
+    {
+      "key": "orelha-direita",
+      "parts": [
+        "orelha-direita-branco"
+      ],
+      "back_plane_y_mm": -14.9,
+      "print_to_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0,
+          -0.0,
+          -1.0,
+          -14.9
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "receiver": "corpo",
+      "flat_back": true,
+      "contact_area_z_0_05_mm2": 22.076262974778103,
+      "one_connected_assembled_module": true
+    },
+    {
+      "key": "focinho-bochechas",
+      "parts": [
+        "focinho-bochechas-branco",
+        "focinho-bochechas-preto"
+      ],
+      "back_plane_y_mm": -11.2,
+      "print_to_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0,
+          -0.0,
+          -1.0,
+          -11.2
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "receiver": "corpo",
+      "flat_back": true,
+      "contact_area_z_0_05_mm2": 390.6483563931173,
+      "one_connected_assembled_module": true
+    },
+    {
+      "key": "nariz",
+      "parts": [
+        "nariz-preto"
+      ],
+      "back_plane_y_mm": -22.25,
+      "print_to_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0,
+          -0.0,
+          -1.0,
+          -22.25
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "receiver": "focinho-bochechas",
+      "flat_back": true,
+      "contact_area_z_0_05_mm2": 23.907157337753546,
+      "one_connected_assembled_module": true
+    },
+    {
+      "key": "olho-esquerdo",
+      "parts": [
+        "olho-esquerdo-branco",
+        "olho-esquerdo-preto"
+      ],
+      "back_plane_y_mm": -15.8,
+      "print_to_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0,
+          -0.0,
+          -1.0,
+          -15.8
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "receiver": "corpo",
+      "flat_back": true,
+      "contact_area_z_0_05_mm2": 78.40628017894032,
+      "one_connected_assembled_module": true
+    },
+    {
+      "key": "sobrancelha-esquerdo",
+      "parts": [
+        "sobrancelha-esquerdo-preto"
+      ],
+      "back_plane_y_mm": -14.5,
+      "print_to_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0,
+          -0.0,
+          -1.0,
+          -14.5
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "receiver": "corpo",
+      "flat_back": true,
+      "contact_area_z_0_05_mm2": 9.394596479928687,
+      "one_connected_assembled_module": true
+    },
+    {
+      "key": "olho-direito",
+      "parts": [
+        "olho-direito-branco",
+        "olho-direito-preto"
+      ],
+      "back_plane_y_mm": -15.8,
+      "print_to_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0,
+          -0.0,
+          -1.0,
+          -15.8
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "receiver": "corpo",
+      "flat_back": true,
+      "contact_area_z_0_05_mm2": 78.4062801888242,
+      "one_connected_assembled_module": true
+    },
+    {
+      "key": "sobrancelha-direito",
+      "parts": [
+        "sobrancelha-direito-preto"
+      ],
+      "back_plane_y_mm": -14.5,
+      "print_to_world": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          -0.0,
+          -0.0,
+          -1.0,
+          -14.5
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "receiver": "corpo",
+      "flat_back": true,
+      "contact_area_z_0_05_mm2": 9.394596486587746,
+      "one_connected_assembled_module": true
+    }
+  ],
+  "glued_modules": 8,
+  "body_connected": true,
+  "opening_clear": true,
+  "body_module_interference_mm3": 0.0,
+  "module_pair_interference": [],
+  "physical_fit_tested": false,
+  "physical_print_tested": false,
+  "modelling_route": "Parametric manifold3d mesh script; not an executed Fusion document",
+  "concept": "Approved direction: continuous cheeks, whole gray body, white/black flat-backed glue modules",
+  "quality_intent": {
+    "layer_height_mm": 0.12,
+    "outer_wall_speed_mm_s": 30,
+    "top_surface_speed_mm_s": 20,
+    "ironing": false
+  }
+}
