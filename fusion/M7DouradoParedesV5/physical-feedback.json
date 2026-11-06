@@ -1,0 +1,75 @@
+{
+  "source": "Four user-supplied photographs of the wall-count coupons; no direct observation during deposition.",
+  "photo_order_inferred_from_notches": [
+    {
+      "sample": "A",
+      "notches": 5,
+      "gold_walls": 5
+    },
+    {
+      "sample": "B",
+      "notches": 3,
+      "gold_walls": 3
+    },
+    {
+      "sample": "C",
+      "notches": 2,
+      "gold_walls": 2
+    },
+    {
+      "sample": "D",
+      "notches": 1,
+      "gold_walls": 1
+    }
+  ],
+  "observations": "Raised gold accumulations and strings persist at widened junctions in all four samples. Some junctions in the one-wall sample appear less bulky; different focus, lighting and viewing angles prevent a reliable quantitative ranking. Long straight strokes are comparatively regular. The five-notch coupon also has local orange surface irregularity near the left/bottom edge; its cause cannot be identified from the photograph.",
+  "conclusion": "The tested wall-count changes did not eliminate the defect. This does not establish temperature, moisture, pressure advance, retraction or nozzle contact as the cause.",
+  "top_layer_review": {
+    "z_mm": 1.6,
+    "method": "Group consecutive model extrusion records by feature and spatial continuity within 0.002 mm, including arc subdivision. These are G-code runs, not a count of physical blobs or of retractions.",
+    "samples": [
+      {
+        "sample": "A",
+        "gold_walls": 5,
+        "contiguous_runs": 17,
+        "features": [
+          "Outer wall",
+          "Inner wall"
+        ]
+      },
+      {
+        "sample": "B",
+        "gold_walls": 3,
+        "contiguous_runs": 17,
+        "features": [
+          "Outer wall",
+          "Inner wall",
+          "Top surface"
+        ]
+      },
+      {
+        "sample": "C",
+        "gold_walls": 2,
+        "contiguous_runs": 19,
+        "features": [
+          "Outer wall",
+          "Inner wall",
+          "Top surface"
+        ]
+      },
+      {
+        "sample": "D",
+        "gold_walls": 1,
+        "contiguous_runs": 29,
+        "features": [
+          "Outer wall",
+          "Top surface"
+        ]
+      }
+    ],
+    "interpretation": "Replacing inner walls with concentric top fill does not remove the local paths at the junctions. A lower requested wall count did not produce fewer contiguous runs in this layer. This review does not establish which motion formed each photographed defect."
+  },
+  "physical_print_tested": true,
+  "physical_cause_established": false,
+  "next_diagnostic_option": "Use the same tree geometry in ordinary PLA to assess the combined material/profile influence, before further wall-count changes. Keep geometry and relevant slicing choices matched and record any necessary material-profile differences; this is not a pure material-only isolation. A 205 C gold comparison remains a separate option and has not been physically evaluated here."
+}

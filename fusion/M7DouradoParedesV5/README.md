@@ -65,5 +65,32 @@ que a árvore fique oca: o fatiador preenche a região restante.
 
 Se possível, observar ou filmar um dos alargamentos nas últimas camadas para
 ver se o material levanta ao ser depositado ou é arrastado numa passagem
-posterior. O acabamento físico ainda não foi testado. Nenhuma impressão foi
-enviada à máquina.
+posterior. O projeto não foi enviado à máquina por este fluxo. O resultado físico
+comunicado posteriormente pelo utilizador está registado abaixo.
+
+## Resultado físico comunicado
+
+As quatro fotografias posteriores mostram **acumulações nos alargamentos em
+5, 3, 2 e 1 parede**, com alguns fios. Uma parede parece aliviar algumas
+zonas, mas não elimina o defeito; as fotografias não permitem classificar
+quantitativamente os acabamentos. A amostra de cinco recortes também tem
+irregularidade localizada na superfície laranja junto à margem esquerda/inferior,
+sem causa identificável nesta imagem.
+
+A revisão da última camada confirma que substituir paredes interiores por
+topo concêntrico mantém percursos locais nas junções. Agrupando extrusões
+consecutivas pela continuidade e pelo tipo de percurso, há 17, 17, 19 e 29
+percursos em A/B/C/D, respetivamente. Estes números não são contagens de
+retrações nem provam a origem de cada marca. **Uma parede não simplificou
+esta camada para um único percurso contínuo.**
+
+Ver [registo e limites da análise](physical-feedback.json). O relatório
+`bambu-validation.json` descreve a validação anterior à impressão; o campo
+`physical_print_tested: false` refere-se àquela fase. O resultado recebido
+mais tarde está no registo de feedback e não constitui um ensaio realizado
+pelo agente.
+
+Antes de outro ajuste do número de paredes, uma opção de diagnóstico é a
+mesma árvore em PLA normal para avaliar a influência conjunta do material
+e do respetivo perfil. Uma comparação do dourado a 205 °C continua uma opção
+separada. Nenhum destes resultados foi ainda observado neste registo.
