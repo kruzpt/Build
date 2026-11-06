@@ -1,0 +1,110 @@
+{
+  "parts": [
+    {
+      "sample": "A",
+      "part": "base",
+      "file": "m7-dourado-paredes-v5-A-base-laranja.stl",
+      "volume_mm3": 649.0336321408919,
+      "dimensions_mm": [
+        32.0,
+        34.0,
+        0.6000000238418579
+      ],
+      "watertight": true,
+      "slot": 1
+    },
+    {
+      "sample": "A",
+      "part": "tree",
+      "file": "m7-dourado-paredes-v5-A-arvore-dourada.stl",
+      "volume_mm3": 214.38611282831206,
+      "dimensions_mm": [
+        25.803796799999986,
+        27.000000029999995,
+        1.0
+      ],
+      "watertight": true,
+      "slot": 2
+    },
+    {
+      "sample": "B",
+      "part": "base",
+      "file": "m7-dourado-paredes-v5-B-base-laranja.stl",
+      "volume_mm3": 650.2365614990923,
+      "dimensions_mm": [
+        32.0,
+        34.0,
+        0.6000000238418579
+      ],
+      "watertight": true,
+      "slot": 1
+    },
+    {
+      "sample": "B",
+      "part": "tree",
+      "file": "m7-dourado-paredes-v5-B-arvore-dourada.stl",
+      "volume_mm3": 214.38611282831206,
+      "dimensions_mm": [
+        25.803796799999986,
+        27.000000029999995,
+        1.0
+      ],
+      "watertight": true,
+      "slot": 2
+    },
+    {
+      "sample": "C",
+      "part": "base",
+      "file": "m7-dourado-paredes-v5-C-base-laranja.stl",
+      "volume_mm3": 650.8380261405451,
+      "dimensions_mm": [
+        32.0,
+        34.0,
+        0.6000000238418579
+      ],
+      "watertight": true,
+      "slot": 1
+    },
+    {
+      "sample": "C",
+      "part": "tree",
+      "file": "m7-dourado-paredes-v5-C-arvore-dourada.stl",
+      "volume_mm3": 214.38611282831206,
+      "dimensions_mm": [
+        25.803796799999986,
+        27.000000029999995,
+        1.0
+      ],
+      "watertight": true,
+      "slot": 2
+    },
+    {
+      "sample": "D",
+      "part": "base",
+      "file": "m7-dourado-paredes-v5-D-base-laranja.stl",
+      "volume_mm3": 651.4394907819978,
+      "dimensions_mm": [
+        32.0,
+        34.0,
+        0.6000000238418579
+      ],
+      "watertight": true,
+      "slot": 1
+    },
+    {
+      "sample": "D",
+      "part": "tree",
+      "file": "m7-dourado-paredes-v5-D-arvore-dourada.stl",
+      "volume_mm3": 214.38611282831206,
+      "dimensions_mm": [
+        25.803796799999986,
+        27.000000029999995,
+        1.0
+      ],
+      "watertight": true,
+      "slot": 2
+    }
+  ],
+  "source_tree_volume_mm3": 214.38611282831206,
+  "geometry_note": "Original tree translated only; not scaled or thickened"
+}

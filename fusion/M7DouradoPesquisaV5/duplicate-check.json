@@ -1,0 +1,7 @@
+{
+  "sample": "C - 25 mm/s - 5 walls - Arachne",
+  "layer_mm": 1.6,
+  "segments_examined": 389,
+  "near_collinear_overlap_candidates": [],
+  "test": "Nonadjacent extrusion center-line chords, length >=.1 mm, parallel cosine >=.9999, perpendicular offset <=.01 mm, common projected length >.05 mm. Negative result does not exclude bead-width overlap or other layers/arcs."
+}

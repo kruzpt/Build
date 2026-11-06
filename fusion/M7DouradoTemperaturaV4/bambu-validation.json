@@ -1,0 +1,60 @@
+{
+  "project": "m7-dourado-temperatura-v4-205C-A1-AMS-1-prato.3mf",
+  "sha256": "866ff1f100d61eb8369c05c92429493d670bfd9acd7ede187197642336c12635",
+  "source": "m7-dourado-calibracao-velocidade-v3-A1-AMS-1-prato.3mf",
+  "material_confirmed_by_user_label": "Amazon Basics Silk PLA Gold, 1.75 mm",
+  "label_nozzle_range_c": [
+    190,
+    220
+  ],
+  "only_material_change": {
+    "gold_nozzle_temperature_c": [
+      215,
+      205
+    ],
+    "gold_nozzle_initial_layer_temperature_c": [
+      215,
+      205
+    ]
+  },
+  "source_geometry_and_assembly_bytes_identical": true,
+  "object_settings_identical": true,
+  "coupon_extrusion_paths_identical": true,
+  "gold_print_temperature_wait_verified_c": 205,
+  "flow": [
+    "0.931",
+    "0.9702"
+  ],
+  "speeds_by_sample": {
+    "A": "50 outer / 100 configured inner, volumetric limit applies",
+    "B": 35,
+    "C": 25,
+    "D": 15
+  },
+  "physical_identification": "1,2,3,4 notches; identical shapes to 215 C group, keep groups separately labelled",
+  "native_reopen_exit": 0,
+  "native_slice_exit": 0,
+  "bambu_version": "02.08.02.61",
+  "warnings": "",
+  "filament_changes": 1,
+  "estimated_seconds": 2065.374267578125,
+  "estimated_grams_including_flush_and_tower": 4.86921763420105,
+  "filaments": [
+    {
+      "filament_id": "GFL99",
+      "id": 1,
+      "main_used_g": 3.0553925037384033,
+      "total_used_g": 3.542724132537842
+    },
+    {
+      "filament_id": "GFL96",
+      "id": 2,
+      "main_used_g": 1.0235607624053955,
+      "total_used_g": 1.326493501663208
+    }
+  ],
+  "brim": false,
+  "supports": false,
+  "physical_print_tested": false,
+  "temperature_cause_established": false
+}
