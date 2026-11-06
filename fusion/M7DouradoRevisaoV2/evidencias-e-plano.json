@@ -159,7 +159,7 @@
   },
   "interpretation": "Local paths remain after infill removal. Their start/end zones and width changes are hypotheses, not proof of the physical cause.",
   "proposed_test": {
-    "status": "plan only, pending approval",
+    "status": "approved; printable project delivered in M7DouradoTesteABV2",
     "base_mm": [
       32,
       34,

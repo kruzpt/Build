@@ -1,5 +1,7 @@
 # Dourado M7 — revisão após o teste de cinco paredes
 
+**Plano aprovado.** O [teste A/B V2 está preparado](../M7DouradoTesteABV2/README.md).
+
 O utilizador imprimiu o teste V1, derivado da V8, com dourado a **0,9702**.
 A fotografia recebida em 06/11/2026 mostra acumulações salientes nas zonas
 largas da árvore e alguns fios. Os trechos compridos parecem mais regulares;
@@ -35,7 +37,7 @@ O utilizador indicou a marca como **Amazon**. A designação exata do produto e
 a classificação PLA / PLA Silk continuam por confirmar. Não inferir Silk
 apenas pelo brilho, nem alterar a temperatura com base apenas nessa marca.
 
-## Próximo ensaio proposto — plano, ainda sem 3MF final
+## Plano aprovado do ensaio A/B
 
 Duas árvores à escala original, cada uma numa base laranja de **32 × 34 ×
 0,6 mm**, com o mesmo relevo dourado de **1 mm**:
@@ -46,8 +48,7 @@ Duas árvores à escala original, cada uma numa base laranja de **32 × 34 ×
 
 Conservar fluxo 0,9702, 215 °C, retração, arrefecimento, altura de camada e
 os restantes parâmetros. As marcações são pequenos recortes na base laranja,
-sem acrescentar outra cor. Não foram calculadas estimativas de tempo ou
-material deste plano, pois o projeto de impressão ainda não foi preparado.
+sem acrescentar outra cor. As estimativas e a verificação do 3MF estão na documentação do teste A/B V2.
 
 O teste visa avaliar a uniformização da velocidade nas mudanças de largura e
 nos pequenos contornos. É uma hipótese a experimentar, não uma correção física
@@ -58,5 +59,5 @@ AMS, arrefecimento e eventuais contactos do bico.
 
 Este plano é apresentado antes de preparar os ficheiros da nova amostra,
 seguindo a preferência do utilizador de aprovar primeiro a imagem/plano de
-novas peças. Os próximos STL/3MF dependem dessa aprovação. O teste V1 e a V8
+novas peças. A aprovação foi recebida e os STL/3MF do teste estão disponíveis. O teste V1 e a V8
 permanecem disponíveis e os respetivos relatórios de fatiamento são históricos.
