@@ -1,0 +1,58 @@
+{
+  "project": "gallardo-straight-sill-v1.3mf",
+  "sha256": "52cf6c9b5263d092631a22927198667831dfb5c5d6eeb0335196c695c81307ed",
+  "input_filename": "toclean gallardo.3mf",
+  "input_sha256": "3f17c54e712e9daa4be7be636f6214d493e5955583a5ba86788dbfeb26509598",
+  "operation": "Subtract only the under-sill tab below the straight line joining its two roots.",
+  "straight_edge_endpoints_local_xz_mm": [
+    [
+      -24.7457063,
+      27.196412193047532
+    ],
+    [
+      26.760293700000002,
+      27.136417957755356
+    ]
+  ],
+  "straight_edge_length_mm": 51.506034940657855,
+  "before_volume_mm3": 15438.04442875865,
+  "after_volume_mm3": 13058.215040723779,
+  "removed_volume_mm3": 2379.829388034876,
+  "removed_bounds_local_xyz_mm": [
+    [
+      -24.74670700476087,
+      -1.60000002,
+      27.13641584926453
+    ],
+    [
+      26.76210412410323,
+      1.60000002,
+      42.1745224
+    ]
+  ],
+  "added_volume_mm3": 0.0,
+  "width_and_thickness_unchanged": true,
+  "width_mm": 279.066712,
+  "thickness_mm": 3.20000004,
+  "single_connected_watertight_solid": true,
+  "straight_cut_face_verified": true,
+  "remaining_changes_confined_to_cut_volume": true,
+  "source_build_transform_identical": true,
+  "print_configuration_byte_identical": true,
+  "source_designer": "Dava",
+  "source_license_metadata": "Standard Digital File License",
+  "source_attribution_and_license_retained": true,
+  "printer": "Bambu Lab A1 0.2 nozzle",
+  "layer_height_mm": "0.1",
+  "material_slot_used": 3,
+  "brim_policy_preserved": "auto_brim",
+  "slicer_version": "02.08.02.61",
+  "newer_file_compatibility_enabled": true,
+  "source_project_version": "02.09.01.70",
+  "native_slice_exit": 0,
+  "warnings": "",
+  "estimated_seconds": 10232.6787109375,
+  "estimated_grams": 14.73128890991211,
+  "physical_print_tested": false,
+  "physical_print_started": false
+}
