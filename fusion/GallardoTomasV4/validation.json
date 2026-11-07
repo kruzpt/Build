@@ -1,0 +1,53 @@
+{
+  "project": "gallardo-tomas-v4-A1-04-texto-direito-suportes-ON.3mf",
+  "sha256": "d08e24a44dabb842df4bc3bc026457163027d95a5d13737cb2064f403de0f484",
+  "geometry": {
+    "text_rotation_relative_to_v3_degrees": 180,
+    "car_orientation_preserved": true,
+    "assembly_extents_mm": [
+      150.0,
+      30.0,
+      37.29999999701977
+    ],
+    "text_contour_offset_mm": 1.6,
+    "connector_center_assembly_mm": [
+      8.45,
+      -13.7,
+      4.1
+    ],
+    "connector_diameter_mm": 1.2,
+    "connector_height_mm": 1.2,
+    "connector_added_volume_mm3": 0.5333055177579809,
+    "name_projection_symmetric_difference_mm2": 0.001985891525178307,
+    "watertight_single_component": true,
+    "volume_mm3": 18855.13620567835,
+    "source_sha256": "dbbd16536efe74bb76b6fd887dba9ffeab0331ef752b49279f750ccc94144cee"
+  },
+  "printer": "Bambu Lab A1 0.4 nozzle",
+  "profile": "Gallardo TOMAS V4 - 0.10mm A1 0.4 - Tree Slim ON",
+  "layer_height_mm": 0.1,
+  "support_enabled_in_global_project": true,
+  "support_enabled_in_object": true,
+  "native_reexport_preserves_profile_and_both_support_flags": true,
+  "support_type": "tree(auto)",
+  "support_style": "tree_slim",
+  "support_settings": {
+    "enable_support": "1",
+    "support_type": "tree(auto)",
+    "support_style": "tree_slim",
+    "support_on_build_plate_only": "1",
+    "support_top_z_distance": "0.2",
+    "support_bottom_z_distance": "0.2",
+    "support_object_xy_distance": "0.4",
+    "support_interface_top_layers": "2",
+    "support_interface_spacing": "0.45"
+  },
+  "native_slice_exit": 0,
+  "warnings": "",
+  "support_extrusion_mm": 3133.46119,
+  "estimated_seconds": 29304.818359375,
+  "estimated_grams_including_support": 32.796112060546875,
+  "brim_present": false,
+  "physical_print_tested": false,
+  "user_gui_support_state_reproduced": false
+}
