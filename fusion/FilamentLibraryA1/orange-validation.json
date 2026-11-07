@@ -1,0 +1,33 @@
+{
+  "profile_name": "SUNLU PLA+ Laranja 0.931 @BBL A1 0.4",
+  "profile_file": "sunlu-pla-plus-laranja-0931-A1-04.json",
+  "profile_sha256": "fdeec6b5db24ccc1753b397e96f8c33c41bf33e448c31793fc2c7b15fbab1257",
+  "preset_kind": "User filament JSON",
+  "parent": "Generic PLA @BBL A1",
+  "compatible_printers": [
+    "Bambu Lab A1 0.4 nozzle"
+  ],
+  "flow_ratio": 0.931,
+  "nozzle_c": 220,
+  "textured_pei_c": 65,
+  "maximum_volumetric_speed_mm3_s": 8,
+  "color_hex": "#C85D2E",
+  "source_project": "m7-tijolo-v9-relevos-em-linhas-A1-AMS-2-pratos.3mf",
+  "source_material_slot": 1,
+  "official_import_format_reviewed": true,
+  "native_profile_load_exit": 0,
+  "windows_library_install_performed": false,
+  "gui_import_test_performed": false,
+  "project": "gallardo-tomas-v4-A1-04-laranja-0931-suportes-ON.3mf",
+  "project_sha256": "b4d904e68c3a7521404f7e5e1ad03dee4be881c67139124d53c9a3c121bcc453",
+  "all_3d_geometry_placement_and_object_settings_bytes_unchanged": true,
+  "support_enabled_global": "1",
+  "support_enabled_object": "1",
+  "native_slice_exit": 0,
+  "warnings": "",
+  "actual_outer_wall_max_speed_mm_s": 30.0,
+  "estimated_seconds": 29304.77734375,
+  "estimated_grams_including_support": 30.664979934692383,
+  "physical_print_tested": false,
+  "dynamic_flow_K_not_claimed_as_saved_in_filament": true
+}

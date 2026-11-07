@@ -37,3 +37,13 @@ Este fluxo de entrega não autoriza alterações sem relação com o pedido atua
   não a apresentar nem publicar como projeto final aprovado.
 - Depois da aprovação visual, avançar com a modelação final, configurações,
   verificação e entrega. A aprovação do conceito não equivale a teste físico.
+
+# Perfis de filamento reutilizáveis
+
+- O utilizador quer perfis guardáveis na biblioteca do Bambu Studio, disponíveis
+  entre projetos. Consultar `fusion/FilamentLibraryA1/` e reutilizar os perfis
+  calibrados compatíveis em vez de criar nomes com sufixos de cada projeto.
+- O laranja calibrado para A1 / bico 0,4 mm está em
+  `downloads/sunlu-pla-plus-laranja-0931-A1-04.json`. Não assumir que a calibração
+  se transfere para outro bico. Distinguir um ficheiro importável de um perfil
+  efetivamente instalado na biblioteca do computador do utilizador.
