@@ -57,6 +57,24 @@ A figura mostra uma faixa de 40 mm de profundidade da base real, com os
 percursos recortados nessa faixa. As direções podem alternar entre camadas.
 Não é uma previsão fotográfica do brilho ou da textura que ficará no Silk.
 
+## Comparação visual com a V5
+
+![Comparação real dos percursos V5 e V6](../../designs/essencial-compacto-v5-v6-comparacao-percursos.png)
+
+O mesmo canto de 24 × 18 mm é mostrado à mesma escala, nas camadas de
+Z=9,12 e Z=9,60 mm. As cores representam a velocidade pedida de extrusão no
+G-code: a mudança principal no interior é de aproximadamente 81 para 25 mm/s.
+Na superfície final, as duas versões preenchem a 20 mm/s; a V6 também altera
+a terminação/ligação das linhas junto ao contorno. Não se trata de uma
+mudança de ilhas concêntricas para linhas em toda esta superfície, pois a
+V5 já tinha linhas na base ampla.
+
+São traços centrais reais, recortados a partir dos G-codes anteriormente
+validados, incluindo a amostragem dos arcos. A largura desenhada não é a
+largura física do cordão. [Registo dos dados da comparação](toolpath-comparison.json)
+e [script de reprodução](../tools/compare_essencial_base_v5_v6_toolpaths.py).
+Esta atualização acrescenta apenas a comparação; o 3MF V6 mantém-se igual.
+
 ## Orientação e compatibilidade
 
 **Mantém-se a orientação invertida da V5.** Durante a impressão, a face verde

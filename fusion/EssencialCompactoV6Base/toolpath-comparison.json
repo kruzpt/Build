@@ -1,0 +1,78 @@
+{
+  "image": "essencial-compacto-v5-v6-comparacao-percursos.png",
+  "native_slicer_version": "02.08.02.61",
+  "rendered_layers_mm": [
+    9.12,
+    9.6
+  ],
+  "same_xy_bounds_and_scale_verified": true,
+  "view_box_xy_mm": [
+    27.999989999999997,
+    93.0,
+    51.99999,
+    111.0
+  ],
+  "view_size_mm": [
+    24.0,
+    18.0
+  ],
+  "colors_encode": "Requested G-code extrusion speed; blue 20, teal 25, amber 35, red 75\u201381 mm/s.",
+  "geometry_type": "Clipped G-code extrusion centre lines, including sampled arcs. Drawn width is illustrative, not bead width.",
+  "versions": [
+    {
+      "title": "V5 \u2014 anterior",
+      "project": "essencial-compacto-v5-azeitona-A1-AMS-4-pratos.3mf",
+      "project_sha256": "d475d3783c6faeba38874656a826d198656989db61c45d0dac86ef0209363bdc",
+      "gcode_sha256": "c4f2a54eff8054b9401aa9fb2bfa01a0ef500b28a74d8c97b244b38316cfbbd0",
+      "flow": "0.98",
+      "temperature": "220"
+    },
+    {
+      "title": "V6 \u2014 revis\u00e3o da base",
+      "project": "essencial-compacto-v6-base-acabamento-A1-AMS-2-pratos.3mf",
+      "project_sha256": "ed01fdb994f5e99fd97c5a9d6f49ccce3c60680e30bb910b91860437441fcd70",
+      "gcode_sha256": "d92765422f314e130451003f38a39e42ba9f93c9ea31fdd97ea9c25485997701",
+      "flow": "0.9702",
+      "temperature": "215"
+    }
+  ],
+  "panels": [
+    {
+      "version": "V5 \u2014 anterior",
+      "layer_mm": 9.12,
+      "clipped_chords_drawn": 151,
+      "visible_speeds_mm_s": [
+        35.0,
+        75.18096666666666,
+        80.90405000000001
+      ]
+    },
+    {
+      "version": "V6 \u2014 revis\u00e3o da base",
+      "layer_mm": 9.12,
+      "clipped_chords_drawn": 151,
+      "visible_speeds_mm_s": [
+        25.0
+      ]
+    },
+    {
+      "version": "V5 \u2014 anterior",
+      "layer_mm": 9.6,
+      "clipped_chords_drawn": 111,
+      "visible_speeds_mm_s": [
+        20.0,
+        35.0
+      ]
+    },
+    {
+      "version": "V6 \u2014 revis\u00e3o da base",
+      "layer_mm": 9.6,
+      "clipped_chords_drawn": 89,
+      "visible_speeds_mm_s": [
+        20.0,
+        25.0
+      ]
+    }
+  ],
+  "physical_finish_predicted": false
+}
