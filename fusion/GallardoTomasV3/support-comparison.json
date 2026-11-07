@@ -1,0 +1,42 @@
+[
+  {
+    "candidate": "slice",
+    "selected": false,
+    "bico_mm": 0.4,
+    "same_v2_geometry": true,
+    "estimated_seconds": 27436.310546875,
+    "estimated_grams_including_support": 31.62314224243164,
+    "warning_message": "",
+    "support_feature_estimated_seconds": 2950.467041015625
+  },
+  {
+    "candidate": "tree-slice",
+    "selected": false,
+    "bico_mm": 0.4,
+    "same_v2_geometry": true,
+    "estimated_seconds": 30686.748046875,
+    "estimated_grams_including_support": 32.842838287353516,
+    "warning_message": "",
+    "support_feature_estimated_seconds": 4897.007110595703
+  },
+  {
+    "candidate": "tree-easy-slice",
+    "selected": false,
+    "bico_mm": 0.4,
+    "same_v2_geometry": true,
+    "estimated_seconds": 30807.978515625,
+    "estimated_grams_including_support": 32.86206817626953,
+    "warning_message": "",
+    "support_feature_estimated_seconds": 5012.351272583008
+  },
+  {
+    "candidate": "tree-slim-slice",
+    "selected": true,
+    "bico_mm": 0.4,
+    "same_v2_geometry": true,
+    "estimated_seconds": 29939.7890625,
+    "estimated_grams_including_support": 33.29956817626953,
+    "warning_message": "",
+    "support_feature_estimated_seconds": 4754.459503173828
+  }
+]
