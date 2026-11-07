@@ -1,0 +1,32 @@
+[
+  {
+    "orientation": "upright",
+    "native_slicer_version": "2.8.2.61",
+    "estimated_seconds_before_final_overhang_speed_limit": 46345.32421875,
+    "estimated_grams_including_support": 34.57167434692383,
+    "warnings": "",
+    "support_feature_estimated_seconds": 9343.916259765625,
+    "bridge_feature_estimated_seconds": 2085.397705078125,
+    "selected": false
+  },
+  {
+    "orientation": "side-front",
+    "native_slicer_version": "2.8.2.61",
+    "estimated_seconds_before_final_overhang_speed_limit": 45350.08203125,
+    "estimated_grams_including_support": 28.7420597076416,
+    "warnings": "",
+    "support_feature_estimated_seconds": 5234.597564697266,
+    "bridge_feature_estimated_seconds": 6.505892753601074,
+    "selected": false
+  },
+  {
+    "orientation": "side-back",
+    "native_slicer_version": "2.8.2.61",
+    "estimated_seconds_before_final_overhang_speed_limit": 44490.421875,
+    "estimated_grams_including_support": 28.123960494995117,
+    "warnings": "",
+    "support_feature_estimated_seconds": 4769.679412841797,
+    "bridge_feature_estimated_seconds": 6.625585079193115,
+    "selected": true
+  }
+]

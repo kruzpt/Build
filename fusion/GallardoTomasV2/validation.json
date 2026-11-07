@@ -1,0 +1,131 @@
+{
+  "geometry": {
+    "text_outline_offset_before_normalization_mm": 1.6,
+    "text_footprint_after_normalization_mm": [
+      150,
+      30
+    ],
+    "source_text_closed_shells": 5,
+    "fused_text_components": 1,
+    "assembly_extents_xyz_mm": [
+      150.0,
+      30.0,
+      37.29999999701977
+    ],
+    "volume_mm3": 18830.916242655527,
+    "source_car_section_area_mm2": 1177.3420911897424,
+    "name_projection_area_mm2": 2374.150728723168,
+    "car_projection_symmetric_difference_mm2": 0.01338485019859778,
+    "name_projection_symmetric_difference_mm2": 0.002986837383069707,
+    "outline_simplification_tolerance_mm": 0.001,
+    "final_solid_tolerance_mm": 0.001,
+    "source_unintended_tilt_removed": true,
+    "connected_components": 1,
+    "watertight": true,
+    "winding_consistent": true,
+    "stl_roundtrip_watertight_single_component": true,
+    "print_extents_xyz_mm": [
+      150.0,
+      37.29999999701977,
+      30.0
+    ],
+    "print_rotation_from_assembly_x_degrees": -90,
+    "print_triangle_count": 48794,
+    "source_sha256": "dbbd16536efe74bb76b6fd887dba9ffeab0331ef752b49279f750ccc94144cee",
+    "source_filename": "sharegallardo-straight-sill-v1.3mf",
+    "source_designer": "Dava",
+    "source_license": "Standard Digital File License"
+  },
+  "project": "gallardo-tomas-v2-A1-02-PLA.3mf",
+  "project_sha256": "68de5c27fca37953e9b347e38076a6486f99f49fa9d2276a86c0f695fa7df7b4",
+  "printer": "Bambu Lab A1 0.2 nozzle",
+  "nozzle_diameter_mm": 0.2,
+  "filament_slot": 3,
+  "filament": "Bambu PLA Basic @BBL A1 0.2 nozzle",
+  "material": "PLA",
+  "plate": "Textured PEI Plate",
+  "settings_changes": {
+    "brim_type": "no_brim",
+    "layer_height": "0.1",
+    "initial_layer_print_height": "0.1",
+    "wall_loops": "4",
+    "sparse_infill_density": "20%",
+    "sparse_infill_pattern": "gyroid",
+    "outer_wall_speed": "30",
+    "inner_wall_speed": "50",
+    "top_surface_speed": "25",
+    "internal_solid_infill_speed": "50",
+    "sparse_infill_speed": "70",
+    "bridge_speed": "20",
+    "gap_infill_speed": "25",
+    "initial_layer_speed": "20",
+    "initial_layer_infill_speed": "25",
+    "outer_wall_acceleration": "800",
+    "top_surface_acceleration": "800",
+    "enable_support": "1",
+    "support_type": "normal(auto)",
+    "support_style": "snug",
+    "support_threshold_angle": "35",
+    "support_on_build_plate_only": "0",
+    "support_top_z_distance": "0.2",
+    "support_bottom_z_distance": "0.2",
+    "support_interface_top_layers": "3",
+    "support_interface_bottom_layers": "2",
+    "support_interface_spacing": "0.3",
+    "support_object_xy_distance": "0.35",
+    "support_base_pattern_spacing": "3",
+    "support_filament": "0",
+    "support_interface_filament": "0",
+    "top_surface_pattern": "monotonicline",
+    "bottom_surface_pattern": "monotonic",
+    "detect_narrow_internal_solid_infill": "0",
+    "internal_solid_infill_pattern": "monotonic",
+    "enable_prime_tower": "0",
+    "overhang_1_4_speed": [
+      "30"
+    ],
+    "overhang_2_4_speed": [
+      "25"
+    ],
+    "overhang_3_4_speed": [
+      "20"
+    ],
+    "overhang_4_4_speed": [
+      "15"
+    ],
+    "overhang_totally_speed": [
+      "10"
+    ]
+  },
+  "native_slicer_version": "02.08.02.61",
+  "native_slice_exit": 0,
+  "warning_message": "",
+  "estimated_seconds": 44424.7890625,
+  "estimated_grams_including_support": 28.11703109741211,
+  "filament_changes": 0,
+  "first_layer_mm": 0.1,
+  "actual_maximum_layer_step_mm": 0.10000000000000142,
+  "layer_count": 300,
+  "actual_outer_wall_maximum_speed_mm_s": 30.0,
+  "supports_present": true,
+  "actual_support_extrusion_mm": 1699.99667,
+  "brim_present": false,
+  "print_bbox": {
+    "depth": 37.29999923706055,
+    "height": 30.0,
+    "width": 150.0,
+    "x": 53.0,
+    "y": 109.34999084472656,
+    "z": 0.0
+  },
+  "physical_print_tested": false,
+  "native_exported_mesh_watertight_single_component": true,
+  "source_material_temperatures_flow_and_printer_preserved": true,
+  "active_filament_overhang_speed_limits_mm_s": {
+    "filament_overhang_1_4_speed": "30",
+    "filament_overhang_2_4_speed": "25",
+    "filament_overhang_3_4_speed": "20",
+    "filament_overhang_4_4_speed": "15",
+    "filament_overhang_totally_speed": "10"
+  }
+}
