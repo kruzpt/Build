@@ -1,0 +1,103 @@
+{
+  "source_filename": "sharegallardo-straight-sill-v1.3mf",
+  "source_sha256": "dbbd16536efe74bb76b6fd887dba9ffeab0331ef752b49279f750ccc94144cee",
+  "source_is_before_boolean": true,
+  "car_extents_xyz_mm": [
+    150.0000002884924,
+    29.999999926068995,
+    37.299862076769
+  ],
+  "text_extents_xyz_mm": [
+    150.40492481928442,
+    29.999999997108404,
+    37.29999989881815
+  ],
+  "car_bounds_xyz_mm": [
+    [
+      55.999823286891186,
+      142.51369705270355,
+      -4.90074079095848e-08
+    ],
+    [
+      205.99982357538357,
+      172.51369697877254,
+      37.29986202776159
+    ]
+  ],
+  "text_bounds_xyz_mm": [
+    [
+      55.79736112580373,
+      142.51369689741477,
+      -2.1797275789881e-11
+    ],
+    [
+      206.20228594508814,
+      172.51369689452318,
+      37.29999989879635
+    ]
+  ],
+  "text_settings": {
+    "text": "TOMAS",
+    "font_name": "Courier New",
+    "font_version": "2.8",
+    "style_name": "Recommend",
+    "boldness": "0",
+    "skew": "0",
+    "font_index": "-1",
+    "font_size": "37.716388702392578",
+    "thickness": "19.353073120117188",
+    "embeded_depth": "0",
+    "rotate_angle": "-180",
+    "text_gap": "-6.1499996185302734",
+    "horizontal": "center",
+    "vertical": "middle",
+    "bold": "0",
+    "italic": "0",
+    "surface_type": "0",
+    "hit_mesh": "-1",
+    "hit_position": "0 0 0",
+    "hit_normal": "0 0 0"
+  },
+  "source_car_connected_components": 1,
+  "source_text_closed_glyph_shells": 5,
+  "text_components_after_true_union": 1,
+  "simulation": "Manifold3D union of glyphs, then intersection with car; not native Bambu Boolean or a sliced print test.",
+  "intersection_volume_mm3": 9718.996640566611,
+  "intersection_components": [
+    {
+      "volume_mm3": 9708.613644575249,
+      "bounds_xyz_mm": [
+        56.00480602426026,
+        142.52857846301816,
+        -2.1797275789881e-11,
+        205.99498693640442,
+        172.50908521744478,
+        37.29986202776159
+      ]
+    },
+    {
+      "volume_mm3": 6.025927053983801,
+      "bounds_xyz_mm": [
+        135.9770760002898,
+        169.66003775047923,
+        4.21344322379057,
+        142.4384540039001,
+        171.70881762847947,
+        5.036158066720736
+      ]
+    },
+    {
+      "volume_mm3": 4.35706893737985,
+      "bounds_xyz_mm": [
+        89.61984214383268,
+        169.66003775047923,
+        20.615902602584477,
+        94.40247767530607,
+        171.70881762847947,
+        21.38982595696299
+      ]
+    }
+  ],
+  "main_component_volume_fraction": 0.9989316802571961,
+  "final_print_project_created": false
+}
