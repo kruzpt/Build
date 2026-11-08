@@ -1,7 +1,9 @@
 # Clube das ferramentas — acompanhamento de referências
 
-**Página confirmada:** https://www.facebook.com/clubedasferramentas/  
-**Identificador público associado aos dois vídeos:** 100065719890487.  
+**Página confirmada:** https://www.facebook.com/clubedasferramentas/
+
+**Identificador público associado aos dois vídeos:** 100065719890487.
+
 **Última consulta:** 08/11/2026.
 
 O utilizador pediu para conservar as dicas úteis e continuar a analisar vídeos

@@ -1,9 +1,13 @@
 # Engomagem / ironing — referência e aplicação futura
 
-**Registado:** 08/11/2026.  
-**Canal:** [Clube das ferramentas](https://www.facebook.com/clubedasferramentas/).  
-**Vídeo:** “Melhorando a superfície do seu objeto!” — aproximadamente 1 min 38 s.  
-**Ligação enviada:** https://www.facebook.com/share/v/14xkhwwXdWg/  
+**Registado:** 08/11/2026.
+
+**Canal:** [Clube das ferramentas](https://www.facebook.com/clubedasferramentas/).
+
+**Vídeo:** “Melhorando a superfície do seu objeto!” — aproximadamente 1 min 38 s.
+
+**Ligação enviada:** https://www.facebook.com/share/v/14xkhwwXdWg/
+
 **Reel identificado:** https://www.facebook.com/reel/1359701022222209/
 
 ## Observado no vídeo
