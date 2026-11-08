@@ -47,3 +47,13 @@ Este fluxo de entrega não autoriza alterações sem relação com o pedido atua
   `downloads/sunlu-pla-plus-laranja-0931-A1-04.json`. Não assumir que a calibração
   se transfere para outro bico. Distinguir um ficheiro importável de um perfil
   efetivamente instalado na biblioteca do computador do utilizador.
+
+# Dicas de impressão e fontes para uso futuro
+
+- Consultar `fusion/PrintKnowledge/README.md` para as dicas e referências que
+  o utilizador pediu para guardar. O canal Clube das ferramentas é uma fonte
+  de interesse para revisões por lotes, documentada nessa pasta.
+- Distinguir os valores mostrados num tutorial das configurações verificadas
+  no fatiador e dos resultados físicos do utilizador. Não aplicar dicas a todos
+  os projetos ou perfis por defeito, nem prometer monitorização automática sem
+  uma tarefa recorrente realmente configurada.
