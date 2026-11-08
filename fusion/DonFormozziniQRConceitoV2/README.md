@@ -16,6 +16,26 @@ Mantêm o nome Don Formozzini, o subtítulo do restaurante e o convite neutro
 **Partilhe a sua experiência**. Não foi acrescentado Instagram sem uma conta
 confirmada. As paletas foram contidas para uma futura adaptação à impressão.
 
+### Opção 3 — revisão com a nova referência do utilizador
+
+Imagem atualizada: `designs/don-formozzini-qr-opcao-3-panoramica-logotipo-v2.png`.
+
+O utilizador enviou uma captura com o logótipo circular preto, nome branco e
+detalhes verde/branco/vermelho. Esta revisão representa essa identidade num
+medalhão à esquerda da placa panorâmica. À direita mantém-se o QR dummy e a
+mensagem passa a **Partilhar a sua experiência**, em duas linhas.
+As opções 1 e 2 e a primeira versão da opção 3 foram conservadas.
+
+A captura identifica também `www.donformozzini.pt`; esse endereço foi fornecido
+visualmente pelo utilizador, mas não foi consultado/validado nesta revisão e
+não foi convertido em destino do QR. A localização da proposta continua a ser
+Setúbal, conforme o pedido, sem transferir a referência Azeitão de outra
+miniatura da captura para a placa.
+
+Para o fabrico, o medalhão pode ser um módulo de quatro cores
+(preto/branco/verde/vermelho) e os detalhes dourados peças separadas. Essa
+divisão ainda não foi modelada nem validada; o render é uma proposta visual.
+
 ## QR dummy
 
 O QR usado como referência visual foi gerado especificamente para este
