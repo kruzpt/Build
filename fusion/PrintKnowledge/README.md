@@ -7,6 +7,7 @@ utilizador. Criado a pedido do utilizador em **08/11/2026**.
 
 - [Engomagem / ironing — vídeo do Clube das ferramentas](ironing-clube-ferramentas-2026-11-08.md).
 - [Arrefecimento de saliências — vídeo da UpLike Digital](overhang-cooling-uplike-2026-11-08.md).
+- [Costura Scarf — vídeo da Lápiz Creativo 3D](scarf-seam-lapiz-creativo-2026-11-09.md).
 - [Canal Clube das ferramentas — vídeos revistos e plano de revisão](clubedasferramentas.md).
 - [Biblioteca de filamentos calibrados da A1](../FilamentLibraryA1/README.md).
 
