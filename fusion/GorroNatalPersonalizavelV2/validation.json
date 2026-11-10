@@ -1,0 +1,99 @@
+{
+  "model": "GorroNatalPersonalizavelV2",
+  "units": "mm",
+  "printer_assumption": "FDM, bico 0.4 mm",
+  "physical_print_tested": false,
+  "bambu_studio_tested": true,
+  "bambu_studio_version": "02.09.01.70",
+  "bambu_validation": "three native archives accepted by official --info; text_info present",
+  "profiles": {
+    "curto": {
+      "example_name": "Lia",
+      "text_bounds_mm": [
+        [
+          -13.876,
+          3.271,
+          3.8
+        ],
+        [
+          17.988,
+          20.509,
+          4.6
+        ]
+      ],
+      "complete_bounds_mm": [
+        [
+          -46.0,
+          0.0,
+          0.0
+        ],
+        [
+          46.0,
+          84.0,
+          4.6
+        ]
+      ],
+      "complete_watertight": true,
+      "3mf_sha256": "9b395681d512721069fd590cc593a3b6ca945c56fe52dd56f9779a9b171ae8db"
+    },
+    "medio": {
+      "example_name": "Tomás",
+      "text_bounds_mm": [
+        [
+          -20.225,
+          4.353,
+          3.8
+        ],
+        [
+          23.535,
+          19.373,
+          4.6
+        ]
+      ],
+      "complete_bounds_mm": [
+        [
+          -46.0,
+          0.0,
+          0.0
+        ],
+        [
+          46.0,
+          84.0,
+          4.6
+        ]
+      ],
+      "complete_watertight": true,
+      "3mf_sha256": "e96865e7d09f0c3d77dc833347ff1904d7f945250dd92e5208ee6c750dc05f29"
+    },
+    "comprido": {
+      "example_name": "Alexandre",
+      "text_bounds_mm": [
+        [
+          -25.41,
+          4.613,
+          3.8
+        ],
+        [
+          27.117,
+          18.987,
+          4.6
+        ]
+      ],
+      "complete_bounds_mm": [
+        [
+          -46.0,
+          0.0,
+          0.0
+        ],
+        [
+          46.0,
+          84.0,
+          4.6
+        ]
+      ],
+      "complete_watertight": true,
+      "3mf_sha256": "ac666daefdf57608ffb2ae09f022cd842adf4e60d3479ef86d2355c4285906a2"
+    }
+  },
+  "preview": "designs/gorro-natal-v2-tres-nomes-CAD.png"
+}

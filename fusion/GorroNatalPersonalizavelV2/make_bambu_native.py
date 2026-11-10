@@ -1,0 +1,51 @@
+#!/usr/bin/env python3
+"""Converte os 3MF V2 e marca o volume do nome como Text shape editavel."""
+from __future__ import annotations
+import argparse, os, shutil, subprocess, tempfile, zipfile
+from pathlib import Path
+from xml.etree import ElementTree as ET
+
+EXAMPLES={"curto":"Lia","medio":"Tomás","comprido":"Alexandre"}
+
+def rewrite_text_info(path: Path, name: str, profile: str) -> None:
+    with zipfile.ZipFile(path) as src:
+        files={n:src.read(n) for n in src.namelist()}
+    root=ET.fromstring(files["Metadata/model_settings.config"])
+    target=None
+    for part in root.findall(".//part"):
+        label=part.find("metadata[@key='name']")
+        if label is not None and label.get("value", "").startswith("Nome "):
+            target=part; break
+    if target is None: raise RuntimeError("volume do nome nao encontrado")
+    size={"curto":"19","medio":"15.5","comprido":"11.8"}[profile]
+    info=ET.Element("text_info", {
+        "text":name, "font_name":"Z003", "font_version":"2.3",
+        "style_name":"Manuscrita V2", "boldness":"0", "skew":"0",
+        "font_index":"0", "font_size":size, "thickness":"0.8",
+        "embeded_depth":"0", "rotate_angle":"0", "text_gap":"0",
+        "horizontal_align":"center", "vertical_align":"middle",
+        "bold":"0", "italic":"1", "surface_type":"0", "hit_mesh":"0",
+        "hit_position":"0 0 3.8", "hit_normal":"0 0 1"})
+    target.insert(max(0, len(target)-1), info)
+    files["Metadata/model_settings.config"]=ET.tostring(root,encoding="utf-8",xml_declaration=True)
+    tmp=path.with_suffix(".tmp")
+    with zipfile.ZipFile(tmp,"w",zipfile.ZIP_DEFLATED) as dst:
+        for n,b in files.items(): dst.writestr(n,b)
+    os.replace(tmp,path)
+
+def main():
+    ap=argparse.ArgumentParser(); ap.add_argument("--bambu",required=True,type=Path); ap.add_argument("--downloads",type=Path,default=Path("downloads")); a=ap.parse_args()
+    env=os.environ.copy(); env.setdefault("LC_ALL","C")
+    for profile,name in EXAMPLES.items():
+        slug=name.lower().replace("á","a")
+        source=a.downloads/f"gorro-natal-v2-{profile}-{slug}-2-cores.3mf"
+        with tempfile.TemporaryDirectory() as td:
+            native=Path(td)/source.name
+            subprocess.run([str(a.bambu),"--export-3mf",str(native),str(source)],check=True,env=env)
+            rewrite_text_info(native,name,profile)
+            shutil.move(native,source)
+        with zipfile.ZipFile(source) as z:
+            cfg=z.read("Metadata/model_settings.config")
+            if b"text_info" not in cfg: raise RuntimeError(f"Text shape ausente: {source}")
+        print(source)
+if __name__=="__main__": main()
