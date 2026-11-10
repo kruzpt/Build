@@ -38,6 +38,20 @@ filamento. Estimativas: 2,95 g / 19 min para o berço, 3,99 g / 21 min para os
 pinos e 23,74 g / 1 h 26 min para a peça completa. Só o terceiro prato gera
 uma pequena zona de suporte automático.
 
+### Perfil de acabamento dos berços
+
+O projeto `v9-acabamento` é a opção recomendada para a peça completa. Usa
+camada de 0,12 mm, resolução geométrica de 0,008 mm e coloca a costura para
+trás. As quatro velocidades de overhang ficam limitadas a 25/20/15/10 mm/s.
+O reforço de arrefecimento começa aos 25% e usa 100% de ventoinha nessas zonas.
+
+Ao contrário do primeiro perfil, permite que os suportes snug com três camadas
+de interface nasçam sobre a própria placa traseira. O G-code confirma suporte
+até 27,08 mm de altura, cobrindo a parte inferior das duas curvas. A distância
+Z da interface é 0,12 mm. Isto reduz degraus e deformação, embora uma impressão
+FDM continue a apresentar linhas de camada e possa deixar textura onde o
+suporte toca na peça.
+
 O SCAD permite exportar `completo`, `berco` ou `amostras_piloto` através da
 variável `parte`. As malhas e o projeto Bambu foram validados digitalmente; o
 encaixe, os parafusos e a carga na parede ainda precisam de teste físico.
