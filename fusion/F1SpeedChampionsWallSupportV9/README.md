@@ -52,6 +52,20 @@ Z da interface é 0,12 mm. Isto reduz degraus e deformação, embora uma impress
 FDM continue a apresentar linhas de camada e possa deixar textura onde o
 suporte toca na peça.
 
+### Perfil de resistência
+
+O projeto `v9-resistencia` é recomendado para pendurar o carro depois de
+confirmar os encaixes. Usa camada de 0,16 mm, seis paredes, seis camadas de
+topo/fundo e 35% gyroid. Mantém as velocidades reduzidas, a costura traseira,
+o arrefecimento de overhang e três camadas de interface. O suporte alcança
+27,08 mm e cobre a parte inferior dos berços.
+
+A peça completa fica estimada em 28,31 g e cerca de 2 h 08 min em Generic PLA.
+As paredes adicionais têm mais efeito na raiz dos braços do que aumentar apenas
+o enchimento. Para PLA+ ou PETG, selecionar um perfil de filamento já calibrado
+para o material real; não copiar temperaturas de PLA. Usar duas buchas e
+parafusos adequados à parede e não apertar até deformar a placa impressa.
+
 O SCAD permite exportar `completo`, `berco` ou `amostras_piloto` através da
 variável `parte`. As malhas e o projeto Bambu foram validados digitalmente; o
 encaixe, os parafusos e a carga na parede ainda precisam de teste físico.

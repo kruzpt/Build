@@ -1,0 +1,36 @@
+{
+  "project": "suporte-f1-speed-champions-piloto-v9-resistencia-A1-PLA-3-pratos.3mf",
+  "sha256": "17fad8370f973beb891eed4112a553e709b3eb13b9776dd5ebbd43a110b7b64b",
+  "printer": "Bambu Lab A1 0.4 nozzle",
+  "bambu_version": "02.09.01.70",
+  "material": "Generic PLA",
+  "layer_height_mm": 0.16,
+  "wall_loops": 6,
+  "infill_percent": 35,
+  "infill_pattern": "gyroid",
+  "brim": false,
+  "physical_print_tested": false,
+  "plates": [
+    {
+      "id": 1,
+      "estimated_seconds": 1584.3626708984375,
+      "estimated_total_grams": 3.5788891315460205,
+      "filament_changes": 0,
+      "warnings": ""
+    },
+    {
+      "id": 2,
+      "estimated_seconds": 1610.1192626953125,
+      "estimated_total_grams": 4.344167709350586,
+      "filament_changes": 0,
+      "warnings": ""
+    },
+    {
+      "id": 3,
+      "estimated_seconds": 7640.18798828125,
+      "estimated_total_grams": 28.311864852905273,
+      "filament_changes": 0,
+      "warnings": ""
+    }
+  ]
+}
