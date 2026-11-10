@@ -1,0 +1,38 @@
+{
+  "bambu_version": "02.09.01.70",
+  "printer": "Bambu Lab A1 0.4 nozzle",
+  "native_text_shape": true,
+  "font_name": "Lobster",
+  "font_version": "2.8",
+  "font_index": -1,
+  "rotate_angle_deg": 0,
+  "hit_mesh": -1,
+  "native_reexport_preserved_text_info": true,
+  "supports": false,
+  "brim": false,
+  "physical_print_tested": false,
+  "windows_gui_edit_tested": false,
+  "projects": {
+    "curto": {
+      "name": "Lia",
+      "sha256": "a397e1a44f2d16bb53d3b9a9ad363da8e87fb2ba447561d90ea5c97a403506cc",
+      "estimated_seconds": 4272.916,
+      "estimated_total_grams": 24.187,
+      "warnings": ""
+    },
+    "medio": {
+      "name": "Tomás",
+      "sha256": "b8ec1152c6fe679b430b1ee95053cd601276fba960d21b19a08f86f9e9843c1a",
+      "estimated_seconds": 4320.278,
+      "estimated_total_grams": 24.337,
+      "warnings": ""
+    },
+    "comprido": {
+      "name": "Alexandre",
+      "sha256": "e5ee6fd00f70b820b205d4ee4f9e390e71749127a3faea3b548232ca0bd7d4e0",
+      "estimated_seconds": 4330.63,
+      "estimated_total_grams": 24.299,
+      "warnings": ""
+    }
+  }
+}

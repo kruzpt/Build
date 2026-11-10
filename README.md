@@ -4,6 +4,12 @@ Projeto de uma placa de balcão para impressão 3D e edição no Autodesk Fusion
 
 ## Ficheiros
 
+- **[Gorro de Natal V6 — argola superior e texto editável no Bambu](downloads/gorro-natal-v6-pacote-bambu.zip?raw=true)**
+- [Gorro V6 — prévia dos três nomes](designs/gorro-natal-v6-tres-nomes-CAD.png)
+- [Gorro V6 — 3MF curto, Lia](downloads/gorro-natal-v6-curto-lia-2-cores.3mf?raw=true)
+- [Gorro V6 — 3MF médio, Tomás](downloads/gorro-natal-v6-medio-tomas-2-cores.3mf?raw=true)
+- [Gorro V6 — 3MF comprido, Alexandre](downloads/gorro-natal-v6-comprido-alexandre-2-cores.3mf?raw=true)
+- [Gorro V6 — instalação da fonte e edição](fusion/GorroNatalPersonalizavelV6/README.md)
 - **[Suporte F1 Speed Champions + piloto V9 — projeto Bambu A1 aprovado](downloads/suporte-f1-speed-champions-piloto-v9-A1-PLA-3-pratos.3mf?raw=true)**
 - **[Suporte F1 V9 — perfil de acabamento 0,12 mm e overhang suportado](downloads/suporte-f1-speed-champions-piloto-v9-acabamento-A1-PLA-3-pratos.3mf?raw=true)**
 - [Suporte F1 V9 acabamento — pacote completo](downloads/suporte-f1-speed-champions-piloto-v9-acabamento-pacote.zip?raw=true)
