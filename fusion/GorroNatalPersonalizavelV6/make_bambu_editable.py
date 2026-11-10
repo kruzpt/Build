@@ -21,13 +21,14 @@ def configure(path:Path,name:str,profile:str)->None:
   source_volume=part.find("metadata[@key='source_volume_id']")
   if source_volume is not None and source_volume.get("value")=="2": target=part
  if target is None: raise RuntimeError("volume do nome não encontrado")
+ for old in list(target.findall("text_info")): target.remove(old)
  size={"curto":"15.5","medio":"14.5","comprido":"10.8"}[profile]
  target.insert(max(0,len(target)-1),ET.Element("text_info",{
   "text":name,"font_name":"Lobster","font_version":"2.8",
-  "style_name":"Lobster","boldness":"0","skew":"0","font_index":"-1",
+  "style_name":"Lobster","boldness":"0.32","skew":"0","font_index":"-1",
   "font_size":size,"thickness":"0.8","embeded_depth":"0",
   "rotate_angle":"0","text_gap":"0","horizontal_align":"center",
-  "vertical_align":"middle","bold":"0","italic":"0","surface_type":"0",
+  "vertical_align":"middle","bold":"1","italic":"0","surface_type":"0",
   "hit_mesh":"-1","hit_position":"0 0 0","hit_normal":"0 0 1"}))
  files["Metadata/model_settings.config"]=ET.tostring(root,encoding="utf-8",xml_declaration=True)
  with zipfile.ZipFile(PROFILE_TEMPLATE) as donor: settings=json.loads(donor.read("Metadata/project_settings.config"))

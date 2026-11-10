@@ -27,6 +27,7 @@ def verify(path: Path, profile: str, name: str) -> None:
     assert len(texts)==1 and texts[0].get("text")==name
     assert texts[0].get("font_name")=="Lobster"
     assert texts[0].get("font_version")=="2.8" and texts[0].get("font_index")=="-1"
+    assert abs(float(texts[0].get("boldness"))-0.32)<1e-6 and texts[0].get("bold")=="1"
     assert texts[0].get("rotate_angle")=="0" and texts[0].get("hit_mesh")=="-1"
     assert settings["printer_model"]=="Bambu Lab A1"
     assert settings["nozzle_diameter"]==["0.4"]

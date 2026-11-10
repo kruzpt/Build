@@ -5,6 +5,7 @@
   "font_name": "Lobster",
   "font_version": "2.8",
   "font_index": -1,
+  "boldness_mm": 0.32,
   "rotate_angle_deg": 0,
   "hit_mesh": -1,
   "native_reexport_preserved_text_info": true,
@@ -15,21 +16,21 @@
   "projects": {
     "curto": {
       "name": "Lia",
-      "sha256": "a397e1a44f2d16bb53d3b9a9ad363da8e87fb2ba447561d90ea5c97a403506cc",
+      "sha256": "3a98e2da163f469d23ca55e2f41d645b77aa0cc1d0a019fb920dc2d125fce1b1",
       "estimated_seconds": 4272.916,
       "estimated_total_grams": 24.187,
       "warnings": ""
     },
     "medio": {
       "name": "Tomás",
-      "sha256": "b8ec1152c6fe679b430b1ee95053cd601276fba960d21b19a08f86f9e9843c1a",
-      "estimated_seconds": 4320.278,
+      "sha256": "573d13f6f16c2de87e6618e57658b0ed46a118facc6d6de749b8e6db605e1b6d",
+      "estimated_seconds": 4320.037,
       "estimated_total_grams": 24.337,
       "warnings": ""
     },
     "comprido": {
       "name": "Alexandre",
-      "sha256": "e5ee6fd00f70b820b205d4ee4f9e390e71749127a3faea3b548232ca0bd7d4e0",
+      "sha256": "d400cfcbe4c167e5437f8b12e7f404ea368cd71acfba820dff5f4c832a88c463",
       "estimated_seconds": 4330.63,
       "estimated_total_grams": 24.299,
       "warnings": ""

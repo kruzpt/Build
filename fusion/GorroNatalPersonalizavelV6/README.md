@@ -17,6 +17,10 @@ podia abrir como Arial. A V6 usa a convenção do código atual do Bambu Studio:
 ângulo 0° e não associa o texto a um ponto de raycast, evitando a rotação
 incorreta observada anteriormente.
 
+A geometria aprovada aplicava uma expansão de contorno de 0,32 mm. A Text
+Shape guarda agora `Boldness = 0,32 mm`; assim, ao editar o nome, o Bambu
+regenera as letras com a mesma espessura visual em vez de voltar ao traço fino.
+
 Antes de abrir o 3MF no Windows:
 
 1. Fechar o Bambu Studio.
