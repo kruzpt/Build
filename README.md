@@ -6,6 +6,7 @@ Projeto de uma placa de balcão para impressão 3D e edição no Autodesk Fusion
 
 - **[Gorro de Natal personalizável V2 — pacote Bambu com três nomes editáveis](downloads/gorro-natal-v2-pacote-bambu.zip?raw=true)**
 - [Gorro V2 — prévia real das geometrias](designs/gorro-natal-v2-tres-nomes-CAD.png)
+- [Gorro V2 — montagem final verificada no 3MF Bambu](designs/gorro-natal-v2-validacao-bambu.png)
 - [Gorro V2 — Bambu 3MF curto, Lia editável](downloads/gorro-natal-v2-curto-lia-2-cores.3mf?raw=true)
 - [Gorro V2 — Bambu 3MF médio, Tomás editável](downloads/gorro-natal-v2-medio-tomas-2-cores.3mf?raw=true)
 - [Gorro V2 — Bambu 3MF comprido, Alexandre editável](downloads/gorro-natal-v2-comprido-alexandre-2-cores.3mf?raw=true)

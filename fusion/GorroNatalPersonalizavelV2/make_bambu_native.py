@@ -1,21 +1,28 @@
 #!/usr/bin/env python3
 """Converte os 3MF V2 e marca o volume do nome como Text shape editavel."""
 from __future__ import annotations
-import argparse, os, shutil, subprocess, tempfile, zipfile
+import argparse, json, os, shutil, subprocess, tempfile, zipfile
 from pathlib import Path
 from xml.etree import ElementTree as ET
 
 EXAMPLES={"curto":"Lia","medio":"Tomás","comprido":"Alexandre"}
+ROOT=Path(__file__).resolve().parents[2]
+PROFILE_TEMPLATE=ROOT/"downloads/universo-saber-suporte-v6-A1-AMS-2-pratos.3mf"
 
 def rewrite_text_info(path: Path, name: str, profile: str) -> None:
     with zipfile.ZipFile(path) as src:
         files={n:src.read(n) for n in src.namelist()}
     root=ET.fromstring(files["Metadata/model_settings.config"])
     target=None
-    for part in root.findall(".//part"):
+    labels=["Corpo vermelho", "Detalhes brancos", f"Nome {name} ({profile})"]
+    extruders=["1", "2", "1"]
+    for index, part in enumerate(root.findall(".//part")):
         label=part.find("metadata[@key='name']")
-        if label is not None and label.get("value", "").startswith("Nome "):
-            target=part; break
+        if label is not None: label.set("value", labels[index])
+        ET.SubElement(part, "metadata", key="extruder", value=extruders[index])
+        source_volume=part.find("metadata[@key='source_volume_id']")
+        if source_volume is not None and source_volume.get("value")=="2":
+            target=part
     if target is None: raise RuntimeError("volume do nome nao encontrado")
     size={"curto":"19","medio":"15.5","comprido":"11.8"}[profile]
     info=ET.Element("text_info", {
@@ -28,6 +35,12 @@ def rewrite_text_info(path: Path, name: str, profile: str) -> None:
         "hit_position":"0 0 3.8", "hit_normal":"0 0 1"})
     target.insert(max(0, len(target)-1), info)
     files["Metadata/model_settings.config"]=ET.tostring(root,encoding="utf-8",xml_declaration=True)
+    with zipfile.ZipFile(PROFILE_TEMPLATE) as donor:
+        settings=json.loads(donor.read("Metadata/project_settings.config"))
+    settings["filament_colour"]=["#B21632", "#F2E6CF"]
+    settings["brim_type"]="no_brim"; settings["brim_width"]="0"
+    settings["enable_support"]="0"
+    files["Metadata/project_settings.config"]=(json.dumps(settings,ensure_ascii=False,indent=4)+"\n").encode()
     tmp=path.with_suffix(".tmp")
     with zipfile.ZipFile(tmp,"w",zipfile.ZIP_DEFLATED) as dst:
         for n,b in files.items(): dst.writestr(n,b)

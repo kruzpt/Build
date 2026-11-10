@@ -5,7 +5,7 @@
   "physical_print_tested": false,
   "bambu_studio_tested": true,
   "bambu_studio_version": "02.09.01.70",
-  "bambu_validation": "three native archives accepted by official --info; text_info present",
+  "bambu_validation": "one assembly, three aligned volumes, two extruders and editable text_info",
   "profiles": {
     "curto": {
       "example_name": "Lia",
@@ -34,7 +34,7 @@
         ]
       ],
       "complete_watertight": true,
-      "3mf_sha256": "9b395681d512721069fd590cc593a3b6ca945c56fe52dd56f9779a9b171ae8db"
+      "3mf_sha256": "0c67a88f692b465dc3ab7a7f157a1cdf01b85a9ec9e20ce180fb4a8b164e82e0"
     },
     "medio": {
       "example_name": "Tomás",
@@ -63,7 +63,7 @@
         ]
       ],
       "complete_watertight": true,
-      "3mf_sha256": "e96865e7d09f0c3d77dc833347ff1904d7f945250dd92e5208ee6c750dc05f29"
+      "3mf_sha256": "f8bd15c70c67e1a7423a83f27f7cadd813dbad19923137abdf5d5cb49d8a7cad"
     },
     "comprido": {
       "example_name": "Alexandre",
@@ -92,7 +92,7 @@
         ]
       ],
       "complete_watertight": true,
-      "3mf_sha256": "ac666daefdf57608ffb2ae09f022cd842adf4e60d3479ef86d2355c4285906a2"
+      "3mf_sha256": "7793ac81220e5d9e718a554f8cb4859a6f153700dc072f1b118a311b975166fb"
     }
   },
   "preview": "designs/gorro-natal-v2-tres-nomes-CAD.png"

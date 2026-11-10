@@ -2,7 +2,7 @@
 
 Enfeite plano de duas cores com uma silhueta clássica: copa vermelha curvada
 para a direita, aba branca ondulada e pompom branco com furo integrado de 5 mm.
-Mede 92 × 88 × 4,6 mm e imprime deitado, sem suportes e sem brim por defeito.
+Mede 92 × 84 × 4,6 mm e imprime deitado, sem suportes e sem brim por defeito.
 
 ## Editar o nome no Bambu Studio
 
@@ -35,8 +35,9 @@ texto ultrapassar a zona branca.
 - dois filamentos/AMS, sem suportes.
 
 Os STL foram verificados como malhas fechadas. Os projetos foram criados pelo
-Bambu Studio 2.9.1.70 e aceites pelo seu comando oficial `--info`; o campo
-`text_info` foi confirmado nos três arquivos. Ainda falta o teste físico e a
+Bambu Studio 2.9.1.70 e aceites pelo seu comando oficial `--info`. Cada projeto
+foi ainda verificado como uma única montagem com três volumes alinhados, dois
+extrusores e um único campo `text_info`. Ainda falta o teste físico e a
 confirmação da substituição de fonte no computador do cliente.
 
 O SCAD continua incluído como fonte paramétrica e os scripts regeneram as

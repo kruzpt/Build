@@ -98,9 +98,19 @@ def write_3mf(path: Path, meshes: list[tuple[str, trimesh.Trimesh, int]]) -> Non
         mesh_xml(obj, mesh)
         object_ids.append(object_id)
 
-    build = ET.SubElement(model, f"{{{ns}}}build")
+    # Um unico objeto composto impede o Bambu Studio de recentrar cada cor
+    # separadamente durante a importacao.
+    assembly_id = max(object_ids) + 1
+    assembly = ET.SubElement(
+        resources, f"{{{ns}}}object", id=str(assembly_id), type="model",
+        name="Gorro de Natal V2",
+    )
+    components = ET.SubElement(assembly, f"{{{ns}}}components")
     for object_id in object_ids:
-        ET.SubElement(build, f"{{{ns}}}item", objectid=str(object_id))
+        ET.SubElement(components, f"{{{ns}}}component", objectid=str(object_id))
+
+    build = ET.SubElement(model, f"{{{ns}}}build")
+    ET.SubElement(build, f"{{{ns}}}item", objectid=str(assembly_id))
 
     model_xml = ET.tostring(model, encoding="utf-8", xml_declaration=True)
     content_types = b'''<?xml version="1.0" encoding="UTF-8"?>
@@ -176,7 +186,7 @@ def render_preview(
         box = draw.textbbox((0, 0), caption, font=label_font)
         draw.text(((center * factor) - (box[2] - box[0]) / 2, 560 * factor), caption, fill="#641522", font=label_font)
 
-    note = "88 × 93 × 4,6 mm · gorro clássico curvado · sem suportes"
+    note = "92 × 84 × 4,6 mm · gorro clássico curvado · sem suportes"
     box = draw.textbbox((0, 0), note, font=small_font)
     draw.text(((width - (box[2] - box[0])) / 2, 610 * factor), note, fill="#6E5552", font=small_font)
     image = image.resize((1500, 650), Image.Resampling.LANCZOS)
