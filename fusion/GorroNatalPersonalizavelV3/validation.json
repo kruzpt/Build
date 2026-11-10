@@ -1,0 +1,99 @@
+{
+  "model": "GorroNatalPersonalizavelV3",
+  "units": "mm",
+  "printer_assumption": "FDM, bico 0.4 mm",
+  "physical_print_tested": false,
+  "bambu_studio_tested": true,
+  "bambu_studio_version": "02.09.01.70",
+  "font_validation": "Lobster installed; all projects reopened and re-exported with font name and sizes preserved",
+  "profiles": {
+    "curto": {
+      "example_name": "Lia",
+      "text_bounds_mm": [
+        [
+          -10.72,
+          -0.851,
+          3.8
+        ],
+        [
+          12.347,
+          21.102,
+          4.6
+        ]
+      ],
+      "complete_bounds_mm": [
+        [
+          -47.0,
+          -2.0,
+          0.0
+        ],
+        [
+          51.5,
+          89.81,
+          4.6
+        ]
+      ],
+      "complete_watertight": true,
+      "3mf_sha256": "c9bb463168ca071d856876a7a26bf1b3d1d5dbb62b1bd1e7cccadd627a2e0eca"
+    },
+    "medio": {
+      "example_name": "Tomás",
+      "text_bounds_mm": [
+        [
+          -22.448,
+          2.246,
+          3.8
+        ],
+        [
+          23.3,
+          18.111,
+          4.6
+        ]
+      ],
+      "complete_bounds_mm": [
+        [
+          -47.0,
+          -2.0,
+          0.0
+        ],
+        [
+          51.5,
+          89.81,
+          4.6
+        ]
+      ],
+      "complete_watertight": true,
+      "3mf_sha256": "af8df70b2beb2c569a3f43d2b0ca21400b8ec8f77ff55b19537e3ce55ac29747"
+    },
+    "comprido": {
+      "example_name": "Alexandre",
+      "text_bounds_mm": [
+        [
+          -26.519,
+          3.313,
+          3.8
+        ],
+        [
+          27.319,
+          16.912,
+          4.6
+        ]
+      ],
+      "complete_bounds_mm": [
+        [
+          -47.0,
+          -2.0,
+          0.0
+        ],
+        [
+          51.5,
+          89.81,
+          4.6
+        ]
+      ],
+      "complete_watertight": true,
+      "3mf_sha256": "be1de6067974b06d6ece7c9371281180e9cdd136cf7d5007363cde860587f1f6"
+    }
+  },
+  "preview": "designs/gorro-natal-v3-tres-nomes-CAD.png"
+}
