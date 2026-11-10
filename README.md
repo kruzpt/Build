@@ -4,6 +4,13 @@ Projeto de uma placa de balcão para impressão 3D e edição no Autodesk Fusion
 
 ## Ficheiros
 
+- **[Suporte F1 Speed Champions + piloto V9 — projeto Bambu A1 aprovado](downloads/suporte-f1-speed-champions-piloto-v9-A1-PLA-3-pratos.3mf?raw=true)**
+- [Suporte F1 V9 — pacote completo](downloads/suporte-f1-speed-champions-piloto-v9-pacote.zip?raw=true)
+- [Suporte F1 V9 — organização dos três pratos](designs/suporte-f1-speed-champions-piloto-v9-pratos.png)
+- [Suporte F1 V9 — STL completo](downloads/suporte-f1-speed-champions-piloto-v9.stl?raw=true)
+- [Suporte F1 V9 — amostra do berço](downloads/suporte-f1-v9-amostra-berco-pneu.stl?raw=true)
+- [Suporte F1 V9 — amostras dos pinos](downloads/suporte-f1-v9-amostras-piloto.stl?raw=true)
+- [Suporte F1 V9 — medidas, impressão e validação](fusion/F1SpeedChampionsWallSupportV9/README.md)
 - **[Suporte F1 Speed Champions + piloto V3 — primeiro protótipo](downloads/suporte-f1-speed-champions-piloto-v3-pacote.zip?raw=true)**
 - **[Suporte F1 V3 — projeto Bambu A1 / PLA, três pratos](downloads/suporte-f1-speed-champions-piloto-v3-A1-PLA-3-pratos.3mf?raw=true)**
 - [Suporte F1 V3 — organização dos três pratos](designs/suporte-f1-speed-champions-piloto-v3-pratos.png)
