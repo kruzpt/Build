@@ -1,0 +1,99 @@
+{
+  "model": "GorroNatalPersonalizavelV5",
+  "units": "mm",
+  "printer_assumption": "FDM, bico 0.4 mm",
+  "physical_print_tested": false,
+  "bambu_studio_tested": true,
+  "bambu_studio_version": "02.09.01.70",
+  "text_mode": "stable geometry; no editable text_info",
+  "profiles": {
+    "curto": {
+      "example_name": "Lia",
+      "text_bounds_mm": [
+        [
+          -10.72,
+          -0.851,
+          3.8
+        ],
+        [
+          12.347,
+          21.102,
+          4.6
+        ]
+      ],
+      "complete_bounds_mm": [
+        [
+          -47.0,
+          -2.0,
+          0.0
+        ],
+        [
+          55.5,
+          94.124,
+          4.6
+        ]
+      ],
+      "complete_watertight": true,
+      "3mf_sha256": "4ce5f8a0a20c147fc81e7de92ac28f0a366de7c7536842c71b67a34b5b80a374"
+    },
+    "medio": {
+      "example_name": "Tomás",
+      "text_bounds_mm": [
+        [
+          -22.448,
+          2.246,
+          3.8
+        ],
+        [
+          23.3,
+          18.111,
+          4.6
+        ]
+      ],
+      "complete_bounds_mm": [
+        [
+          -47.0,
+          -2.0,
+          0.0
+        ],
+        [
+          55.5,
+          94.124,
+          4.6
+        ]
+      ],
+      "complete_watertight": true,
+      "3mf_sha256": "4a8b5f2a2383cbfe915eccfabd982b86c1596952a2a986836be4b84a3db3b617"
+    },
+    "comprido": {
+      "example_name": "Alexandre",
+      "text_bounds_mm": [
+        [
+          -26.519,
+          3.313,
+          3.8
+        ],
+        [
+          27.319,
+          16.912,
+          4.6
+        ]
+      ],
+      "complete_bounds_mm": [
+        [
+          -47.0,
+          -2.0,
+          0.0
+        ],
+        [
+          55.5,
+          94.124,
+          4.6
+        ]
+      ],
+      "complete_watertight": true,
+      "3mf_sha256": "be05bbc3a0f8612d34fe87a5d44accf9c489c96204ba55d76747f395e491c89b"
+    }
+  },
+  "preview": "designs/gorro-natal-v5-tres-nomes-CAD.png"
+}

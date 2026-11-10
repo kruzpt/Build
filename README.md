@@ -4,7 +4,13 @@ Projeto de uma placa de balcão para impressão 3D e edição no Autodesk Fusion
 
 ## Ficheiros
 
-- **[Gorro de Natal personalizável V3 — conceito curvo e fonte Lobster incluída](downloads/gorro-natal-v3-pacote-bambu.zip?raw=true)**
+- **[Gorro de Natal V5 — curvas Bézier e nomes em geometria estável](downloads/gorro-natal-v5-pacote-bambu.zip?raw=true)**
+- [Gorro V5 — prévia CAD dos três nomes](designs/gorro-natal-v5-tres-nomes-CAD.png)
+- [Gorro V5 — 3MF curto, Lia](downloads/gorro-natal-v5-curto-lia-2-cores.3mf?raw=true)
+- [Gorro V5 — 3MF médio, Tomás](downloads/gorro-natal-v5-medio-tomas-2-cores.3mf?raw=true)
+- [Gorro V5 — 3MF comprido, Alexandre](downloads/gorro-natal-v5-comprido-alexandre-2-cores.3mf?raw=true)
+- [Gorro V5 — instruções e limite da edição](fusion/GorroNatalPersonalizavelV5/README.md)
+- **[Gorro de Natal personalizável V3 — versão anterior](downloads/gorro-natal-v3-pacote-bambu.zip?raw=true)**
 - [Gorro V3 — prévia CAD dos três nomes](designs/gorro-natal-v3-tres-nomes-CAD.png)
 - [Gorro V3 — Bambu 3MF curto, Lia](downloads/gorro-natal-v3-curto-lia-2-cores.3mf?raw=true)
 - [Gorro V3 — Bambu 3MF médio, Tomás](downloads/gorro-natal-v3-medio-tomas-2-cores.3mf?raw=true)
