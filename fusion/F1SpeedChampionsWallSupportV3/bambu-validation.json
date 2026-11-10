@@ -1,0 +1,36 @@
+{
+  "project": "suporte-f1-speed-champions-piloto-v3-A1-PLA-3-pratos.3mf",
+  "sha256": "7893e349315008fa05d38d6c15ee0d01a1e8603342820500346105b9bb2d6062",
+  "printer": "Bambu Lab A1 0.4 nozzle",
+  "bambu_version": "02.09.01.70",
+  "material": "Generic PLA",
+  "layer_height_mm": 0.2,
+  "wall_loops": 4,
+  "infill_percent": 25,
+  "infill_pattern": "gyroid",
+  "brim": false,
+  "physical_print_tested": false,
+  "plates": [
+    {
+      "id": 1,
+      "estimated_seconds": 1508.9876708984375,
+      "estimated_total_grams": 4.992053508758545,
+      "filament_changes": 0,
+      "warnings": ""
+    },
+    {
+      "id": 2,
+      "estimated_seconds": 1251.810302734375,
+      "estimated_total_grams": 3.9892072677612305,
+      "filament_changes": 0,
+      "warnings": ""
+    },
+    {
+      "id": 3,
+      "estimated_seconds": 5923.48583984375,
+      "estimated_total_grams": 26.405189514160156,
+      "filament_changes": 0,
+      "warnings": ""
+    }
+  ]
+}

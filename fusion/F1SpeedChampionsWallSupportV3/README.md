@@ -41,3 +41,22 @@ e os parafusos ainda precisam de teste físico antes de pendurar o conjunto.
 
 O ficheiro `F1SpeedChampionsWallSupportV3.scad` é a fonte paramétrica. Mude
 `parte` para `completo`, `berco` ou `amostras_piloto` para exportar cada STL.
+
+## Projeto Bambu A1
+
+O ficheiro `suporte-f1-speed-champions-piloto-v3-A1-PLA-3-pratos.3mf` abre
+como projeto nativo no Bambu Studio e contém três pratos pela ordem de teste:
+
+1. amostra do berço do pneu;
+2. três diâmetros para os pinos do piloto;
+3. suporte completo, a imprimir depois de validar os dois encaixes.
+
+Perfil incluído: Bambu Lab A1 com bico de 0,4 mm, Generic PLA, camada de
+0,20 mm, quatro paredes, 25% gyroid e placa PEI texturada. Não usa brim.
+A placa traseira da peça completa fica apoiada na mesa. Os suportes automáticos
+snug estão ativos apenas na peça completa e limitados à placa de impressão.
+
+O fatiamento validado no Bambu Studio 2.9.1.70 não apresentou avisos nem trocas
+de filamento. Estimativas: 5,0 g / 25 min para o berço, 4,0 g / 21 min para os
+pinos e 26,4 g / 1 h 39 min para o suporte completo. O terceiro prato gera uma
+pequena quantidade de suporte; os dois pratos de teste não geram suportes.
