@@ -4,6 +4,12 @@ Projeto de uma placa de balcão para impressão 3D e edição no Autodesk Fusion
 
 ## Ficheiros
 
+- **[Gorro de Natal personalizável V1 — pacote com três perfis de nome](downloads/gorro-natal-v1-pacote.zip?raw=true)**
+- [Gorro V1 — prévia das geometrias curta, média e comprida](designs/gorro-natal-v1-tres-perfis-CAD.png)
+- [Gorro V1 — 3MF curto, exemplo Lia](downloads/gorro-natal-v1-curto-lia-2-cores.3mf?raw=true)
+- [Gorro V1 — 3MF médio, exemplo Tomás](downloads/gorro-natal-v1-medio-tomas-2-cores.3mf?raw=true)
+- [Gorro V1 — 3MF comprido, exemplo Alexandre](downloads/gorro-natal-v1-comprido-alexandre-2-cores.3mf?raw=true)
+- [Gorro V1 — fonte paramétrica, medidas e personalização](fusion/GorroNatalPersonalizavelV1/README.md)
 - **[SR-71A — primeiro draft A1 / PLA, 0,12 mm, dois pratos](downloads/sr71-1-144-draft-v1-A1-PLA-2-pratos.3mf?raw=true)**
 - [SR-71A V1 — imagem do CAD e detalhe dos motores](designs/sr71-1-144-draft-v1-CAD.png)
 - [SR-71A V1 — vistas superior, lateral e traseira](designs/sr71-1-144-draft-v1-vistas.png)
