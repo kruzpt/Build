@@ -4,6 +4,12 @@ Projeto de uma placa de balcão para impressão 3D e edição no Autodesk Fusion
 
 ## Ficheiros
 
+- **[Suporte F1 Speed Champions + piloto V3 — primeiro protótipo](downloads/suporte-f1-speed-champions-piloto-v3-pacote.zip?raw=true)**
+- [Suporte F1 V3 — prévia CAD](designs/suporte-f1-speed-champions-piloto-projeto-v3-CAD.png)
+- [Suporte F1 V3 — STL completo](downloads/suporte-f1-speed-champions-piloto-v3.stl?raw=true)
+- [Suporte F1 V3 — amostra do berço do pneu](downloads/suporte-f1-v3-amostra-berco-pneu.stl?raw=true)
+- [Suporte F1 V3 — amostras dos pinos do piloto](downloads/suporte-f1-v3-amostras-piloto.stl?raw=true)
+- [Suporte F1 V3 — medidas, impressão e testes](fusion/F1SpeedChampionsWallSupportV3/README.md)
 - **[Gorro de Natal V5 — curvas Bézier e nomes em geometria estável](downloads/gorro-natal-v5-pacote-bambu.zip?raw=true)**
 - [Gorro V5 — prévia CAD dos três nomes](designs/gorro-natal-v5-tres-nomes-CAD.png)
 - [Gorro V5 — 3MF curto, Lia](downloads/gorro-natal-v5-curto-lia-2-cores.3mf?raw=true)
