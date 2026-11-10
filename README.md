@@ -4,6 +4,10 @@ Projeto de uma placa de balcão para impressão 3D e edição no Autodesk Fusion
 
 ## Ficheiros
 
+- **[Suporte F1 V10 — rebaixos corrigidos e perfil reforçado](downloads/suporte-f1-speed-champions-piloto-v10-resistencia-A1-PLA-3-pratos.3mf?raw=true)**
+- [Suporte F1 V10 — pacote completo](downloads/suporte-f1-speed-champions-piloto-v10-resistencia-pacote.zip?raw=true)
+- [Suporte F1 V10 — STL completo](downloads/suporte-f1-speed-champions-piloto-v10.stl?raw=true)
+- [Suporte F1 V10 — correção dos parafusos, suporte e impressão](fusion/F1SpeedChampionsWallSupportV10/README.md)
 - **[Gorro de Natal V6 — argola superior e texto editável no Bambu](downloads/gorro-natal-v6-pacote-bambu.zip?raw=true)**
 - [Gorro V6 — prévia dos três nomes](designs/gorro-natal-v6-tres-nomes-CAD.png)
 - [Gorro V6 — 3MF curto, Lia](downloads/gorro-natal-v6-curto-lia-2-cores.3mf?raw=true)
