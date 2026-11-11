@@ -1,0 +1,264 @@
+{
+  "project": "essencial-compacto-v8-dourado-128-A1-AMS-2-pratos.3mf",
+  "sha256": "46f72209830d62ac195f5b59580889f22defe36d5f194d8f5b08b013ffb1c46b",
+  "source": "essencial-compacto-v5-azeitona-A1-AMS-4-pratos.3mf",
+  "printer": "Bambu Lab A1 0.4 nozzle",
+  "slicer_version": "02.09.01.70",
+  "source_project_confirmed_by_user": true,
+  "orientation": "Unchanged from V5: inverted base, green starts on bed, gold face is printed facing up last.",
+  "interface_shift_mm": 0.32,
+  "interface_changes": {
+    "3D/Objects/object_3.model": {
+      "7": [
+        4.32000017,
+        4.00000017,
+        115
+      ],
+      "8": [
+        -0.480000496,
+        -0.800000496,
+        115
+      ]
+    },
+    "3D/Objects/object_4.model": {
+      "10": [
+        4.32000017,
+        4.00000017,
+        30
+      ],
+      "11": [
+        -0.480000496,
+        -0.800000496,
+        30
+      ]
+    }
+  },
+  "only_geometry_change": "Move the green/gold boundary down by 0.32 mm; exterior XY shape and final height are unchanged.",
+  "QR_front_and_rear_not_included_and_not_modified": true,
+  "structural_walls": 3,
+  "sparse_infill": "15% gyroid",
+  "layer_height_mm": 0.16,
+  "gold_material_changes": {
+    "filament_flow_ratio": {
+      "old": "0.98",
+      "new": "0.9702"
+    },
+    "nozzle_temperature": {
+      "old": "220",
+      "new": "215"
+    },
+    "nozzle_temperature_initial_layer": {
+      "old": "220",
+      "new": "215"
+    }
+  },
+  "other_material_flow_ratios_unchanged": true,
+  "global_process_changes": {
+    "internal_solid_infill_pattern": "monotonic",
+    "detect_narrow_internal_solid_infill": "0"
+  },
+  "green_part_changes": {
+    "top_surface_pattern": "monotonicline",
+    "bottom_surface_pattern": "monotonicline",
+    "outer_wall_speed": "25",
+    "inner_wall_speed": "25",
+    "internal_solid_infill_speed": "25",
+    "gap_infill_speed": "25",
+    "top_surface_speed": "20",
+    "top_shell_layers": "0",
+    "top_shell_thickness": "0",
+    "seam_position": "rear"
+  },
+  "gold_part_changes": {
+    "top_surface_pattern": "monotonicline",
+    "bottom_surface_pattern": "monotonicline",
+    "top_shell_layers": "6",
+    "top_shell_thickness": "0.96",
+    "outer_wall_speed": "25",
+    "inner_wall_speed": "25",
+    "internal_solid_infill_speed": "25",
+    "gap_infill_speed": "25",
+    "top_surface_speed": "20",
+    "seam_position": "rear",
+    "overhang_1_4_speed": "25",
+    "overhang_2_4_speed": "25",
+    "overhang_3_4_speed": "25"
+  },
+  "native_slice_exit": 0,
+  "brim": false,
+  "supports": false,
+  "plates": [
+    {
+      "plate": 1,
+      "original_V5_plate": 3,
+      "estimated_seconds": 27098.3671875,
+      "estimated_grams_including_flush_and_tower": 62.63125419616699,
+      "filament_changes": 1,
+      "warnings": "",
+      "green_layers": 52,
+      "green_base_top_surface_removed": true,
+      "gold_layers": 8,
+      "gold_first_z_mm": 8.48,
+      "gold_last_z_mm": 9.6,
+      "green_speeds_by_feature_mm_s": {
+        "Bottom surface": [
+          30.0
+        ],
+        "Bridge": [
+          20.0
+        ],
+        "Gap infill": [
+          20.0,
+          25.0
+        ],
+        "Inner wall": [
+          20.0,
+          25.0
+        ],
+        "Internal solid infill": [
+          25.0
+        ],
+        "Outer wall": [
+          20.0,
+          25.0
+        ],
+        "Sparse infill": [
+          120.28954999999999
+        ]
+      },
+      "gold_speeds_by_feature_mm_s": {
+        "Bottom surface": [
+          25.0
+        ],
+        "Gap infill": [
+          25.0
+        ],
+        "Inner wall": [
+          25.0
+        ],
+        "Internal solid infill": [
+          25.0
+        ],
+        "Outer wall": [
+          25.0
+        ],
+        "Top surface": [
+          20.0
+        ]
+      },
+      "slot_bridge_z_mm": [
+        6.56
+      ],
+      "max_bridge_speed_mm_s": 20.0,
+      "filaments": [
+        {
+          "filament_id": "GFL99",
+          "id": 2,
+          "main_used_g": 39.85594940185547,
+          "total_used_g": 41.444480895996094
+        },
+        {
+          "filament_id": "GFL96",
+          "id": 3,
+          "main_used_g": 20.819307327270508,
+          "total_used_g": 21.1867733001709
+        }
+      ]
+    },
+    {
+      "plate": 2,
+      "original_V5_plate": 4,
+      "estimated_seconds": 8902.25390625,
+      "estimated_grams_including_flush_and_tower": 21.004292964935303,
+      "filament_changes": 1,
+      "warnings": "",
+      "green_layers": 52,
+      "green_base_top_surface_removed": true,
+      "gold_layers": 8,
+      "gold_first_z_mm": 8.48,
+      "gold_last_z_mm": 9.6,
+      "green_speeds_by_feature_mm_s": {
+        "Bottom surface": [
+          30.0
+        ],
+        "Bridge": [
+          20.0
+        ],
+        "Gap infill": [
+          20.0,
+          25.0
+        ],
+        "Inner wall": [
+          10.0,
+          12.0,
+          20.0,
+          25.0,
+          100.0
+        ],
+        "Internal solid infill": [
+          25.0,
+          129.59074999999999,
+          129.59411666666668
+        ],
+        "Outer wall": [
+          10.0,
+          12.0,
+          20.0,
+          25.0,
+          35.0
+        ],
+        "Overhang wall": [
+          20.0
+        ],
+        "Sparse infill": [
+          120.28954999999999
+        ],
+        "Top surface": [
+          20.0
+        ]
+      },
+      "gold_speeds_by_feature_mm_s": {
+        "Bottom surface": [
+          25.0
+        ],
+        "Gap infill": [
+          25.0
+        ],
+        "Inner wall": [
+          25.0
+        ],
+        "Internal solid infill": [
+          25.0
+        ],
+        "Outer wall": [
+          25.0
+        ],
+        "Top surface": [
+          20.0
+        ]
+      },
+      "slot_bridge_z_mm": [
+        2.56,
+        6.56
+      ],
+      "max_bridge_speed_mm_s": 20.0,
+      "filaments": [
+        {
+          "filament_id": "GFL99",
+          "id": 2,
+          "main_used_g": 13.711548805236816,
+          "total_used_g": 15.300078392028809
+        },
+        {
+          "filament_id": "GFL96",
+          "id": 3,
+          "main_used_g": 5.3367486000061035,
+          "total_used_g": 5.704214572906494
+        }
+      ]
+    }
+  ],
+  "physical_surface_tested": false,
+  "physical_fit_tested": false,
+  "physical_print_started": false
+}
