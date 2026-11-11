@@ -1,0 +1,53 @@
+{
+  "project": "anilha-aquela-v1-A1-AMS-3-pratos.3mf",
+  "sha256": "a00a4c729ae57448ca2877b7fa2324bf36aed38b87061797abeb9469a91921ad",
+  "printer": "Bambu Lab A1 0.4 nozzle",
+  "bambu_version": "02.09.01.70",
+  "native_export_exit": 0,
+  "native_reopen_exit": 0,
+  "native_slice_exit": 0,
+  "geometry_watertight": true,
+  "plate_object_counts": [
+    1,
+    1,
+    1
+  ],
+  "layer_height_mm": 0.12,
+  "first_layer_height_mm": 0.2,
+  "brim": false,
+  "supports": false,
+  "seam_position": "back",
+  "plates": [
+    {
+      "plate": 1,
+      "name": "01 Anilha castanha \u2014 25 \u00d7 18 mm livres",
+      "estimated_seconds": 4036.833251953125,
+      "estimated_grams_including_flush_and_tower": 5.64426326751709,
+      "filament_changes": 0,
+      "warnings": "",
+      "gcode_sha256": "0234324efaa4a0f43f8e415d03c567c3eb01fbe5348747c0608386122c0bf94f"
+    },
+    {
+      "plate": 2,
+      "name": "02 Folhas verdes \u2014 uma pe\u00e7a",
+      "estimated_seconds": 2664.3359375,
+      "estimated_grams_including_flush_and_tower": 4.689006805419922,
+      "filament_changes": 0,
+      "warnings": "",
+      "gcode_sha256": "dd14db2e73b51777de532f792dcc05c0a93cf242a069db24ba8d12def17b8ad8"
+    },
+    {
+      "plate": 3,
+      "name": "03 Lobo e tabuleta Aquel\u00e1 \u2014 AMS 3 cores",
+      "estimated_seconds": 4338.083984375,
+      "estimated_grams_including_flush_and_tower": 8.742738366127014,
+      "filament_changes": 7,
+      "warnings": "",
+      "gcode_sha256": "09e37d92e6cc6379e8945137e9bd834d69d35288d5abd77c6339061294ff1739"
+    }
+  ],
+  "total_seconds": 11039.253173828125,
+  "total_grams": 19.076008439064026,
+  "physical_print_tested": false,
+  "physical_fit_tested": false
+}

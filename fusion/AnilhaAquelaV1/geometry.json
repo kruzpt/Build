@@ -1,0 +1,128 @@
+{
+  "title": "Anilha Aquel\u00e1 V1 \u2014 lobo, folhas e tabuleta",
+  "construction": "Three physical pieces: brown scarf ring, one green leaf plate, one connected AMS wolf/name badge.",
+  "name": "Aquel\u00e1",
+  "printer_target": "Bambu Lab A1, 0.4 mm nozzle, AMS",
+  "dimensions_mm": {
+    "ring_outer_width_depth_height": [
+      29,
+      22,
+      25
+    ],
+    "ring_clear_opening_width_depth": [
+      25,
+      18
+    ],
+    "leaf_plate_width_height_thickness": [
+      62,
+      48,
+      3.32
+    ],
+    "wolf_badge_width_height_max_thickness": [
+      55,
+      65,
+      4.08
+    ]
+  },
+  "assembly": {
+    "order": [
+      "Glue the brown ring centrally to the rear of the leaves.",
+      "Glue the wolf/name badge to the front of the leaf plate."
+    ],
+    "joint_type": "large flat glue faces; dry-fit before applying a small amount of cyanoacrylate or suitable PLA adhesive",
+    "physical_fit_tested": false
+  },
+  "print_intent": {
+    "brim": false,
+    "supports": false,
+    "walls": 3,
+    "ring_walls": 4,
+    "infill": "15% gyroid; 30% for ring"
+  },
+  "parts": [
+    {
+      "key": "anilha-castanha",
+      "piece": "anilha",
+      "file": "anilha-aquela-v1-anilha-castanha.stl",
+      "color": "#70452E",
+      "dimensions_mm": [
+        29.0,
+        22.0,
+        25.0
+      ],
+      "volume_mm3": 4599.185977286039,
+      "sha256": "0fe505befaaf663508fe11f0a6292621167e7fc9221fd61cfb0561b8dda18d0d",
+      "watertight": true
+    },
+    {
+      "key": "folhas-verdes",
+      "piece": "folhas",
+      "file": "anilha-aquela-v1-folhas-verdes.stl",
+      "color": "#2F8B42",
+      "dimensions_mm": [
+        62.0,
+        48.0,
+        3.319999933242798
+      ],
+      "volume_mm3": 5311.947600594338,
+      "sha256": "9ae19724332fb362f6abcb66282d838d56c54c3fe5f6a482c0878f119c5f6407",
+      "watertight": true
+    },
+    {
+      "key": "lobo-carvao",
+      "piece": "lobo",
+      "file": "anilha-aquela-v1-lobo-carvao.stl",
+      "color": "#4B5055",
+      "dimensions_mm": [
+        54.998268127441406,
+        64.8967162577901,
+        4.079999923706055
+      ],
+      "volume_mm3": 5440.793686213222,
+      "sha256": "2065c9ea8fd4bf1d87a54f4b43dc0a602b252a3defbdc0aa2e00efd076ec9b9b",
+      "watertight": true
+    },
+    {
+      "key": "lobo-castanho",
+      "piece": "lobo",
+      "file": "anilha-aquela-v1-lobo-castanho.stl",
+      "color": "#70452E",
+      "dimensions_mm": [
+        51.599998474121094,
+        15.799999594688416,
+        0.5999999046325684
+      ],
+      "volume_mm3": 486.13161382195676,
+      "sha256": "366838faca222a92d512b438c3c4cc069235654eaf0b03f2e099e2b24dd65841",
+      "watertight": true
+    },
+    {
+      "key": "lobo-cinzento",
+      "piece": "lobo",
+      "file": "anilha-aquela-v1-lobo-cinzento.stl",
+      "color": "#4B5055",
+      "dimensions_mm": [
+        31.399999618530273,
+        38.89999961853027,
+        0.5999999046325684
+      ],
+      "volume_mm3": 524.6570488889106,
+      "sha256": "876a6fd0141d83d3bd01b8710a27bd4b909ed65fc9c66c00e31dd71a7c803783",
+      "watertight": true
+    },
+    {
+      "key": "lobo-creme",
+      "piece": "lobo",
+      "file": "anilha-aquela-v1-lobo-creme.stl",
+      "color": "#F4D6A1",
+      "dimensions_mm": [
+        43.0,
+        55.39257192611694,
+        0.5999999046325684
+      ],
+      "volume_mm3": 330.14704492690475,
+      "sha256": "a1780e49f8cc2b514e8a98d9fb64f67e25d5e20eb0b26c5ee5b7c41a09c04f7d",
+      "watertight": true
+    }
+  ]
+}
