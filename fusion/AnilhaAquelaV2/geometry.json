@@ -1,0 +1,284 @@
+{
+  "title": "Aquel\u00e1 V2 \u2014 contornos recuperados da refer\u00eancia aprovada",
+  "name": "Aquel\u00e1",
+  "source": "designs/anilha-escuteiros-v2-tres-pecas-dimensoes.png",
+  "source_sha256": "bfd59a657f2e19801d89b4bb7e55883df59ca0297531ef7074831d247215e7a6",
+  "construction": "Three separate physical pieces, joined by flat glue faces.",
+  "model_type": "traced contour relief with stepped height and small beveled edges",
+  "detail_limit": "image grain removed; four printable face colors; no photoreal fur/wood texture",
+  "front_dimensions_mm": [
+    54.99971389770508,
+    64.9997132319404,
+    4.879784647411725
+  ],
+  "front_base_mm": 2.48,
+  "color_caps_mm": {
+    "#905532": 0.48,
+    "#686C70": 0.48,
+    "#F5F4ED": 0.72
+  },
+  "surface_heights_mm": {
+    "#905532": 3.2,
+    "#686C70": 3.8,
+    "#F5F4ED": 4.4
+  },
+  "foliage_max_thickness_mm": 2.96,
+  "ring_outer_mm": [
+    29,
+    22,
+    25
+  ],
+  "ring_clear_opening_mm": [
+    25,
+    18
+  ],
+  "parts_count": 3,
+  "body_connected": true,
+  "foliage_connected": true,
+  "supported_color_caps": true,
+  "assembly_intersections": [],
+  "physical_print_tested": false,
+  "physical_fit_tested": false,
+  "parts": [
+    {
+      "key": "anilha-castanha",
+      "file": "anilha-aquela-v2-anilha-castanha.stl",
+      "color": "#905532",
+      "piece": "anilha",
+      "assembly": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          9.0
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -11.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions_mm": [
+        29.0,
+        22.0,
+        25.0
+      ],
+      "volume_mm3": 4599.185977286039,
+      "watertight": true,
+      "sha256": "d969e758e1bfada1100a4afe82b55cb5e7c5910afa3038fe5986b95acb70280d"
+    },
+    {
+      "key": "folhas-verdes",
+      "file": "anilha-aquela-v2-folhas-verdes.stl",
+      "color": "#27853C",
+      "piece": "folhas",
+      "assembly": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions_mm": [
+        61.999711990356445,
+        47.99971114072832,
+        2.959784565398877
+      ],
+      "volume_mm3": 4239.014705889337,
+      "watertight": true,
+      "sha256": "cd636e9a3a08a47fc10c222bc391f487ffabe14755010e60fb87e1ed9c215481"
+    },
+    {
+      "key": "lobo-preto",
+      "file": "anilha-aquela-v2-lobo-preto.stl",
+      "color": "#202124",
+      "piece": "lobo",
+      "assembly": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions_mm": [
+        54.99971389770508,
+        64.9997132319404,
+        4.879784647411725
+      ],
+      "volume_mm3": 9023.061024099405,
+      "watertight": true,
+      "sha256": "37a55f79b9e9d571613cc62b74e69cdf392f08f756eee1baac1aff22842a1458"
+    },
+    {
+      "key": "lobo-cinzento",
+      "file": "anilha-aquela-v2-lobo-cinzento.stl",
+      "color": "#686C70",
+      "piece": "lobo",
+      "assembly": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions_mm": [
+        46.39786148071289,
+        64.66000805795193,
+        0.48000001907348633
+      ],
+      "volume_mm3": 194.50655955086526,
+      "watertight": true,
+      "sha256": "75f787597a6eeb5b5dbb5bbcb98f8c5193f083f798e5aa435c6a550a3ead69d7"
+    },
+    {
+      "key": "lobo-castanho",
+      "file": "anilha-aquela-v2-lobo-castanho.stl",
+      "color": "#905532",
+      "piece": "lobo",
+      "assembly": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions_mm": [
+        54.02941131591797,
+        24.928978085517883,
+        0.48000001907348633
+      ],
+      "volume_mm3": 167.14992173586847,
+      "watertight": true,
+      "sha256": "ae1157b14ac6da1830ba9184a0263ca971c7472b55a610f83b36a9bf7749c0c4"
+    },
+    {
+      "key": "lobo-branco",
+      "file": "anilha-aquela-v2-lobo-branco.stl",
+      "color": "#F5F4ED",
+      "piece": "lobo",
+      "assembly": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions_mm": [
+        46.58823585510254,
+        59.460227251052856,
+        0.7200000286102295
+      ],
+      "volume_mm3": 561.2797479007223,
+      "watertight": true,
+      "sha256": "7da8089c10693b578916a2235e25101938dea67a43b75d0bfb82719399daaaf8"
+    }
+  ]
+}

@@ -1,5 +1,9 @@
 # Anilha Aquelá V1 — lobo e folhas
 
+**Versão substituída:** o desenho desta V1 não correspondia à referência
+aprovada. Usar a [V2, reconstruída a partir dos contornos da referência](../AnilhaAquelaV2/README.md).
+Os ficheiros V1 ficam apenas como histórico.
+
 [Descarregar o projeto Bambu A1 / AMS (3 pratos)](https://github.com/kruzpt/Build/blob/main/downloads/anilha-aquela-v1-A1-AMS-3-pratos.3mf?raw=true).
 
 O conjunto tem três peças físicas: a **anilha castanha**, as **folhas verdes numa só peça** e o **emblema do lobo com a tabuleta Aquelá**. O emblema é uma só peça depois da impressão AMS; carvão, castanho e creme formam os relevos sobre uma base estrutural contínua.

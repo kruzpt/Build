@@ -1,0 +1,30 @@
+{
+  "project": "anilha-aquela-v2-LOBO-A1-04-AMS-4-cores.3mf",
+  "sha256": "08a09ac9467e928562a4fb30f2f6b142d3caa48a3b5e9fb6d82271040fa37b97",
+  "printer": "Bambu Lab A1 0.4 nozzle",
+  "bambu_version": "02.09.01.70",
+  "native_export_exit": 0,
+  "native_reopen_exit": 0,
+  "native_slice_exit": 0,
+  "source_meshes_and_color_mapping_verified": true,
+  "layer_height_mm": 0.12,
+  "first_layer_height_mm": 0.2,
+  "brim": false,
+  "supports": false,
+  "seam_position": "back",
+  "plates": [
+    {
+      "plate": 1,
+      "name": "Aquela V2 - lobo e tabuleta - 4 cores",
+      "estimated_seconds": 7733.8408203125,
+      "estimated_main_grams": 8.527174070477486,
+      "estimated_grams_including_flush_and_tower": 15.237614631652832,
+      "filament_changes": 14,
+      "warnings": "",
+      "gcode_sha256": "a65a90fc9a11502ef31b3f1e3b6160bc5f7f5f60ac0f941efd1450d52abf5722"
+    }
+  ],
+  "filament_profiles": "Generic PLA starting points, not a new spool calibration",
+  "physical_print_tested": false,
+  "physical_fit_tested": false
+}

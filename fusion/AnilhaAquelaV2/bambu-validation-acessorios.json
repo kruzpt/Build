@@ -1,0 +1,40 @@
+{
+  "project": "anilha-aquela-v2-ACESSORIOS-A1-04-2-pratos.3mf",
+  "sha256": "72fe50447af5700e5ba6a124de2c2242fd7f8e2ee7e0658273efe4cf6cebbf94",
+  "printer": "Bambu Lab A1 0.4 nozzle",
+  "bambu_version": "02.09.01.70",
+  "native_export_exit": 0,
+  "native_reopen_exit": 0,
+  "native_slice_exit": 0,
+  "source_meshes_and_color_mapping_verified": true,
+  "layer_height_mm": 0.12,
+  "first_layer_height_mm": 0.2,
+  "brim": false,
+  "supports": false,
+  "seam_position": "back",
+  "plates": [
+    {
+      "plate": 1,
+      "name": "01 Anilha castanha - passagem 25 x 18 mm",
+      "estimated_seconds": 4585.55712890625,
+      "estimated_main_grams": 5.64426326751709,
+      "estimated_grams_including_flush_and_tower": 5.64426326751709,
+      "filament_changes": 0,
+      "warnings": "",
+      "gcode_sha256": "90bfa35e52eda0004ba1435d7ede045b5f0414826586a4af94ec9c2beae42064"
+    },
+    {
+      "plate": 2,
+      "name": "02 Folhas verdes - peca unica para colar",
+      "estimated_seconds": 2840.1240234375,
+      "estimated_main_grams": 4.537082672119141,
+      "estimated_grams_including_flush_and_tower": 4.537082672119141,
+      "filament_changes": 0,
+      "warnings": "",
+      "gcode_sha256": "9f1ba8a39a960e21c5f4b4bb4b700fcd0b530a4ed20af52a528e1cfb08f01319"
+    }
+  ],
+  "filament_profiles": "Generic PLA starting points, not a new spool calibration",
+  "physical_print_tested": false,
+  "physical_fit_tested": false
+}

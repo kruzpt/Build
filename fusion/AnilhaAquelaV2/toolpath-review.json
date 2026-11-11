@@ -1,0 +1,49 @@
+{
+  "multicolor_relative_poses_preserved": true,
+  "gcode_parsed_including_arc_moves": true,
+  "plates": [
+    {
+      "piece": "lobo",
+      "layer_count": 40,
+      "tools": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "top_speed_max_mm_s": 18.0,
+      "outer_speed_max_mm_s": 25.0,
+      "native_transform_error_max_mm": 1.924510213658193e-06,
+      "supports": false,
+      "brim": false,
+      "gcode_sha256": "a65a90fc9a11502ef31b3f1e3b6160bc5f7f5f60ac0f941efd1450d52abf5722"
+    },
+    {
+      "piece": "anilha",
+      "layer_count": 208,
+      "tools": [
+        1
+      ],
+      "top_speed_max_mm_s": 18.0,
+      "outer_speed_max_mm_s": 25.0,
+      "native_transform_error_max_mm": 1.4308496553535055e-06,
+      "supports": false,
+      "brim": false,
+      "gcode_sha256": "90bfa35e52eda0004ba1435d7ede045b5f0414826586a4af94ec9c2beae42064"
+    },
+    {
+      "piece": "folhas",
+      "layer_count": 24,
+      "tools": [
+        2
+      ],
+      "top_speed_max_mm_s": 18.0,
+      "outer_speed_max_mm_s": 25.0,
+      "native_transform_error_max_mm": 1.4308496553535055e-06,
+      "supports": false,
+      "brim": false,
+      "gcode_sha256": "9f1ba8a39a960e21c5f4b4bb4b700fcd0b530a4ed20af52a528e1cfb08f01319"
+    }
+  ],
+  "physical_print_tested": false
+}
