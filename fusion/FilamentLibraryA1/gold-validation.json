@@ -1,0 +1,21 @@
+{
+  "profile_name": "Amazon Basics Silk PLA Gold 0.9702 @BBL A1 0.4",
+  "profile_file": "amazon-basics-silk-pla-gold-09702-A1-04.json",
+  "profile_sha256": "e5f0c3ef3b21a930a3d463d80e27750d488ad78ef63242f9d275e0e38f586fd0",
+  "preset_kind": "Bambu Studio user filament JSON",
+  "parent": "Generic PLA Silk @BBL A1",
+  "compatible_printers": [
+    "Bambu Lab A1 0.4 nozzle"
+  ],
+  "material": "Amazon Basics Silk PLA Gold 1.75 mm",
+  "source_project": "essencial-compacto-v6-base-acabamento-A1-AMS-2-pratos.3mf",
+  "source_material_slot": 3,
+  "flow_ratio": 0.9702,
+  "nozzle_temperature_c": 215,
+  "textured_pei_temperature_c": 55,
+  "retraction_mm": 0.5,
+  "maximum_volumetric_speed_mm3_s": 5,
+  "native_profile_load_exit": 0,
+  "windows_library_install_performed": false,
+  "dynamic_flow_K_not_stored_in_filament_preset": true
+}
