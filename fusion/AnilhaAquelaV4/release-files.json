@@ -1,0 +1,50 @@
+{
+  "anilha-aquela-v2-LOBO-A1-04-AMS-4-cores.3mf": {
+    "sha256": "08a09ac9467e928562a4fb30f2f6b142d3caa48a3b5e9fb6d82271040fa37b97",
+    "bytes": 3793435
+  },
+  "anilha-aquela-v2-anilha-castanha.stl": {
+    "sha256": "d969e758e1bfada1100a4afe82b55cb5e7c5910afa3038fe5986b95acb70280d",
+    "bytes": 14484
+  },
+  "anilha-aquela-v2-lobo-branco.stl": {
+    "sha256": "7da8089c10693b578916a2235e25101938dea67a43b75d0bfb82719399daaaf8",
+    "bytes": 2565084
+  },
+  "anilha-aquela-v2-lobo-castanho.stl": {
+    "sha256": "ae1157b14ac6da1830ba9184a0263ca971c7472b55a610f83b36a9bf7749c0c4",
+    "bytes": 1900284
+  },
+  "anilha-aquela-v2-lobo-cinzento.stl": {
+    "sha256": "75f787597a6eeb5b5dbb5bbcb98f8c5193f083f798e5aa435c6a550a3ead69d7",
+    "bytes": 2533784
+  },
+  "anilha-aquela-v2-lobo-preto.stl": {
+    "sha256": "37a55f79b9e9d571613cc62b74e69cdf392f08f756eee1baac1aff22842a1458",
+    "bytes": 7594584
+  },
+  "anilha-aquela-v4-ACESSORIOS-A1-04-AMS-2-pratos.3mf": {
+    "sha256": "b37ab6782dbdf5f5ecf73e48aadb37d626be59c81b013523fb96353f52b1523d",
+    "bytes": 731578
+  },
+  "anilha-aquela-v4-folhas-completas-monocor.stl": {
+    "sha256": "01e1cc25a0871a56bceaa3ad59932c4d88322bbf79374460a2b7cd1f8defd32b",
+    "bytes": 2055384
+  },
+  "anilha-aquela-v4-folhas-nervuras-pretas.stl": {
+    "sha256": "e2ed6b433999fc5807f067c4381453b276e03784ee6a49aeb8d2136de4fd81e9",
+    "bytes": 598684
+  },
+  "anilha-aquela-v4-folhas-verdes.stl": {
+    "sha256": "5b00280bff8972c9db5dcf5c1b01ff544ba84478025dd2b32844512f1c2a63cc",
+    "bytes": 1976384
+  },
+  "anilha-aquela-v4-montada.glb": {
+    "sha256": "524787171f23f315b1259e30397985e3999e3e09de48b6426fc56ed10083fef5",
+    "bytes": 6885136
+  },
+  "anilha-aquela-v4-pacote.zip": {
+    "sha256": "1c302358a350a08526960662db39e2cceda404693782994cca0c5ec09a9dd52e",
+    "bytes": 14169991
+  }
+}
