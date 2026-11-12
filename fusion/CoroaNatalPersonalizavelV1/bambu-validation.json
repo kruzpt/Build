@@ -1,0 +1,273 @@
+{
+  "bambu_version": "02.09.01.70",
+  "printer": "Bambu Lab A1 / AMS Lite / 0.4 mm",
+  "filament": "Generic PLA, not spool-calibrated",
+  "cases": [
+    {
+      "key": "clemente-2026",
+      "sha256": "e8135802a97cf39af389ec7bce78987e9f8e934e707ab92ecb3b48977c40b2fb",
+      "solid_volume_mm3": 10110.526264977603,
+      "all_eight_volumes_watertight": true,
+      "overlapping_material_volumes": false,
+      "text_and_crown_bases_connected": true,
+      "contact_area_mm2": 37.68779543,
+      "native_reopen_exit": 0,
+      "native_slice_exit": 0,
+      "raised_pads_and_leaf_veins_extrusion_verified": true,
+      "all_red_text_components_receive_extrusion": true,
+      "plates": [
+        {
+          "plate": 1,
+          "estimated_seconds": 9574.912109375,
+          "main_grams": 8.745181322097778,
+          "total_grams_including_purge_and_tower": 18.52708125114441,
+          "filament_changes": 26,
+          "warning": "",
+          "gcode_sha256": "053b0e63fd68be48a18a05690110cd83d119b420da2a3fea92a1097f9c5c7ffc"
+        },
+        {
+          "plate": 2,
+          "estimated_seconds": 3042.7451171875,
+          "main_grams": 3.6489044427871704,
+          "total_grams_including_purge_and_tower": 4.7877092361450195,
+          "filament_changes": 1,
+          "warning": "",
+          "gcode_sha256": "fe0c9ef817563f7e0f84d7e2b2032ce19ac56fbb52579a78483b3dc19f69cc29"
+        }
+      ]
+    },
+    {
+      "key": "avo-dulce-2026",
+      "sha256": "4d59479dc0b15b64aa3f7ed288d10e5426803a5eee39558df00751f9298ebdfa",
+      "solid_volume_mm3": 9758.4735043068,
+      "all_eight_volumes_watertight": true,
+      "overlapping_material_volumes": false,
+      "text_and_crown_bases_connected": true,
+      "contact_area_mm2": 37.687858055,
+      "native_reopen_exit": 0,
+      "native_slice_exit": 0,
+      "raised_pads_and_leaf_veins_extrusion_verified": true,
+      "all_red_text_components_receive_extrusion": true,
+      "plates": [
+        {
+          "plate": 1,
+          "estimated_seconds": 9579.3447265625,
+          "main_grams": 8.73776763677597,
+          "total_grams_including_purge_and_tower": 18.519667863845825,
+          "filament_changes": 26,
+          "warning": "",
+          "gcode_sha256": "ec47b1e4bb9129d4e2aba0ebd7267679bd95be48f0598b8cd281c1d10ee88187"
+        },
+        {
+          "plate": 2,
+          "estimated_seconds": 2877.50537109375,
+          "main_grams": 3.2235434651374817,
+          "total_grams_including_purge_and_tower": 4.362348198890686,
+          "filament_changes": 1,
+          "warning": "",
+          "gcode_sha256": "1fbc86a5440b531737e71b90c0278f83fb450d1a423f9919c0f704d15953b68d"
+        }
+      ]
+    },
+    {
+      "key": "lia",
+      "sha256": "5603c1899d92a390603fc83006cdfdcde3cad1b6c21298e8e926611bc8e5b9fe",
+      "solid_volume_mm3": 8710.918992849998,
+      "all_eight_volumes_watertight": true,
+      "overlapping_material_volumes": false,
+      "text_and_crown_bases_connected": true,
+      "contact_area_mm2": 37.687837880000004,
+      "native_reopen_exit": 0,
+      "native_slice_exit": 0,
+      "raised_pads_and_leaf_veins_extrusion_verified": true,
+      "all_red_text_components_receive_extrusion": true,
+      "plates": [
+        {
+          "plate": 1,
+          "estimated_seconds": 9547.8564453125,
+          "main_grams": 8.7412748336792,
+          "total_grams_including_purge_and_tower": 18.52317500114441,
+          "filament_changes": 26,
+          "warning": "",
+          "gcode_sha256": "37f0e9ba49fcfc5bc2b8bde274ad14ebeabeed361c032c79f71cb81e44721a47"
+        },
+        {
+          "plate": 2,
+          "estimated_seconds": 1931.561279296875,
+          "main_grams": 1.9638023376464844,
+          "total_grams_including_purge_and_tower": 3.1026068925857544,
+          "filament_changes": 1,
+          "warning": "",
+          "gcode_sha256": "c4af25067dd83f81b082f9817b24d624f68af2188211921038357a43d2d31334"
+        }
+      ]
+    },
+    {
+      "key": "joao-2026",
+      "sha256": "5b7f88a8206228adba3e435dbf113c9edec0c4475a4ca15734ea36be91633647",
+      "solid_volume_mm3": 9535.780304451,
+      "all_eight_volumes_watertight": true,
+      "overlapping_material_volumes": false,
+      "text_and_crown_bases_connected": true,
+      "contact_area_mm2": 37.68793961,
+      "native_reopen_exit": 0,
+      "native_slice_exit": 0,
+      "raised_pads_and_leaf_veins_extrusion_verified": true,
+      "all_red_text_components_receive_extrusion": true,
+      "plates": [
+        {
+          "plate": 1,
+          "estimated_seconds": 9560.5458984375,
+          "main_grams": 8.725832998752594,
+          "total_grams_including_purge_and_tower": 18.507733583450317,
+          "filament_changes": 26,
+          "warning": "",
+          "gcode_sha256": "b3ad1c25c0f0c4d94bfd2d018000f7795cc4e662f50e87e4efaba84ab871a109"
+        },
+        {
+          "plate": 2,
+          "estimated_seconds": 2652.373779296875,
+          "main_grams": 2.961194634437561,
+          "total_grams_including_purge_and_tower": 4.099999189376831,
+          "filament_changes": 1,
+          "warning": "",
+          "gcode_sha256": "b78410f8165afdc3bd0ab5270a0f3fdc5a55a7342fa4eb407e5762b9b1ceb882"
+        }
+      ]
+    },
+    {
+      "key": "maria-alexandra-2026",
+      "sha256": "29abdf3b4fcc326dea03091a3cbc63530f59a16dc4bb29006e24bdfeeb3b0a83",
+      "solid_volume_mm3": 10649.018980981999,
+      "all_eight_volumes_watertight": true,
+      "overlapping_material_volumes": false,
+      "text_and_crown_bases_connected": true,
+      "contact_area_mm2": 37.68789496,
+      "native_reopen_exit": 0,
+      "native_slice_exit": 0,
+      "raised_pads_and_leaf_veins_extrusion_verified": true,
+      "all_red_text_components_receive_extrusion": true,
+      "plates": [
+        {
+          "plate": 1,
+          "estimated_seconds": 9544.845703125,
+          "main_grams": 8.722193002700806,
+          "total_grams_including_purge_and_tower": 18.504092693328857,
+          "filament_changes": 26,
+          "warning": "",
+          "gcode_sha256": "4ac52257ca98b6e22257e2a0f4a453cca0cdb7cc99dbb0120065dfab2531da94"
+        },
+        {
+          "plate": 2,
+          "estimated_seconds": 3632.4189453125,
+          "main_grams": 4.318625807762146,
+          "total_grams_including_purge_and_tower": 5.457430481910706,
+          "filament_changes": 1,
+          "warning": "",
+          "gcode_sha256": "d6a58dde6533081de8dc24fb81ea0d3d63a0c84958749f65a7fe1fd60f3ab08f"
+        }
+      ]
+    },
+    {
+      "key": "tomas-leckerli-2026",
+      "sha256": "292a641b75e266e6117f197e18c946a12567b78c6011ac8ef8c5a74753bc65b3",
+      "solid_volume_mm3": 9961.410732515002,
+      "all_eight_volumes_watertight": true,
+      "overlapping_material_volumes": false,
+      "text_and_crown_bases_connected": true,
+      "contact_area_mm2": 37.687935585000005,
+      "native_reopen_exit": 0,
+      "native_slice_exit": 0,
+      "raised_pads_and_leaf_veins_extrusion_verified": true,
+      "all_red_text_components_receive_extrusion": true,
+      "plates": [
+        {
+          "plate": 1,
+          "estimated_seconds": 9573.67578125,
+          "main_grams": 8.735125184059143,
+          "total_grams_including_purge_and_tower": 18.517025232315063,
+          "filament_changes": 26,
+          "warning": "",
+          "gcode_sha256": "714d0df090d9adde3750de6beb3ab4f4fda3685fa137b7bc8994952036ce21ff"
+        },
+        {
+          "plate": 2,
+          "estimated_seconds": 2985.5947265625,
+          "main_grams": 3.4758877754211426,
+          "total_grams_including_purge_and_tower": 4.614692687988281,
+          "filament_changes": 1,
+          "warning": "",
+          "gcode_sha256": "b8636683f10b6fd3d7ee522dc57ad1d31ead4c836d9a83180d63ed2aada0e668"
+        }
+      ]
+    },
+    {
+      "key": "sao-accent",
+      "sha256": "ba052915964e4b9cdbf0925539d29f43cb66be9c829cd1a505613d4481822991",
+      "solid_volume_mm3": 9606.385814854799,
+      "all_eight_volumes_watertight": true,
+      "overlapping_material_volumes": false,
+      "text_and_crown_bases_connected": true,
+      "contact_area_mm2": 37.687858055,
+      "native_reopen_exit": 0,
+      "native_slice_exit": 0,
+      "raised_pads_and_leaf_veins_extrusion_verified": true,
+      "all_red_text_components_receive_extrusion": true,
+      "plates": [
+        {
+          "plate": 1,
+          "estimated_seconds": 9579.3447265625,
+          "main_grams": 8.73776763677597,
+          "total_grams_including_purge_and_tower": 18.519667863845825,
+          "filament_changes": 26,
+          "warning": "",
+          "gcode_sha256": "ec47b1e4bb9129d4e2aba0ebd7267679bd95be48f0598b8cd281c1d10ee88187"
+        },
+        {
+          "plate": 2,
+          "estimated_seconds": 2803.9033203125,
+          "main_grams": 3.034143030643463,
+          "total_grams_including_purge_and_tower": 4.172947645187378,
+          "filament_changes": 1,
+          "warning": "",
+          "gcode_sha256": "aab0c457cbd877d99df56526fe6bae83781e50cdef66b24eaed8d3cb90b084fc"
+        }
+      ]
+    },
+    {
+      "key": "short-i",
+      "sha256": "e938d37edeada4b22169df95e733d906993984acde6d4bb983abf5c292dcf653",
+      "solid_volume_mm3": 7930.8896768536,
+      "all_eight_volumes_watertight": true,
+      "overlapping_material_volumes": false,
+      "text_and_crown_bases_connected": true,
+      "contact_area_mm2": 37.68776508,
+      "native_reopen_exit": 0,
+      "native_slice_exit": 0,
+      "raised_pads_and_leaf_veins_extrusion_verified": true,
+      "all_red_text_components_receive_extrusion": true,
+      "plates": [
+        {
+          "plate": 1,
+          "estimated_seconds": 9589.6357421875,
+          "main_grams": 8.727423071861267,
+          "total_grams_including_purge_and_tower": 18.509323358535767,
+          "filament_changes": 26,
+          "warning": "",
+          "gcode_sha256": "9041cb3f183a4c65984eb305ee38541dea2cba8f37421169bfde1ad51d3a47b7"
+        },
+        {
+          "plate": 2,
+          "estimated_seconds": 1403.8699951171875,
+          "main_grams": 1.028424248099327,
+          "total_grams_including_purge_and_tower": 2.167228877544403,
+          "filament_changes": 1,
+          "warning": "",
+          "gcode_sha256": "eb100d0839ba44638e407fbca7f3862bd0fa9764fc358c43e92053efc8d90b55"
+        }
+      ]
+    }
+  ],
+  "physical_print_tested": false,
+  "physical_glue_tested": false
+}

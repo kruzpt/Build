@@ -1,0 +1,361 @@
+{
+  "browser": "156.0.8078.79",
+  "offline": true,
+  "external_http_requests": 0,
+  "errors": [],
+  "profile_confirmed_by_user": "A1 + AMS Lite / 0.4 mm / PLA",
+  "cases": [
+    {
+      "key": "clemente-2026",
+      "options": {
+        "name": "Clemente",
+        "second": "",
+        "year": "2026",
+        "font": "Pacifico"
+      },
+      "metrics": {
+        "diameter_mm": 100,
+        "crown_bounds": [
+          -50,
+          -50,
+          50,
+          59.2
+        ],
+        "text_bounds": [
+          -44.1588,
+          -24.6335,
+          43.8393,
+          12.4335
+        ],
+        "crown_height_mm": 2.6,
+        "text_height_mm": 2.12,
+        "assembled_height_mm": 4.72,
+        "hole_diameter_mm": 3,
+        "contact_total_mm2": 37.68779543
+      },
+      "notes": [],
+      "pads": [
+        [
+          -41.13758088138306,
+          -3.3357
+        ],
+        [
+          40.93932720383095,
+          -5.2344
+        ]
+      ],
+      "browser_export_download": "coroa-natal-v1-clemente-2026-A1-AMS.3mf"
+    },
+    {
+      "key": "avo-dulce-2026",
+      "options": {
+        "name": "Av\u00f3",
+        "second": "Dulce",
+        "year": "2026",
+        "font": "Pacifico"
+      },
+      "metrics": {
+        "diameter_mm": 100,
+        "crown_bounds": [
+          -50,
+          -50,
+          50,
+          59.2
+        ],
+        "text_bounds": [
+          -39.691,
+          -30.7028,
+          40.0083,
+          18.503
+        ],
+        "crown_height_mm": 2.6,
+        "text_height_mm": 2.12,
+        "assembled_height_mm": 4.72,
+        "hole_diameter_mm": 3,
+        "contact_total_mm2": 37.687858055
+      },
+      "notes": [
+        "O texto inclui prolongamentos decorativos laterais para alcan\u00e7ar os apoios."
+      ],
+      "pads": [
+        [
+          -36.791022604706455,
+          -18.704227088075882
+        ],
+        [
+          37.1083418251521,
+          -18.0665
+        ]
+      ],
+      "browser_export_download": "coroa-natal-v1-avo-dulce-2026-A1-AMS.3mf"
+    },
+    {
+      "key": "lia",
+      "options": {
+        "name": "Lia",
+        "second": "",
+        "year": "",
+        "font": "Pacifico"
+      },
+      "metrics": {
+        "diameter_mm": 100,
+        "crown_bounds": [
+          -50,
+          -50,
+          50,
+          59.2
+        ],
+        "text_bounds": [
+          -42.1575,
+          -17.7,
+          42.9105,
+          11.5
+        ],
+        "crown_height_mm": 2.6,
+        "text_height_mm": 2.12,
+        "assembled_height_mm": 4.72,
+        "hole_diameter_mm": 3,
+        "contact_total_mm2": 37.687837880000004
+      },
+      "notes": [
+        "O texto inclui prolongamentos decorativos laterais para alcan\u00e7ar os apoios."
+      ],
+      "pads": [
+        [
+          -39.257488837447724,
+          -12.7388
+        ],
+        [
+          40.01053572126138,
+          -10.1284
+        ]
+      ],
+      "browser_export_download": "coroa-natal-v1-lia-A1-AMS.3mf"
+    },
+    {
+      "key": "joao-2026",
+      "options": {
+        "name": "Jo\u00e3o",
+        "second": "",
+        "year": "2026",
+        "font": "Pacifico"
+      },
+      "metrics": {
+        "diameter_mm": 100,
+        "crown_bounds": [
+          -50,
+          -50,
+          50,
+          59.2
+        ],
+        "text_bounds": [
+          -43.7586,
+          -25.4278,
+          44.1385,
+          13.228
+        ],
+        "crown_height_mm": 2.6,
+        "text_height_mm": 2.12,
+        "assembled_height_mm": 4.72,
+        "hole_diameter_mm": 3,
+        "contact_total_mm2": 37.68793961
+      },
+      "notes": [
+        "O texto inclui prolongamentos decorativos laterais para alcan\u00e7ar os apoios."
+      ],
+      "pads": [
+        [
+          -40.85856372050213,
+          -5.8314
+        ],
+        [
+          41.2385371190473,
+          -1.6764580350521001
+        ]
+      ],
+      "browser_export_download": "coroa-natal-v1-joao-2026-A1-AMS.3mf"
+    },
+    {
+      "key": "maria-alexandra-2026",
+      "options": {
+        "name": "Maria",
+        "second": "Alexandra",
+        "year": "2026",
+        "font": "Pacifico"
+      },
+      "metrics": {
+        "diameter_mm": 100,
+        "crown_bounds": [
+          -50,
+          -50,
+          50,
+          59.2
+        ],
+        "text_bounds": [
+          -43.2842,
+          -30.7028,
+          42.6003,
+          18.5029
+        ],
+        "crown_height_mm": 2.6,
+        "text_height_mm": 2.12,
+        "assembled_height_mm": 4.72,
+        "hole_diameter_mm": 3,
+        "contact_total_mm2": 37.68789496
+      },
+      "notes": [],
+      "pads": [
+        [
+          -40.384150963123304,
+          -8.5175
+        ],
+        [
+          39.700281355455566,
+          -11.2834
+        ]
+      ],
+      "browser_export_download": "coroa-natal-v1-maria-alexandra-2026-A1-AMS.3mf"
+    },
+    {
+      "key": "tomas-leckerli-2026",
+      "options": {
+        "name": "Tom\u00e1s",
+        "second": "",
+        "year": "2026",
+        "font": "LeckerliOne"
+      },
+      "metrics": {
+        "diameter_mm": 100,
+        "crown_bounds": [
+          -50,
+          -50,
+          50,
+          59.2
+        ],
+        "text_bounds": [
+          -43.6268,
+          -25.4467,
+          43.7679,
+          13.2467
+        ],
+        "crown_height_mm": 2.6,
+        "text_height_mm": 2.12,
+        "assembled_height_mm": 4.72,
+        "hole_diameter_mm": 3,
+        "contact_total_mm2": 37.687935585000005
+      },
+      "notes": [
+        "O texto inclui prolongamentos decorativos laterais para alcan\u00e7ar os apoios."
+      ],
+      "pads": [
+        [
+          -40.72681329927044,
+          -6.68985304387931
+        ],
+        [
+          40.86790075233046,
+          -5.7656
+        ]
+      ],
+      "browser_export_download": "coroa-natal-v1-tomas-2026-A1-AMS.3mf"
+    },
+    {
+      "key": "sao-accent",
+      "options": {
+        "name": "S\u00e3o",
+        "second": "Jos\u00e9",
+        "year": "2026",
+        "font": "Pacifico"
+      },
+      "metrics": {
+        "diameter_mm": 100,
+        "crown_bounds": [
+          -50,
+          -50,
+          50,
+          59.2
+        ],
+        "text_bounds": [
+          -39.691,
+          -30.7028,
+          40.0083,
+          18.503
+        ],
+        "crown_height_mm": 2.6,
+        "text_height_mm": 2.12,
+        "assembled_height_mm": 4.72,
+        "hole_diameter_mm": 3,
+        "contact_total_mm2": 37.687858055
+      },
+      "notes": [
+        "O texto inclui prolongamentos decorativos laterais para alcan\u00e7ar os apoios."
+      ],
+      "pads": [
+        [
+          -36.791022604706455,
+          -18.704227088075882
+        ],
+        [
+          37.1083418251521,
+          -18.0665
+        ]
+      ],
+      "browser_export_download": "coroa-natal-v1-sao-jose-2026-A1-AMS.3mf"
+    },
+    {
+      "key": "short-i",
+      "options": {
+        "name": "I",
+        "second": "",
+        "year": "",
+        "font": "Pacifico"
+      },
+      "metrics": {
+        "diameter_mm": 100,
+        "crown_bounds": [
+          -50,
+          -50,
+          50,
+          59.2
+        ],
+        "text_bounds": [
+          -41.5142,
+          -17.6997,
+          43.3061,
+          11.5001
+        ],
+        "crown_height_mm": 2.6,
+        "text_height_mm": 2.12,
+        "assembled_height_mm": 4.72,
+        "hole_diameter_mm": 3,
+        "contact_total_mm2": 37.68776508
+      },
+      "notes": [
+        "O texto inclui prolongamentos decorativos laterais para alcan\u00e7ar os apoios."
+      ],
+      "pads": [
+        [
+          -38.614220707562296,
+          -14.5729
+        ],
+        [
+          40.40607094054472,
+          8.4129
+        ]
+      ],
+      "browser_export_download": "coroa-natal-v1-i-A1-AMS.3mf"
+    }
+  ],
+  "rejected": [
+    "Escreve um nome.",
+    "O ano deve ter quatro algarismos ou ficar vazio.",
+    "H\u00e1 um car\u00e1cter que esta fonte n\u00e3o suporta. Usa letras latinas, acentos e n\u00fameros.",
+    "M\u00e1ximo de 24 caracteres por linha. Divide o nome entre as duas linhas."
+  ],
+  "restored_saved_project": true,
+  "mobile_no_horizontal_overflow": true,
+  "physical_print_tested": false,
+  "final_html_sha256": "f824aaa545e7c7447e35fe9e5b388a20cbed8fd40f5a63ea72a976793c319d6a",
+  "final_offline_smoke_export_payload_identical_to_sliced_example": true,
+  "embedded_license_notices": 6
+}

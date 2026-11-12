@@ -1,0 +1,23 @@
+COROAS DE NATAL V1 — COMEÇAR AQUI
+
+1. Extrair este ZIP para uma pasta.
+2. Abrir personalizar.html no Chrome ou Edge (duplo clique).
+3. Escrever o nome, segunda linha e ano opcional. Conferir a prévia.
+4. Descarregar o 3MF e abrir como PROJETO no Bambu Studio.
+5. Mapear os rolos no AMS Lite e fatiar os dois pratos.
+
+Prato 01: coroa com os apoios personalizados.
+Prato 02: letras vermelhas sobre contorno creme, numa só peça.
+Colar a peça do texto nos dois apoios planos da coroa.
+Usar sempre a coroa e o texto do mesmo ficheiro.
+
+O formulário funciona sem internet; não precisa de instalação de fontes.
+Para editar depois, abrir aqui um 3MF exportado por este gerador.
+A edição dinâmica não é feita no editor de texto do Bambu Studio.
+
+A1 + AMS Lite, bico 0,4 mm, PLA, PEI texturado. Generic PLA é um ponto
+de partida, não uma calibração do teu rolo. Fazer primeiro uma unidade
+para testar o acabamento e a colagem. Não houve ainda teste físico.
+
+Fontes: Pacifico e Leckerli One. A fonte exata da fotografia não foi
+identificada. Os exemplos correspondem à geometria real mostrada na prévia.

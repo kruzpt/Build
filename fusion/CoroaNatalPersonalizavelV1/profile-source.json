@@ -1,0 +1,11 @@
+{
+  "source_3mf": "downloads/anilha-aquela-v2-LOBO-A1-04-AMS-4-cores.3mf",
+  "source_sha256": "08a09ac9467e928562a4fb30f2f6b142d3caa48a3b5e9fb6d82271040fa37b97",
+  "changes_from_source_profile": [
+    "process name",
+    "filament names",
+    "display colors"
+  ],
+  "filament_calibration": "Generic PLA; no calibration transferred from another spool",
+  "html_sha256": "f824aaa545e7c7447e35fe9e5b388a20cbed8fd40f5a63ea72a976793c319d6a"
+}
