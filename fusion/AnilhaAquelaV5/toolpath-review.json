@@ -1,0 +1,105 @@
+{
+  "color_checks": {
+    "gray_paths_on_plaque_mm": 0.0,
+    "black_paths_under_letter_cores_mm": 0.0,
+    "letters_and_accent": [
+      {
+        "area_mm2": 69.75875853833713,
+        "white_layers": 12,
+        "first_top_z_mm": 3.08,
+        "last_top_z_mm": 4.4
+      },
+      {
+        "area_mm2": 4.091035097699205,
+        "white_layers": 12,
+        "first_top_z_mm": 3.08,
+        "last_top_z_mm": 4.4
+      },
+      {
+        "area_mm2": 25.296373757446418,
+        "white_layers": 12,
+        "first_top_z_mm": 3.08,
+        "last_top_z_mm": 4.4
+      },
+      {
+        "area_mm2": 33.588827814455726,
+        "white_layers": 12,
+        "first_top_z_mm": 3.08,
+        "last_top_z_mm": 4.4
+      },
+      {
+        "area_mm2": 30.103082242021628,
+        "white_layers": 12,
+        "first_top_z_mm": 3.08,
+        "last_top_z_mm": 4.4
+      },
+      {
+        "area_mm2": 46.02295443157345,
+        "white_layers": 12,
+        "first_top_z_mm": 3.08,
+        "last_top_z_mm": 4.4
+      },
+      {
+        "area_mm2": 35.2346903050784,
+        "white_layers": 12,
+        "first_top_z_mm": 3.08,
+        "last_top_z_mm": 4.4
+      }
+    ],
+    "right_eye_white_layers": [
+      3.8,
+      3.92,
+      4.04,
+      4.16,
+      4.28,
+      4.4
+    ],
+    "right_pupil_white_paths_mm": 0.0,
+    "black_to_white_flush_mm3": 587.0,
+    "flush_multiplier": [
+      "1"
+    ],
+    "flush_into_objects": "0",
+    "hidden_leaf_black_paths_mm": 0.0
+  },
+  "plates": [
+    {
+      "piece": "lobo",
+      "layers": 40,
+      "tools": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "outer_speed_max_mm_s": 25.0,
+      "top_speed_max_mm_s": 18.0,
+      "max_native_transform_error_mm": 1.4240465424039554e-06,
+      "gcode_sha256": "bff9ab9fe71cbb07bad340e50178250ef14b4ac4c75dc9dcd5116303a53f0542"
+    },
+    {
+      "piece": "anilha",
+      "layers": 208,
+      "tools": [
+        1
+      ],
+      "outer_speed_max_mm_s": 25.0,
+      "top_speed_max_mm_s": 18.0,
+      "max_native_transform_error_mm": 1.416815661146829e-06,
+      "gcode_sha256": "c7778e87ae02701f22fc5a32a2acc3ff3621d9c6c990bd823afdacc73ece4b00"
+    },
+    {
+      "piece": "folhas",
+      "layers": 24,
+      "tools": [
+        2,
+        3
+      ],
+      "outer_speed_max_mm_s": 25.0,
+      "top_speed_max_mm_s": 18.0,
+      "max_native_transform_error_mm": 1.416815661146829e-06,
+      "gcode_sha256": "d2f95cb72f160071bc8ad34fa6e54d263453ae9b90150ec24d901746ea03373b"
+    }
+  ],
+  "physical_print_tested": false
+}

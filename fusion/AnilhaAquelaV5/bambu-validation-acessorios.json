@@ -1,0 +1,71 @@
+{
+  "project": "anilha-aquela-v5-ACESSORIOS-A1-04-AMS-2-pratos.3mf",
+  "sha256": "49c3142c37497e15d7d374f667346f9cb857b38e343d6414814d75c09ffec623",
+  "bambu_version": "02.09.01.70",
+  "native_export_reopen_slice_exit": [
+    0,
+    0,
+    0
+  ],
+  "printer": "Bambu Lab A1 0.4 nozzle",
+  "layer_height_mm": 0.12,
+  "first_layer_mm": 0.2,
+  "geometry_and_relative_positions_verified": true,
+  "max_transform_error_mm": 1.416815661146829e-06,
+  "black_detail_extrusion_verified": true,
+  "supports": false,
+  "brim": false,
+  "plates": [
+    {
+      "plate": 1,
+      "colors_used": 1,
+      "warnings": "",
+      "estimated_seconds": 4585.55712890625,
+      "estimated_main_grams": 5.64426326751709,
+      "estimated_total_grams": 5.64426326751709,
+      "filament_changes": 0,
+      "outer_speed_max_mm_s": 25.0,
+      "top_speed_max_mm_s": 18.0,
+      "gcode_sha256": "c7778e87ae02701f22fc5a32a2acc3ff3621d9c6c990bd823afdacc73ece4b00",
+      "filaments": [
+        {
+          "filament_id": "GFL99",
+          "id": 1,
+          "main_used_g": 5.64426326751709,
+          "total_used_g": 5.64426326751709
+        }
+      ]
+    },
+    {
+      "plate": 2,
+      "colors_used": 2,
+      "warnings": "",
+      "estimated_seconds": 3777.190673828125,
+      "estimated_main_grams": 3.3739446476101875,
+      "estimated_total_grams": 7.173757314682007,
+      "filament_changes": 10,
+      "outer_speed_max_mm_s": 25.0,
+      "top_speed_max_mm_s": 18.0,
+      "gcode_sha256": "d2f95cb72f160071bc8ad34fa6e54d263453ae9b90150ec24d901746ea03373b",
+      "filaments": [
+        {
+          "filament_id": "GFL99",
+          "id": 2,
+          "main_used_g": 3.2723357677459717,
+          "total_used_g": 5.981353282928467
+        },
+        {
+          "filament_id": "GFL99",
+          "id": 3,
+          "main_used_g": 0.10160887986421585,
+          "total_used_g": 1.19240403175354
+        }
+      ]
+    }
+  ],
+  "matching_wolf_project": "anilha-aquela-v5-LOBO-A1-04-AMS-4-cores.3mf",
+  "hidden_region_black_toolpath_length_mm": 0.0,
+  "hidden_region_edge_margin_mm": 0.45,
+  "filament_profile": "Generic PLA, not calibrated for a new spool",
+  "physical_print_tested": false
+}

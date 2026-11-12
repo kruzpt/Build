@@ -1,0 +1,337 @@
+{
+  "title": "Aquel\u00e1 V5 \u2014 menor, letras sem contorno e olho simplificado",
+  "source": "designs/anilha-escuteiros-v2-tres-pecas-dimensoes.png",
+  "source_sha256": "bfd59a657f2e19801d89b4bb7e55883df59ca0297531ef7074831d247215e7a6",
+  "reused_unchanged_sha256": {
+    "anilha-aquela-v2-anilha-castanha.stl": "d969e758e1bfada1100a4afe82b55cb5e7c5910afa3038fe5986b95acb70280d"
+  },
+  "wolf_project": "anilha-aquela-v5-LOBO-A1-04-AMS-4-cores.3mf",
+  "physical_parts_count": 3,
+  "visible_dimensions_mm": [
+    52,
+    55
+  ],
+  "dimension_interpretation": "10 mm less in each dimension of the visible assembly (62x65 to 52x55)",
+  "front_dimensions_mm": [
+    46.12864303588867,
+    54.99961505213287,
+    4.879739649491967
+  ],
+  "foliage_dimensions_mm": [
+    51.99959182739258,
+    40.615039925207384,
+    2.959761195234023
+  ],
+  "xy_scale": [
+    0.8387096774193549,
+    0.8461538461538461
+  ],
+  "z_scale": 1,
+  "ring_outer_mm": [
+    29,
+    22,
+    25
+  ],
+  "ring_clear_opening_mm": [
+    25,
+    18
+  ],
+  "ring_bottom_y_mm": 7.8,
+  "flat_glue_face_z_mm": 2.0,
+  "ring_glue_contact_area_mm2": 517.3504479882918,
+  "wolf_glue_contact_area_mm2": 1235.4852963166386,
+  "letter_white_thickness_mm": 1.44,
+  "letter_white_start_z_mm": 2.9600000000000004,
+  "letter_black_outline": false,
+  "letter_black_backing_volume_mm3": 0.0,
+  "gray_on_plaque_volume_mm3": 0.0,
+  "pupil_highlights": false,
+  "right_eye_white_connected": true,
+  "hidden_leaf_black_volume_mm3": 3.4497074867827334e-09,
+  "edge_margin_under_wolf_mm": 0.45,
+  "assembly_intersections": [],
+  "parts": [
+    {
+      "key": "anilha-castanha",
+      "file": "anilha-aquela-v2-anilha-castanha.stl",
+      "color": "#905532",
+      "piece": "anilha",
+      "assembly": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          7.8
+        ],
+        [
+          0.0,
+          -1.0,
+          0.0,
+          -11.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions_mm": [
+        29.0,
+        22.0,
+        25.0
+      ],
+      "volume_mm3": 4599.185977286039,
+      "watertight": true,
+      "sha256": "d969e758e1bfada1100a4afe82b55cb5e7c5910afa3038fe5986b95acb70280d"
+    },
+    {
+      "key": "folhas-verdes",
+      "file": "anilha-aquela-v5-folhas-verdes.stl",
+      "color": "#27853C",
+      "piece": "folhas",
+      "assembly": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions_mm": [
+        51.999711990356445,
+        40.615095310946344,
+        2.959784329221293
+      ],
+      "volume_mm3": 2933.963023196018,
+      "watertight": true,
+      "sha256": "7a49aa5227e1973771a87ed160b480a543c708b3dce4c06288d5719d102c0ab9"
+    },
+    {
+      "key": "folhas-nervuras-pretas",
+      "file": "anilha-aquela-v5-folhas-nervuras-pretas.stl",
+      "color": "#202124",
+      "piece": "folhas",
+      "assembly": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions_mm": [
+        51.999711990356445,
+        40.615095310946344,
+        1.1997848749160767
+      ],
+      "volume_mm3": 87.62824855292006,
+      "watertight": true,
+      "sha256": "d1228eb698bc6ecf67b232b95197507ce33dc37643544fc12c5ea464c0a2b3f4"
+    },
+    {
+      "key": "lobo-preto",
+      "file": "anilha-aquela-v5-lobo-preto.stl",
+      "color": "#202124",
+      "piece": "lobo",
+      "assembly": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions_mm": [
+        46.12862968444824,
+        54.9996342791128,
+        2.3998711109161377
+      ],
+      "volume_mm3": 1295.4129763581102,
+      "watertight": true,
+      "sha256": "32de33bda50168a1b9f21c933606bfcb6a34e116cb161b34c192dea8ea95dd60"
+    },
+    {
+      "key": "lobo-cinzento",
+      "file": "anilha-aquela-v5-lobo-cinzento.stl",
+      "color": "#686C70",
+      "piece": "lobo",
+      "assembly": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions_mm": [
+        35.28167915344238,
+        36.559303283691406,
+        0.48000001907348633
+      ],
+      "volume_mm3": 133.2388422523412,
+      "watertight": true,
+      "sha256": "fdded854d7fd4c29247516534f529200be751ae17d3b066b9243eab19c961768"
+    },
+    {
+      "key": "lobo-castanho",
+      "file": "anilha-aquela-v5-lobo-castanho.stl",
+      "color": "#905532",
+      "piece": "lobo",
+      "assembly": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions_mm": [
+        46.129032135009766,
+        55.0,
+        3.200000047683716
+      ],
+      "volume_mm3": 4965.796032836428,
+      "watertight": true,
+      "sha256": "0c22efaa82da66aa32610a7bee497235816daba8ab97499955a9cd933c8eace4"
+    },
+    {
+      "key": "lobo-branco",
+      "file": "anilha-aquela-v5-lobo-branco.stl",
+      "color": "#F5F4ED",
+      "piece": "lobo",
+      "assembly": [
+        [
+          1.0,
+          0.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          1.0,
+          0.0,
+          0.0
+        ],
+        [
+          0.0,
+          0.0,
+          1.0,
+          2.0
+        ],
+        [
+          0.0,
+          0.0,
+          0.0,
+          1.0
+        ]
+      ],
+      "dimensions_mm": [
+        39.07371139526367,
+        50.312212228775024,
+        1.4397659301757812
+      ],
+      "volume_mm3": 575.5458826273772,
+      "watertight": true,
+      "sha256": "5283a04f20732d1ef3a6abc68b96d822b14712295b300d3caa5fd3cf7aba4814"
+    }
+  ],
+  "physical_print_tested": false,
+  "physical_fit_tested": false
+}
