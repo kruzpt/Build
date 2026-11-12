@@ -1,0 +1,337 @@
+{
+  "project": "essencial-compacto-v10-dourado-infill-A1-AMS-2-pratos.3mf",
+  "sha256": "657584f37fbfa5aaffe8a71d02388d8eb67b9172c0a0746a529af2f48a8fb15f",
+  "source": "essencial-compacto-v9-costura-traseira-A1-AMS-2-pratos.3mf",
+  "source_sha256": "b6ffae5d2dd8e880c03d70cef0df84e534ffc2ff18e70a189ed6fb5d79712fb7",
+  "printer": "Bambu Lab A1 0.4 nozzle",
+  "bambu_version": "02.09.01.70",
+  "native_reopen_exit": 0,
+  "native_slice_exit": 0,
+  "all_3d_archive_entries_byte_identical_to_v9": true,
+  "all_global_and_filament_settings_unchanged": true,
+  "only_print_setting_changes": {
+    "gold_bottom_shell_layers": [
+      "5",
+      "0"
+    ],
+    "gold_bottom_shell_thickness": [
+      "0.8",
+      "0"
+    ]
+  },
+  "layer_height_mm": 0.16,
+  "gold_thickness_mm": 1.28,
+  "gold_top_shell_layers": 6,
+  "gold_top_shell_thickness_mm": 0.96,
+  "seam_position": "back",
+  "wall_loops": 3,
+  "top_one_wall_type": "all top",
+  "sparse_infill": "15% gyroid",
+  "gold_flow_ratio": "0.9702",
+  "gold_nozzle_temperature_c": "215",
+  "supports": false,
+  "brim": false,
+  "plates": [
+    {
+      "plate": 1,
+      "name": "01 BASE V10 - dourado 2 infill + 6 fecho",
+      "warnings": "",
+      "estimated_seconds": 24637.857421875,
+      "estimated_grams_including_flush_and_tower": 60.24812889099121,
+      "seconds_saved_vs_v9": 2460.96484375,
+      "grams_saved_vs_v9": 2.383098602294922,
+      "filament_changes": 1,
+      "green_top_skin_absent": true,
+      "gold_layers": [
+        {
+          "gold_layer": 1,
+          "z_mm": 8.48,
+          "features": [
+            "Inner wall",
+            "Outer wall",
+            "Sparse infill"
+          ],
+          "extrusion_mm_by_feature": {
+            "Outer wall": 13.101859999999997,
+            "Inner wall": 28.03630000000002,
+            "Sparse infill": 121.68908000000009
+          }
+        },
+        {
+          "gold_layer": 2,
+          "z_mm": 8.64,
+          "features": [
+            "Inner wall",
+            "Outer wall",
+            "Sparse infill"
+          ],
+          "extrusion_mm_by_feature": {
+            "Outer wall": 13.101849999999997,
+            "Inner wall": 28.03629000000002,
+            "Sparse infill": 117.42836000000027
+          }
+        },
+        {
+          "gold_layer": 3,
+          "z_mm": 8.8,
+          "features": [
+            "Bridge",
+            "Inner wall",
+            "Outer wall"
+          ],
+          "extrusion_mm_by_feature": {
+            "Outer wall": 13.101849999999997,
+            "Inner wall": 28.036270000000016,
+            "Bridge": 1455.4638599999917
+          }
+        },
+        {
+          "gold_layer": 4,
+          "z_mm": 8.96,
+          "features": [
+            "Inner wall",
+            "Internal solid infill",
+            "Outer wall"
+          ],
+          "extrusion_mm_by_feature": {
+            "Outer wall": 13.101849999999997,
+            "Inner wall": 28.036260000000016,
+            "Internal solid infill": 832.061219999988
+          }
+        },
+        {
+          "gold_layer": 5,
+          "z_mm": 9.12,
+          "features": [
+            "Inner wall",
+            "Internal solid infill",
+            "Outer wall"
+          ],
+          "extrusion_mm_by_feature": {
+            "Outer wall": 13.101819999999998,
+            "Inner wall": 28.036250000000017,
+            "Internal solid infill": 832.0609599999945
+          }
+        },
+        {
+          "gold_layer": 6,
+          "z_mm": 9.28,
+          "features": [
+            "Inner wall",
+            "Internal solid infill",
+            "Outer wall"
+          ],
+          "extrusion_mm_by_feature": {
+            "Outer wall": 13.101819999999998,
+            "Inner wall": 28.03625000000002,
+            "Internal solid infill": 832.061259999988
+          }
+        },
+        {
+          "gold_layer": 7,
+          "z_mm": 9.44,
+          "features": [
+            "Inner wall",
+            "Internal solid infill",
+            "Outer wall"
+          ],
+          "extrusion_mm_by_feature": {
+            "Outer wall": 13.101829999999998,
+            "Inner wall": 28.036280000000016,
+            "Internal solid infill": 832.0606399999944
+          }
+        },
+        {
+          "gold_layer": 8,
+          "z_mm": 9.6,
+          "features": [
+            "Gap infill",
+            "Outer wall",
+            "Top surface"
+          ],
+          "extrusion_mm_by_feature": {
+            "Outer wall": 13.10179,
+            "Gap infill": 0.13518000000000005,
+            "Top surface": 857.3295599999997
+          }
+        }
+      ],
+      "gold_sparse_layers": 2,
+      "gold_closing_layers_including_bridge": 6,
+      "last_layer_one_outer_wall_no_inner_walls": true,
+      "gold_speeds_mm_s": {
+        "Bridge": [
+          20.0
+        ],
+        "Gap infill": [
+          25.0
+        ],
+        "Inner wall": [
+          25.0
+        ],
+        "Internal solid infill": [
+          25.0
+        ],
+        "Outer wall": [
+          25.0
+        ],
+        "Sparse infill": [
+          75.18096666666666
+        ],
+        "Top surface": [
+          20.0
+        ]
+      },
+      "gcode_sha256": "dc388f60973c678c466648f895e1c9619c370444d18c10b7db1cbf79ddbfe593"
+    },
+    {
+      "plate": 2,
+      "name": "02 AMOSTRA V10 - imprimir primeiro",
+      "warnings": "",
+      "estimated_seconds": 8303.4912109375,
+      "estimated_grams_including_flush_and_tower": 20.418403148651123,
+      "seconds_saved_vs_v9": 609.41015625,
+      "grams_saved_vs_v9": 0.5858883857727051,
+      "filament_changes": 1,
+      "green_top_skin_absent": true,
+      "gold_layers": [
+        {
+          "gold_layer": 1,
+          "z_mm": 8.48,
+          "features": [
+            "Inner wall",
+            "Outer wall",
+            "Sparse infill"
+          ],
+          "extrusion_mm_by_feature": {
+            "Outer wall": 5.772710000000001,
+            "Inner wall": 12.202700000000002,
+            "Sparse infill": 30.718940000000018
+          }
+        },
+        {
+          "gold_layer": 2,
+          "z_mm": 8.64,
+          "features": [
+            "Inner wall",
+            "Outer wall",
+            "Sparse infill"
+          ],
+          "extrusion_mm_by_feature": {
+            "Outer wall": 5.772710000000001,
+            "Inner wall": 12.20269,
+            "Sparse infill": 29.611350000000108
+          }
+        },
+        {
+          "gold_layer": 3,
+          "z_mm": 8.8,
+          "features": [
+            "Bridge",
+            "Inner wall",
+            "Outer wall"
+          ],
+          "extrusion_mm_by_feature": {
+            "Outer wall": 5.772710000000001,
+            "Inner wall": 12.20269,
+            "Bridge": 360.02244
+          }
+        },
+        {
+          "gold_layer": 4,
+          "z_mm": 8.96,
+          "features": [
+            "Inner wall",
+            "Internal solid infill",
+            "Outer wall"
+          ],
+          "extrusion_mm_by_feature": {
+            "Outer wall": 5.772710000000001,
+            "Inner wall": 12.20269,
+            "Internal solid infill": 205.97070999999923
+          }
+        },
+        {
+          "gold_layer": 5,
+          "z_mm": 9.12,
+          "features": [
+            "Inner wall",
+            "Internal solid infill",
+            "Outer wall"
+          ],
+          "extrusion_mm_by_feature": {
+            "Outer wall": 5.7727,
+            "Inner wall": 12.2027,
+            "Internal solid infill": 205.98196999999945
+          }
+        },
+        {
+          "gold_layer": 6,
+          "z_mm": 9.28,
+          "features": [
+            "Inner wall",
+            "Internal solid infill",
+            "Outer wall"
+          ],
+          "extrusion_mm_by_feature": {
+            "Outer wall": 5.7727,
+            "Inner wall": 12.2027,
+            "Internal solid infill": 205.97070999999923
+          }
+        },
+        {
+          "gold_layer": 7,
+          "z_mm": 9.44,
+          "features": [
+            "Inner wall",
+            "Internal solid infill",
+            "Outer wall"
+          ],
+          "extrusion_mm_by_feature": {
+            "Outer wall": 5.7727,
+            "Inner wall": 12.2027,
+            "Internal solid infill": 205.98198999999946
+          }
+        },
+        {
+          "gold_layer": 8,
+          "z_mm": 9.6,
+          "features": [
+            "Outer wall",
+            "Top surface"
+          ],
+          "extrusion_mm_by_feature": {
+            "Outer wall": 5.772679999999999,
+            "Top surface": 217.02707000000024
+          }
+        }
+      ],
+      "gold_sparse_layers": 2,
+      "gold_closing_layers_including_bridge": 6,
+      "last_layer_one_outer_wall_no_inner_walls": true,
+      "gold_speeds_mm_s": {
+        "Bridge": [
+          20.0
+        ],
+        "Inner wall": [
+          25.0
+        ],
+        "Internal solid infill": [
+          25.0
+        ],
+        "Outer wall": [
+          25.0
+        ],
+        "Sparse infill": [
+          75.18096666666666
+        ],
+        "Top surface": [
+          20.0
+        ]
+      },
+      "gcode_sha256": "4432e7b10649791a647654028bce501efee8edeaf241ccd8138a02225f137cd5"
+    }
+  ],
+  "physical_surface_tested": false,
+  "physical_print_started": false
+}
