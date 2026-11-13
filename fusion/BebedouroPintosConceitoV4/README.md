@@ -8,7 +8,7 @@ Continuação do [conceito V3](../BebedouroPintosConceitoV3/README.md). Mantêm-
 | --- | ---: | --- |
 | Comprimento total da garrafa | 220 mm | Medido pelo utilizador |
 | Diâmetro máximo do corpo | 60 mm | Medido pelo utilizador |
-| Diâmetro na zona mais estreita | 51 mm | Interpretação de «51» como 5,1 cm; confirmar |
+| Diâmetro na zona mais estreita | 51 mm | Confirmado pelo utilizador: 5,1 cm |
 | Diâmetro exterior da rosca | 33 mm | Medido pelo utilizador; testar o encaixe antes do copo completo |
 | Capacidade nominal | 500 ml | Confirmada anteriormente |
 | Bordo da base plástica acima da grelha | 120 mm | Confirmado anteriormente |
@@ -31,9 +31,8 @@ O fundo do copo, o afastamento boca–fundo e a profundidade da água são valor
 
 ## Dados pendentes
 
-1. Confirmar se «51» é **5,1 cm** e em que ponto da garrafa se mede.
-2. Medir a altura da grelha ao teto da gaiola e o diâmetro do arame escolhido para os ganchos. Medir também o próximo arame horizontal se se pretende subir o conjunto.
-3. Foto nítida do gargalo sem tampa com régua/paquímetro: diâmetro exterior da rosca, altura roscada, anel de suporte, diâmetro do ombro e tampa para identificar o passo.
-4. Indicar o filamento disponível; PETG continua a ser a proposta para o protótipo lavável, sujeita a teste de estanqueidade e limpeza.
+1. Medir a altura da grelha ao teto da gaiola e o diâmetro do arame escolhido para os ganchos. Medir também o próximo arame horizontal se se pretende subir o conjunto.
+2. Foto nítida do gargalo sem tampa com régua/paquímetro: diâmetro exterior da rosca, altura roscada, anel de suporte, diâmetro do ombro e tampa para identificar o passo.
+3. Indicar o filamento disponível; PETG continua a ser a proposta para o protótipo lavável, sujeita a teste de estanqueidade e limpeza.
 
 **Estado:** medidas principais registadas e espaço vertical calculado. Ainda não existe CAD/STL/3MF final nem teste físico. O [esquema V4](../../designs/bebedouro-pintos-conceito-v4-medidas-garrafa.svg) mostra as cotas conhecidas e os pontos a medir.
