@@ -16,6 +16,12 @@ Continuação do [conceito V3](../BebedouroPintosConceitoV3/README.md). Mantêm-
 
 A fotografia identifica uma garrafa com corpo de largura variável e gargalo estreito. Não fornece escala suficiente para obter o passo, o perfil ou a altura útil da rosca, nem o diâmetro do ombro onde o anel inferior apoiará.
 
+## Observações das novas fotografias
+
+- A fita na gaiola mostra **pelo menos 350 mm** desde a grelha até perto do teto. O valor exato no teto fica parcialmente tapado e não deve ser tratado como medida final; mesmo o limite visível deixa cerca de 90 mm acima da posição inicial calculada para a garrafa.
+- Há outro arame horizontal perto de 300 mm. Mudar o conjunto inteiro do arame de 150 mm para esse arame elevaria o topo da garrafa aproximadamente a 400–410 mm, acima do espaço visível. Para subir o copo com o crescimento dos pintos, a solução a estudar é **usar o mesmo arame de 150 mm e mudar o ponto do gancho no próprio suporte**, com posições de ensaio a 0, +20 e +40 mm. Isso manteria o topo aproximadamente a 250–260, 270–280 e 290–300 mm da grelha. Estas posições ainda não são geometria aprovada nem testada.
+- A fotografia do paquímetro não mostra o visor. A escala gravada parece sugerir um diâmetro da rosca mais próximo de **28 mm** do que dos 33 mm anotados; esta leitura por fotografia é incerta. **Não modelar a rosca nem o cupão com qualquer um dos dois números antes de confirmar a leitura do visor.** O anel de suporte inferior também depende do diâmetro da saliência abaixo dos filetes.
+
 ## Verificação de espaço
 
 Com a garrafa invertida, se o fundo do copo ficar a `H_c` mm acima da grelha e a boca da garrafa estiver cerca de 5 mm acima do fundo do copo, o ponto mais alto da garrafa fica aproximadamente a **`H_c + 225 mm`**. Por exemplo, com o copo a 25–35 mm da grelha, o topo fica a **250–260 mm**, ainda sem margem para introduzir ou retirar o conjunto. Como o arame de suspensão está a 150 mm, a garrafa ultrapassa-o em cerca de **100–110 mm**. Medir a altura livre até ao teto antes de fechar a posição dos apoios.
@@ -31,8 +37,8 @@ O fundo do copo, o afastamento boca–fundo e a profundidade da água são valor
 
 ## Dados pendentes
 
-1. Medir a altura da grelha ao teto da gaiola e o diâmetro do arame escolhido para os ganchos. Medir também o próximo arame horizontal se se pretende subir o conjunto.
-2. Foto nítida do gargalo sem tampa com régua/paquímetro: diâmetro exterior da rosca, altura roscada, anel de suporte, diâmetro do ombro e tampa para identificar o passo.
+1. Confirmar a leitura no visor do paquímetro para o diâmetro exterior dos filetes da rosca e medir o diâmetro do arame de 150 mm.
+2. Medir a altura roscada, o anel de suporte abaixo da rosca e o diâmetro do ombro. Se possível, confirmar a altura exata da grelha ao teto.
 3. Indicar o filamento disponível; PETG continua a ser a proposta para o protótipo lavável, sujeita a teste de estanqueidade e limpeza.
 
 **Estado:** medidas principais registadas e espaço vertical calculado. Ainda não existe CAD/STL/3MF final nem teste físico. O [esquema V4](../../designs/bebedouro-pintos-conceito-v4-medidas-garrafa.svg) mostra as cotas conhecidas e os pontos a medir.
