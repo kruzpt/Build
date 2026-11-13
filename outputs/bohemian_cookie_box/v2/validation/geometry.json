@@ -1,0 +1,360 @@
+{
+  "parameters_provisional": true,
+  "existing_source_found": false,
+  "parameters": {
+    "cookie_diameter": 66.0,
+    "stack_height": 39.0,
+    "cookie_radial_clearance": 2.0,
+    "top_clearance": 3.0,
+    "wall": 2.0,
+    "base": 2.4,
+    "lid_face": 2.4,
+    "lid_wall": 2.0,
+    "lid_skirt": 8.4,
+    "pitch": 3.0,
+    "turns": 1.25,
+    "thread_depth": 0.8,
+    "thread_base_width": 2.2,
+    "thread_crest_width": 0.35,
+    "thread_embed": 0.15,
+    "thread_radial_clearance": 0.3,
+    "thread_axial_clearance": 0.15,
+    "thread_ramp_degrees": 45.0,
+    "thread_top_margin": 1.55,
+    "entry_chamfer": 1.1,
+    "label_diameter": 44.0,
+    "color_depth": 0.6,
+    "text_line_1": "BOHEMIAN",
+    "text_line_2": "RHAPSODY",
+    "text_size": 3.35,
+    "text_expansion": 0.05,
+    "ring_width": 0.45,
+    "segments": 256,
+    "thread_segments_per_turn": 192
+  },
+  "inner_diameter_mm": 70.0,
+  "usable_height_mm": 42.0,
+  "smooth_body_diameter_mm": 74.0,
+  "thread_major_diameter_mm": 75.6,
+  "lid_diameter_mm": 80.19999999999999,
+  "closed_height_mm": 46.8,
+  "lid_print_height_mm": 10.8,
+  "nominal_radial_cookie_liner_allowance_mm": 2.0,
+  "axial_stop": "lid inner roof contacts body rim at Z=body_h; zero intended volume overlap",
+  "face_flat_z_mm": 0,
+  "color_depth_mm": 0.6,
+  "same_origin_color_parts": true,
+  "thread_flank_angle_from_vertical_degrees": 40.85537625889571,
+  "interference_checks": [
+    {
+      "radial_clearance_mm": 0.25,
+      "unscrew_degrees": 0,
+      "collision_mm3": 1.2490009027033011e-14
+    },
+    {
+      "radial_clearance_mm": 0.25,
+      "unscrew_degrees": 30,
+      "collision_mm3": 0.0
+    },
+    {
+      "radial_clearance_mm": 0.25,
+      "unscrew_degrees": 60,
+      "collision_mm3": 0.0
+    },
+    {
+      "radial_clearance_mm": 0.25,
+      "unscrew_degrees": 90,
+      "collision_mm3": 0.0
+    },
+    {
+      "radial_clearance_mm": 0.25,
+      "unscrew_degrees": 180,
+      "collision_mm3": 0.0
+    },
+    {
+      "radial_clearance_mm": 0.25,
+      "unscrew_degrees": 270,
+      "collision_mm3": 0.0
+    },
+    {
+      "radial_clearance_mm": 0.25,
+      "unscrew_degrees": 360,
+      "collision_mm3": 0.0
+    },
+    {
+      "radial_clearance_mm": 0.25,
+      "unscrew_degrees": 450,
+      "collision_mm3": 0.0
+    },
+    {
+      "radial_clearance_mm": 0.25,
+      "unscrew_degrees": 540,
+      "collision_mm3": 0.0
+    },
+    {
+      "radial_clearance_mm": 0.25,
+      "unscrew_degrees": 720,
+      "collision_mm3": 0.0
+    },
+    {
+      "radial_clearance_mm": 0.3,
+      "unscrew_degrees": 0,
+      "collision_mm3": 2.2315482794965646e-14
+    },
+    {
+      "radial_clearance_mm": 0.3,
+      "unscrew_degrees": 30,
+      "collision_mm3": 0.0
+    },
+    {
+      "radial_clearance_mm": 0.3,
+      "unscrew_degrees": 60,
+      "collision_mm3": 0.0
+    },
+    {
+      "radial_clearance_mm": 0.3,
+      "unscrew_degrees": 90,
+      "collision_mm3": 0.0
+    },
+    {
+      "radial_clearance_mm": 0.3,
+      "unscrew_degrees": 180,
+      "collision_mm3": 0.0
+    },
+    {
+      "radial_clearance_mm": 0.3,
+      "unscrew_degrees": 270,
+      "collision_mm3": 0.0
+    },
+    {
+      "radial_clearance_mm": 0.3,
+      "unscrew_degrees": 360,
+      "collision_mm3": 0.0
+    },
+    {
+      "radial_clearance_mm": 0.3,
+      "unscrew_degrees": 450,
+      "collision_mm3": 0.0
+    },
+    {
+      "radial_clearance_mm": 0.3,
+      "unscrew_degrees": 540,
+      "collision_mm3": 0.0
+    },
+    {
+      "radial_clearance_mm": 0.3,
+      "unscrew_degrees": 720,
+      "collision_mm3": 0.0
+    },
+    {
+      "radial_clearance_mm": 0.4,
+      "unscrew_degrees": 0,
+      "collision_mm3": -6.661338147750939e-16
+    },
+    {
+      "radial_clearance_mm": 0.4,
+      "unscrew_degrees": 30,
+      "collision_mm3": 0.0
+    },
+    {
+      "radial_clearance_mm": 0.4,
+      "unscrew_degrees": 60,
+      "collision_mm3": 0.0
+    },
+    {
+      "radial_clearance_mm": 0.4,
+      "unscrew_degrees": 90,
+      "collision_mm3": 0.0
+    },
+    {
+      "radial_clearance_mm": 0.4,
+      "unscrew_degrees": 180,
+      "collision_mm3": 0.0
+    },
+    {
+      "radial_clearance_mm": 0.4,
+      "unscrew_degrees": 270,
+      "collision_mm3": 0.0
+    },
+    {
+      "radial_clearance_mm": 0.4,
+      "unscrew_degrees": 360,
+      "collision_mm3": 0.0
+    },
+    {
+      "radial_clearance_mm": 0.4,
+      "unscrew_degrees": 450,
+      "collision_mm3": 0.0
+    },
+    {
+      "radial_clearance_mm": 0.4,
+      "unscrew_degrees": 540,
+      "collision_mm3": 0.0
+    },
+    {
+      "radial_clearance_mm": 0.4,
+      "unscrew_degrees": 720,
+      "collision_mm3": 0.0
+    }
+  ],
+  "parts": [
+    {
+      "name": "corpo",
+      "file": "stl/corpo.stl",
+      "color": "#111115",
+      "dimensions_mm": [
+        75.5999984741211,
+        75.5999984741211,
+        44.400001525878906
+      ],
+      "volume_mm3": 29525.91420053646,
+      "watertight": true,
+      "sha256": "e1ec0283c988b47dedd5d25cdb8de0a401dca620eae7c9d59709f86ca66a4ee1"
+    },
+    {
+      "name": "tampa-preto",
+      "file": "stl/tampa-preto.stl",
+      "color": "#111115",
+      "dimensions_mm": [
+        80.19999694824219,
+        80.19999694824219,
+        10.800000190734863
+      ],
+      "volume_mm3": 16338.87318337813,
+      "watertight": true,
+      "sha256": "00a1c99af0f017d5501cf41c5a9c828afd579fbcc6ad58a4ee62b4dde8579560"
+    },
+    {
+      "name": "tampa-roxo",
+      "file": "stl/tampa-roxo.stl",
+      "color": "#582465",
+      "dimensions_mm": [
+        44.0,
+        44.0,
+        0.6000000238418579
+      ],
+      "volume_mm3": 781.1726789349219,
+      "watertight": true,
+      "sha256": "2797c3f78e1c4f3938cab2a3a0ea2a9918505ad90466f1436d6ee01ef31c5e48"
+    },
+    {
+      "name": "tampa-dourado",
+      "file": "stl/tampa-dourado.stl",
+      "color": "#DDB34E",
+      "dimensions_mm": [
+        27.854300498962402,
+        31.657400131225586,
+        0.6000000238418579
+      ],
+      "volume_mm3": 131.05298526683853,
+      "watertight": true,
+      "sha256": "d653f4793dd63bf94dc449d56a0cb93448d40137362f426e6e8f49c33adb0ca7"
+    },
+    {
+      "name": "tampa-preto-aneis",
+      "file": "stl/tampa-preto-aneis.stl",
+      "color": "#111115",
+      "dimensions_mm": [
+        80.19999694824219,
+        80.19999694824219,
+        10.800000190734863
+      ],
+      "volume_mm3": 16033.541029006172,
+      "watertight": true,
+      "sha256": "c96ac7d7f28d19d84b4d0b7c680ac54844352aff7da5a42957d316908460b326"
+    },
+    {
+      "name": "tampa-aneis-tonais",
+      "file": "stl/tampa-aneis-tonais.stl",
+      "color": "#242428",
+      "dimensions_mm": [
+        72.44999694824219,
+        72.44999694824219,
+        0.6000000238418579
+      ],
+      "volume_mm3": 305.33215437194366,
+      "watertight": true,
+      "sha256": "9b33f91b86ff3f45aabf504f93816c11104e9572d165d1a5b7404ff1e3c792a3"
+    },
+    {
+      "name": "tampa-completa-monocor",
+      "file": "stl/tampa-completa-monocor.stl",
+      "color": "#111115",
+      "dimensions_mm": [
+        80.19999694824219,
+        80.19999694824219,
+        10.800000190734863
+      ],
+      "volume_mm3": 17251.10011787163,
+      "watertight": true,
+      "sha256": "4d3a4af0f4d6f39558fc3c0311cf01d2679e919b9e097f85b05acc547cc23070"
+    },
+    {
+      "name": "amostra-acabamento",
+      "file": "stl/amostra-acabamento.stl",
+      "color": "#111115",
+      "dimensions_mm": [
+        45.0,
+        45.0,
+        1.2000000476837158
+      ],
+      "volume_mm3": 1908.3260199944343,
+      "watertight": true,
+      "sha256": "c0a8b26eaf215f7bcf5aec9d1e69291e007b7c0cfe5cb765c001f6a6e0c25dd8"
+    },
+    {
+      "name": "teste-macho",
+      "file": "stl/teste-macho.stl",
+      "color": "#111115",
+      "dimensions_mm": [
+        75.5999984741211,
+        75.5999984741211,
+        8.100000381469727
+      ],
+      "volume_mm3": 3870.4744979839984,
+      "watertight": true,
+      "sha256": "4873561de241ef2abf5216548b8e78e632b72b28a3192c664d272bb6e3072c49"
+    },
+    {
+      "name": "teste-femea-025",
+      "file": "stl/teste-femea-025.stl",
+      "color": "#111115",
+      "dimensions_mm": [
+        80.19999694824219,
+        80.19999694824219,
+        8.399999618530273
+      ],
+      "volume_mm3": 5227.076987509645,
+      "watertight": true,
+      "sha256": "7804f28c624e2ce41705a33995e7279cc31e7c22245411a2f8d0367d87b93174"
+    },
+    {
+      "name": "teste-femea-030",
+      "file": "stl/teste-femea-030.stl",
+      "color": "#111115",
+      "dimensions_mm": [
+        80.19999694824219,
+        80.19999694824219,
+        8.399999618530273
+      ],
+      "volume_mm3": 5127.6700480028185,
+      "watertight": true,
+      "sha256": "0530ad93795296c153bd2ff9ce4ed5e9be01c236772e877fcba2014ec6296104"
+    },
+    {
+      "name": "teste-femea-040",
+      "file": "stl/teste-femea-040.stl",
+      "color": "#111115",
+      "dimensions_mm": [
+        80.19999694824219,
+        80.19999694824219,
+        8.399999618530273
+      ],
+      "volume_mm3": 4928.728033452557,
+      "watertight": true,
+      "sha256": "fcc7009abc276dabb9b7f1248f7170c8fa25bb5cc02098065727d0f40c63ea17"
+    }
+  ],
+  "physical_fit_tested": false,
+  "food_barrier_required": true
+}

@@ -1,0 +1,42 @@
+{
+  "project": "caixa-maria-v2-testes-A1-04-PEI-liso.3mf",
+  "sha256": "2a31031c858764d7b4cd3b73124d48180a6986c965b4af67c9c6c4e64299a50c",
+  "bambu_version": "02.09.01.70",
+  "printer": "Bambu Lab A1 0.4 nozzle",
+  "plate": "Smooth PEI / High Temp Plate",
+  "layer_height_mm": 0.2,
+  "supports": false,
+  "brim": false,
+  "native_export_reopen_slice_exit": [
+    0,
+    0,
+    0
+  ],
+  "source_meshes_colors_and_poses_verified": true,
+  "first_layer": null,
+  "plates": [
+    {
+      "plate": 1,
+      "name": "01 Rosca: macho + femeas 0.25 0.30 0.40 mm",
+      "estimated_seconds": 5710.1650390625,
+      "main_grams": 22.793643951416016,
+      "total_grams": 22.793643951416016,
+      "filament_changes": 0,
+      "warnings": "",
+      "gcode_sha256": "5dcb218ddbac17315e4ef9b06ff9f846982aa0b9d60635056988eb241c1784fb"
+    },
+    {
+      "plate": 2,
+      "name": "02 Amostra preta - acabamento concentrico",
+      "estimated_seconds": 1145.79541015625,
+      "main_grams": 2.3833200931549072,
+      "total_grams": 2.3833200931549072,
+      "filament_changes": 0,
+      "warnings": "",
+      "gcode_sha256": "75699535e4c0e96e63f158372dc831ee38b219bb8f11741df0ec534b3b4053d2"
+    }
+  ],
+  "gold_profile": null,
+  "physical_print_tested": false,
+  "dimensions_provisional": true
+}

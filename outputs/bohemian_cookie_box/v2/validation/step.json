@@ -1,0 +1,28 @@
+{
+  "freecad_version": [
+    "1",
+    "0",
+    "0",
+    "",
+    "https://code.launchpad.net/~vcs-imports/freecad/trunk",
+    "2026/08/25 11:49:11"
+  ],
+  "files": [
+    {
+      "file": "corpo.step",
+      "solids": 1,
+      "volume_mm3": 29527.874891017993,
+      "valid": true
+    },
+    {
+      "file": "tampa.step",
+      "solids": 1,
+      "volume_mm3": 17254.54297451755,
+      "valid": true
+    }
+  ],
+  "export_and_reopen_verified": true,
+  "parametric_history": false,
+  "surfaces": "analytic cylinder/cone walls; sampled helical thread facets",
+  "interference_validation": "equivalent manifold meshes; geometry.json"
+}
