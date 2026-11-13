@@ -1,0 +1,32 @@
+{
+  "project": "caixa-maria-v1-corpo-branco-A1-04-PEI-liso.3mf",
+  "sha256": "885f1e32984a85b0ebe077bb86a1c7d4676ea7a2fc9aa3d480076eb7ab35b5a4",
+  "bambu_version": "02.09.01.70",
+  "printer": "Bambu Lab A1 0.4 nozzle",
+  "plate": "Smooth PEI / High Temp Plate",
+  "layer_height_mm": 0.2,
+  "supports": false,
+  "brim": false,
+  "native_export_reopen_slice_exit": [
+    0,
+    0,
+    0
+  ],
+  "source_meshes_colors_and_poses_verified": true,
+  "first_layer": null,
+  "plates": [
+    {
+      "plate": 1,
+      "name": "Corpo liso branco - opcional",
+      "estimated_seconds": 9224.8857421875,
+      "main_grams": 34.2729606628418,
+      "total_grams": 34.2729606628418,
+      "filament_changes": 0,
+      "warnings": "",
+      "gcode_sha256": "d2e101e1e455d924af90889a6b7fa43a3bba961417c6711e32d6c696a14ac462"
+    }
+  ],
+  "gold_profile": null,
+  "physical_print_tested": false,
+  "dimensions_provisional": true
+}

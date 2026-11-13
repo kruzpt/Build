@@ -1,0 +1,50 @@
+{
+  "project": "caixa-maria-v1-aneis-tonais-A1-04-PEI-liso.3mf",
+  "sha256": "b88a1d1b0a867ed9bca697ea99c2dfac87f21b06e24caf384a47ff14432f6376",
+  "bambu_version": "02.09.01.70",
+  "printer": "Bambu Lab A1 0.4 nozzle",
+  "plate": "Smooth PEI / High Temp Plate",
+  "layer_height_mm": 0.2,
+  "supports": false,
+  "brim": false,
+  "native_export_reopen_slice_exit": [
+    0,
+    0,
+    0
+  ],
+  "source_meshes_colors_and_poses_verified": true,
+  "first_layer": {
+    "all_colors_on_layer_1": true,
+    "gold_connected_components_printed": 18,
+    "gold_min_path_length_per_component_mm": 6.836821189391724,
+    "black_annulus_tangential_fraction": 0.9999990202185202,
+    "black_annulus_path_mm": 6907.488123834117,
+    "coplanar_geometry": true,
+    "physical_surface_effect_tested": false
+  },
+  "plates": [
+    {
+      "plate": 1,
+      "name": "01 Corpo liso preto - medidas provisorias",
+      "estimated_seconds": 9224.8857421875,
+      "main_grams": 34.2729606628418,
+      "total_grams": 34.2729606628418,
+      "filament_changes": 0,
+      "warnings": "",
+      "gcode_sha256": "99024e2df454b4ff664f351894faba56ec79f6495dce13c145390825e44c6e25"
+    },
+    {
+      "plate": 2,
+      "name": "02 Tampa plana - face vinil contra PEI liso",
+      "estimated_seconds": 7160.68798828125,
+      "main_grams": 20.725193835794926,
+      "total_grams": 23.89536827802658,
+      "filament_changes": 9,
+      "warnings": "",
+      "gcode_sha256": "d24bd2cc35cec252a520c3d9d0fe767903db6f017e2d018c2e56a11485498484"
+    }
+  ],
+  "gold_profile": "Amazon Basics Silk PLA Gold 0.9702 @BBL A1 0.4",
+  "physical_print_tested": false,
+  "dimensions_provisional": true
+}

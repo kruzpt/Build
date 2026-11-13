@@ -1,0 +1,182 @@
+{
+  "README.md": {
+    "bytes": 7646,
+    "sha256": "c9b484cfa4803da77e49ee44f672da23c9776c15e8c529117ee66d8c91e69880"
+  },
+  "build_bambu.py": {
+    "bytes": 12453,
+    "sha256": "af4d5a4968fa293a8c7cda8823c4201166e0dd2c9f59b3445d6d443cc683211a"
+  },
+  "caixa-maria-v1-aneis-tonais-A1-04-PEI-liso.3mf": {
+    "bytes": 711800,
+    "sha256": "b88a1d1b0a867ed9bca697ea99c2dfac87f21b06e24caf384a47ff14432f6376"
+  },
+  "caixa-maria-v1-corpo-branco-A1-04-PEI-liso.3mf": {
+    "bytes": 81563,
+    "sha256": "885f1e32984a85b0ebe077bb86a1c7d4676ea7a2fc9aa3d480076eb7ab35b5a4"
+  },
+  "caixa-maria-v1-testes-A1-04-PEI-liso.3mf": {
+    "bytes": 343103,
+    "sha256": "aa51688bdf613afdc11eabaeeac9754cafcab64a7e19201f1c89ff42a743c0a4"
+  },
+  "caixa-maria-v1-vinil-3cores-A1-04-PEI-liso.3mf": {
+    "bytes": 462301,
+    "sha256": "6f2d175bcea8de8fd13d140d0ee5cc442123aae062edd0576fbf38781de66f13"
+  },
+  "cookie_box.scad": {
+    "bytes": 4683,
+    "sha256": "c88e774d9af6ab2f247b205617d13e1250de6a9173c731f4147cad5691258ebe"
+  },
+  "export_step.py": {
+    "bytes": 3584,
+    "sha256": "a005ae6579df5f1cb40bff0ae6d4852d751397641d63d974659f97e426524511"
+  },
+  "fonts/DejaVuSans-Bold.ttf": {
+    "bytes": 708920,
+    "sha256": "a4c5bc453ca281d90ea079e596da7ae0dfeb5777497c29ec254e76d97ff6f890"
+  },
+  "fonts/LICENSE.txt": {
+    "bytes": 3857,
+    "sha256": "e81d9dced49fea2a7d576cbea283873de58563c5d488f954deb282843c3ea79c"
+  },
+  "generate.py": {
+    "bytes": 9266,
+    "sha256": "29d96b9c267f2921bdd1ecab44844f208d9ba53f3dc92ab41e6ab508209632b6"
+  },
+  "images/aneis-tonais-pratos.png": {
+    "bytes": 15673,
+    "sha256": "299fc86729a2de28bb93a02eac4a466aa2beb7a9e901321f9c1fb47292fecb3e"
+  },
+  "images/conjunto-CAD.png": {
+    "bytes": 54127,
+    "sha256": "8d0a7931b21cca2020179d67f1b8447b0f4964faaeec20d867e0d946ea35a787"
+  },
+  "images/corpo-branco-pratos.png": {
+    "bytes": 8143,
+    "sha256": "989bb1244d3aca46ef0c03b6bc09721c77f069c422bf7da3a1274ca9d2842c97"
+  },
+  "images/face-vinil-CAD.png": {
+    "bytes": 30534,
+    "sha256": "20704e1495fb4fa6b755c1a3f98f25d6ab2bbb071d7e33d9af8e25d160af507e"
+  },
+  "images/primeira-camada-aneis-tonais.png": {
+    "bytes": 106116,
+    "sha256": "6c9eeb40394ecd3cf7cdcc261059dd5c1df1d89d4666f59e2c06daf60c7626cd"
+  },
+  "images/primeira-camada-vinil-3cores.png": {
+    "bytes": 123639,
+    "sha256": "5652095294c77711ba9c849c6bdb9337b409984dcf16eaddbf0284c37252aeb3"
+  },
+  "images/testes-pratos.png": {
+    "bytes": 13809,
+    "sha256": "05c1e7618a128c44a13ec624e7f6c3d39194bf1fd726025e76d6bb5f0c6e1a90"
+  },
+  "images/vinil-3cores-pratos.png": {
+    "bytes": 13505,
+    "sha256": "c9c336d3807f9fd8b373581b9bd1ac23df87415b0d9568928abbd6056d82e5e6"
+  },
+  "package.py": {
+    "bytes": 2904,
+    "sha256": "2a66d988f9dfd80723f8aa5f9da6612e301287788f5e62e3554313855240318c"
+  },
+  "parameters.json": {
+    "bytes": 720,
+    "sha256": "75b6158734bebb6b751f52e5e6de6c7f20ef2f648df9be48a90f6429e05b7e96"
+  },
+  "parameters.scad": {
+    "bytes": 666,
+    "sha256": "42bcfc059d87b8c635cbcb6e00a9632937b85fc85dcfd62f847643a96ccbec1a"
+  },
+  "step/corpo.step": {
+    "bytes": 1904455,
+    "sha256": "2a103c9ca9f7f4afc220444dff1e33c8eeb687d6026ce3d904a1d706ca5664ea"
+  },
+  "step/tampa.step": {
+    "bytes": 2899835,
+    "sha256": "2faf168609779510af67f5f0852224e1d1f19c9afada8c254fb9139f90cecb37"
+  },
+  "stl/amostra-acabamento.stl": {
+    "bytes": 51084,
+    "sha256": "c0a8b26eaf215f7bcf5aec9d1e69291e007b7c0cfe5cb765c001f6a6e0c25dd8"
+  },
+  "stl/corpo.stl": {
+    "bytes": 281284,
+    "sha256": "e1ec0283c988b47dedd5d25cdb8de0a401dca620eae7c9d59709f86ca66a4ee1"
+  },
+  "stl/tampa-aneis-tonais.stl": {
+    "bytes": 614484,
+    "sha256": "9b33f91b86ff3f45aabf504f93816c11104e9572d165d1a5b7404ff1e3c792a3"
+  },
+  "stl/tampa-completa-monocor.stl": {
+    "bytes": 337484,
+    "sha256": "4d3a4af0f4d6f39558fc3c0311cf01d2679e919b9e097f85b05acc547cc23070"
+  },
+  "stl/tampa-dourado.stl": {
+    "bytes": 362884,
+    "sha256": "c5000fffc52ddf4d81bfbdb5e8fad483ae6113f2b4dea5d65bdd43045ad41b6b"
+  },
+  "stl/tampa-preto-aneis.stl": {
+    "bytes": 1456284,
+    "sha256": "d35e35c9267512c886ca28856e74925811b2e83b12a9256bb85475fe6e029518"
+  },
+  "stl/tampa-preto.stl": {
+    "bytes": 841884,
+    "sha256": "b8a5ffdb86132cf5bd80c57b1c3c16cf9df083786bb25aab11c800b4e74dbf13"
+  },
+  "stl/tampa-roxo.stl": {
+    "bytes": 419184,
+    "sha256": "d872e186d3d11f725d714957ed43484c07a30b52eb0296ba1b79686a52b96c1d"
+  },
+  "stl/teste-femea-025.stl": {
+    "bytes": 346084,
+    "sha256": "7804f28c624e2ce41705a33995e7279cc31e7c22245411a2f8d0367d87b93174"
+  },
+  "stl/teste-femea-030.stl": {
+    "bytes": 354884,
+    "sha256": "0530ad93795296c153bd2ff9ce4ed5e9be01c236772e877fcba2014ec6296104"
+  },
+  "stl/teste-femea-040.stl": {
+    "bytes": 363684,
+    "sha256": "fcc7009abc276dabb9b7f1248f7170c8fa25bb5cc02098065727d0f40c63ea17"
+  },
+  "stl/teste-macho.stl": {
+    "bytes": 281484,
+    "sha256": "4873561de241ef2abf5216548b8e78e632b72b28a3192c664d272bb6e3072c49"
+  },
+  "validation/bambu-aneis-tonais.json": {
+    "bytes": 1656,
+    "sha256": "dfbff5b269268838d2fe629a0c2ad996f087c4ac485464d638ef9afc4ba35441"
+  },
+  "validation/bambu-corpo-branco.json": {
+    "bytes": 913,
+    "sha256": "ea453302808fa1f56302c0f6fe2919ec4b528ec344917b2024ae60732b1c561b"
+  },
+  "validation/bambu-testes.json": {
+    "bytes": 1281,
+    "sha256": "a95502f28fe087e9237ee0314a81a2e70a0827b68c9b07bc2419b4e264f4173b"
+  },
+  "validation/bambu-vinil-3cores.json": {
+    "bytes": 1637,
+    "sha256": "3aa42446e618826eb7c1d3735aab491bf0451c63dfaf6ad824c5f6f3681db6af"
+  },
+  "validation/estimativas.md": {
+    "bytes": 602,
+    "sha256": "b687df355250d8b3afb2a88afee2accedaaf66d80d6047a14f6f92f46a5446f1"
+  },
+  "validation/geometry.json": {
+    "bytes": 9113,
+    "sha256": "5666b6479af364a32c8c8719c552a0a46cab0e8c7525f4de0c7c2f68ff71b0bc"
+  },
+  "validation/openscad-equivalence.json": {
+    "bytes": 498,
+    "sha256": "4a719b6c26614b13e05786a350d51b6b228b6ac13009339370a31a015069c26b"
+  },
+  "validation/step.json": {
+    "bytes": 629,
+    "sha256": "3530a156589e5a346f2521b57addc70e3ae4e44a92f581c7bd8031fb3cd16e27"
+  },
+  "../caixa-maria-bohemian-v1-pacote.zip": {
+    "bytes": 4885892,
+    "sha256": "8cbe5149b8921e099ce8685b96ec324f08fed26c1d017b7540d8b0f70c65270d"
+  }
+}
