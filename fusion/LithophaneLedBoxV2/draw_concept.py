@@ -76,17 +76,17 @@ rect(bx, by, bw, bh, '#f7f9f9', '#98a9b0', 2, 5)
 # The LED board is 156 x 120 in landscape, centred inside the 160 x 124 window.
 rx, ry, rw, rh = bx+7, by+9, 456, 362
 rect(rx, ry, rw, rh, '#dce9ef', blue, 4, 3)
-for hx in (rx+19, rx+rw-19):
-    for hy in (ry+20, ry+rh-20):
-        svg.append(f'<circle cx="{hx}" cy="{hy}" r="8" fill="white" stroke="{blue}" stroke-width="3"/>')
+for hx in (rx+10, rx+rw-10):
+    for hy in (ry+10, ry+rh-10):
+        svg.append(f'<circle cx="{hx}" cy="{hy}" r="6" fill="white" stroke="{blue}" stroke-width="3"/>')
 for x in range(12):
     for y in range(6):
         svg.append(f'<circle cx="{rx+31+x*36}" cy="{ry+35+y*56}" r="5" fill="#f2c95f"/>')
 rect(bx+bw+22, by+bh/2-32, 34, 64, '#fff2ee', red, 3, 4)
 arrow(bx+bw+40, by+bh/2, 1680, by+bh/2, red)
 text(1608, by+bh/2-19, 'USB-C', 22, red, 'bold')
-text(1025, 725, 'PCB ≥ 150,24 × 120,1 mm · anúncio: 156 mm', 22, muted)
-text(1025, 758, 'Grampos reguláveis 150–158 mm · USB ajustável.', 21, red)
+text(1025, 725, 'PCB ≈ 156 × 120,1 mm · comprimento por confirmar', 22, muted)
+text(1025, 758, 'Furos: 150,24 × 114,73 mm entre centros', 21, red)
 
 card(50, 810, 1040, 330, 'CORTE LATERAL · PROFUNDIDADE PROPOSTA')
 # Diagram reads left (visible/front) to right (rear).

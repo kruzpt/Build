@@ -19,10 +19,10 @@
 <rect x="1031" y="261" width="518" height="428" rx="14" fill="#e8edf0" stroke="#19313b" stroke-width="6"/>
 <rect x="1055" y="285" width="470" height="380" rx="5" fill="#f7f9f9" stroke="#98a9b0" stroke-width="2"/>
 <rect x="1062" y="294" width="456" height="362" rx="3" fill="#dce9ef" stroke="#287d98" stroke-width="4"/>
-<circle cx="1081" cy="314" r="8" fill="white" stroke="#287d98" stroke-width="3"/>
-<circle cx="1081" cy="636" r="8" fill="white" stroke="#287d98" stroke-width="3"/>
-<circle cx="1499" cy="314" r="8" fill="white" stroke="#287d98" stroke-width="3"/>
-<circle cx="1499" cy="636" r="8" fill="white" stroke="#287d98" stroke-width="3"/>
+<circle cx="1072" cy="304" r="6" fill="white" stroke="#287d98" stroke-width="3"/>
+<circle cx="1072" cy="646" r="6" fill="white" stroke="#287d98" stroke-width="3"/>
+<circle cx="1508" cy="304" r="6" fill="white" stroke="#287d98" stroke-width="3"/>
+<circle cx="1508" cy="646" r="6" fill="white" stroke="#287d98" stroke-width="3"/>
 <circle cx="1093" cy="329" r="5" fill="#f2c95f"/>
 <circle cx="1093" cy="385" r="5" fill="#f2c95f"/>
 <circle cx="1093" cy="441" r="5" fill="#f2c95f"/>
@@ -100,8 +100,8 @@
 <line x1="1680" y1="475.0" x2="1668" y2="468.0" stroke="#c13a45" stroke-width="3"/>
 <line x1="1680" y1="475.0" x2="1668" y2="482.0" stroke="#c13a45" stroke-width="3"/>
 <text x="1608" y="456.0" fill="#c13a45" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="bold" text-anchor="start">USB-C</text>
-<text x="1025" y="725" fill="#587078" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="normal" text-anchor="start">PCB ≥ 150,24 × 120,1 mm · anúncio: 156 mm</text>
-<text x="1025" y="758" fill="#c13a45" font-family="DejaVu Sans, sans-serif" font-size="21" font-weight="normal" text-anchor="start">Grampos reguláveis 150–158 mm · USB ajustável.</text>
+<text x="1025" y="725" fill="#587078" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="normal" text-anchor="start">PCB ≈ 156 × 120,1 mm · comprimento por confirmar</text>
+<text x="1025" y="758" fill="#c13a45" font-family="DejaVu Sans, sans-serif" font-size="21" font-weight="normal" text-anchor="start">Furos: 150,24 × 114,73 mm entre centros</text>
 <rect x="50" y="810" width="1040" height="330" rx="24" fill="#ffffff" stroke="#c8d3d2" stroke-width="3"/>
 <text x="80" y="862" fill="#19313b" font-family="DejaVu Sans, sans-serif" font-size="31" font-weight="bold" text-anchor="start">CORTE LATERAL · PROFUNDIDADE PROPOSTA</text>
 <rect x="120" y="903" width="44" height="188" rx="0" fill="#19313b" stroke="#19313b" stroke-width="1"/>

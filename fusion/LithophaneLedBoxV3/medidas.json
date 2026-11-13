@@ -1,0 +1,28 @@
+{
+  "units": "mm",
+  "status": "visual_concept_pending_approval",
+  "lithophane": {"size": [160.0, 124.0, 3.0], "source": "uploaded lithoavos.3mf mesh bounds"},
+  "led_board": {
+    "size_short_photo_approx": 120.1,
+    "size_long_listing_approx": 156.0,
+    "size_long_physically_confirmed": false,
+    "mount_hole_pitch_measured": [150.24, 114.73],
+    "mount_holes_used": false,
+    "usb_c_location": "midpoint_of_short_edge",
+    "thickness_with_diffuser": null,
+    "usb_c_plug_body_size": null
+  },
+  "proposal": {
+    "outer_width_approx": 178.0,
+    "outer_height_approx": 142.0,
+    "outer_depth": null,
+    "lithophane_recess": [160.4, 124.4, 3.4],
+    "front_visible_opening": [156.0, 120.0],
+    "led_to_lithophane_back_gap_approx": 15.0,
+    "printed_parts": ["front_body", "lithophane_retainer", "led_rear_lid"],
+    "usb_access": "rear_lid_edge_notch_with_matching_clearance_in_body_rear_edge",
+    "usb_socket_exposed": true,
+    "internal_cable_route": false,
+    "print_geometry_generated": false
+  }
+}
