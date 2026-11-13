@@ -14,7 +14,7 @@ A placa LED roda 90° para acompanhar a litofania horizontal. A USB-C fica no ce
 
 | Variável no SCAD | Valor provisório | Confirmar |
 | --- | ---: | --- |
-| `led_total_thickness` | 2,04 mm | Medida indicada pelo utilizador; confirmar se inclui o difusor |
+| `led_total_thickness` | 2,04 mm | Confirmado: da face superior luminosa à base traseira da placa |
 | `usb_port_w` / `usb_port_h` | 8,88 × 3,04 mm | Medidas exteriores da tomada USB-C |
 | `usb_notch_width_y` | 20 mm | Reserva para a ficha USB-C; corpo da ficha ainda não medido |
 | `usb_notch_start_x` | 76 mm | Posição da tomada relativamente ao centro da placa |

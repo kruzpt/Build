@@ -24,7 +24,7 @@ rear_seat_depth = 2.5;
 rear_lid_xy_clearance = 0.2; // por lado
 rear_lid_t = 2.4;
 light_gap = 15; // verso da litofania ate face emissora do LED
-led_total_thickness = 2.04; // medida indicada para o LED; confirmar difusor
+led_total_thickness = 2.04; // espessura total: face superior luminosa ate base traseira
 retainer_t = 1.8;
 retainer_xy_clearance = 0.2; // por lado
 
