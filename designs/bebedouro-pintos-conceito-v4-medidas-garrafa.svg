@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1500" height="970" viewBox="0 0 1500 970">
+ <defs>
+  <marker id="arrow" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto-start-reverse"><path d="M0,0 L8,4 L0,8 Z" fill="#273d50"/></marker>
+  <style>
+   text{font-family:Arial,DejaVu Sans,sans-serif;fill:#193449} .title{font-size:32px;font-weight:bold} .sub{font-size:20px} .label{font-size:20px} .small{font-size:17px} .dim{stroke:#273d50;stroke-width:2;marker-start:url(#arrow);marker-end:url(#arrow)} .guide{stroke:#8299a7;stroke-width:1.5;stroke-dasharray:7 7} .wire{stroke:#657985;stroke-width:8} .support{fill:none;stroke:#258b95;stroke-width:16;stroke-linecap:round;stroke-linejoin:round}
+  </style>
+ </defs>
+ <rect width="1500" height="970" fill="#f5f7f8"/>
+ <text x="50" y="55" class="title">Bebedouro V4 — medidas da garrafa e altura a confirmar</text>
+ <text x="50" y="88" class="sub">Garrafa 500 ml invertida · 2 peças impressas por módulo · desenho de conceito, sem CAD final</text>
+ <rect x="55" y="150" width="710" height="680" rx="18" fill="#ffffff" stroke="#d7e1e6" stroke-width="2"/>
+ <text x="80" y="185" class="label">Vista lateral na gaiola</text>
+ <line x1="90" y1="800" x2="730" y2="800" stroke="#5e7f8c" stroke-width="7"/>
+ <text x="90" y="830" class="small">grelha branca — cota 0</text>
+ <rect x="90" y="500" width="640" height="300" fill="#e5eaed" opacity=".55"/>
+ <line x1="90" y1="500" x2="730" y2="500" stroke="#9eaeb6" stroke-width="16"/>
+ <text x="98" y="490" class="small">bordo da base plástica</text>
+ <line x1="90" y1="425" x2="730" y2="425" class="wire"/>
+ <text x="98" y="414" class="small">arame para ganchos</text>
+ <!-- bottle inverted, 220 mm schematic height (mouth at 25 mm; top at 245 mm) -->
+ <path d="M430 190 Q435 173 465 170 L545 170 Q575 173 580 190 L580 315 Q575 338 563 350 L563 490 Q562 535 550 560 L538 605 Q535 650 526 671 L526 715 L484 715 L484 671 Q475 650 472 605 L460 560 Q448 535 447 490 L447 350 Q435 338 430 315 Z" fill="#b9dce8" stroke="#388cab" stroke-width="4"/>
+ <path d="M481 688 L529 688 M481 697 L529 697 M481 706 L529 706" stroke="#26799c" stroke-width="3"/>
+ <text x="464" y="285" class="label">500 ml</text>
+ <!-- cup and support -->
+ <path d="M438 700 L438 719 Q438 728 447 728 L563 728 Q572 728 572 719 L572 700" fill="#eed38b" stroke="#a58228" stroke-width="5"/>
+ <line x1="445" y1="710" x2="565" y2="710" stroke="#61bada" stroke-width="6"/>
+ <path d="M635 425 L635 675 L553 675 M635 610 L560 610" class="support"/>
+ <path d="M634 421 l-12 -18 m14 18 l12 -18" fill="none" stroke="#258b95" stroke-width="8"/>
+ <ellipse cx="505" cy="675" rx="53" ry="9" fill="none" stroke="#258b95" stroke-width="11"/>
+ <path d="M558 610 Q589 605 596 577 M450 610 Q421 603 415 577" fill="none" stroke="#258b95" stroke-width="10" stroke-linecap="round"/>
+ <!-- dimensions -->
+ <line x1="365" y1="170" x2="365" y2="715" class="dim"/>
+ <text x="292" y="445" class="label" transform="rotate(-90 292 445)">220 mm garrafa</text>
+ <line x1="430" y1="225" x2="580" y2="225" class="dim"/>
+ <text x="443" y="215" class="small">Ø 60 mm máx.</text>
+ <line x1="447" y1="520" x2="563" y2="520" class="dim"/>
+ <text x="463" y="548" class="small">Ø 51 mm?</text>
+ <line x1="484" y1="655" x2="526" y2="655" class="dim"/>
+ <text x="443" y="644" class="small">rosca Ø 33 mm</text>
+ <line x1="125" y1="425" x2="125" y2="800" class="dim"/>
+ <text x="147" y="625" class="label">150 mm</text>
+ <line x1="205" y1="500" x2="205" y2="800" class="dim"/>
+ <text x="225" y="670" class="label">120 mm</text>
+ <line x1="250" y1="170" x2="700" y2="170" class="guide"/>
+ <text x="95" y="238" class="small">teto da gaiola?</text>
+ <line x1="105" y1="245" x2="420" y2="245" class="guide"/>
+ <rect x="800" y="150" width="650" height="680" rx="18" fill="#ffffff" stroke="#d7e1e6" stroke-width="2"/>
+ <text x="830" y="195" class="label">Cotas registadas</text>
+ <text x="830" y="238" class="label">Garrafa: 220 mm de comprimento</text>
+ <text x="830" y="277" class="label">Corpo: Ø 60 mm no ponto mais largo</text>
+ <text x="830" y="316" class="label">Zona estreita: Ø 51 mm (confirmar «51»)</text>
+ <text x="830" y="355" class="label">Rosca exterior: Ø 33 mm (ensaio necessário)</text>
+ <line x1="830" y1="387" x2="1415" y2="387" stroke="#d7e1e6" stroke-width="2"/>
+ <text x="830" y="433" class="label">Espaço vertical</text>
+ <text x="830" y="472" class="small">Topo da garrafa = altura do fundo do copo +</text>
+ <text x="830" y="500" class="small">folga boca/fundo + 220 mm.</text>
+ <text x="830" y="539" class="small">Com fundo a 25–35 mm e folga de 5 mm:</text>
+ <text x="830" y="570" class="label">topo a cerca de 250–260 mm da grelha.</text>
+ <text x="830" y="603" class="small">Ainda é preciso margem para montar e retirar.</text>
+ <line x1="830" y1="636" x2="1415" y2="636" stroke="#d7e1e6" stroke-width="2"/>
+ <text x="830" y="677" class="label">Falta medir para fechar o desenho</text>
+ <text x="830" y="715" class="small">• Altura interior até ao teto e diâmetro do arame.</text>
+ <text x="830" y="744" class="small">• Ombro da garrafa e perfil/altura da rosca.</text>
+ <text x="830" y="773" class="small">• Posição adequada do copo para os pintos.</text>
+ <text x="55" y="882" class="small">Cotas da garrafa fornecidas pelo utilizador em cm e convertidas para mm. Forma da garrafa e altura do copo são esquemáticas.</text>
+ <text x="55" y="916" class="small">A boca permanece aberta e mergulhada na água; o copo rosca apenas para reter a garrafa. Sem ensaio físico nem STL/3MF.</text>
+</svg>
