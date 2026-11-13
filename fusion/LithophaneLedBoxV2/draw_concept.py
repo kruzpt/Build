@@ -85,8 +85,8 @@ for x in range(12):
 rect(bx+bw+22, by+bh/2-32, 34, 64, '#fff2ee', red, 3, 4)
 arrow(bx+bw+40, by+bh/2, 1680, by+bh/2, red)
 text(1608, by+bh/2-19, 'USB-C', 22, red, 'bold')
-text(1025, 725, 'PCB ≈ 156 × 120,1 mm · furação ainda por confirmar', 22, muted)
-text(1025, 758, 'Grampos de borda; janela USB ajustável ao cabo.', 21, red)
+text(1025, 725, 'PCB ≥ 150,24 × 120,1 mm · anúncio: 156 mm', 22, muted)
+text(1025, 758, 'Grampos reguláveis 150–158 mm · USB ajustável.', 21, red)
 
 card(50, 810, 1040, 330, 'CORTE LATERAL · PROFUNDIDADE PROPOSTA')
 # Diagram reads left (visible/front) to right (rear).

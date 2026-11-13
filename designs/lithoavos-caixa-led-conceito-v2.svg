@@ -100,8 +100,8 @@
 <line x1="1680" y1="475.0" x2="1668" y2="468.0" stroke="#c13a45" stroke-width="3"/>
 <line x1="1680" y1="475.0" x2="1668" y2="482.0" stroke="#c13a45" stroke-width="3"/>
 <text x="1608" y="456.0" fill="#c13a45" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="bold" text-anchor="start">USB-C</text>
-<text x="1025" y="725" fill="#587078" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="normal" text-anchor="start">PCB ≈ 156 × 120,1 mm · furação ainda por confirmar</text>
-<text x="1025" y="758" fill="#c13a45" font-family="DejaVu Sans, sans-serif" font-size="21" font-weight="normal" text-anchor="start">Grampos de borda; janela USB ajustável ao cabo.</text>
+<text x="1025" y="725" fill="#587078" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="normal" text-anchor="start">PCB ≥ 150,24 × 120,1 mm · anúncio: 156 mm</text>
+<text x="1025" y="758" fill="#c13a45" font-family="DejaVu Sans, sans-serif" font-size="21" font-weight="normal" text-anchor="start">Grampos reguláveis 150–158 mm · USB ajustável.</text>
 <rect x="50" y="810" width="1040" height="330" rx="24" fill="#ffffff" stroke="#c8d3d2" stroke-width="3"/>
 <text x="80" y="862" fill="#19313b" font-family="DejaVu Sans, sans-serif" font-size="31" font-weight="bold" text-anchor="start">CORTE LATERAL · PROFUNDIDADE PROPOSTA</text>
 <rect x="120" y="903" width="44" height="188" rx="0" fill="#19313b" stroke="#19313b" stroke-width="1"/>
