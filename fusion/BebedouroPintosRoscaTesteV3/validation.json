@@ -1,0 +1,34 @@
+{
+  "project": "ensaio-rosca-garrafa-v3-A1-04-PLA.3mf",
+  "sha256": "bdc569442060d507c3aff208d8041851415e22892be7620bb4b78d52f5e20098",
+  "printer": "Bambu Lab A1 0.4 nozzle",
+  "profile": "0.16mm Optimal @BBL A1",
+  "filament": "Generic PLA @BBL A1",
+  "plate": "Smooth PEI / High Temp Plate",
+  "objects": [
+    "anel-G-liso",
+    "anel-E"
+  ],
+  "plates": [
+    {
+      "plate": 1,
+      "ring": "G",
+      "estimated_seconds": 808.4442749023438,
+      "total_grams": 1.1511218547821045,
+      "gcode_sha256": "5ef24df505a9e8d5386875010872c2109608e4b070b6ed7b6f87e6a89bfb5f68"
+    },
+    {
+      "plate": 2,
+      "ring": "E",
+      "estimated_seconds": 2116.309326171875,
+      "total_grams": 4.827613830566406,
+      "gcode_sha256": "3fbfb67686badc8ae7f2a1a5cc16da40130c83380698142b576e698dbe36265d"
+    }
+  ],
+  "print_first": "plate 1, smooth gauge G; if it fits, plate 2, threaded E",
+  "no_slicer_warnings": true,
+  "supports": false,
+  "brim": false,
+  "physical_fit_tested": false,
+  "thread_profile_provisional": true
+}
