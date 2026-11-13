@@ -1,5 +1,7 @@
 # Ensaio V1 da rosca da garrafa do bebedouro
 
+**OBSOLETO — NÃO IMPRIMIR.** O utilizador corrigiu o diâmetro exterior dos filetes para **29,25 mm** e a distância da boca à base da rosca para **7,20 mm**. Os STL e o 3MF desta V1 usam as cotas anteriores e não servem para esta garrafa. Usar o [ensaio V2](../BebedouroPintosRoscaTesteV2/README.md).
+
 Este é um **cupão de encaixe**, ainda não o copo nem o bebedouro. [Prévia do anel B](images/anel-B-CAD.png) · [quatro pratos no Bambu](images/pratos-Bambu.png). A garrafa tem Ø30,44 mm medidos sobre os filetes e 10,82 mm da boca à base da rosca. A fotografia da tampa mostra saliências interiores, mas não permite extrair com segurança o avanço nem o número de entradas. Para reduzir o risco, as quatro hipóteses estão em pratos separados e identificadas por entalhes na borda.
 
 | Anel | Prato | Entalhes | Hipótese de avanço por volta | Furo entre filetes | Fundo da ranhura interior |

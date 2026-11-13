@@ -9,8 +9,9 @@ Continuação do [conceito V3](../BebedouroPintosConceitoV3/README.md). Mantêm-
 | Comprimento total da garrafa | 220 mm | Medido pelo utilizador |
 | Diâmetro máximo do corpo | 60 mm | Medido pelo utilizador |
 | Diâmetro na zona mais estreita | 51 mm | Confirmado pelo utilizador: 5,1 cm |
-| Diâmetro exterior dos filetes da rosca | 30,44 mm | Leitura do paquímetro confirmada pelo utilizador; passo por determinar |
-| Distância da boca à base da rosca | 10,82 mm | Medida pelo utilizador; não equivale necessariamente à altura útil dos filetes |
+| Diâmetro exterior dos filetes da rosca | 29,25 mm | Correção do utilizador; substitui 30,44 mm |
+| Distância da boca à base da rosca | 7,20 mm | Correção do utilizador; substitui 10,82 mm |
+| Distância da boca à base da tampa | cerca de 10,82 mm | Leitura anterior reinterpretada; não usar para modelar a rosca |
 | Diâmetro do arame para os ganchos | cerca de 3 mm | Estimativa do utilizador; testar a folga do gancho |
 | Capacidade nominal | 500 ml | Confirmada anteriormente |
 | Bordo da base plástica acima da grelha | 120 mm | Confirmado anteriormente |
@@ -22,7 +23,7 @@ A fotografia identifica uma garrafa com corpo de largura variável e gargalo est
 
 - A fita mostra o **arame horizontal superior da frente por volta de 330 mm** da grelha. Mais atrás, o teto curvo sobe acima desse nível. Para o protótipo junto da rede, usar 330 mm como limite conservador provisório; a folga local verdadeira depende de quanto a garrafa fica afastada da frente e da inclinação do teto. Na posição inicial calculada, o topo da garrafa fica a 250–260 mm, deixando cerca de 70–80 mm até essa referência frontal.
 - Há outro arame horizontal perto de 300 mm. Mudar o conjunto inteiro do arame de 150 mm para esse arame elevaria o topo da garrafa aproximadamente a 400–410 mm, acima do espaço visível. Para subir o copo com o crescimento dos pintos, a solução a estudar é **usar o mesmo arame de 150 mm e mudar o ponto do gancho no próprio suporte**. As posições 0 e +20 mm dariam topes de cerca de 250–260 e 270–280 mm. Uma terceira posição +40 mm daria 290–300 mm e deixaria apenas 30–40 mm até à referência frontal: mantê-la condicional até ensaiar a montagem e a folga real sob o teto. Estas posições ainda não são geometria aprovada nem testada.
-- A leitura do paquímetro foi confirmada: **30,44 mm no exterior dos filetes** e **10,82 mm da boca até à base da rosca**. O passo, o número de entradas, o diâmetro no vale e a extensão efetiva dos filetes continuam desconhecidos. O anel de suporte inferior também depende do diâmetro da saliência abaixo dos filetes. O encaixe do gancho deve ser testado contra o arame de aproximadamente 3 mm.
+- O utilizador corrigiu as cotas: **29,25 mm no exterior dos filetes** e **7,20 mm da boca até à base da rosca**. Os 10 e poucos milímetros referem-se à base da tampa. O passo, o número de entradas e o diâmetro no vale continuam desconhecidos. O anel de suporte inferior também depende do diâmetro da saliência abaixo dos filetes. O encaixe do gancho deve ser testado contra o arame de aproximadamente 3 mm.
 
 ## Verificação de espaço
 
@@ -32,9 +33,9 @@ O fundo do copo, o afastamento boca–fundo e a profundidade da água são valor
 
 ## Geometria a parametrizar após as medidas em falta
 
-- **Anel inferior:** passagem interior acima da maior saliência do gargalo que o atravessa, mas abaixo do diâmetro do ombro que suporta a garrafa. A medida de 30,44 mm nos filetes não define por si só o furo do anel.
+- **Anel inferior:** passagem interior acima da maior saliência do gargalo que o atravessa, mas abaixo do diâmetro do ombro que suporta a garrafa. A medida de 29,25 mm nos filetes não define por si só o furo do anel.
 - **Apoio superior aberto:** diâmetro ajustado à secção real onde toca no corpo; não apertar a PET.
-- **Copo:** **rosca interior impressa**, escolhida pelo utilizador. O diâmetro maior medido é 30,44 mm, mas ainda faltam o diâmetro no vale, a altura dos filetes, o avanço e o número de entradas. Preparar primeiro um cupão de encaixe curto e barato com essas cotas ou variantes de ensaio, antes de imprimir o copo completo. O interior do copo continua aberto para a água sair pela boca da garrafa, que ficará submersa. O copo deve ser desmontável para lavar.
+- **Copo:** **rosca interior impressa**, escolhida pelo utilizador. O diâmetro maior corrigido é 29,25 mm e a base dos filetes fica a 7,20 mm da boca. Ainda faltam o diâmetro no vale, o avanço e o número de entradas. Preparar primeiro um cupão de encaixe corrigido com essas cotas ou variantes de ensaio, antes de imprimir o copo completo. O interior do copo continua aberto para a água sair pela boca da garrafa, que ficará submersa. O copo deve ser desmontável para lavar.
 - **Ganchos e braço:** ajustar ao diâmetro dos arames e à altura livre. Verificar retenção positiva, peso da garrafa cheia e altura de acesso dos pintos.
 
 ## Dados pendentes

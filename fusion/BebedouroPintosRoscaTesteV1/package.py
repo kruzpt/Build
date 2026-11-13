@@ -30,9 +30,11 @@ def main():
     with ZipFile(TARGET,'w',ZIP_DEFLATED) as z:
         for p in files:z.write(p,'ensaio-rosca-garrafa-v1/'+p.relative_to(D).as_posix())
         z.writestr('COMECA-AQUI.txt',
-            'Ensaio da rosca da garrafa do bebedouro V1.\n'
+            'OBSOLETO - NAO IMPRIMIR. Medidas corrigidas: rosca exterior 29.25 mm, base a 7.20 mm.\n'
+            'Usar o ensaio de rosca V2 em fusion/BebedouroPintosRoscaTesteV2.\n'
+            'Ensaio da rosca da garrafa do bebedouro V1 (historico).\n'
             'Ler ensaio-rosca-garrafa-v1/README.md.\n'
-            'No Bambu Studio, imprimir primeiro APENAS o prato 1, anel B.\n'
+            'O antigo prato 1 B desta V1 usa medidas erradas. Nao imprimir.\n'
             'Nao forcar o anel na garrafa; parar se encravar.\n'
             'Sao hipoteses de rosca, sem teste fisico. Nao sao o copo final.\n')
     with ZipFile(TARGET) as z:assert z.testzip() is None

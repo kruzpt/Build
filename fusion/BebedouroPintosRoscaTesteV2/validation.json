@@ -1,0 +1,50 @@
+{
+  "project": "ensaio-rosca-garrafa-v2-A1-04-PLA.3mf",
+  "sha256": "6e6733ab683df8296f407e18f24e0bf89159404cd21c3f17cbe503eff87f7697",
+  "printer": "Bambu Lab A1 0.4 nozzle",
+  "profile": "0.16mm Optimal @BBL A1",
+  "filament": "Generic PLA @BBL A1",
+  "plate": "Smooth PEI / High Temp Plate",
+  "objects": [
+    "anel-A",
+    "anel-B",
+    "anel-C",
+    "anel-D"
+  ],
+  "plates": [
+    {
+      "plate": 1,
+      "ring": "B",
+      "estimated_seconds": 2074.3935546875,
+      "total_grams": 4.8977813720703125,
+      "gcode_sha256": "79119412b745e486a9a7ddd07811820102673e5bca40e09fb4349efbbba8c470"
+    },
+    {
+      "plate": 2,
+      "ring": "A",
+      "estimated_seconds": 2073.09375,
+      "total_grams": 4.953774929046631,
+      "gcode_sha256": "52e062ef89f70d6f69c8c252cd9f602b92f9f9211c0e4060970926dee6d523ce"
+    },
+    {
+      "plate": 3,
+      "ring": "C",
+      "estimated_seconds": 2070.25537109375,
+      "total_grams": 4.9375104904174805,
+      "gcode_sha256": "bc4a358f3ce1334858debf7c8c586affeaa044e396bbd30d8ee5d6d1e4647b41"
+    },
+    {
+      "plate": 4,
+      "ring": "D",
+      "estimated_seconds": 2059.536865234375,
+      "total_grams": 4.885146141052246,
+      "gcode_sha256": "b1f0096d5f7b3d173f39d6d43e2ba033eb8695fb6e156fff6de84d2202d2afa5"
+    }
+  ],
+  "print_first": "plate 1, ring B",
+  "no_slicer_warnings": true,
+  "supports": false,
+  "brim": false,
+  "physical_fit_tested": false,
+  "thread_profile_provisional": true
+}

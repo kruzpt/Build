@@ -1,3 +1,4 @@
+// OBSOLETO: medidas corrigidas na V2. Nao imprimir estes cupoes V1.
 // Cupao de ensaio da rosca da garrafa de 500 ml. Unidades: mm.
 // Prototipo de encaixe, nao e o copo final nem uma rosca PET identificada.
 // Boca medida: diametro exterior maximo 30.44, boca ate base da rosca 10.82.

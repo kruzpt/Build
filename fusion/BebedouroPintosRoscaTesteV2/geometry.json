@@ -1,0 +1,33 @@
+{
+  "physical_fit_tested": false,
+  "parts": [
+    {
+      "ring": "A",
+      "file": "stl/anel-A.stl",
+      "sha256": "0d97f74cf7e5a9bbf59f23cc971e1ba6dfd64b43078e803c00b52255f309c4fe",
+      "volume_mm3": 5464.712988050701,
+      "watertight": true
+    },
+    {
+      "ring": "B",
+      "file": "stl/anel-B.stl",
+      "sha256": "0597da4ccfd3857725bd9cb0a5a24f191bbcc11c757bd21cdc9a0f9c896edf89",
+      "volume_mm3": 5300.626673118884,
+      "watertight": true
+    },
+    {
+      "ring": "C",
+      "file": "stl/anel-C.stl",
+      "sha256": "b9531e5aa991cf26dec6ee42c2eb9cb69546c7fc869a724630744ba4580f5514",
+      "volume_mm3": 5460.219991175233,
+      "watertight": true
+    },
+    {
+      "ring": "D",
+      "file": "stl/anel-D.stl",
+      "sha256": "b745e4964fb7e86d9caf6fe2ae58e403f270c1e1b71d0934d98740ecc204c9da",
+      "volume_mm3": 5296.1347158119515,
+      "watertight": true
+    }
+  ]
+}

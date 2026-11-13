@@ -7,7 +7,7 @@
  </defs>
  <rect width="1440" height="840" fill="#f5f7f7"/>
  <text x="44" y="52" class="title">Bebedouro — copo com rosca impressa · conceito para validar</text>
- <text x="44" y="86" class="label">Gargalo Ø 30,44 mm · arame ≈ 3 mm · garrafa 500 ml · primeiro ensaiar um anel de rosca</text>
+ <text x="44" y="86" class="label">Gargalo Ø 29,25 mm · arame ≈ 3 mm · garrafa 500 ml · primeiro ensaiar um anel de rosca</text>
  <rect x="44" y="124" width="700" height="620" rx="16" fill="white" stroke="#d7e1e6" stroke-width="2"/>
  <text x="70" y="164" class="head">1 · Corte do copo proposto</text>
  <text x="70" y="194" class="small">A água sai pela boca aberta; a ligação roscada fica dentro do copo.</text>
@@ -38,14 +38,14 @@
  <text x="70" y="708" class="tiny">Rosca desenhada apenas como símbolo: passo, perfil e número de entradas desconhecidos.</text>
  <rect x="772" y="124" width="624" height="620" rx="16" fill="white" stroke="#d7e1e6" stroke-width="2"/>
  <text x="800" y="164" class="head">2 · Ensaio curto antes do copo</text>
- <text x="800" y="195" class="small">Imprimir um anel de cerca de 12 mm, para testar a rosca.</text>
- <text x="800" y="222" class="small">Filetes Ø30,44 mm; base a 10,82 mm da boca; passo por medir.</text>
+ <text x="800" y="195" class="small">Imprimir um anel de cerca de 9 mm, para testar a rosca.</text>
+ <text x="800" y="222" class="small">Filetes Ø29,25 mm; base a 7,20 mm da boca; passo por medir.</text>
  <!-- test coupons top view -->
  <g transform="translate(873 310)"><circle r="60" fill="#d9aa62" stroke="#8b6030" stroke-width="4"/><circle r="42" fill="white" stroke="#8b6030" stroke-width="4"/><path d="M-39 -15 q38 -45 78 0 M-39 15 q38 45 78 0" fill="none" stroke="#b4793c" stroke-width="6"/></g>
  <g transform="translate(1086 310)"><circle r="60" fill="#d9aa62" stroke="#8b6030" stroke-width="4"/><circle r="42" fill="white" stroke="#8b6030" stroke-width="4"/><path d="M-39 -15 q38 -45 78 0 M-39 15 q38 45 78 0" fill="none" stroke="#b4793c" stroke-width="6"/></g>
  <g transform="translate(1299 310)"><circle r="60" fill="#d9aa62" stroke="#8b6030" stroke-width="4"/><circle r="42" fill="white" stroke="#8b6030" stroke-width="4"/><path d="M-39 -15 q38 -45 78 0 M-39 15 q38 45 78 0" fill="none" stroke="#b4793c" stroke-width="6"/></g>
  <text x="862" y="401" class="label">A</text><text x="1075" y="401" class="label">B</text><text x="1288" y="401" class="label">C</text>
- <text x="800" y="447" class="small">Três folgas pequenas; usar o perfil identificado na garrafa.</text>
+ <text x="800" y="447" class="small">V2: quatro variantes A–D; três ilustradas aqui. Passo por confirmar.</text>
  <text x="800" y="477" class="small">Enroscar à mão, sem forçar nem deformar a PET.</text>
  <line x1="800" y1="507" x2="1368" y2="507" stroke="#d7e1e6" stroke-width="2"/>
  <text x="800" y="552" class="head">3 · Ganchos do suporte</text>

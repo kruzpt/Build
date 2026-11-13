@@ -36,7 +36,7 @@
  <line x1="447" y1="520" x2="563" y2="520" class="dim"/>
  <text x="463" y="548" class="small">Ø 51 mm</text>
  <line x1="484" y1="655" x2="526" y2="655" class="dim"/>
- <text x="443" y="644" class="small">rosca Ø 30,44</text>
+ <text x="443" y="644" class="small">rosca Ø 29,25</text>
  <line x1="125" y1="425" x2="125" y2="800" class="dim"/>
  <text x="147" y="625" class="label">150 mm</text>
  <line x1="205" y1="500" x2="205" y2="800" class="dim"/>
@@ -48,7 +48,7 @@
  <text x="830" y="238" class="label">Garrafa: 220 mm de comprimento</text>
  <text x="830" y="277" class="label">Corpo: Ø 60 mm no ponto mais largo</text>
  <text x="830" y="316" class="label">Zona estreita: Ø 51 mm (confirmado)</text>
- <text x="830" y="355" class="label">Rosca exterior: Ø 30,44 mm · arame ≈ 3 mm</text>
+ <text x="830" y="355" class="label">Rosca exterior: Ø 29,25 mm · arame ≈ 3 mm</text>
  <line x1="830" y1="387" x2="1415" y2="387" stroke="#d7e1e6" stroke-width="2"/>
  <text x="830" y="433" class="label">Espaço vertical</text>
  <text x="830" y="472" class="small">Topo da garrafa = altura do fundo do copo +</text>
