@@ -1,0 +1,96 @@
+{
+  "unit": "mm",
+  "one_printed_piece": true,
+  "colour_volumes": {
+    "black": {
+      "volume_mm3": 21260.82,
+      "bounds_mm": [
+        [
+          -20.6,
+          -24.7,
+          0.0
+        ],
+        [
+          20.6,
+          30.0,
+          56.3
+        ]
+      ],
+      "components": 9,
+      "faces": 21030
+    },
+    "ivory": {
+      "volume_mm3": 19132.63,
+      "bounds_mm": [
+        [
+          -19.4,
+          -20.25,
+          0.0
+        ],
+        [
+          19.4,
+          8.4,
+          52.2
+        ]
+      ],
+      "components": 1,
+      "faces": 7718
+    },
+    "green": {
+      "volume_mm3": 821.74,
+      "bounds_mm": [
+        [
+          -2.0,
+          -21.1,
+          0.0
+        ],
+        [
+          23.45,
+          -12.0,
+          41.65
+        ]
+      ],
+      "components": 1,
+      "faces": 1866
+    },
+    "tan": {
+      "volume_mm3": 176.64,
+      "bounds_mm": [
+        [
+          -14.95,
+          -20.3,
+          2.5
+        ],
+        [
+          14.95,
+          -16.6,
+          10.3
+        ]
+      ],
+      "components": 8,
+      "faces": 6400
+    }
+  },
+  "total_bounds_mm": [
+    [
+      -20.6,
+      -24.7,
+      0.0
+    ],
+    [
+      23.45,
+      30.0,
+      56.3
+    ]
+  ],
+  "total_volume_mm3": 41391.82,
+  "whole_watertight": true,
+  "whole_components": 1,
+  "scarf_bore_mm": [
+    25,
+    18
+  ],
+  "bore_axis": "Z",
+  "sleeve_height_mm": 25,
+  "physical_fit_tested": false
+}
