@@ -1,0 +1,133 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1160" viewBox="0 0 1800 1160">
+<rect x="0" y="0" width="1800" height="1160" rx="0" fill="#f8f7f3" stroke="none" stroke-width="0"/>
+<text x="56" y="70" fill="#203642" font-family="DejaVu Sans, sans-serif" font-size="49" font-weight="bold" text-anchor="start">CAIXA PARA LITOFANIA + LED</text>
+<text x="58" y="113" fill="#536b74" font-family="DejaVu Sans, sans-serif" font-size="26" font-weight="normal" text-anchor="start">Conceito V5 · USB-C exposta · tampa encaixada no rebaixo e colada</text>
+<rect x="45" y="155" width="805" height="610" rx="20" fill="white" stroke="#c8d2d2" stroke-width="3"/>
+<text x="71" y="202" fill="#203642" font-family="DejaVu Sans, sans-serif" font-size="29" font-weight="bold" text-anchor="start">FRENTE · litofania horizontal</text>
+<rect x="172" y="273" width="534" height="426" rx="15" fill="#203642" stroke="#203642" stroke-width="2"/>
+<rect x="199" y="300" width="480" height="372" rx="4" fill="#e3d5b9" stroke="#d8aa50" stroke-width="2"/>
+<rect x="205" y="306" width="468" height="360" rx="0" fill="#f2e8d5" stroke="none" stroke-width="0"/>
+<text x="439" y="477" fill="#746854" font-family="DejaVu Sans, sans-serif" font-size="37" font-weight="bold" text-anchor="middle">LITOFANIA</text>
+<text x="439" y="516" fill="#746854" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="normal" text-anchor="middle">160 × 124 × 3 mm</text>
+<line x1="172" y1="247" x2="706" y2="247" stroke="#c33f48" stroke-width="3"/>
+<line x1="172" y1="237" x2="172" y2="258" stroke="#c33f48" stroke-width="3"/>
+<line x1="706" y1="237" x2="706" y2="258" stroke="#c33f48" stroke-width="3"/>
+<text x="439" y="233" fill="#c33f48" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="bold" text-anchor="middle">≈ 178 mm exterior</text>
+<text x="91" y="734" fill="#536b74" font-family="DejaVu Sans, sans-serif" font-size="21" font-weight="normal" text-anchor="start">Tomada USB acessível pelo recorte traseiro.</text>
+<rect x="885" y="155" width="870" height="610" rx="20" fill="white" stroke="#c8d2d2" stroke-width="3"/>
+<text x="911" y="202" fill="#203642" font-family="DejaVu Sans, sans-serif" font-size="29" font-weight="bold" text-anchor="start">COSTAS · tampa encaixada no rebaixo</text>
+<rect x="1007" y="271" width="534" height="426" rx="12" fill="#e8edf0" stroke="#203642" stroke-width="5"/>
+<rect x="1016" y="280" width="516" height="408" rx="7" fill="#edf2f2" stroke="#81949b" stroke-width="2"/>
+<rect x="1040" y="305" width="468" height="360" rx="4" fill="#dae9ed" stroke="#337e9b" stroke-width="4"/>
+<circle cx="1067" cy="340" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1067" cy="396" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1067" cy="452" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1067" cy="508" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1067" cy="564" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1067" cy="620" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1108" cy="340" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1108" cy="396" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1108" cy="452" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1108" cy="508" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1108" cy="564" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1108" cy="620" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1149" cy="340" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1149" cy="396" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1149" cy="452" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1149" cy="508" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1149" cy="564" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1149" cy="620" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1190" cy="340" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1190" cy="396" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1190" cy="452" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1190" cy="508" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1190" cy="564" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1190" cy="620" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1231" cy="340" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1231" cy="396" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1231" cy="452" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1231" cy="508" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1231" cy="564" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1231" cy="620" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1272" cy="340" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1272" cy="396" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1272" cy="452" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1272" cy="508" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1272" cy="564" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1272" cy="620" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1313" cy="340" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1313" cy="396" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1313" cy="452" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1313" cy="508" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1313" cy="564" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1313" cy="620" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1354" cy="340" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1354" cy="396" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1354" cy="452" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1354" cy="508" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1354" cy="564" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1354" cy="620" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1395" cy="340" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1395" cy="396" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1395" cy="452" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1395" cy="508" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1395" cy="564" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1395" cy="620" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1436" cy="340" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1436" cy="396" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1436" cy="452" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1436" cy="508" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1436" cy="564" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1436" cy="620" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1477" cy="340" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1477" cy="396" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1477" cy="452" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1477" cy="508" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1477" cy="564" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1477" cy="620" r="4.5" fill="#ecc45e" stroke="none" stroke-width="0"/>
+<circle cx="1049" cy="313" r="5.5" fill="white" stroke="#337e9b" stroke-width="2"/>
+<circle cx="1049" cy="657" r="5.5" fill="white" stroke="#337e9b" stroke-width="2"/>
+<circle cx="1499" cy="313" r="5.5" fill="white" stroke="#337e9b" stroke-width="2"/>
+<circle cx="1499" cy="657" r="5.5" fill="white" stroke="#337e9b" stroke-width="2"/>
+<rect x="1508" y="455.0" width="70" height="60" rx="0" fill="white" stroke="none" stroke-width="0"/>
+<line x1="1508" y1="455.0" x2="1541" y2="455.0" stroke="#c33f48" stroke-width="3"/>
+<line x1="1508" y1="515.0" x2="1541" y2="515.0" stroke="#c33f48" stroke-width="3"/>
+<rect x="1504" y="473.0" width="24" height="24" rx="3" fill="#22272a" stroke="#c33f48" stroke-width="2"/>
+<rect x="1528" y="469.0" width="31" height="32" rx="5" fill="#475159" stroke="#c33f48" stroke-width="2"/>
+<line x1="1559" y1="485.0" x2="1620" y2="485.0" stroke="#475159" stroke-width="9"/>
+<text x="1030" y="255" fill="#337e9b" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="bold" text-anchor="start">LED ≈ 156 × 120 mm</text>
+<text x="1593" y="305" fill="#203642" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="bold" text-anchor="start">Tampa</text>
+<text x="1593" y="333" fill="#536b74" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="normal" text-anchor="start">sem parafusos</text>
+<text x="1600" y="411" fill="#c33f48" font-family="DejaVu Sans, sans-serif" font-size="21" font-weight="bold" text-anchor="start">USB-C</text>
+<text x="1600" y="439" fill="#c33f48" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="normal" text-anchor="start">fixa na placa</text>
+<text x="1600" y="467" fill="#c33f48" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="normal" text-anchor="start">e acessível</text>
+<text x="1186" y="733" fill="#c33f48" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="bold" text-anchor="start">Liga e desliga o cabo por fora.</text>
+<rect x="45" y="800" width="1015" height="314" rx="20" fill="white" stroke="#c8d2d2" stroke-width="3"/>
+<text x="71" y="847" fill="#203642" font-family="DejaVu Sans, sans-serif" font-size="29" font-weight="bold" text-anchor="start">CORTE · frente → costas</text>
+<rect x="108" y="888" width="34" height="164" rx="0" fill="#203642" stroke="none" stroke-width="0"/>
+<rect x="142" y="900" width="29" height="140" rx="0" fill="#e3d5b9" stroke="#d8aa50" stroke-width="2"/>
+<rect x="171" y="900" width="250" height="140" rx="0" fill="#fff2c9" stroke="#d8aa50" stroke-width="2"/>
+<rect x="421" y="900" width="16" height="140" rx="0" fill="#dae9ed" stroke="#337e9b" stroke-width="2"/>
+<rect x="142" y="888" width="295" height="12" rx="0" fill="#203642" stroke="none" stroke-width="0"/>
+<rect x="142" y="1040" width="295" height="12" rx="0" fill="#203642" stroke="none" stroke-width="0"/>
+<rect x="437" y="888" width="35" height="3" rx="0" fill="#203642" stroke="none" stroke-width="0"/>
+<rect x="437" y="1049" width="35" height="3" rx="0" fill="#203642" stroke="none" stroke-width="0"/>
+<rect x="437" y="891" width="10" height="9" rx="0" fill="#203642" stroke="none" stroke-width="0"/>
+<rect x="437" y="1040" width="10" height="9" rx="0" fill="#203642" stroke="none" stroke-width="0"/>
+<rect x="447" y="891" width="23" height="158" rx="0" fill="#e8edf0" stroke="#203642" stroke-width="2"/>
+<text x="297" y="961" fill="#203642" font-family="DejaVu Sans, sans-serif" font-size="24" font-weight="bold" text-anchor="middle">≈ 15 mm</text>
+<text x="523" y="909" fill="#203642" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="bold" text-anchor="start">Litofania → ar → LED → tampa traseira</text>
+<text x="523" y="948" fill="#536b74" font-family="DejaVu Sans, sans-serif" font-size="21" font-weight="normal" text-anchor="start">Tampa assenta num rebaixo de ≈ 2,5 mm.</text>
+<text x="523" y="986" fill="#536b74" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="normal" text-anchor="start">Aba de apoio ≈ 3 mm; folga ≈ 0,2/lado.</text>
+<text x="523" y="1024" fill="#218565" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="normal" text-anchor="start">Cola na aba, longe do LED e da USB-C.</text>
+<text x="523" y="1062" fill="#c33f48" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="normal" text-anchor="start">Recorte mantém a tomada acessível por fora.</text>
+<rect x="1090" y="800" width="665" height="314" rx="20" fill="white" stroke="#c8d2d2" stroke-width="3"/>
+<text x="1116" y="847" fill="#203642" font-family="DejaVu Sans, sans-serif" font-size="29" font-weight="bold" text-anchor="start">MONTAGEM PROPOSTA</text>
+<text x="1119" y="887" fill="#203642" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="bold" text-anchor="start">1  Corpo frontal com calha da litofania</text>
+<text x="1119" y="921" fill="#203642" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="bold" text-anchor="start">2  Aro fino a segurar a litofania</text>
+<text x="1119" y="955" fill="#203642" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="bold" text-anchor="start">3  LED alinhado na tampa traseira</text>
+<text x="1119" y="989" fill="#203642" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="bold" text-anchor="start">4  Tampa encaixada e colada atrás</text>
+<line x1="1119" y1="1008" x2="1716" y2="1008" stroke="#cad6d3" stroke-width="2"/>
+<text x="1119" y="1041" fill="#218565" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="normal" text-anchor="start">Sem parafusos visíveis; porta acessível.</text>
+<text x="1119" y="1075" fill="#c33f48" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="normal" text-anchor="start">Medir ficha e espessura antes do CAD.</text>
+</svg>
