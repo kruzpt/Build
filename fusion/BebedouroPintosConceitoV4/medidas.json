@@ -7,6 +7,7 @@
     "diametro_corpo_minimo": 51,
     "diametro_exterior_filetes": 30.44,
     "diametro_vale_roscado": null,
+    "distancia_boca_ate_base_da_rosca": 10.82,
     "altura_util_roscada": null,
     "avanco_rosca": null,
     "numero_entradas_rosca": null,

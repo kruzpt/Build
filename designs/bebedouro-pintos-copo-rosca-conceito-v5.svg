@@ -39,6 +39,7 @@
  <rect x="772" y="124" width="624" height="620" rx="16" fill="white" stroke="#d7e1e6" stroke-width="2"/>
  <text x="800" y="164" class="head">2 · Ensaio curto antes do copo</text>
  <text x="800" y="195" class="small">Imprimir um anel de cerca de 12 mm, para testar a rosca.</text>
+ <text x="800" y="222" class="small">Filetes Ø30,44 mm; base a 10,82 mm da boca; passo por medir.</text>
  <!-- test coupons top view -->
  <g transform="translate(873 310)"><circle r="60" fill="#d9aa62" stroke="#8b6030" stroke-width="4"/><circle r="42" fill="white" stroke="#8b6030" stroke-width="4"/><path d="M-39 -15 q38 -45 78 0 M-39 15 q38 45 78 0" fill="none" stroke="#b4793c" stroke-width="6"/></g>
  <g transform="translate(1086 310)"><circle r="60" fill="#d9aa62" stroke="#8b6030" stroke-width="4"/><circle r="42" fill="white" stroke="#8b6030" stroke-width="4"/><path d="M-39 -15 q38 -45 78 0 M-39 15 q38 45 78 0" fill="none" stroke="#b4793c" stroke-width="6"/></g>
