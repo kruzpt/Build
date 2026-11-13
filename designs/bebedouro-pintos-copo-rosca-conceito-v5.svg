@@ -1,0 +1,56 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1440" height="840" viewBox="0 0 1440 840">
+ <defs>
+  <marker id="arr" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto-start-reverse"><path d="M0 0 L8 4 L0 8 Z" fill="#284457"/></marker>
+  <style>
+   text{font-family:Arial,DejaVu Sans,sans-serif;fill:#1b3547}.title{font-size:31px;font-weight:bold}.head{font-size:24px;font-weight:bold}.label{font-size:20px}.small{font-size:17px}.tiny{font-size:15px}.dim{stroke:#284457;stroke-width:2;marker-start:url(#arr);marker-end:url(#arr)}.guide{stroke:#8aa2ae;stroke-width:1.5;stroke-dasharray:6 6}
+  </style>
+ </defs>
+ <rect width="1440" height="840" fill="#f5f7f7"/>
+ <text x="44" y="52" class="title">Bebedouro — copo com rosca impressa · conceito para validar</text>
+ <text x="44" y="86" class="label">Gargalo Ø 30,44 mm · arame ≈ 3 mm · garrafa 500 ml · primeiro ensaiar um anel de rosca</text>
+ <rect x="44" y="124" width="700" height="620" rx="16" fill="white" stroke="#d7e1e6" stroke-width="2"/>
+ <text x="70" y="164" class="head">1 · Corte do copo proposto</text>
+ <text x="70" y="194" class="small">A água sai pela boca aberta; a ligação roscada fica dentro do copo.</text>
+ <!-- bottle neck and mouth -->
+ <path d="M300 230 L300 295 L311 309 L311 470 M462 230 L462 295 L451 309 L451 470" fill="none" stroke="#418fa9" stroke-width="13"/>
+ <path d="M311 333 L302 342 L311 351 M311 374 L302 383 L311 392 M451 333 L460 342 L451 351 M451 374 L460 383 L451 392" fill="none" stroke="#22779a" stroke-width="5"/>
+ <text x="480" y="271" class="label">gargalo PET</text>
+ <line x1="462" y1="275" x2="474" y2="275" class="guide"/>
+ <!-- cup solid section, double walls and integrated collar -->
+ <path d="M113 420 L113 520 Q113 535 128 535 L634 535 Q649 535 649 520 L649 420 L628 420 L628 508 L135 508 L135 420 Z" fill="#d9aa62" stroke="#8b6030" stroke-width="3"/>
+ <path d="M279 340 L301 340 L301 458 L279 458 Z M279 488 L301 488 L301 508 L279 508 Z M462 340 L484 340 L484 458 L462 458 Z M462 488 L484 488 L484 508 L462 508 Z" fill="#d9aa62" stroke="#8b6030" stroke-width="2"/>
+ <!-- teeth schematic on inner collar, not a measured pitch -->
+ <path d="M301 355 l10 6 l-10 6 M301 397 l10 6 l-10 6 M462 355 l-10 6 l10 6 M462 397 l-10 6 l10 6" fill="none" stroke="#8b6030" stroke-width="4"/>
+ <!-- water and paths -->
+ <path d="M136 456 L627 456 L627 507 L136 507 Z" fill="#74c7e4" opacity=".48"/>
+ <path d="M381 471 L381 493 M373 484 L381 494 L389 484 M293 476 L255 476 M267 468 L255 476 L267 484 M470 476 L509 476 M498 468 L510 476 L498 484" fill="none" stroke="#007ba8" stroke-width="4" stroke-linecap="round"/>
+ <line x1="140" y1="456" x2="626" y2="456" class="guide"/>
+ <text x="143" y="447" class="small">nível de água a testar</text>
+ <line x1="318" y1="474" x2="444" y2="474" class="dim"/>
+ <text x="310" y="415" class="small">boca aberta</text>
+ <line x1="98" y1="417" x2="98" y2="535" class="dim"/>
+ <text x="70" y="588" class="small">copo raso ≈ 15 mm; fundo contínuo</text>
+ <line x1="113" y1="563" x2="649" y2="563" class="dim"/>
+ <text x="274" y="551" class="small">Ø exterior ≈ 88 mm</text>
+ <text x="70" y="638" class="small">Valores de estudo: boca ≈ 5 mm acima do fundo;
+ </text>
+ <text x="70" y="666" class="small">nível acima da boca, abaixo do bordo. Ensaiar com água.</text>
+ <text x="70" y="708" class="tiny">Rosca desenhada apenas como símbolo: passo, perfil e número de entradas desconhecidos.</text>
+ <rect x="772" y="124" width="624" height="620" rx="16" fill="white" stroke="#d7e1e6" stroke-width="2"/>
+ <text x="800" y="164" class="head">2 · Ensaio curto antes do copo</text>
+ <text x="800" y="195" class="small">Imprimir um anel de cerca de 12 mm, para testar a rosca.</text>
+ <!-- test coupons top view -->
+ <g transform="translate(873 310)"><circle r="60" fill="#d9aa62" stroke="#8b6030" stroke-width="4"/><circle r="42" fill="white" stroke="#8b6030" stroke-width="4"/><path d="M-39 -15 q38 -45 78 0 M-39 15 q38 45 78 0" fill="none" stroke="#b4793c" stroke-width="6"/></g>
+ <g transform="translate(1086 310)"><circle r="60" fill="#d9aa62" stroke="#8b6030" stroke-width="4"/><circle r="42" fill="white" stroke="#8b6030" stroke-width="4"/><path d="M-39 -15 q38 -45 78 0 M-39 15 q38 45 78 0" fill="none" stroke="#b4793c" stroke-width="6"/></g>
+ <g transform="translate(1299 310)"><circle r="60" fill="#d9aa62" stroke="#8b6030" stroke-width="4"/><circle r="42" fill="white" stroke="#8b6030" stroke-width="4"/><path d="M-39 -15 q38 -45 78 0 M-39 15 q38 45 78 0" fill="none" stroke="#b4793c" stroke-width="6"/></g>
+ <text x="862" y="401" class="label">A</text><text x="1075" y="401" class="label">B</text><text x="1288" y="401" class="label">C</text>
+ <text x="800" y="447" class="small">Três folgas pequenas; usar o perfil identificado na garrafa.</text>
+ <text x="800" y="477" class="small">Enroscar à mão, sem forçar nem deformar a PET.</text>
+ <line x1="800" y1="507" x2="1368" y2="507" stroke="#d7e1e6" stroke-width="2"/>
+ <text x="800" y="552" class="head">3 · Ganchos do suporte</text>
+ <text x="800" y="587" class="small">Arame ≈ 3 mm: testar ranhuras com folgas próximas.</text>
+ <rect x="810" y="613" width="480" height="58" rx="9" fill="#22929b"/>
+ <path d="M865 613 v34 h20 v-34 M1020 613 v34 h22 v-34 M1176 613 v34 h24 v-34" fill="#fff" stroke="#fff" stroke-width="2"/>
+ <text x="822" y="701" class="small">3,3 mm</text><text x="985" y="701" class="small">3,5 mm</text><text x="1144" y="701" class="small">3,7 mm</text>
+ <text x="44" y="793" class="small">Esquema de conceito. O anel inferior de apoio da garrafa e a geometria final dos ganchos continuam dependentes do teste físico.</text>
+</svg>
