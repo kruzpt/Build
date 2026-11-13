@@ -14,6 +14,8 @@ Dimensões **apenas de estudo**: copo exterior Ø88 mm, profundidade aproximadam
 
 Antes do copo completo, imprimir um anel de prova baixo (~12 mm de altura) com diâmetro exterior próximo de 42 mm. A altura de 10,82 mm até à base da rosca dá uma referência para esse cupão, mas não mede sozinha a extensão dos filetes. A rosca interior deve partir do diâmetro maior medido de 30,44 mm e ter variantes de folga identificadas. Não criar ainda um filete definitivo a partir apenas destas duas medidas: faltam o diâmetro no vale, passo/avanço e número de entradas. A foto do interior da tampa original pode ajudar a reconhecer o formato; a tampa não será incorporada no produto.
 
+O [primeiro ensaio de rosca](../BebedouroPintosRoscaTesteV1/README.md) foi preparado como quatro hipóteses pequenas em pratos separados. Serve exclusivamente para escolher um encaixe, sem presumir que uma delas corresponde à rosca real.
+
 O gancho para o arame de aproximadamente 3 mm também pode ser ensaiado numa amostra pequena, com ranhuras de 3,3 / 3,5 / 3,7 mm. É apenas uma proposta de tolerâncias; a fixação final deve ter retenção positiva e suportar a garrafa cheia. As posições de altura 0 e +20 mm usam o arame de 150 mm; +40 mm fica condicionada à folga real sob o teto da frente, perto dos 330 mm.
 
 ## Impressão e validação
