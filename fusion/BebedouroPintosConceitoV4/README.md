@@ -18,8 +18,8 @@ A fotografia identifica uma garrafa com corpo de largura variável e gargalo est
 
 ## Observações das novas fotografias
 
-- A fita na gaiola mostra **pelo menos 350 mm** desde a grelha até perto do teto. O valor exato no teto fica parcialmente tapado e não deve ser tratado como medida final; mesmo o limite visível deixa cerca de 90 mm acima da posição inicial calculada para a garrafa.
-- Há outro arame horizontal perto de 300 mm. Mudar o conjunto inteiro do arame de 150 mm para esse arame elevaria o topo da garrafa aproximadamente a 400–410 mm, acima do espaço visível. Para subir o copo com o crescimento dos pintos, a solução a estudar é **usar o mesmo arame de 150 mm e mudar o ponto do gancho no próprio suporte**, com posições de ensaio a 0, +20 e +40 mm. Isso manteria o topo aproximadamente a 250–260, 270–280 e 290–300 mm da grelha. Estas posições ainda não são geometria aprovada nem testada.
+- A fita mostra o **arame horizontal superior da frente por volta de 330 mm** da grelha. Mais atrás, o teto curvo sobe acima desse nível. Para o protótipo junto da rede, usar 330 mm como limite conservador provisório; a folga local verdadeira depende de quanto a garrafa fica afastada da frente e da inclinação do teto. Na posição inicial calculada, o topo da garrafa fica a 250–260 mm, deixando cerca de 70–80 mm até essa referência frontal.
+- Há outro arame horizontal perto de 300 mm. Mudar o conjunto inteiro do arame de 150 mm para esse arame elevaria o topo da garrafa aproximadamente a 400–410 mm, acima do espaço visível. Para subir o copo com o crescimento dos pintos, a solução a estudar é **usar o mesmo arame de 150 mm e mudar o ponto do gancho no próprio suporte**. As posições 0 e +20 mm dariam topes de cerca de 250–260 e 270–280 mm. Uma terceira posição +40 mm daria 290–300 mm e deixaria apenas 30–40 mm até à referência frontal: mantê-la condicional até ensaiar a montagem e a folga real sob o teto. Estas posições ainda não são geometria aprovada nem testada.
 - A fotografia do paquímetro não mostra o visor. A escala gravada parece sugerir um diâmetro da rosca mais próximo de **28 mm** do que dos 33 mm anotados; esta leitura por fotografia é incerta. **Não modelar a rosca nem o cupão com qualquer um dos dois números antes de confirmar a leitura do visor.** O anel de suporte inferior também depende do diâmetro da saliência abaixo dos filetes.
 
 ## Verificação de espaço
@@ -38,7 +38,7 @@ O fundo do copo, o afastamento boca–fundo e a profundidade da água são valor
 ## Dados pendentes
 
 1. Confirmar a leitura no visor do paquímetro para o diâmetro exterior dos filetes da rosca e medir o diâmetro do arame de 150 mm.
-2. Medir a altura roscada, o anel de suporte abaixo da rosca e o diâmetro do ombro. Se possível, confirmar a altura exata da grelha ao teto.
+2. Medir a altura roscada, o anel de suporte abaixo da rosca e o diâmetro do ombro. Confirmar a altura livre real exatamente na posição onde a garrafa ficará, pois o teto não é plano.
 3. Indicar o filamento disponível; PETG continua a ser a proposta para o protótipo lavável, sujeita a teste de estanqueidade e limpeza.
 
 **Estado:** medidas principais registadas e espaço vertical calculado. Ainda não existe CAD/STL/3MF final nem teste físico. O [esquema V4](../../designs/bebedouro-pintos-conceito-v4-medidas-garrafa.svg) mostra as cotas conhecidas e os pontos a medir.
