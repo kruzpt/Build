@@ -1,0 +1,129 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1800" height="1200" viewBox="0 0 1800 1200">
+<rect x="0" y="0" width="1800" height="1200" rx="0" fill="#faf8f3" stroke="none" stroke-width="0"/>
+<text x="55" y="72" fill="#19313b" font-family="DejaVu Sans, sans-serif" font-size="53" font-weight="bold" text-anchor="start">CAIXA PARA LITOFANIA + PLACA LED</text>
+<text x="58" y="119" fill="#587078" font-family="DejaVu Sans, sans-serif" font-size="27" font-weight="normal" text-anchor="start">Conceito V2  ·  litofania medida no 3MF  ·  encaixes propostos para validar</text>
+<rect x="50" y="160" width="830" height="620" rx="24" fill="#ffffff" stroke="#c8d3d2" stroke-width="3"/>
+<text x="80" y="212" fill="#19313b" font-family="DejaVu Sans, sans-serif" font-size="31" font-weight="bold" text-anchor="start">FRENTE · IMAGEM NA HORIZONTAL</text>
+<rect x="198" y="284" width="534.0" height="426.0" rx="16" fill="#19313b" stroke="#19313b" stroke-width="2"/>
+<rect x="225.0" y="311.0" width="480.0" height="372.0" rx="2" fill="#e5d8bf" stroke="#c68d31" stroke-width="2"/>
+<rect x="231.0" y="317.0" width="468.0" height="360.0" rx="0" fill="#f3e9d5" stroke="none" stroke-width="0"/>
+<text x="465.0" y="488.0" fill="#75664e" font-family="DejaVu Sans, sans-serif" font-size="42" font-weight="bold" text-anchor="middle">LITOFANIA</text>
+<text x="465.0" y="534.0" fill="#75664e" font-family="DejaVu Sans, sans-serif" font-size="29" font-weight="normal" text-anchor="middle">160 × 124 × 3 mm</text>
+<line x1="198" y1="254" x2="732.0" y2="254" stroke="#c13a45" stroke-width="3"/>
+<line x1="198" y1="243" x2="198" y2="265" stroke="#c13a45" stroke-width="3"/>
+<line x1="732.0" y1="243" x2="732.0" y2="265" stroke="#c13a45" stroke-width="3"/>
+<text x="465.0" y="241" fill="#c13a45" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="bold" text-anchor="middle">178 mm exterior proposto</text>
+<text x="145" y="758" fill="#587078" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="normal" text-anchor="start">Moldura cobre 2 mm da margem da litofania em cada lado.</text>
+<rect x="920" y="160" width="830" height="620" rx="24" fill="#ffffff" stroke="#c8d3d2" stroke-width="3"/>
+<text x="950" y="212" fill="#19313b" font-family="DejaVu Sans, sans-serif" font-size="31" font-weight="bold" text-anchor="start">COSTAS · PLACA REAL RODADA 90°</text>
+<rect x="1031" y="261" width="518" height="428" rx="14" fill="#e8edf0" stroke="#19313b" stroke-width="6"/>
+<rect x="1055" y="285" width="470" height="380" rx="5" fill="#f7f9f9" stroke="#98a9b0" stroke-width="2"/>
+<rect x="1062" y="294" width="456" height="362" rx="3" fill="#dce9ef" stroke="#287d98" stroke-width="4"/>
+<circle cx="1081" cy="314" r="8" fill="white" stroke="#287d98" stroke-width="3"/>
+<circle cx="1081" cy="636" r="8" fill="white" stroke="#287d98" stroke-width="3"/>
+<circle cx="1499" cy="314" r="8" fill="white" stroke="#287d98" stroke-width="3"/>
+<circle cx="1499" cy="636" r="8" fill="white" stroke="#287d98" stroke-width="3"/>
+<circle cx="1093" cy="329" r="5" fill="#f2c95f"/>
+<circle cx="1093" cy="385" r="5" fill="#f2c95f"/>
+<circle cx="1093" cy="441" r="5" fill="#f2c95f"/>
+<circle cx="1093" cy="497" r="5" fill="#f2c95f"/>
+<circle cx="1093" cy="553" r="5" fill="#f2c95f"/>
+<circle cx="1093" cy="609" r="5" fill="#f2c95f"/>
+<circle cx="1129" cy="329" r="5" fill="#f2c95f"/>
+<circle cx="1129" cy="385" r="5" fill="#f2c95f"/>
+<circle cx="1129" cy="441" r="5" fill="#f2c95f"/>
+<circle cx="1129" cy="497" r="5" fill="#f2c95f"/>
+<circle cx="1129" cy="553" r="5" fill="#f2c95f"/>
+<circle cx="1129" cy="609" r="5" fill="#f2c95f"/>
+<circle cx="1165" cy="329" r="5" fill="#f2c95f"/>
+<circle cx="1165" cy="385" r="5" fill="#f2c95f"/>
+<circle cx="1165" cy="441" r="5" fill="#f2c95f"/>
+<circle cx="1165" cy="497" r="5" fill="#f2c95f"/>
+<circle cx="1165" cy="553" r="5" fill="#f2c95f"/>
+<circle cx="1165" cy="609" r="5" fill="#f2c95f"/>
+<circle cx="1201" cy="329" r="5" fill="#f2c95f"/>
+<circle cx="1201" cy="385" r="5" fill="#f2c95f"/>
+<circle cx="1201" cy="441" r="5" fill="#f2c95f"/>
+<circle cx="1201" cy="497" r="5" fill="#f2c95f"/>
+<circle cx="1201" cy="553" r="5" fill="#f2c95f"/>
+<circle cx="1201" cy="609" r="5" fill="#f2c95f"/>
+<circle cx="1237" cy="329" r="5" fill="#f2c95f"/>
+<circle cx="1237" cy="385" r="5" fill="#f2c95f"/>
+<circle cx="1237" cy="441" r="5" fill="#f2c95f"/>
+<circle cx="1237" cy="497" r="5" fill="#f2c95f"/>
+<circle cx="1237" cy="553" r="5" fill="#f2c95f"/>
+<circle cx="1237" cy="609" r="5" fill="#f2c95f"/>
+<circle cx="1273" cy="329" r="5" fill="#f2c95f"/>
+<circle cx="1273" cy="385" r="5" fill="#f2c95f"/>
+<circle cx="1273" cy="441" r="5" fill="#f2c95f"/>
+<circle cx="1273" cy="497" r="5" fill="#f2c95f"/>
+<circle cx="1273" cy="553" r="5" fill="#f2c95f"/>
+<circle cx="1273" cy="609" r="5" fill="#f2c95f"/>
+<circle cx="1309" cy="329" r="5" fill="#f2c95f"/>
+<circle cx="1309" cy="385" r="5" fill="#f2c95f"/>
+<circle cx="1309" cy="441" r="5" fill="#f2c95f"/>
+<circle cx="1309" cy="497" r="5" fill="#f2c95f"/>
+<circle cx="1309" cy="553" r="5" fill="#f2c95f"/>
+<circle cx="1309" cy="609" r="5" fill="#f2c95f"/>
+<circle cx="1345" cy="329" r="5" fill="#f2c95f"/>
+<circle cx="1345" cy="385" r="5" fill="#f2c95f"/>
+<circle cx="1345" cy="441" r="5" fill="#f2c95f"/>
+<circle cx="1345" cy="497" r="5" fill="#f2c95f"/>
+<circle cx="1345" cy="553" r="5" fill="#f2c95f"/>
+<circle cx="1345" cy="609" r="5" fill="#f2c95f"/>
+<circle cx="1381" cy="329" r="5" fill="#f2c95f"/>
+<circle cx="1381" cy="385" r="5" fill="#f2c95f"/>
+<circle cx="1381" cy="441" r="5" fill="#f2c95f"/>
+<circle cx="1381" cy="497" r="5" fill="#f2c95f"/>
+<circle cx="1381" cy="553" r="5" fill="#f2c95f"/>
+<circle cx="1381" cy="609" r="5" fill="#f2c95f"/>
+<circle cx="1417" cy="329" r="5" fill="#f2c95f"/>
+<circle cx="1417" cy="385" r="5" fill="#f2c95f"/>
+<circle cx="1417" cy="441" r="5" fill="#f2c95f"/>
+<circle cx="1417" cy="497" r="5" fill="#f2c95f"/>
+<circle cx="1417" cy="553" r="5" fill="#f2c95f"/>
+<circle cx="1417" cy="609" r="5" fill="#f2c95f"/>
+<circle cx="1453" cy="329" r="5" fill="#f2c95f"/>
+<circle cx="1453" cy="385" r="5" fill="#f2c95f"/>
+<circle cx="1453" cy="441" r="5" fill="#f2c95f"/>
+<circle cx="1453" cy="497" r="5" fill="#f2c95f"/>
+<circle cx="1453" cy="553" r="5" fill="#f2c95f"/>
+<circle cx="1453" cy="609" r="5" fill="#f2c95f"/>
+<circle cx="1489" cy="329" r="5" fill="#f2c95f"/>
+<circle cx="1489" cy="385" r="5" fill="#f2c95f"/>
+<circle cx="1489" cy="441" r="5" fill="#f2c95f"/>
+<circle cx="1489" cy="497" r="5" fill="#f2c95f"/>
+<circle cx="1489" cy="553" r="5" fill="#f2c95f"/>
+<circle cx="1489" cy="609" r="5" fill="#f2c95f"/>
+<rect x="1547" y="443.0" width="34" height="64" rx="4" fill="#fff2ee" stroke="#c13a45" stroke-width="3"/>
+<line x1="1565" y1="475.0" x2="1680" y2="475.0" stroke="#c13a45" stroke-width="3"/>
+<line x1="1680" y1="475.0" x2="1668" y2="468.0" stroke="#c13a45" stroke-width="3"/>
+<line x1="1680" y1="475.0" x2="1668" y2="482.0" stroke="#c13a45" stroke-width="3"/>
+<text x="1608" y="456.0" fill="#c13a45" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="bold" text-anchor="start">USB-C</text>
+<text x="1025" y="725" fill="#587078" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="normal" text-anchor="start">PCB ≈ 156 × 120,1 mm · furação ainda por confirmar</text>
+<text x="1025" y="758" fill="#c13a45" font-family="DejaVu Sans, sans-serif" font-size="21" font-weight="normal" text-anchor="start">Grampos de borda; janela USB ajustável ao cabo.</text>
+<rect x="50" y="810" width="1040" height="330" rx="24" fill="#ffffff" stroke="#c8d3d2" stroke-width="3"/>
+<text x="80" y="862" fill="#19313b" font-family="DejaVu Sans, sans-serif" font-size="31" font-weight="bold" text-anchor="start">CORTE LATERAL · PROFUNDIDADE PROPOSTA</text>
+<rect x="120" y="903" width="44" height="188" rx="0" fill="#19313b" stroke="#19313b" stroke-width="1"/>
+<rect x="164" y="913" width="34" height="168" rx="0" fill="#e5d8bf" stroke="#c68d31" stroke-width="2"/>
+<rect x="198" y="913" width="300" height="168" rx="0" fill="#fff2cc" stroke="#d9a73f" stroke-width="2"/>
+<rect x="498" y="913" width="19" height="168" rx="0" fill="#dce9ef" stroke="#287d98" stroke-width="2"/>
+<rect x="517" y="903" width="60" height="188" rx="0" fill="#e8edf0" stroke="#19313b" stroke-width="2"/>
+<text x="285" y="960" fill="#19313b" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="bold" text-anchor="start">15 mm de luz</text>
+<text x="624" y="943" fill="#19313b" font-family="DejaVu Sans, sans-serif" font-size="25" font-weight="bold" text-anchor="start">Exterior: ≈ 27 mm</text>
+<text x="624" y="983" fill="#26383f" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="normal" text-anchor="start">Corpo com fundo + moldura removível</text>
+<text x="624" y="1018" fill="#26383f" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="normal" text-anchor="start">Parede: ≈ 3 mm · folga litho: 0,4 mm</text>
+<text x="624" y="1053" fill="#26383f" font-family="DejaVu Sans, sans-serif" font-size="22" font-weight="normal" text-anchor="start">Interior claro para espalhar a luz</text>
+<text x="624" y="1088" fill="#c13a45" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="normal" text-anchor="start">Posição do PCB depende da espessura real</text>
+<text x="624" y="1119" fill="#587078" font-family="DejaVu Sans, sans-serif" font-size="18" font-weight="normal" text-anchor="start">Da frente: moldura · litho · ar · LED · fundo</text>
+<rect x="1120" y="810" width="630" height="330" rx="24" fill="#ffffff" stroke="#c8d3d2" stroke-width="3"/>
+<text x="1150" y="862" fill="#19313b" font-family="DejaVu Sans, sans-serif" font-size="31" font-weight="bold" text-anchor="start">MONTAGEM E IMPRESSÃO</text>
+<text x="1150" y="895" fill="#19313b" font-family="DejaVu Sans, sans-serif" font-size="21" font-weight="bold" text-anchor="start">1  Corpo com fundo e apoios do LED</text>
+<text x="1150" y="929" fill="#19313b" font-family="DejaVu Sans, sans-serif" font-size="21" font-weight="bold" text-anchor="start">2  LED preso por 4 grampos de borda</text>
+<text x="1150" y="963" fill="#19313b" font-family="DejaVu Sans, sans-serif" font-size="21" font-weight="bold" text-anchor="start">3  Litofania colocada na calha frontal</text>
+<text x="1150" y="997" fill="#19313b" font-family="DejaVu Sans, sans-serif" font-size="21" font-weight="bold" text-anchor="start">4  Moldura presa por 4 parafusos M3</text>
+<line x1="1150" y1="1016" x2="1710" y2="1016" stroke="#ced9d7" stroke-width="2"/>
+<text x="1150" y="1050" fill="#197f62" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="normal" text-anchor="start">2 peças grandes + 4 grampos pequenos.</text>
+<text x="1150" y="1082" fill="#197f62" font-family="DejaVu Sans, sans-serif" font-size="20" font-weight="normal" text-anchor="start">Sem cola; LED acessível para manutenção.</text>
+<text x="1150" y="1113" fill="#c13a45" font-family="DejaVu Sans, sans-serif" font-size="19" font-weight="normal" text-anchor="start">Confirmar espessura e abertura da USB-C.</text>
+</svg>
