@@ -1,0 +1,118 @@
+{
+  "color_checks": {
+    "gray_paths_on_plaque_mm": 0.0,
+    "black_paths_under_letter_cores_mm": 0.0,
+    "letters_and_accent": [
+      {
+        "area_mm2": 69.75875853833713,
+        "white_layers": 12,
+        "first_top_z_mm": 3.08,
+        "last_top_z_mm": 4.4
+      },
+      {
+        "area_mm2": 4.091035097699205,
+        "white_layers": 12,
+        "first_top_z_mm": 3.08,
+        "last_top_z_mm": 4.4
+      },
+      {
+        "area_mm2": 25.296373757446418,
+        "white_layers": 12,
+        "first_top_z_mm": 3.08,
+        "last_top_z_mm": 4.4
+      },
+      {
+        "area_mm2": 33.588827814455726,
+        "white_layers": 12,
+        "first_top_z_mm": 3.08,
+        "last_top_z_mm": 4.4
+      },
+      {
+        "area_mm2": 30.103082242021628,
+        "white_layers": 12,
+        "first_top_z_mm": 3.08,
+        "last_top_z_mm": 4.4
+      },
+      {
+        "area_mm2": 46.02295443157345,
+        "white_layers": 12,
+        "first_top_z_mm": 3.08,
+        "last_top_z_mm": 4.4
+      },
+      {
+        "area_mm2": 35.2346903050784,
+        "white_layers": 12,
+        "first_top_z_mm": 3.08,
+        "last_top_z_mm": 4.4
+      }
+    ],
+    "right_eye_white_layers": [
+      3.8,
+      3.92,
+      4.04,
+      4.16,
+      4.28,
+      4.4
+    ],
+    "right_pupil_white_paths_mm": 0.0,
+    "black_to_white_flush_mm3": 587.0,
+    "flush_multiplier": [
+      "1"
+    ],
+    "flush_into_objects": "0",
+    "hidden_leaf_black_paths_mm": 0.0
+  },
+  "plates": [
+    {
+      "piece": "lobo",
+      "layers": 40,
+      "tools": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "outer_speed_max_mm_s": 25.0,
+      "top_speed_max_mm_s": 18.0,
+      "max_native_transform_error_mm": 1.4213169917122513e-06,
+      "gcode_sha256": "99bd077258771875280795b86487afabc66e144a47455eb6a5f138697a1cd5cf"
+    },
+    {
+      "piece": "anilha",
+      "layers": 208,
+      "tools": [
+        1
+      ],
+      "outer_speed_max_mm_s": 25.0,
+      "top_speed_max_mm_s": 18.0,
+      "max_native_transform_error_mm": 1.416815661146829e-06,
+      "gcode_sha256": "c7778e87ae02701f22fc5a32a2acc3ff3621d9c6c990bd823afdacc73ece4b00"
+    },
+    {
+      "piece": "folhas",
+      "layers": 24,
+      "tools": [
+        2,
+        3
+      ],
+      "outer_speed_max_mm_s": 25.0,
+      "top_speed_max_mm_s": 18.0,
+      "max_native_transform_error_mm": 1.416815661146829e-06,
+      "gcode_sha256": "d2f95cb72f160071bc8ad34fa6e54d263453ae9b90150ec24d901746ea03373b"
+    }
+  ],
+  "physical_print_tested": false,
+  "eye_tip_checks": {
+    "gray_region_area_mm2": 5.80400277255648,
+    "gray_core_area_mm2": 2.6924375923527655,
+    "gray_path_lengths_by_layer_mm": {
+      "3.44": 6.778207317055753,
+      "3.56": 6.777290946279049,
+      "3.68": 6.777336211179377,
+      "3.8": 11.108129601787672
+    },
+    "black_paths_in_gray_core_above_z_3_4_mm": 0.0,
+    "white_brown_leaf_ring_and_accessory_project_byte_identical_to_v5": true,
+    "accessories_validation_reused_without_reslicing": true
+  }
+}
