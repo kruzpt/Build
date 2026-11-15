@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="720" viewBox="0 0 1200 720">
+<defs>
+  <style>
+    text{font-family:Arial,Helvetica,sans-serif;fill:#183c32}
+    .title{font-size:35px;font-weight:700}.sub{font-size:19px}.head{font-size:23px;font-weight:700}
+    .lab{font-size:19px;font-weight:700}.small{font-size:16px}
+    .card{fill:#fff;stroke:#d5dfd8;stroke-width:2}.node{fill:#327356;stroke:#174933;stroke-width:3}
+    .wood{fill:#c88e56;stroke:#9f6537;stroke-width:2}.bore{fill:#f7faf6;stroke:#174933;stroke-width:3}
+    .screw{fill:#cfdae0;stroke:#4b6471;stroke-width:2}.call{stroke:#386251;stroke-width:2.5;fill:none}
+  </style>
+  <marker id="arrow" markerWidth="9" markerHeight="9" refX="8" refY="4.5" orient="auto"><path d="M0 0 L9 4.5 L0 9 Z" fill="#386251"/></marker>
+</defs>
+<rect width="1200" height="720" fill="#f3f6f2"/>
+<text x="40" y="58" class="title">Conector modular para cabos de vassoura</text>
+<text x="41" y="88" class="sub">Conceito V2 · a mesma peça em qualquer canto e em qualquer andar</text>
+
+<rect class="card" x="35" y="115" width="535" height="535" rx="18"/>
+<text x="63" y="154" class="head">Vista superior do conector</text>
+<rect class="wood" x="266" y="249" width="252" height="46" rx="17"/>
+<rect class="wood" x="230" y="278" width="46" height="270" rx="17"/>
+<rect class="node" x="170" y="233" width="330" height="80" rx="35"/>
+<rect class="node" x="212" y="233" width="80" height="277" rx="35"/>
+<circle class="node" cx="252" cy="273" r="45"/>
+<circle class="bore" cx="252" cy="273" r="27"/>
+<circle class="screw" cx="392" cy="272" r="13"/><path d="M384 272h16" stroke="#4b6471" stroke-width="3"/>
+<circle class="screw" cx="252" cy="422" r="13"/><path d="M244 422h16" stroke="#4b6471" stroke-width="3"/>
+<circle class="screw" cx="192" cy="273" r="11"/><path d="M186 273h12" stroke="#4b6471" stroke-width="3"/>
+<path class="call" d="M161 211 L222 242" marker-end="url(#arrow)"/>
+<text x="76" y="185" class="small">Vertical passante</text>
+<text x="77" y="208" class="lab">Ø22,7 mm</text>
+<path class="call" d="M470 277 L515 343" marker-end="url(#arrow)"/>
+<text x="331" y="374" class="small">2 encaixes horizontais</text>
+<text x="331" y="398" class="lab">a 90° · Ø22,7 mm</text>
+<text x="69" y="577" class="small">Os três círculos cinzentos indicam acessos para parafusos.</text>
+<text x="69" y="603" class="small">As tomadas horizontais não cortam a passagem vertical.</text>
+
+<rect class="card" x="592" y="115" width="573" height="535" rx="18"/>
+<text x="620" y="154" class="head">Passagem contínua pelos níveis</text>
+<rect class="wood" x="825" y="229" width="46" height="315" rx="12"/>
+<rect class="wood" x="944" y="290" width="128" height="54" rx="14"/>
+<rect class="wood" x="944" y="462" width="128" height="54" rx="14"/>
+<rect class="node" x="756" y="275" width="281" height="84" rx="23"/>
+<rect class="node" x="756" y="447" width="281" height="84" rx="23"/>
+<circle class="screw" cx="889" cy="317" r="13"/><path d="M882 317h14" stroke="#4b6471" stroke-width="3"/>
+<circle class="screw" cx="889" cy="489" r="13"/><path d="M882 489h14" stroke="#4b6471" stroke-width="3"/>
+<circle class="screw" cx="1002" cy="317" r="12"/><path d="M995 317h14" stroke="#4b6471" stroke-width="3"/>
+<circle class="screw" cx="1002" cy="489" r="12"/><path d="M995 489h14" stroke="#4b6471" stroke-width="3"/>
+<path class="call" d="M789 215 L831 253" marker-end="url(#arrow)"/>
+<text x="624" y="197" class="small">Poste vertical</text>
+<text x="624" y="221" class="lab">contínuo</text>
+<path class="call" d="M749 318 L665 352" marker-end="url(#arrow)"/>
+<text x="622" y="385" class="small">Um parafuso prende o nó</text>
+<text x="622" y="408" class="small">ao poste em cada nível</text>
+<text x="621" y="573" class="small">Os cabos horizontais podem ter qualquer comprimento.</text>
+<text x="621" y="599" class="small">Um parafuso fixa cada encaixe horizontal.</text>
+
+<text x="40" y="681" class="small">Esquema funcional; dimensões externas, furos de parafuso e resistência ainda dependem da modelação e do ensaio.</text>
+</svg>
