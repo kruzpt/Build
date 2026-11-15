@@ -1,0 +1,48 @@
+{
+  "printer": "Bambu Lab A1 0.4 nozzle",
+  "material": "PLA",
+  "plate": "Smooth PEI / High Temp Plate",
+  "layer_mm": 0.12,
+  "physical_fit_tested": false,
+  "text_coupon_printed": false,
+  "actual_gcode_layer_counts": [
+    19,
+    49,
+    41,
+    21,
+    19
+  ],
+  "project": "/workspace/Build/downloads/natal-memoria-cadeiras-v4-tabuas-lisas-A1-PLA.3mf",
+  "plates": [
+    {
+      "name": "01 AMOSTRA texto pequeno - imprimir primeiro",
+      "seconds": 2428.599609375,
+      "grams": 7.268623113632202,
+      "filament_changes": 5
+    },
+    {
+      "name": "02 Base redonda creme 236 mm",
+      "seconds": 18452.501953125,
+      "grams": 122.80321502685547,
+      "filament_changes": 0
+    },
+    {
+      "name": "03 Arvore bicolor - face do texto no prato",
+      "seconds": 9830.38671875,
+      "grams": 36.9606454372406,
+      "filament_changes": 5
+    },
+    {
+      "name": "04 Cadeiras V4 tabuas lisas - quatro laterais",
+      "seconds": 6411.20947265625,
+      "grams": 18.000370025634766,
+      "filament_changes": 0
+    },
+    {
+      "name": "05 Cadeiras V4 tabuas lisas - travessas",
+      "seconds": 3301.76513671875,
+      "grams": 10.971711158752441,
+      "filament_changes": 0
+    }
+  ]
+}
