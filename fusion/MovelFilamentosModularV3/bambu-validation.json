@@ -1,0 +1,35 @@
+{
+  "project": "movel-filamentos-conector-v3-A1-PETG-4-pratos.3mf",
+  "printer": "Bambu Lab A1 0.4",
+  "filament": "Generic PETG @BBL A1",
+  "hole_d_mm": 22.7,
+  "supports": false,
+  "physical_fit_tested": false,
+  "load_tested": false,
+  "plates": [
+    {
+      "name": "01 TESTE - 1 conector",
+      "estimated_seconds": 30612.798828125,
+      "estimated_g": 183.33741760253906,
+      "warnings": ""
+    },
+    {
+      "name": "02 TESTE - 1 pe",
+      "estimated_seconds": 7256.01513671875,
+      "estimated_g": 42.66389846801758,
+      "warnings": ""
+    },
+    {
+      "name": "03 RESTANTES - 3 conectores",
+      "estimated_seconds": 90251.453125,
+      "estimated_g": 550.3031005859375,
+      "warnings": ""
+    },
+    {
+      "name": "04 RESTANTES - 3 pes",
+      "estimated_seconds": 20465.400390625,
+      "estimated_g": 127.85581970214844,
+      "warnings": ""
+    }
+  ]
+}

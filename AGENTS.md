@@ -26,6 +26,9 @@ Este fluxo de entrega não autoriza alterações sem relação com o pedido atua
 
 - Por indicação do utilizador, não ativar brim por defeito nos novos projetos.
   Reservá-lo para casos concretos que precisem de mais adesão e explicar a razão.
+- Para entregas de projetos de impressão, preparar um 3MF com os objetos
+  organizados em vários pratos quando fizer sentido. Não apresentar STL soltos
+  como resultado final; podem permanecer como intermediários de modelação.
 
 # Fluxo de aprovação de novas peças
 
