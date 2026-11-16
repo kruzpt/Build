@@ -1,0 +1,45 @@
+{
+  "project": "universo-saber-suporte-v9-base-lisa-A1-AMS-2-pratos.3mf",
+  "sha256": "a42fd0a1c93a8148990aec4d1d1b56dd9fb0b9f9b58f1a17b30c4d5b3c1deecd",
+  "geometry_identical_to_v6": true,
+  "machine": "Bambu Lab A1 0.4 nozzle",
+  "layer_mm": 0.2,
+  "white_nozzle_c_provisional": 205,
+  "white_flow_ratio": 0.98,
+  "blue_profile": "Generic PLA from V6, not separately calibrated",
+  "white_top_complete_before_blue": true,
+  "white_top_layer": 35,
+  "blue_first_layer": 36,
+  "white_ironing_before_color_change": true,
+  "blue_relief_ironing": false,
+  "blue_base_ironing": true,
+  "base_sparse_infill_density": "35% gyroid",
+  "base_top_shell_layers": 9,
+  "base_top_shell_thickness_mm": 1.8,
+  "base_6mm_roof_layer": 30,
+  "calibrated_blue_profile_must_be_selected_in_studio": true,
+  "letter_gap_fill_mm_s": 25,
+  "short_perimeter_mm_s": 20,
+  "outer_wall_acceleration_mm_s2": 1000,
+  "letter_top_one_wall": false,
+  "brim": false,
+  "physical_finish_tested": false,
+  "plates": [
+    {
+      "name": "01 - Placa branca e relevo azul",
+      "layers": 39,
+      "filament_changes": 1,
+      "estimated_minutes": 278.7,
+      "estimated_g": 64.13,
+      "warnings": ""
+    },
+    {
+      "name": "02 - Base azul",
+      "layers": 50,
+      "filament_changes": 0,
+      "estimated_minutes": 181.2,
+      "estimated_g": 42.75,
+      "warnings": ""
+    }
+  ]
+}
