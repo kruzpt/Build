@@ -1,0 +1,62 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1350" height="760" viewBox="0 0 1350 760">
+  <defs>
+    <marker id="arrow" markerWidth="9" markerHeight="9" refX="7" refY="4.5" orient="auto"><path d="M0 0 L8 4.5 L0 9" fill="none" stroke="#278567" stroke-width="2"/></marker>
+    <g id="body">
+      <rect x="0" y="0" width="320" height="230" rx="28" fill="#245771" stroke="#163c53" stroke-width="5"/>
+      <circle cx="200" cy="115" r="72" fill="#f3f7f9" stroke="#bdd0d9" stroke-width="3"/>
+      <rect x="-2" y="81" width="133" height="68" fill="#f3f7f9"/>
+      <path d="M0 81 H129 M0 149 H129" fill="none" stroke="#163c53" stroke-width="5"/>
+      <path d="M261 92 A72 72 0 0 1 260 138" fill="none" stroke="#5fba9e" stroke-width="10" stroke-linecap="round"/>
+    </g>
+    <g id="gate">
+      <path d="M0 81 H128 Q146 82 146 96 V135 Q146 148 128 149 H0 V129 L31 115 L0 101 Z" fill="#e9a35c" stroke="#ad6736" stroke-width="4" stroke-linejoin="round"/>
+      <path d="M1 101 L31 115 L1 129" fill="none" stroke="#f8d3a9" stroke-width="5" stroke-linecap="round"/>
+      <path d="M140 101 A73 73 0 0 1 140 129" fill="none" stroke="#5fba9e" stroke-width="8" stroke-linecap="round"/>
+    </g>
+    <g id="pivot"><circle cx="129" cy="82" r="12" fill="#f3f7f9" stroke="#163c53" stroke-width="4"/><circle cx="129" cy="82" r="4" fill="#163c53"/></g>
+  </defs>
+  <rect width="1350" height="760" fill="#f3f7f9"/>
+  <text x="42" y="60" font-family="DejaVu Sans,sans-serif" font-size="30" font-weight="700" fill="#173d55">Suporte de cana • fecho automático pela entrada</text>
+  <text x="42" y="90" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#587486">Conceito V2 baseado no teu desenho • vista frontal esquemática, sem escala</text>
+
+  <rect x="30" y="128" width="420" height="485" rx="18" fill="white" stroke="#d4e1e8"/>
+  <text x="53" y="163" font-family="DejaVu Sans,sans-serif" font-size="21" font-weight="700" fill="#173d55">1  Entrada fechada</text>
+  <text x="53" y="189" font-family="DejaVu Sans,sans-serif" font-size="14" fill="#587486">O mordente alinha com o corpo. Só a rampa fica recuada.</text>
+  <g transform="translate(75 274)"><use href="#body"/><use href="#gate"/><use href="#pivot"/>
+    <circle cx="-45" cy="115" r="41" fill="#dbe4e9" stroke="#899da8" stroke-width="3"/>
+    <path d="M-25 115 H-1" stroke="#278567" stroke-width="4" marker-end="url(#arrow)"/>
+    <text x="13" y="173" font-family="DejaVu Sans,sans-serif" font-size="14" fill="#ad6736">rampa para dentro</text>
+  </g>
+  <text x="53" y="551" font-family="DejaVu Sans,sans-serif" font-size="14" fill="#173d55">A cana empurra a rampa, sem tocar num botão.</text>
+  <text x="53" y="578" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#587486">A pequena reentrância é intencional; o resto fica fechado.</text>
+
+  <rect x="465" y="128" width="420" height="485" rx="18" fill="white" stroke="#d4e1e8"/>
+  <text x="488" y="163" font-family="DejaVu Sans,sans-serif" font-size="21" font-weight="700" fill="#173d55">2  A cana abre o fecho</text>
+  <text x="488" y="189" font-family="DejaVu Sans,sans-serif" font-size="14" fill="#587486">O mordente roda para dentro contra a mola inox.</text>
+  <g transform="translate(510 274)"><use href="#body"/>
+    <circle cx="45" cy="115" r="41" fill="#dbe4e9" stroke="#899da8" stroke-width="3"/>
+    <use href="#gate" transform="rotate(-34 129 82)"/><use href="#pivot"/>
+    <path d="M90 115 H142" stroke="#278567" stroke-width="4" marker-end="url(#arrow)"/>
+    <path d="M151 53 A48 48 0 0 0 104 43" fill="none" stroke="#ad6736" stroke-width="3" marker-end="url(#arrow)"/>
+  </g>
+  <text x="488" y="551" font-family="DejaVu Sans,sans-serif" font-size="14" fill="#173d55">A abertura útil proposta é ≥ 22 mm.</text>
+  <text x="488" y="578" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#587486">O curso do mordente será dimensionado pela cana real.</text>
+
+  <rect x="900" y="128" width="420" height="485" rx="18" fill="white" stroke="#d4e1e8"/>
+  <text x="923" y="163" font-family="DejaVu Sans,sans-serif" font-size="21" font-weight="700" fill="#173d55">3  Cana dentro, fecho completo</text>
+  <text x="923" y="189" font-family="DejaVu Sans,sans-serif" font-size="14" fill="#587486">A mola devolve o mordente e o batente impede saída.</text>
+  <g transform="translate(945 274)"><use href="#body"/>
+    <circle cx="200" cy="115" r="62" fill="#dbe4e9" stroke="#899da8" stroke-width="3"/>
+    <text x="175" y="120" font-family="DejaVu Sans,sans-serif" font-size="15" fill="#587486">cana</text>
+    <use href="#gate"/><use href="#pivot"/>
+    <rect x="111" y="-12" width="38" height="21" rx="7" fill="#e9a35c" stroke="#ad6736" stroke-width="3"/>
+    <path d="M55 42 L113 5" stroke="#ad6736" stroke-width="2" marker-end="url(#arrow)"/>
+    <text x="-7" y="35" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#ad6736">libertação manual</text>
+  </g>
+  <text x="923" y="551" font-family="DejaVu Sans,sans-serif" font-size="14" fill="#173d55">Por fora, o contorno volta a ficar fechado.</text>
+  <text x="923" y="578" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#587486">Para retirar a cana, pressiona-se a pequena patilha.</text>
+
+  <rect x="30" y="634" width="1290" height="87" rx="13" fill="#e5eef2"/>
+  <text x="54" y="665" font-family="DejaVu Sans,sans-serif" font-size="17" font-weight="700" fill="#173d55">Dimensões de partida: corpo ≈ 67 × 37 × 21 mm  ·  cana até Ø 21 mm  ·  pino + mola inox  ·  pontos de contacto TPU</text>
+  <text x="54" y="696" font-family="DejaVu Sans,sans-serif" font-size="14" fill="#587486">São cotas provisórias. Faltam o diâmetro da cana no local de apoio, a fixação e o espaço disponível para a patilha.</text>
+</svg>
