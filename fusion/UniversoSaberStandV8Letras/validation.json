@@ -1,0 +1,40 @@
+{
+  "project": "universo-saber-suporte-v8-letras-premium-A1-AMS-2-pratos.3mf",
+  "sha256": "eb37bdad6fbe4385847b9963ab898549bcc56c413a43fc64b8a9794106c4058e",
+  "geometry_identical_to_v6": true,
+  "machine": "Bambu Lab A1 0.4 nozzle",
+  "layer_mm": 0.2,
+  "white_nozzle_c_provisional": 205,
+  "white_flow_ratio": 0.98,
+  "blue_profile": "Generic PLA from V6, not separately calibrated",
+  "white_top_complete_before_blue": true,
+  "white_top_layer": 35,
+  "blue_first_layer": 36,
+  "white_ironing_before_color_change": true,
+  "blue_relief_ironing": false,
+  "blue_base_ironing": true,
+  "letter_gap_fill_mm_s": 25,
+  "short_perimeter_mm_s": 20,
+  "outer_wall_acceleration_mm_s2": 1000,
+  "letter_top_one_wall": false,
+  "brim": false,
+  "physical_finish_tested": false,
+  "plates": [
+    {
+      "name": "01 - Placa branca e relevo azul",
+      "layers": 39,
+      "filament_changes": 1,
+      "estimated_minutes": 278.7,
+      "estimated_g": 64.13,
+      "warnings": ""
+    },
+    {
+      "name": "02 - Base azul",
+      "layers": 50,
+      "filament_changes": 0,
+      "estimated_minutes": 160.4,
+      "estimated_g": 36.06,
+      "warnings": ""
+    }
+  ]
+}

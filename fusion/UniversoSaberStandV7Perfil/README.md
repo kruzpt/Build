@@ -32,8 +32,9 @@ sem engomagem. A superfície ampla da base azul, no prato 2, também é engomada
 
 O branco foi definido provisoriamente a **205 °C**, fluxo **0,98** e velocidade
 volumétrica máxima **8 mm³/s**, com base nas notas guardadas para o PLA branco
-usado no lobo Aquela. Esses valores ainda não foram confirmados como calibração
-física para este suporte. Se usar outra bobina branca, selecione o respetivo
+usado no lobo Aquela. O utilizador confirmou que vai usar a mesma bobina.
+Esses valores ainda não foram confirmados como calibração física para este
+suporte. Se usar outra bobina branca, selecione o respetivo
 perfil calibrado e volte a fatiar. O azul conserva o Generic PLA da V6; ainda
 não há um perfil azul calibrado guardado.
 
