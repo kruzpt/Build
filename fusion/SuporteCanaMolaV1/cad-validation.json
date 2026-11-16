@@ -1,0 +1,65 @@
+{
+  "parameters_mm": {
+    "body_width": 67.0,
+    "body_height": 37.0,
+    "depth": 20.0,
+    "upper_bottom": 23.0,
+    "jaw_left_top": 11.0,
+    "rod_center_x": 42.0,
+    "rod_center_y": 18.5,
+    "rod_max_d": 21.0,
+    "rod_radial_clearance": 0.7,
+    "pivot_x": 20.5,
+    "pivot_y": 19.0,
+    "pivot_clearance_d": 3.3,
+    "fixed_ear_radius": 5.3,
+    "moving_ear_radius": 3.65,
+    "ear_thickness": 4.6,
+    "moving_ear_z_clearance": 0.4,
+    "spring_x": 9.0,
+    "spring_z": 10.0,
+    "spring_pocket_d": 6.3,
+    "spring_pocket_depth": 2.0,
+    "spring_free_length": 17.0,
+    "mount_clearance_d": 3.5,
+    "mount_head_d": 6.5,
+    "mount_head_depth": 2.8
+  },
+  "fixed_volume_mm3": 15522.17,
+  "moving_volume_mm3": 17704.78,
+  "fixed_bounds_mm": [
+    [
+      -0.0,
+      13.7,
+      -0.005
+    ],
+    [
+      67.0,
+      37.0,
+      20.005
+    ]
+  ],
+  "moving_bounds_mm": [
+    [
+      -0.0,
+      -0.0,
+      -0.005
+    ],
+    [
+      69.742,
+      23.231,
+      20.005
+    ]
+  ],
+  "intersection_volume_mm3_by_angle": {
+    "0": 0.0,
+    "-5": 0.0,
+    "-10": 0.0,
+    "-15": 0.0,
+    "-20": 0.0,
+    "-25": 0.0,
+    "-30": 0.0,
+    "-32": 0.0
+  },
+  "physical_fit_tested": false
+}

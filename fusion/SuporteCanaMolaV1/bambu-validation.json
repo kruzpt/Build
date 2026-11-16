@@ -1,0 +1,21 @@
+{
+  "project": "suporte-cana-mola-v1-A1-PETG-2-pratos.3mf",
+  "printer_assumed": "Bambu Lab A1 0.4 mm",
+  "filament_profile": "Generic PETG @BBL A1",
+  "physical_fit_tested": false,
+  "spring_and_hardware_tested": false,
+  "plates": [
+    {
+      "name": "01 - Teste encaixe do eixo e mola",
+      "warnings": "",
+      "estimated_seconds": 3486.599365234375,
+      "estimated_grams": 14.539320945739746
+    },
+    {
+      "name": "02 - Suporte completo - braco fixo e movel",
+      "warnings": "",
+      "estimated_seconds": 6071.5625,
+      "estimated_grams": 29.66102409362793
+    }
+  ]
+}

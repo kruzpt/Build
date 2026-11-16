@@ -1,0 +1,11 @@
+{
+  "rod_d_mm": 21.0,
+  "entry_open_angle_deg": 32,
+  "continuous_path_samples_clear": 135,
+  "printed_parts_clear_0_to_32_deg": true,
+  "mechanical_stop_contacts_around_deg": 33,
+  "spring_seat_distance_closed_mm": 16.0,
+  "spring_seat_distance_at_32_deg_mm": 8.39,
+  "spring_solid_length_required_max_mm": 7.5,
+  "physical_tested": false
+}
