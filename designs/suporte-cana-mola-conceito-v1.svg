@@ -1,0 +1,72 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1280" height="760" viewBox="0 0 1280 760">
+  <defs>
+    <marker id="arrow" markerWidth="8" markerHeight="8" refX="4" refY="4" orient="auto-start-reverse"><path d="M1 1 L7 4 L1 7" fill="none" stroke="#426378" stroke-width="1.5"/></marker>
+    <pattern id="hatch" width="9" height="9" patternUnits="userSpaceOnUse" patternTransform="rotate(35)"><rect width="9" height="9" fill="#eaf3f1"/><path d="M0 0V9" stroke="#82b9ad" stroke-width="2"/></pattern>
+    <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%"><feDropShadow dx="0" dy="3" stdDeviation="5" flood-color="#153044" flood-opacity=".12"/></filter>
+  </defs>
+  <rect width="1280" height="760" fill="#f4f7f9"/>
+  <text x="52" y="62" font-family="DejaVu Sans,sans-serif" font-size="30" font-weight="700" fill="#173d55">Suporte de cana com mordente e mola</text>
+  <text x="52" y="94" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#547185">Conceito V1 • desenho funcional, não é ainda modelo para impressão</text>
+
+  <rect x="43" y="130" width="590" height="550" rx="20" fill="white" stroke="#d6e2e8" filter="url(#shadow)"/>
+  <text x="68" y="168" font-family="DejaVu Sans,sans-serif" font-size="22" font-weight="700" fill="#173d55">Vista frontal • pinça fechada</text>
+  <text x="68" y="195" font-family="DejaVu Sans,sans-serif" font-size="14" fill="#547185">A cana entra pelo lado direito; o mordente abre e a mola fecha.</text>
+
+  <!-- Fixed C-shaped PETG body, schematic 67 × 37 mm envelope. -->
+  <path d="M143 270 Q143 247 168 247 H493 Q513 247 513 268 V287 H418 Q401 287 401 304 V332 Q350 315 321 347 Q304 367 309 393 Q315 423 350 433 H416 V452 H169 Q143 452 143 427 Z" fill="#255571" stroke="#183b53" stroke-width="4"/>
+  <rect x="142" y="297" width="54" height="104" rx="15" fill="#397693" opacity=".55"/>
+  <circle cx="417" cy="366" r="68" fill="#cad4d9" stroke="#879aa3" stroke-width="3"/>
+  <circle cx="417" cy="366" r="63" fill="#e8edf0" stroke="#b2c2c9" stroke-width="2"/>
+  <text x="376" y="370" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#536c78">cana</text>
+  <text x="383" y="392" font-family="DejaVu Sans,sans-serif" font-size="15" fill="#536c78">Ø ≤ 21</text>
+  <path d="M330 332 Q309 364 329 408" fill="none" stroke="#53ae99" stroke-width="12" stroke-linecap="round"/>
+
+  <!-- Moving jaw and open ghost. -->
+  <path d="M492 290 L520 269 L572 422 L544 434 Z" fill="none" stroke="#9eafbb" stroke-width="3" stroke-dasharray="8 7"/>
+  <path d="M489 265 Q510 249 527 265 L541 435 Q521 445 502 431 Z" fill="#e5a55b" stroke="#af6c36" stroke-width="4"/>
+  <path d="M500 324 Q488 365 502 406" fill="none" stroke="#53ae99" stroke-width="12" stroke-linecap="round"/>
+  <circle cx="505" cy="268" r="16" fill="#f7fbfc" stroke="#173d55" stroke-width="5"/>
+  <circle cx="505" cy="268" r="5" fill="#173d55"/>
+  <path d="M520 255 q13 -16 24 0 q10 15 -3 27" fill="none" stroke="#bc7541" stroke-width="4" marker-end="url(#arrow)"/>
+  <text x="464" y="232" font-family="DejaVu Sans,sans-serif" font-size="14" fill="#173d55">pino + mola</text>
+  <text x="498" y="483" font-family="DejaVu Sans,sans-serif" font-size="14" fill="#ad6735">mordente móvel</text>
+  <text x="180" y="483" font-family="DejaVu Sans,sans-serif" font-size="14" fill="#255571">corpo fixo</text>
+  <text x="252" y="344" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#318674">apoios TPU</text>
+
+  <!-- Nominal dimensions. -->
+  <path d="M143 239V218 M541 252V218 M143 218H541" stroke="#426378" stroke-width="1.5" fill="none" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <text x="307" y="211" font-family="DejaVu Sans,sans-serif" font-size="15" font-weight="700" fill="#426378">≈ 67 mm</text>
+  <path d="M130 247H108 M130 452H108 M108 247V452" stroke="#426378" stroke-width="1.5" fill="none" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <text transform="translate(96 390) rotate(-90)" font-family="DejaVu Sans,sans-serif" font-size="15" font-weight="700" fill="#426378">≈ 37 mm</text>
+  <rect x="66" y="530" width="541" height="119" rx="12" fill="#eef5f7"/>
+  <text x="86" y="558" font-family="DejaVu Sans,sans-serif" font-size="15" fill="#173d55">1. PETG/ASA para corpo e mordente; pino e mola inox A4/316.</text>
+  <text x="86" y="584" font-family="DejaVu Sans,sans-serif" font-size="15" fill="#173d55">2. Apoios TPU substituíveis para proteger a cana.</text>
+  <text x="86" y="610" font-family="DejaVu Sans,sans-serif" font-size="15" fill="#173d55">3. Ímanes: opção posterior, se a mola não bastar.</text>
+  <text x="86" y="635" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#547185">Faixa de canas proposta: Ø 10–21 mm; mínimo por confirmar.</text>
+
+  <rect x="656" y="130" width="581" height="550" rx="20" fill="white" stroke="#d6e2e8" filter="url(#shadow)"/>
+  <text x="681" y="168" font-family="DejaVu Sans,sans-serif" font-size="22" font-weight="700" fill="#173d55">Vista lateral • fixação e montagem</text>
+  <text x="681" y="195" font-family="DejaVu Sans,sans-serif" font-size="14" fill="#547185">Duas peças impressas deitadas, com os furos do pino verticais no prato.</text>
+
+  <!-- Schematic layer stack. -->
+  <rect x="746" y="284" width="53" height="229" rx="4" fill="#d6e2e6" stroke="#899da7" stroke-width="3"/>
+  <text transform="translate(729 442) rotate(-90)" font-family="DejaVu Sans,sans-serif" font-size="16" fill="#536c78">parede / casco</text>
+  <rect x="800" y="296" width="10" height="205" fill="#f0cc84" stroke="#b4904f"/>
+  <path d="M811 300 H934 Q947 300 947 316 V480 Q947 496 934 496 H811 Z" fill="#255571" stroke="#183b53" stroke-width="4"/>
+  <rect x="947" y="332" width="11" height="131" fill="url(#hatch)"/>
+  <circle cx="968" cy="398" r="45" fill="#d8e1e5" stroke="#8399a4" stroke-width="3"/>
+  <rect x="1008" y="339" width="10" height="118" fill="url(#hatch)"/>
+  <path d="M1020 322 H1066 Q1079 322 1079 337 V460 Q1079 474 1066 474 H1020 Z" fill="#e5a55b" stroke="#af6c36" stroke-width="4"/>
+  <circle cx="838" cy="337" r="8" fill="#f7fbfc" stroke="#183b53" stroke-width="3"/>
+  <circle cx="838" cy="459" r="8" fill="#f7fbfc" stroke="#183b53" stroke-width="3"/>
+  <path d="M820 337H788 M820 459H788" stroke="#183b53" stroke-width="3" stroke-linecap="round"/>
+  <text x="827" y="271" font-family="DejaVu Sans,sans-serif" font-size="15" fill="#173d55">PETG/ASA</text>
+  <text x="911" y="528" font-family="DejaVu Sans,sans-serif" font-size="14" fill="#318674">TPU</text>
+  <text x="1020" y="528" font-family="DejaVu Sans,sans-serif" font-size="14" fill="#ad6735">alavanca</text>
+  <path d="M811 291V267 M1079 316V267 M811 267H1079" stroke="#426378" stroke-width="1.5" fill="none" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <text x="925" y="258" font-family="DejaVu Sans,sans-serif" font-size="15" font-weight="700" fill="#426378">≈ 21 mm</text>
+  <text x="856" y="566" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#547185">Vista lateral esquemática; sem escala.</text>
+  <rect x="681" y="587" width="531" height="62" rx="12" fill="#eef5f7"/>
+  <text x="700" y="613" font-family="DejaVu Sans,sans-serif" font-size="15" fill="#173d55">Base plana para fita VHB + 2 furos opcionais para parafusos M4.</text>
+  <text x="700" y="637" font-family="DejaVu Sans,sans-serif" font-size="13" fill="#547185">Fixação e diâmetro real da cana são os pontos a confirmar.</text>
+</svg>
