@@ -4,6 +4,9 @@ Projeto de uma placa de balcão para impressão 3D e edição no Autodesk Fusion
 
 ## Ficheiros
 
+- **[Universo do Saber V10 — superfície superior sem ironing, A1/AMS, dois pratos](downloads/universo-saber-suporte-v10-topo-sem-ironing-A1-AMS-2-pratos.3mf?raw=true)**
+- [Universo do Saber V10 — perfil, fundamentos e estado da verificação](fusion/UniversoSaberStandV10SemIroning/README.md)
+- [Universo do Saber V10 — organização dos pratos](designs/universo-saber-suporte-v10-topo-sem-ironing-pratos.png)
 - **[Suporte F1 V10 — rebaixos corrigidos e perfil reforçado](downloads/suporte-f1-speed-champions-piloto-v10-resistencia-A1-PLA-3-pratos.3mf?raw=true)**
 - [Suporte F1 V10 — pacote completo](downloads/suporte-f1-speed-champions-piloto-v10-resistencia-pacote.zip?raw=true)
 - [Suporte F1 V10 — STL completo](downloads/suporte-f1-speed-champions-piloto-v10.stl?raw=true)
