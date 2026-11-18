@@ -215,12 +215,22 @@
   "hidden_axis": true,
   "opposed_spring_seats": true,
   "wall_mount": {
-    "type": "two concealed rear keyhole slots",
-    "wall_plane": "X=0",
-    "head_pocket_d_mm": 8.6,
-    "shank_slot_width_mm": 4.6,
-    "engagement_depth_mm": 3.5,
-    "downward_locking_travel_mm": 6.0
+    "type": "two M4 countersunk through holes",
+    "wall_contact_plane": "Z=0 broad face",
+    "screw_axis": "Z, perpendicular to wall",
+    "centres_xy_mm": [
+      [
+        16.0,
+        35.0
+      ],
+      [
+        60.0,
+        35.0
+      ]
+    ],
+    "through_d_mm": 4.3,
+    "countersink_max_d_mm": 8.4,
+    "countersink_face": "Z=22 broad exterior face"
   },
   "physical_fit_tested": false,
   "status": "cad_v3_visual_and_kinematic_validation"

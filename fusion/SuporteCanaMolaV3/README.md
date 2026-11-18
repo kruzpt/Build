@@ -2,7 +2,7 @@
 
 ![Fechado, aberto e corte](../../designs/suporte-cana-mola-v3-CAD.png)
 
-![Fixação traseira na face de parede](../../designs/suporte-cana-mola-v3-fixacao-traseira.png)
+![Fixação na face larga](../../designs/suporte-cana-mola-v3-fixacao-traseira.png)
 
 Esta revisão traduz o conceito aprovado para sólidos paramétricos reais. O
 corpo fixo cria duas faces exteriores contínuas que escondem o eixo; o braço
@@ -25,7 +25,7 @@ apoio opostos e pilotos centrais independentes do eixo.
 | Comprimento sólido máximo exigido | 5,5 mm |
 | Berços da mola | Ø8,6 mm com piloto Ø2,4 mm |
 | Folga dinâmica entre peças | 0,55 mm |
-| Fixação | 2 encaixes traseiros ocultos tipo fechadura |
+| Fixação | 2 × M4 escareados, perpendiculares à face larga |
 
 ## Verificação
 
@@ -54,11 +54,10 @@ validar fisicamente; não substituir uma mola apenas pelo diâmetro exterior.
 - A cavidade estrutural foi aumentada para que Ø28 mm continue a passar com os
   insertos TPU de 1,2 mm instalados. Os insertos terminam 3 mm antes da entrada
   para não estrangular a passagem.
-- A fixação foi colocada no plano correto da parede, a face `X=0`. Os dois
-  furos que atravessavam as faces visíveis foram removidos. Existem agora dois
-  encaixes traseiros cegos tipo fechadura: cabeça Ø8,6 mm, canal de 4,6 mm e
-  profundidade útil de 3,5 mm. Os parafusos são pré-instalados na parede e a
-  peça desliza 6 mm para baixo, ficando as faces exteriores limpas.
+- A parede encosta à face larga `Z=0`. Os dois M4 atravessam a peça no eixo Z,
+  perpendicularmente à parede, e são escareados na face larga exterior `Z=22`.
+  Os centros `(16, 35)` e `(60, 35)` mm mantêm os parafusos fora da cavidade da
+  cana, do eixo e da mola. Não existem furos nem encaixes na face estreita.
 - Não foram abertas bolsas para ímanes nesta revisão. A retenção magnética será
   decidida depois de medir a força da mola, evitando abertura excessivamente
   pesada e ferragens desnecessárias em ambiente marítimo.
