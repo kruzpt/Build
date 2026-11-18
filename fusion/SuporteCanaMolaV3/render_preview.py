@@ -26,10 +26,10 @@ def add(ax, shape, color, edge="none", alpha=1.0):
 def spring(ax, open_angle=0):
     turns = 6.5
     t = np.linspace(0, turns * 2 * np.pi, 260)
-    lower = P.moving_outer_top + P.spring_pilot_h
+    lower = P.moving_outer_top + P.spring_seat_h
     # Abertura comprime a mola; a posição é ilustrativa mas usa os apoios reais.
     lower += abs(open_angle) / P.max_open_deg * 2.6
-    upper = P.fixed_bottom - P.spring_pilot_h
+    upper = P.fixed_bottom - P.spring_seat_h
     y = np.linspace(lower, upper, len(t))
     radius = P.spring_outer_d / 2 - .45
     x = P.spring_x + radius * np.cos(t)

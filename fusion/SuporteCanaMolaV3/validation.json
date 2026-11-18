@@ -23,9 +23,9 @@
     "spring_x": 14.5,
     "spring_outer_d": 7.0,
     "spring_seat_d": 8.6,
-    "spring_pilot_d": 2.4,
+    "spring_pilot_d": 4.2,
     "spring_seat_h": 1.2,
-    "spring_pilot_h": 1.2,
+    "spring_pilot_h": 2.2,
     "spring_gap_closed": 9.6,
     "moving_outer_top": 10.5,
     "max_open_deg": 45.0,
@@ -215,22 +215,8 @@
   "hidden_axis": true,
   "opposed_spring_seats": true,
   "wall_mount": {
-    "type": "two M4 countersunk through holes",
-    "wall_contact_plane": "Z=0 broad face",
-    "screw_axis": "Z, perpendicular to wall",
-    "centres_xy_mm": [
-      [
-        16.0,
-        35.0
-      ],
-      [
-        60.0,
-        35.0
-      ]
-    ],
-    "through_d_mm": 4.3,
-    "countersink_max_d_mm": 8.4,
-    "countersink_face": "Z=22 broad exterior face"
+    "type": "none",
+    "screw_holes": 0
   },
   "physical_fit_tested": false,
   "status": "cad_v3_visual_and_kinematic_validation"

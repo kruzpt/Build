@@ -42,9 +42,9 @@ class Parameters:
     spring_x: float = 14.5
     spring_outer_d: float = 7.0
     spring_seat_d: float = 8.6
-    spring_pilot_d: float = 2.4
+    spring_pilot_d: float = 4.2
     spring_seat_h: float = 1.2
-    spring_pilot_h: float = 1.2
+    spring_pilot_h: float = 2.2
     spring_gap_closed: float = 9.6
     moving_outer_top: float = 10.5
     max_open_deg: float = 45.0
@@ -124,7 +124,7 @@ def moving_arm(p=P):
     arm = arm.union(ycyl(p.spring_x, p.depth / 2, p.spring_seat_d / 2,
                          seat_y, p.spring_seat_h))
     arm = arm.union(ycyl(p.spring_x, p.depth / 2, p.spring_pilot_d / 2,
-                         seat_y, p.spring_pilot_h))
+                         seat_y + p.spring_seat_h, p.spring_pilot_h))
 
     # Acabamento das arestas exteriores sem atacar os encaixes funcionais.
     try:
@@ -168,15 +168,8 @@ def fixed_body(p=P):
     body = body.union(ycyl(p.spring_x, p.depth / 2, p.spring_seat_d / 2,
                            upper_face_y - p.spring_seat_h, p.spring_seat_h))
     body = body.union(ycyl(p.spring_x, p.depth / 2, p.spring_pilot_d / 2,
-                           upper_face_y - p.spring_pilot_h, p.spring_pilot_h))
-
-    # A face larga Z=0 encosta à parede. Os dois parafusos atravessam apenas
-    # neste sentido, perpendiculares à parede; o escareado fica na face Z=22.
-    # Os centros evitam a cavidade da cana, o eixo e o alojamento da mola.
-    for mount_x in (16.0, 60.0):
-        body = body.cut(zcyl(mount_x, 35.0, 2.15, -1.0, p.depth + 2.0))
-        body = body.cut(zcone(mount_x, 35.0, 2.15, 4.2,
-                              p.depth - 4.0, 4.5))
+                           upper_face_y - p.spring_seat_h - p.spring_pilot_h,
+                           p.spring_pilot_h))
 
     # Recorte de varrimento real em toda a profundidade. Produz uma junta
     # contínua de 0,55 mm e garante que o braço nunca toca nas faces exteriores.
@@ -330,15 +323,7 @@ def main():
         "spring_kinematics": spring,
         "hidden_axis": True,
         "opposed_spring_seats": True,
-        "wall_mount": {
-            "type": "two M4 countersunk through holes",
-            "wall_contact_plane": "Z=0 broad face",
-            "screw_axis": "Z, perpendicular to wall",
-            "centres_xy_mm": [[16.0, 35.0], [60.0, 35.0]],
-            "through_d_mm": 4.3,
-            "countersink_max_d_mm": 8.4,
-            "countersink_face": "Z=22 broad exterior face",
-        },
+        "wall_mount": {"type": "none", "screw_holes": 0},
         "physical_fit_tested": False,
         "status": "cad_v3_visual_and_kinematic_validation",
     }
