@@ -43,8 +43,7 @@ class Parameters:
     spring_outer_d: float = 7.0
     spring_seat_d: float = 8.6
     spring_pilot_d: float = 4.2
-    spring_seat_h: float = 1.2
-    spring_pilot_h: float = 2.2
+    spring_seat_depth: float = 1.2
     spring_gap_closed: float = 9.6
     moving_outer_top: float = 10.5
     max_open_deg: float = 45.0
@@ -119,12 +118,18 @@ def moving_arm(p=P):
     arm = arm.union(zcone(p.pivot_x, p.pivot_y, 1.2, p.axle_d / 2, axle_z0, 1.0))
     arm = arm.union(zcone(p.pivot_x, p.pivot_y, p.axle_d / 2, 1.2, axle_z1 - 1.0, 1.0))
 
-    # Berço inferior: disco de apoio + piloto central para o interior da mola.
+    # Alojamento inferior rebaixado: corta apenas o anel entre Ø8,6 e Ø4,2.
+    # A ilha central Ø4,2 permanece ao nível da face original da peça.
     seat_y = p.moving_outer_top
-    arm = arm.union(ycyl(p.spring_x, p.depth / 2, p.spring_seat_d / 2,
-                         seat_y, p.spring_seat_h))
-    arm = arm.union(ycyl(p.spring_x, p.depth / 2, p.spring_pilot_d / 2,
-                         seat_y + p.spring_seat_h, p.spring_pilot_h))
+    # A língua estrutural atravessa parcialmente esta zona; nivela primeiro
+    # todo o círculo à face Y=10,5 para que a ilha nunca fique saliente.
+    arm = arm.cut(ycyl(p.spring_x, p.depth / 2, p.spring_seat_d / 2,
+                       seat_y, p.height - seat_y + 2))
+    lower_outer = ycyl(p.spring_x, p.depth / 2, p.spring_seat_d / 2,
+                        seat_y - p.spring_seat_depth, p.spring_seat_depth)
+    lower_inner = ycyl(p.spring_x, p.depth / 2, p.spring_pilot_d / 2,
+                        seat_y - p.spring_seat_depth - .1, p.spring_seat_depth + .2)
+    arm = arm.cut(lower_outer.cut(lower_inner))
 
     # Acabamento das arestas exteriores sem atacar os encaixes funcionais.
     try:
@@ -163,13 +168,13 @@ def fixed_body(p=P):
     body = body.cut(zcyl(p.pivot_x, p.pivot_y, socket_r,
                          p.depth - p.cheek_t - 0.2, 1.9))
 
-    # Berço superior oposto, centrado no mesmo eixo da mola e separado do veio.
+    # Alojamento superior espelhado, também rebaixado para dentro do corpo.
     upper_face_y = p.fixed_bottom
-    body = body.union(ycyl(p.spring_x, p.depth / 2, p.spring_seat_d / 2,
-                           upper_face_y - p.spring_seat_h, p.spring_seat_h))
-    body = body.union(ycyl(p.spring_x, p.depth / 2, p.spring_pilot_d / 2,
-                           upper_face_y - p.spring_seat_h - p.spring_pilot_h,
-                           p.spring_pilot_h))
+    upper_outer = ycyl(p.spring_x, p.depth / 2, p.spring_seat_d / 2,
+                        upper_face_y, p.spring_seat_depth)
+    upper_inner = ycyl(p.spring_x, p.depth / 2, p.spring_pilot_d / 2,
+                        upper_face_y - .1, p.spring_seat_depth + .2)
+    body = body.cut(upper_outer.cut(upper_inner))
 
     # Recorte de varrimento real em toda a profundidade. Produz uma junta
     # contínua de 0,55 mm e garante que o braço nunca toca nas faces exteriores.
@@ -257,8 +262,8 @@ def passage_report(fixed, moving, upper_liner, lower_liner, p=P):
 
 
 def spring_report(p=P):
-    lower = (p.spring_x, p.moving_outer_top + p.spring_seat_h)
-    upper = (p.spring_x, p.fixed_bottom - p.spring_seat_h)
+    lower = (p.spring_x, p.moving_outer_top - p.spring_seat_depth)
+    upper = (p.spring_x, p.fixed_bottom + p.spring_seat_depth)
     theta = math.radians(-p.max_open_deg)
     dx, dy = lower[0] - p.pivot_x, lower[1] - p.pivot_y
     opened_lower = (p.pivot_x + dx * math.cos(theta) - dy * math.sin(theta),
@@ -269,8 +274,8 @@ def spring_report(p=P):
         "seat_distance_closed_mm": round(closed_distance, 3),
         "seat_distance_open_45deg_mm": round(open_distance, 3),
         "working_compression_mm": round(closed_distance - open_distance, 3),
-        "proposed_free_length_mm": 12.0,
-        "required_solid_length_max_mm": 5.5,
+        "proposed_free_length_mm": 17.0,
+        "required_solid_length_max_mm": round(open_distance - .4, 1),
         "physical_force_test_required": True,
     }
 

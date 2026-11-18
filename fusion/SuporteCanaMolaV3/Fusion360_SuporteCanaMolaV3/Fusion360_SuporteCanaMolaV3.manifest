@@ -1,0 +1,8 @@
+{
+  "autodeskProduct": "Fusion360",
+  "type": "script",
+  "author": "Universo do Saber",
+  "description": "Importa o suporte de cana V3 validado, sem parafusos, e guarda um F3D sem substituir ficheiros existentes.",
+  "version": "1.0.0",
+  "supportedOS": "windows|mac"
+}

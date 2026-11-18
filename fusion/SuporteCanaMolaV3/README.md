@@ -4,8 +4,8 @@
 
 Esta revisão traduz o conceito aprovado para sólidos paramétricos reais. O
 corpo fixo cria duas faces exteriores contínuas que escondem o eixo; o braço
-móvel entra entre elas. A mola de compressão fica centrada por dois discos de
-apoio opostos e pilotos centrais independentes do eixo.
+móvel entra entre elas. A mola de compressão fica centrada por dois alojamentos
+anulares rebaixados com ilhas centrais ao nível das faces originais.
 
 ## Dimensões atuais
 
@@ -19,9 +19,9 @@ apoio opostos e pilotos centrais independentes do eixo.
 | Abertura máxima | 45° |
 | Eixo oculto integrado | Ø4 mm |
 | Mola proposta | Ø exterior até 7 mm |
-| Comprimento livre proposto | 12 mm |
-| Comprimento sólido máximo exigido | 5,5 mm |
-| Berços da mola | ombro Ø8,6 × 1,2 mm + piloto Ø4,2 × 2,2 mm |
+| Comprimento livre proposto | 17 mm |
+| Comprimento sólido máximo exigido | calculado na validação após o rebaixo |
+| Berços da mola | rebaixo anular Ø8,6/Ø4,2 × 1,2 mm |
 | Folga dinâmica entre peças | 0,55 mm |
 | Fixação | sem furos ou opção de parafusos nesta revisão |
 
@@ -38,10 +38,10 @@ Estas verificações são geométricas. A força da mola, flexão do encaixe ocu
 desgaste, resistência em ambiente marítimo e contacto com canas reais precisam
 de cupão e teste físico antes de preparar a versão final de uso.
 
-A cinemática calcula cerca de 6,03 mm de compressão entre fechado e 45°. Por
-isso a mola candidata deve ter comprimento livre próximo de 12 mm e comprimento
-sólido não superior a 5,5 mm. A constante elástica e a pré-carga continuam por
-validar fisicamente; não substituir uma mola apenas pelo diâmetro exterior.
+A cinemática recalcula no ficheiro `validation.json` a compressão entre fechado
+e 45° a partir do fundo dos dois rebaixos. A candidata inicial passa a ter
+comprimento livre próximo de 17 mm; comprimento sólido, constante elástica e
+pré-carga continuam por validar fisicamente.
 
 ## Revisão crítica antes da impressão
 
@@ -54,10 +54,10 @@ validar fisicamente; não substituir uma mola apenas pelo diâmetro exterior.
   para não estrangular a passagem.
 - Foram removidos todos os furos, escareados e encaixes de parafuso. A peça não
   inclui qualquer opção de fixação nesta revisão.
-- Cada apoio da mola tem agora dois níveis visíveis: um ombro Ø8,6 × 1,2 mm que
-  recebe a extremidade da mola e, depois, um piloto menor Ø4,2 × 2,2 mm que
-  entra no interior da mola. Na versão anterior o piloto estava sobreposto ao
-  ombro e por isso não ficava saliente.
+- Cada apoio da mola é agora um rebaixo anular Ø8,6/Ø4,2 × 1,2 mm inserido para
+  dentro da peça. A ilha central Ø4,2 termina exatamente ao nível da face base;
+  nada fica saliente. A extremidade da mola entra no anel rebaixado e fica
+  centrada pela ilha central.
 - Não foram abertas bolsas para ímanes nesta revisão. A retenção magnética será
   decidida depois de medir a força da mola, evitando abertura excessivamente
   pesada e ferragens desnecessárias em ambiente marítimo.
@@ -69,3 +69,12 @@ O TPU deve ser alimentado por bobina externa, não pelo AMS Lite. O perfil usa
 camada de 0,20 mm, cinco paredes, seis camadas superiores e inferiores, 35%
 gyroid, suportes automáticos e sem brim. Os três pratos foram fatiados sem
 avisos, mas nenhum encaixe foi ainda testado fisicamente.
+
+## Script Autodesk Fusion 360
+
+A pasta `Fusion360_SuporteCanaMolaV3` contém um script manual para **Scripts
+and Add-Ins**. Mantendo a pasta dentro deste diretório, o script cria um novo
+documento, importa os quatro STEP como componentes, regista nove parâmetros de
+referência e exporta `Documents/SuporteCanaMolaV3_Fusion.f3d` sem substituir um
+ficheiro existente. O script foi verificado sintaticamente neste ambiente, mas
+não foi executado dentro do Fusion desktop; essa validação continua pendente.

@@ -65,8 +65,8 @@ draw(ax, lower_tpu, P.depth / 2, "#168bd2", "#075b91")
 draw(ax, upper_tpu, P.depth / 2, "#168bd2", "#075b91")
 ax.add_patch(Circle((P.pivot_x, P.pivot_y), P.axle_d / 2,
                     facecolor="#d3dadd", edgecolor="#54666e", linewidth=1.2))
-ys = np.linspace(P.moving_outer_top + P.spring_pilot_h,
-                 P.fixed_bottom - P.spring_pilot_h, 17)
+ys = np.linspace(P.moving_outer_top - P.spring_seat_depth,
+                 P.fixed_bottom + P.spring_seat_depth, 17)
 xs = P.spring_x + 1.8 * np.sin(np.linspace(0, 8 * np.pi, len(ys)))
 ax.plot(xs, ys, color="#d3dadd", linewidth=2.4)
 ax.set_title("Corte central do mecanismo", fontsize=19, fontweight="bold", color="#203842")
