@@ -1,0 +1,49 @@
+{
+  "project": "universo-saber-suporte-v11-anti-empeno-A1-AMS-2-pratos.3mf",
+  "sha256": "6f94fe60dcd92ebbdda7f28c8722cde2c0a051c4b94e983c62064d1cf4b31809",
+  "source": "universo-saber-suporte-v10-topo-sem-ironing-A1-AMS-2-pratos.3mf",
+  "geometry_identical_to_v10": true,
+  "machine": "Bambu Lab A1 0.4 nozzle",
+  "material_assumption": "PLA; white nozzle range supplied by user 200-230 C",
+  "nozzle_temperature_changed": false,
+  "textured_plate_c": {
+    "first_layer": 60,
+    "other_layers": 60
+  },
+  "brim": {
+    "type": "outer_only",
+    "width_mm": 5,
+    "object_gap_mm": 0.15
+  },
+  "first_layer": {
+    "wall_mm_s": 15,
+    "infill_mm_s": 25,
+    "acceleration_mm_s2": 400
+  },
+  "cooling": {
+    "fan_off_first_layers": 4,
+    "full_fan_layer": 8,
+    "min_percent": 50,
+    "max_percent": 70,
+    "auxiliary_fan": 0
+  },
+  "ironing": false,
+  "one_wall_on_top_surfaces": "all top",
+  "archive_reopened": true,
+  "sliced_in_bambu_studio": true,
+  "physical_anti_warp_tested": false,
+  "plates": [
+    {
+      "name": "Placa branca e relevo azul",
+      "estimated_minutes": 298.3,
+      "estimated_g": 70.57,
+      "warnings": ""
+    },
+    {
+      "name": "Base azul",
+      "estimated_minutes": 182.9,
+      "estimated_g": 43.05,
+      "warnings": ""
+    }
+  ]
+}
