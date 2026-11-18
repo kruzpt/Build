@@ -62,6 +62,10 @@ def ycyl(x, z, r, y0, length):
     return cq.Solid.makeCylinder(r, length, cq.Vector(x, y0, z), cq.Vector(0, 1, 0))
 
 
+def xcyl(y, z, r, x0, length):
+    return cq.Solid.makeCylinder(r, length, cq.Vector(x0, y, z), cq.Vector(1, 0, 0))
+
+
 def zcone(x, y, r0, r1, z0, length):
     return cq.Solid.makeCone(r0, r1, length, cq.Vector(x, y, z0), cq.Vector(0, 0, 1))
 
@@ -170,9 +174,15 @@ def fixed_body(p=P):
     body = body.union(ycyl(p.spring_x, p.depth / 2, p.spring_pilot_d / 2,
                            upper_face_y - p.spring_pilot_h, p.spring_pilot_h))
 
-    for mount_x in (7.5, 61.5):
-        body = body.cut(zcyl(mount_x, 34.0, 2.15, -1, p.depth + 2))
-        body = body.cut(zcone(mount_x, 34.0, 2.15, 4.2, p.depth - 4.0, 4.5))
+    # A face X=0 encosta à parede. Dois rasgos tipo fechadura cegos permitem
+    # pendurar a peça em parafusos pré-instalados sem furar as faces visíveis.
+    # O parafuso entra no alojamento circular e a peça desliza 6 mm para baixo.
+    for mount_z in (5.5, p.depth - 5.5):
+        body = body.cut(xcyl(35.0, mount_z, 4.3, -0.5, 4.0))
+        neck = (cq.Workplane("XY")
+                .box(4.0, 6.0, 4.6, centered=(False, False, False))
+                .translate((-0.5, 29.0, mount_z - 2.3)))
+        body = body.cut(neck)
 
     # Recorte de varrimento real em toda a profundidade. Produz uma junta
     # contínua de 0,55 mm e garante que o braço nunca toca nas faces exteriores.
@@ -326,6 +336,14 @@ def main():
         "spring_kinematics": spring,
         "hidden_axis": True,
         "opposed_spring_seats": True,
+        "wall_mount": {
+            "type": "two concealed rear keyhole slots",
+            "wall_plane": "X=0",
+            "head_pocket_d_mm": 8.6,
+            "shank_slot_width_mm": 4.6,
+            "engagement_depth_mm": 3.5,
+            "downward_locking_travel_mm": 6.0,
+        },
         "physical_fit_tested": False,
         "status": "cad_v3_visual_and_kinematic_validation",
     }

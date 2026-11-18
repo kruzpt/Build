@@ -214,6 +214,14 @@
   },
   "hidden_axis": true,
   "opposed_spring_seats": true,
+  "wall_mount": {
+    "type": "two concealed rear keyhole slots",
+    "wall_plane": "X=0",
+    "head_pocket_d_mm": 8.6,
+    "shank_slot_width_mm": 4.6,
+    "engagement_depth_mm": 3.5,
+    "downward_locking_travel_mm": 6.0
+  },
   "physical_fit_tested": false,
   "status": "cad_v3_visual_and_kinematic_validation"
 }
