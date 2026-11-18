@@ -1,0 +1,29 @@
+{
+  "project": "suporte-cana-mola-v3-A1-PETG-TPU-3-pratos.3mf",
+  "printer_assumed": "Bambu Lab A1 0.4 mm",
+  "structural_filament": "Generic PETG @BBL A1",
+  "liner_filament": "Generic TPU @BBL A1; bobina externa, n\u00e3o AMS Lite",
+  "physical_fit_tested": false,
+  "spring_tested": false,
+  "hidden_snap_axle_tested": false,
+  "plates": [
+    {
+      "name": "01 - Cupao eixo oculto e mola - PETG",
+      "warnings": "",
+      "estimated_seconds": 4269.29296875,
+      "estimated_grams": 18.695240020751953
+    },
+    {
+      "name": "02 - Estrutura completa - PETG",
+      "warnings": "",
+      "estimated_seconds": 7466.62451171875,
+      "estimated_grams": 37.06574630737305
+    },
+    {
+      "name": "03 - Insertos de contacto - TPU bobina externa",
+      "warnings": "",
+      "estimated_seconds": 1450.4476318359375,
+      "estimated_grams": 2.6466095447540283
+    }
+  ]
+}
