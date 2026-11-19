@@ -52,6 +52,11 @@ def ellipse_tube(rx, ry, h, center=(0, 0, 0), segments=128):
     return md.Manifold.cylinder(h, 1, circular_segments=segments).scale((rx, ry, 1)).translate(center)
 
 
+def ellipse_frustum(rx, ry, h, top_scale, center=(0, 0, 0), segments=128):
+    return (md.Manifold.cylinder(h, 1, top_scale, circular_segments=segments)
+            .scale((rx, ry, 1)).translate(center))
+
+
 def head_tilt(shape):
     pivot = (0, -5.8, 28.0)
     return shape.translate(tuple(-v for v in pivot)).rotate((0, -11, 0)).translate(pivot)
@@ -62,8 +67,15 @@ feet = [
     egg((-11.2, -12.4, 5.9), (7.7, 7.1, 6.5), rotation=(3, -8, -5)),
     egg((11.2, -12.4, 5.9), (7.7, 7.1, 6.5), rotation=(3, 8, 5)),
 ]
+sleeve_chamfer_height = 1.2
+sleeve_main_height = 25 - sleeve_chamfer_height
+sleeve_outer = (
+    ellipse_tube(15.5, 12, sleeve_main_height, (0, 18, 0)) +
+    ellipse_frustum(15.5, 12, sleeve_chamfer_height, 15.0 / 15.5,
+                     (0, 18, sleeve_main_height))
+)
 black = union([
-    ellipse_tube(15.5, 12, 25, (0, 18, 0)),
+    sleeve_outer,
     egg((0, -2.0, 13.0), (15.7, 11.6, 14.5)),
     egg((0, 4.5, 13.0), (13.8, 9.0, 11.5)),
     egg((-11.8, -6.5, 12.5), (8.2, 8.6, 10.8), rotation=(0, -9, -5)),
@@ -144,19 +156,18 @@ fingers = union([
 arms = union([left_arm, left_paw, right_arm, palm, fingers])
 whole_raw += arms; black += arms; ivory -= arms; green -= arms
 
-# Almofadas positivas: cada uma tem uma âncora dentro da pata e uma cúpula
-# saliente no exterior. A âncora impede que o slicer as trate como uma simples
-# superfície encostada; a cúpula mantém o aspeto fofo da referência.
+# Almofadas positivas com interface traseira plana. Cada cúpula é recortada no
+# mesmo plano Y e esse mesmo sólido é subtraído da pata preta. Isto cria uma
+# fronteira de material única, sem âncoras curvas a irromper pela superfície.
 tan_parts = []
-front_pad_clip = md.Manifold.cube((120, 42.4, 70)).translate((-60, -60, 0))
+pad_interface_y = -17.75
+front_pad_clip = md.Manifold.cube((120, pad_interface_y + 60, 70)).translate((-60, -60, 0))
 for x in (-11.2, 11.2):
-    large_anchor = egg((x, -17.55, 5.35), (3.25, 1.05, 2.35), 56)
-    large_dome = egg((x, -19.05, 5.35), (3.85, 1.55, 2.9), 64)
-    tan_parts.append(large_anchor + (large_dome ^ front_pad_clip))
+    large_dome = egg((x, -18.95, 5.35), (3.85, 1.65, 2.9), 64)
+    tan_parts.append(large_dome ^ front_pad_clip)
     for dx, dz in ((-2.7, 3.45), (0, 4.15), (2.7, 3.45)):
-        small_anchor = egg((x + dx, -17.15, 5.35 + dz), (.82, .72, .78), 48)
-        small_dome = egg((x + dx, -18.65, 5.35 + dz), (1.12, 1.10, 1.08), 56)
-        tan_parts.append(small_anchor + (small_dome ^ front_pad_clip))
+        small_dome = egg((x + dx, -18.55, 5.35 + dz), (1.12, 1.18, 1.08), 56)
+        tan_parts.append(small_dome ^ front_pad_clip)
 tan = union(tan_parts)
 whole_raw += tan; black -= tan; ivory -= tan; green -= tan
 
@@ -180,8 +191,13 @@ ivory -= print_base
 green -= print_base
 tan -= print_base
 
-# Tubo funcional preservado: passagem oval 25 × 18 mm, 25 mm de altura útil.
-bore = ellipse_tube(12.5, 9, 59, (0, 18, -.5))
+# Tubo funcional: furo nominal 25 × 18 mm. Só os 1,2 mm superiores recebem
+# chanfro, tanto no exterior como na entrada do furo; a face inferior permanece
+# totalmente plana e com a área de contacto original.
+bore_nominal = ellipse_tube(12.5, 9, 59, (0, 18, -.5))
+bore_top_chamfer = ellipse_frustum(12.5, 9, sleeve_chamfer_height, 1.04,
+                                   (0, 18, sleeve_main_height))
+bore = bore_nominal + bore_top_chamfer
 plate_clip = md.Manifold.cube((120, 120, 70)).translate((-60, -60, 0))
 raw_parts = (("black", black), ("ivory", ivory), ("green", green), ("tan", tan))
 parts = {}
@@ -193,9 +209,11 @@ for name, shape in raw_parts:
     data = shape.to_mesh()
     tri = trimesh.Trimesh(data.vert_properties[:, :3], data.tri_verts, process=True)
     tri.remove_unreferenced_vertices()
+    duplicate_faces = len(tri.faces) - len(np.unique(np.sort(tri.faces, axis=1), axis=0))
     assert tri.is_watertight and tri.is_winding_consistent and tri.volume > 0, (
         name, tri.is_watertight, tri.is_winding_consistent, tri.volume,
         len(tri.faces), len(tri.split(only_watertight=False)))
+    assert duplicate_faces == 0, (name, duplicate_faces)
     tri.export(OUT / f"panda-{name}.stl")
     final_shapes[name] = shape
     meshes[name] = tri
@@ -206,6 +224,7 @@ for name, shape in raw_parts:
         "faces": len(tri.faces),
         "watertight": True,
         "winding_consistent": True,
+        "duplicate_faces": duplicate_faces,
     }
 
 assembly = (whole_raw - bore) ^ plate_clip
@@ -240,7 +259,8 @@ for i, first in enumerate(names):
 tan_components = meshes["tan"].split()
 tan_component_volumes = sorted(float(component.volume) for component in tan_components)
 assert len(tan_components) == 8
-assert tan_component_volumes[0] > 7.0
+assert tan_component_volumes[0] > 5.0
+assert abs(float(meshes["tan"].bounds[1, 1]) - pad_interface_y) < .001
 
 report = {
     "version": "premium_v5",
@@ -256,6 +276,14 @@ report = {
     "scarf_bore_mm": [25, 18],
     "bore_axis": "Z",
     "sleeve_height_mm": 25,
+    "sleeve_edge_treatment": {
+        "top_only": True,
+        "chamfer_height_mm": sleeve_chamfer_height,
+        "outer_top_radii_mm": [15.0, round(12 * 15.0 / 15.5, 3)],
+        "inner_top_opening_mm": [26.0, 18.72],
+        "bottom_edge_chamfer_mm": 0,
+        "bottom_plane_z_mm": 0,
+    },
     "print_base": {
         "plane_z_mm": 0,
         "height_mm": base_height,
@@ -270,11 +298,14 @@ report = {
         "large_positive_pads": 2,
         "small_positive_pads": 6,
         "pads_per_foot": "1 oval + 3 round",
-        "construction": "embedded anchor plus proud exterior dome",
+        "construction": "positive dome with single planar colour interface",
+        "interface_plane_y_mm": pad_interface_y,
         "separate_colour_body": "tan",
         "component_count": len(tan_components),
         "smallest_component_volume_mm3": round(tan_component_volumes[0], 3),
         "unexpected_micro_components": 0,
+        "maximum_rear_extent_y_mm": round(float(meshes["tan"].bounds[1, 1]), 3),
+        "black_tan_overlap_mm3": intersections["black_tan"],
     },
     "target_printer": "Snapmaker U1",
     "physical_fit_tested": False,

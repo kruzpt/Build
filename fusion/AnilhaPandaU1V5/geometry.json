@@ -4,7 +4,7 @@
   "one_printed_piece": true,
   "colour_volumes": {
     "black": {
-      "volume_mm3": 23378.8,
+      "volume_mm3": 23389.81,
       "bounds_mm": [
         [
           -24.64,
@@ -18,9 +18,10 @@
         ]
       ],
       "components": 8,
-      "faces": 51994,
+      "faces": 43176,
       "watertight": true,
-      "winding_consistent": true
+      "winding_consistent": true,
+      "duplicate_faces": 0
     },
     "ivory": {
       "volume_mm3": 19833.58,
@@ -39,7 +40,8 @@
       "components": 1,
       "faces": 17320,
       "watertight": true,
-      "winding_consistent": true
+      "winding_consistent": true,
+      "duplicate_faces": 0
     },
     "green": {
       "volume_mm3": 914.29,
@@ -58,10 +60,11 @@
       "components": 1,
       "faces": 8336,
       "watertight": true,
-      "winding_consistent": true
+      "winding_consistent": true,
+      "duplicate_faces": 0
     },
     "tan": {
-      "volume_mm3": 231.51,
+      "volume_mm3": 178.91,
       "bounds_mm": [
         [
           -15.05,
@@ -70,14 +73,15 @@
         ],
         [
           15.05,
-          -16.43,
+          -17.75,
           10.58
         ]
       ],
       "components": 8,
-      "faces": 22104,
+      "faces": 12432,
       "watertight": true,
-      "winding_consistent": true
+      "winding_consistent": true,
+      "duplicate_faces": 0
     }
   },
   "total_bounds_mm": [
@@ -92,14 +96,14 @@
       56.41
     ]
   ],
-  "total_volume_mm3": 44358.18,
+  "total_volume_mm3": 44316.58,
   "whole_watertight": true,
   "whole_winding_consistent": true,
   "whole_components": 1,
   "controlled_colour_intersection_mm3": {
     "black_ivory": 0.0,
     "black_green": 0.0,
-    "black_tan": -0.0,
+    "black_tan": 0.0,
     "ivory_green": -0.0,
     "ivory_tan": 0.0,
     "green_tan": 0.0
@@ -110,6 +114,20 @@
   ],
   "bore_axis": "Z",
   "sleeve_height_mm": 25,
+  "sleeve_edge_treatment": {
+    "top_only": true,
+    "chamfer_height_mm": 1.2,
+    "outer_top_radii_mm": [
+      15.0,
+      11.613
+    ],
+    "inner_top_opening_mm": [
+      26.0,
+      18.72
+    ],
+    "bottom_edge_chamfer_mm": 0,
+    "bottom_plane_z_mm": 0
+  },
   "print_base": {
     "plane_z_mm": 0,
     "height_mm": 1.2,
@@ -124,11 +142,14 @@
     "large_positive_pads": 2,
     "small_positive_pads": 6,
     "pads_per_foot": "1 oval + 3 round",
-    "construction": "embedded anchor plus proud exterior dome",
+    "construction": "positive dome with single planar colour interface",
+    "interface_plane_y_mm": -17.75,
     "separate_colour_body": "tan",
     "component_count": 8,
-    "smallest_component_volume_mm3": 7.299,
-    "unexpected_micro_components": 0
+    "smallest_component_volume_mm3": 5.527,
+    "unexpected_micro_components": 0,
+    "maximum_rear_extent_y_mm": -17.75,
+    "black_tan_overlap_mm3": 0.0
   },
   "target_printer": "Snapmaker U1",
   "physical_fit_tested": false

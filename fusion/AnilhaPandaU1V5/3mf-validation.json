@@ -22,7 +22,7 @@
     "Preto": {
       "watertight": true,
       "winding_consistent": true,
-      "positive_volume_mm3": 23378.8,
+      "positive_volume_mm3": 23389.81,
       "components": 8
     },
     "Branco creme": {
@@ -40,7 +40,7 @@
     "Bege almofadas": {
       "watertight": true,
       "winding_consistent": true,
-      "positive_volume_mm3": 231.51,
+      "positive_volume_mm3": 178.91,
       "components": 8
     }
   },
