@@ -4,7 +4,7 @@
   "one_printed_piece": true,
   "colour_volumes": {
     "black": {
-      "volume_mm3": 22744.67,
+      "volume_mm3": 22744.29,
       "bounds_mm": [
         [
           -24.64,
@@ -18,7 +18,7 @@
         ]
       ],
       "components": 8,
-      "faces": 43372,
+      "faces": 50636,
       "watertight": true,
       "winding_consistent": true
     },
@@ -61,21 +61,21 @@
       "winding_consistent": true
     },
     "tan": {
-      "volume_mm3": 187.8,
+      "volume_mm3": 231.51,
       "bounds_mm": [
         [
-          -15.0,
-          -20.27,
-          2.55
+          -15.05,
+          -20.6,
+          2.45
         ],
         [
-          15.0,
-          -16.62,
-          10.47
+          15.05,
+          -16.43,
+          10.58
         ]
       ],
       "components": 8,
-      "faces": 10048,
+      "faces": 22104,
       "watertight": true,
       "winding_consistent": true
     }
@@ -92,14 +92,14 @@
       56.41
     ]
   ],
-  "total_volume_mm3": 43707.08,
+  "total_volume_mm3": 43750.42,
   "whole_watertight": true,
   "whole_winding_consistent": true,
   "whole_components": 1,
   "controlled_colour_intersection_mm3": {
     "black_ivory": -0.0,
     "black_green": 0.0,
-    "black_tan": 0.0,
+    "black_tan": -0.0,
     "ivory_green": -0.0,
     "ivory_tan": 0.0,
     "green_tan": 0.0
@@ -111,6 +111,14 @@
   "bore_axis": "Z",
   "sleeve_height_mm": 25,
   "minimum_designed_leaf_thickness_mm": 3.1,
+  "paw_pad_geometry": {
+    "feet": 2,
+    "large_positive_pads": 2,
+    "small_positive_pads": 6,
+    "pads_per_foot": "1 oval + 3 round",
+    "construction": "embedded anchor plus proud exterior dome",
+    "separate_colour_body": "tan"
+  },
   "target_printer": "Snapmaker U1",
   "physical_fit_tested": false
 }

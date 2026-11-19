@@ -144,12 +144,18 @@ fingers = union([
 arms = union([left_arm, left_paw, right_arm, palm, fingers])
 whole_raw += arms; black += arms; ivory -= arms; green -= arms
 
-# Almofadas embutidas nas patas, nunca como elementos flutuantes.
+# Almofadas positivas: cada uma tem uma âncora dentro da pata e uma cúpula
+# saliente no exterior. A âncora impede que o slicer as trate como uma simples
+# superfície encostada; a cúpula mantém o aspeto fofo da referência.
 tan_parts = []
 for x in (-11.2, 11.2):
-    tan_parts.append(egg((x, -18.55, 5.4), (3.8, 1.72, 2.85), 56))
-    for dx, dz in ((-2.7, 3.4), (0, 4.05), (2.7, 3.4)):
-        tan_parts.append(egg((x + dx, -17.82, 5.4 + dz), (1.08, 1.2, 1.02), 48))
+    large_anchor = egg((x, -17.55, 5.35), (3.25, 1.05, 2.35), 56)
+    large_dome = egg((x, -19.05, 5.35), (3.85, 1.55, 2.9), 64)
+    tan_parts.append(large_anchor + large_dome)
+    for dx, dz in ((-2.7, 3.45), (0, 4.15), (2.7, 3.45)):
+        small_anchor = egg((x + dx, -17.15, 5.35 + dz), (.82, .72, .78), 48)
+        small_dome = egg((x + dx, -18.65, 5.35 + dz), (1.12, 1.10, 1.08), 56)
+        tan_parts.append(small_anchor + small_dome)
 tan = union(tan_parts)
 whole_raw += tan; black -= tan; ivory -= tan; green -= tan
 
@@ -210,6 +216,14 @@ report = {
     "bore_axis": "Z",
     "sleeve_height_mm": 25,
     "minimum_designed_leaf_thickness_mm": 3.1,
+    "paw_pad_geometry": {
+        "feet": 2,
+        "large_positive_pads": 2,
+        "small_positive_pads": 6,
+        "pads_per_foot": "1 oval + 3 round",
+        "construction": "embedded anchor plus proud exterior dome",
+        "separate_colour_body": "tan",
+    },
     "target_printer": "Snapmaker U1",
     "physical_fit_tested": False,
 }

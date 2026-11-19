@@ -8,12 +8,19 @@ envolvem o caule, evitando a aparência de esfera colocada sobre o bambu.
 Mantidos: expressão preguiçosa V4, inclinação da cabeça, quatro cores e tubo
 traseiro vertical com passagem útil de 25 × 18 mm e altura de 25 mm.
 
+As patas foram corrigidas para terem, cada uma, uma almofada oval grande e três
+almofadas redondas pequenas. Todas são sólidos positivos bege com âncora dentro
+da pata e cúpula saliente no exterior; não são cavidades nem simples superfícies
+encostadas.
+
 ![Seis vistas da geometria real](../../designs/anilha-panda-u1-CAD-v5-seis-vistas.png)
 
 ## Exportação
 
-O 3MF contém quatro objetos nas mesmas coordenadas e quatro materiais base:
-preto, branco/creme, verde e bege. Não contém um perfil de impressão inventado.
+O 3MF contém um conjunto multipartes com quatro corpos selecionáveis nas mesmas
+coordenadas e quatro materiais base: preto, branco/creme, verde e bege. A cor é
+registada no corpo e nos triângulos; os metadados Orca associam as quatro partes
+aos extrusores 1–4. Não contém um perfil de impressão inventado.
 A versão pronta para importar está em
 [`downloads/anilha-panda-preguicoso-v5-Snapmaker-U1-4-cores.3mf`](../../downloads/anilha-panda-preguicoso-v5-Snapmaker-U1-4-cores.3mf).
 A importação no slicer Snapmaker e a atribuição às quatro cabeças continuam a
@@ -26,6 +33,8 @@ ser verificações obrigatórias, porque o nozzle e o perfil U1 não foram forne
 - Folhas com espessura mínima desenhada de 3,1 mm.
 - Envelope total de 48,06 × 52,54 × 56,41 mm.
 - Quatro volumes de cor sem interseções volumétricas entre si.
+- Duas almofadas ovais e seis pequenas reabertas como volumes positivos bege.
 - Escala em milímetros declarada dentro do 3MF.
-- Arquivo 3MF reaberto e conteúdo ZIP verificado sem erros.
+- Os quatro corpos foram extraídos do 3MF, reabertos e confirmados watertight.
+- Conteúdo ZIP verificado sem erros.
 - Ajuste do lenço e impressão física ainda não testados.

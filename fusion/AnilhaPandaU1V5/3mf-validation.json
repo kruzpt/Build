@@ -1,14 +1,49 @@
 {
   "file": "anilha-panda-preguicoso-v5-Snapmaker-U1-4-cores.3mf",
   "unit": "millimeter",
-  "objects": 4,
+  "mesh_parts": 4,
+  "assembly_build_items": 1,
+  "selectable_colour_parts": 4,
   "materials": [
     "Preto",
     "Branco creme",
     "Verde bambu",
     "Bege almofadas"
   ],
+  "triangle_material_properties": true,
+  "orca_extruder_mapping": {
+    "Preto": 1,
+    "Branco creme": 2,
+    "Verde bambu": 3,
+    "Bege almofadas": 4
+  },
   "geometry_reopened": true,
+  "reopened_part_checks": {
+    "Preto": {
+      "watertight": true,
+      "winding_consistent": true,
+      "positive_volume_mm3": 22744.29,
+      "components": 8
+    },
+    "Branco creme": {
+      "watertight": true,
+      "winding_consistent": true,
+      "positive_volume_mm3": 19846.05,
+      "components": 1
+    },
+    "Verde bambu": {
+      "watertight": true,
+      "winding_consistent": true,
+      "positive_volume_mm3": 928.57,
+      "components": 1
+    },
+    "Bege almofadas": {
+      "watertight": true,
+      "winding_consistent": true,
+      "positive_volume_mm3": 231.51,
+      "components": 8
+    }
+  },
   "snapmaker_slicer_import_tested": false,
   "print_profile_included": false
 }
