@@ -1,0 +1,14 @@
+{
+  "file": "anilha-panda-preguicoso-v5-Snapmaker-U1-4-cores.3mf",
+  "unit": "millimeter",
+  "objects": 4,
+  "materials": [
+    "Preto",
+    "Branco creme",
+    "Verde bambu",
+    "Bege almofadas"
+  ],
+  "geometry_reopened": true,
+  "snapmaker_slicer_import_tested": false,
+  "print_profile_included": false
+}

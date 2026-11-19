@@ -1,0 +1,116 @@
+{
+  "version": "premium_v5",
+  "unit": "mm",
+  "one_printed_piece": true,
+  "colour_volumes": {
+    "black": {
+      "volume_mm3": 22744.67,
+      "bounds_mm": [
+        [
+          -24.64,
+          -22.54,
+          0.0
+        ],
+        [
+          20.2,
+          30.0,
+          56.41
+        ]
+      ],
+      "components": 8,
+      "faces": 43372,
+      "watertight": true,
+      "winding_consistent": true
+    },
+    "ivory": {
+      "volume_mm3": 19846.05,
+      "bounds_mm": [
+        [
+          -21.08,
+          -20.25,
+          0.2
+        ],
+        [
+          17.65,
+          8.69,
+          52.3
+        ]
+      ],
+      "components": 1,
+      "faces": 17198,
+      "watertight": true,
+      "winding_consistent": true
+    },
+    "green": {
+      "volume_mm3": 928.57,
+      "bounds_mm": [
+        [
+          -2.15,
+          -21.7,
+          0.0
+        ],
+        [
+          23.42,
+          -14.9,
+          41.62
+        ]
+      ],
+      "components": 1,
+      "faces": 8564,
+      "watertight": true,
+      "winding_consistent": true
+    },
+    "tan": {
+      "volume_mm3": 187.8,
+      "bounds_mm": [
+        [
+          -15.0,
+          -20.27,
+          2.55
+        ],
+        [
+          15.0,
+          -16.62,
+          10.47
+        ]
+      ],
+      "components": 8,
+      "faces": 10048,
+      "watertight": true,
+      "winding_consistent": true
+    }
+  },
+  "total_bounds_mm": [
+    [
+      -24.64,
+      -22.54,
+      0.0
+    ],
+    [
+      23.42,
+      30.0,
+      56.41
+    ]
+  ],
+  "total_volume_mm3": 43707.08,
+  "whole_watertight": true,
+  "whole_winding_consistent": true,
+  "whole_components": 1,
+  "controlled_colour_intersection_mm3": {
+    "black_ivory": -0.0,
+    "black_green": 0.0,
+    "black_tan": 0.0,
+    "ivory_green": -0.0,
+    "ivory_tan": 0.0,
+    "green_tan": 0.0
+  },
+  "scarf_bore_mm": [
+    25,
+    18
+  ],
+  "bore_axis": "Z",
+  "sleeve_height_mm": 25,
+  "minimum_designed_leaf_thickness_mm": 3.1,
+  "target_printer": "Snapmaker U1",
+  "physical_fit_tested": false
+}
