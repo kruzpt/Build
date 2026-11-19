@@ -4,7 +4,7 @@
   "one_printed_piece": true,
   "colour_volumes": {
     "black": {
-      "volume_mm3": 22744.29,
+      "volume_mm3": 23378.8,
       "bounds_mm": [
         [
           -24.64,
@@ -18,17 +18,17 @@
         ]
       ],
       "components": 8,
-      "faces": 50636,
+      "faces": 51994,
       "watertight": true,
       "winding_consistent": true
     },
     "ivory": {
-      "volume_mm3": 19846.05,
+      "volume_mm3": 19833.58,
       "bounds_mm": [
         [
           -21.08,
           -20.25,
-          0.2
+          1.2
         ],
         [
           17.65,
@@ -37,17 +37,17 @@
         ]
       ],
       "components": 1,
-      "faces": 17198,
+      "faces": 17320,
       "watertight": true,
       "winding_consistent": true
     },
     "green": {
-      "volume_mm3": 928.57,
+      "volume_mm3": 914.29,
       "bounds_mm": [
         [
           -2.15,
           -21.7,
-          0.0
+          1.2
         ],
         [
           23.42,
@@ -56,7 +56,7 @@
         ]
       ],
       "components": 1,
-      "faces": 8564,
+      "faces": 8336,
       "watertight": true,
       "winding_consistent": true
     },
@@ -92,12 +92,12 @@
       56.41
     ]
   ],
-  "total_volume_mm3": 43750.42,
+  "total_volume_mm3": 44358.18,
   "whole_watertight": true,
   "whole_winding_consistent": true,
   "whole_components": 1,
   "controlled_colour_intersection_mm3": {
-    "black_ivory": -0.0,
+    "black_ivory": 0.0,
     "black_green": 0.0,
     "black_tan": -0.0,
     "ivory_green": -0.0,
@@ -110,6 +110,14 @@
   ],
   "bore_axis": "Z",
   "sleeve_height_mm": 25,
+  "print_base": {
+    "plane_z_mm": 0,
+    "height_mm": 1.2,
+    "first_layer_components": 1,
+    "first_layer_contact_area_mm2": 1024.29,
+    "designed_for_support_free_lower_zone": true,
+    "slicer_support_analysis_performed": false
+  },
   "minimum_designed_leaf_thickness_mm": 3.1,
   "paw_pad_geometry": {
     "feet": 2,
@@ -117,7 +125,10 @@
     "small_positive_pads": 6,
     "pads_per_foot": "1 oval + 3 round",
     "construction": "embedded anchor plus proud exterior dome",
-    "separate_colour_body": "tan"
+    "separate_colour_body": "tan",
+    "component_count": 8,
+    "smallest_component_volume_mm3": 7.299,
+    "unexpected_micro_components": 0
   },
   "target_printer": "Snapmaker U1",
   "physical_fit_tested": false

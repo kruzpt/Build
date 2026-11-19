@@ -22,19 +22,19 @@
     "Preto": {
       "watertight": true,
       "winding_consistent": true,
-      "positive_volume_mm3": 22744.29,
+      "positive_volume_mm3": 23378.8,
       "components": 8
     },
     "Branco creme": {
       "watertight": true,
       "winding_consistent": true,
-      "positive_volume_mm3": 19846.05,
+      "positive_volume_mm3": 19833.58,
       "components": 1
     },
     "Verde bambu": {
       "watertight": true,
       "winding_consistent": true,
-      "positive_volume_mm3": 928.57,
+      "positive_volume_mm3": 914.29,
       "components": 1
     },
     "Bege almofadas": {

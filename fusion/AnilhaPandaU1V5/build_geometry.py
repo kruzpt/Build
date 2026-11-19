@@ -148,16 +148,37 @@ whole_raw += arms; black += arms; ivory -= arms; green -= arms
 # saliente no exterior. A âncora impede que o slicer as trate como uma simples
 # superfície encostada; a cúpula mantém o aspeto fofo da referência.
 tan_parts = []
+front_pad_clip = md.Manifold.cube((120, 42.4, 70)).translate((-60, -60, 0))
 for x in (-11.2, 11.2):
     large_anchor = egg((x, -17.55, 5.35), (3.25, 1.05, 2.35), 56)
     large_dome = egg((x, -19.05, 5.35), (3.85, 1.55, 2.9), 64)
-    tan_parts.append(large_anchor + large_dome)
+    tan_parts.append(large_anchor + (large_dome ^ front_pad_clip))
     for dx, dz in ((-2.7, 3.45), (0, 4.15), (2.7, 3.45)):
         small_anchor = egg((x + dx, -17.15, 5.35 + dz), (.82, .72, .78), 48)
         small_dome = egg((x + dx, -18.65, 5.35 + dz), (1.12, 1.10, 1.08), 56)
-        tan_parts.append(small_anchor + small_dome)
+        tan_parts.append(small_anchor + (small_dome ^ front_pad_clip))
 tan = union(tan_parts)
 whole_raw += tan; black -= tan; ivory -= tan; green -= tan
+
+# Base técnica baixa e contínua, totalmente escondida na projeção normal do
+# modelo. Une os contactos das patas, corpo, manga traseira e bambu num único
+# primeiro estrato preto. As outras cores começam sobre a base, sem ilhas no ar.
+base_height = 1.2
+base_raw_height = base_height + .2
+base_raw_z = -.2
+print_base = union([
+    ellipse_tube(15.2, 11.3, base_raw_height, (0, 17.8, base_raw_z)),
+    ellipse_tube(14.5, 10.5, base_raw_height, (0, 3.0, base_raw_z)),
+    ellipse_tube(10.0, 7.0, base_raw_height, (0, -9.0, base_raw_z)),
+    ellipse_tube(8.0, 6.8, base_raw_height, (-11.0, -10.0, base_raw_z)),
+    ellipse_tube(8.0, 6.8, base_raw_height, (11.0, -10.0, base_raw_z)),
+    ellipse_tube(6.0, 5.0, base_raw_height, (1.5, -16.0, base_raw_z)),
+])
+whole_raw += print_base
+black += print_base
+ivory -= print_base
+green -= print_base
+tan -= print_base
 
 # Tubo funcional preservado: passagem oval 25 × 18 mm, 25 mm de altura útil.
 bore = ellipse_tube(12.5, 9, 59, (0, 18, -.5))
@@ -172,7 +193,9 @@ for name, shape in raw_parts:
     data = shape.to_mesh()
     tri = trimesh.Trimesh(data.vert_properties[:, :3], data.tri_verts, process=True)
     tri.remove_unreferenced_vertices()
-    assert tri.is_watertight and tri.is_winding_consistent and tri.volume > 0, name
+    assert tri.is_watertight and tri.is_winding_consistent and tri.volume > 0, (
+        name, tri.is_watertight, tri.is_winding_consistent, tri.volume,
+        len(tri.faces), len(tri.split(only_watertight=False)))
     tri.export(OUT / f"panda-{name}.stl")
     final_shapes[name] = shape
     meshes[name] = tri
@@ -192,6 +215,19 @@ whole.remove_unreferenced_vertices()
 assert whole.is_watertight and whole.is_winding_consistent and len(whole.split()) == 1
 whole.export(OUT / "panda-assembly-reference.stl")
 
+# Verifica a primeira camada como uma única região contínua. A passagem oval é
+# mantida aberta, mas o anel em seu redor continua ligado ao resto da base.
+first_layer_slab = md.Manifold.cube((120, 120, .2)).translate((-60, -60, 0))
+first_layer_shape = assembly ^ first_layer_slab
+first_layer_data = first_layer_shape.to_mesh()
+first_layer_mesh = trimesh.Trimesh(first_layer_data.vert_properties[:, :3],
+                                   first_layer_data.tri_verts, process=True)
+first_layer_mesh.remove_unreferenced_vertices()
+first_layer_components = len(first_layer_mesh.split())
+first_layer_area = float(first_layer_mesh.volume / .2)
+assert first_layer_components == 1
+assert first_layer_area > 900
+
 # Mede as interseções reais: interfaces coincidentes são permitidas, volume não.
 intersections = {}
 names = list(meshes)
@@ -200,6 +236,11 @@ for i, first in enumerate(names):
         volume = float((final_shapes[first] ^ final_shapes[second]).volume())
         intersections[f"{first}_{second}"] = round(volume, 6)
         assert volume < .001, (first, second, volume)
+
+tan_components = meshes["tan"].split()
+tan_component_volumes = sorted(float(component.volume) for component in tan_components)
+assert len(tan_components) == 8
+assert tan_component_volumes[0] > 7.0
 
 report = {
     "version": "premium_v5",
@@ -215,6 +256,14 @@ report = {
     "scarf_bore_mm": [25, 18],
     "bore_axis": "Z",
     "sleeve_height_mm": 25,
+    "print_base": {
+        "plane_z_mm": 0,
+        "height_mm": base_height,
+        "first_layer_components": first_layer_components,
+        "first_layer_contact_area_mm2": round(first_layer_area, 2),
+        "designed_for_support_free_lower_zone": True,
+        "slicer_support_analysis_performed": False,
+    },
     "minimum_designed_leaf_thickness_mm": 3.1,
     "paw_pad_geometry": {
         "feet": 2,
@@ -223,6 +272,9 @@ report = {
         "pads_per_foot": "1 oval + 3 round",
         "construction": "embedded anchor plus proud exterior dome",
         "separate_colour_body": "tan",
+        "component_count": len(tan_components),
+        "smallest_component_volume_mm3": round(tan_component_volumes[0], 3),
+        "unexpected_micro_components": 0,
     },
     "target_printer": "Snapmaker U1",
     "physical_fit_tested": False,
